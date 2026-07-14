@@ -153,7 +153,7 @@
                 "os": "Windows 7 x86 or newer",
                 "cpu": "AMD Athlon II X4 640 @ 3.0 Ghz / Intel Core 2 Quad 9400 @ 2.66 Ghz",
                 "ram": "2 GB RAM",
-                "gpu": "AMD HD 5770 / Nvidia GTX 460 (1024MB VRAM)",
+                "gpu": "AMD HD 5770 / NVIDIA GTX 460 (1024MB VRAM)",
                 "dx": "Version 9.0c",
                 "storage": "4 GB"
             },
@@ -161,7 +161,7 @@
                 "os": "Windows 7 x64 or newer",
                 "cpu": "AMD Phenom II X4 850 @ 3.3 Ghz / Intel i3 2100 @ 3.1 Ghz",
                 "ram": "4 GB RAM",
-                "gpu": "AMD HD 6850 / Nvidia GTX 560TI (1024MB VRAM)",
+                "gpu": "AMD HD 6850 / NVIDIA GTX 560TI (1024MB VRAM)",
                 "dx": "Version 9.0c",
                 "storage": "4 GB"
             }
@@ -225,7 +225,7 @@
                 "os": "Windows 7+",
                 "cpu": "Intel i5+",
                 "ram": "2 GB RAM",
-                "gpu": "Nvidia 450 GTS / Radeon HD 5750 or better",
+                "gpu": "NVIDIA 450 GTS / Radeon HD 5750 or better",
                 "dx": "Version 9.1+ (ou OpenGL 3.2+)",
                 "storage": "500 MB"
             },
@@ -233,7 +233,7 @@
                 "os": "Windows 7+",
                 "cpu": "Intel i5+",
                 "ram": "4 GB RAM",
-                "gpu": "Nvidia GTX 460 / Radeon HD 7800 or better",
+                "gpu": "NVIDIA GTX 460 / Radeon HD 7800 or better",
                 "dx": "Version 9.1+ (ou OpenGL 3.2+)",
                 "storage": "500 MB"
             }
@@ -377,7 +377,7 @@
                 "os": "Windows 7",
                 "cpu": "Intel i7 CPU @ 2.6GHz or higher",
                 "ram": "8 GB RAM",
-                "gpu": "nVidia GTX 555 (1GB VRAM or better)",
+                "gpu": "NVIDIA GTX 555 (1GB VRAM or better)",
                 "dx": "Non spécifié",
                 "storage": "1 GB"
             }
@@ -609,7 +609,7 @@
                 "os": "Windows 7 (64-bit) / 10 (64-bit)",
                 "cpu": "Intel Core i3 3.0 GHz",
                 "ram": "4 GB RAM",
-                "gpu": "NVidia GeForce GTX 660 (2GB VRAM)",
+                "gpu": "NVIDIA GeForce GTX 660 (2GB VRAM)",
                 "dx": "Version 11",
                 "storage": "10 GB"
             },
@@ -617,7 +617,7 @@
                 "os": "Windows 10",
                 "cpu": "Intel Core i5 (génération récente)",
                 "ram": "8 GB RAM",
-                "gpu": "NVidia GeForce GTX série 900 (4GB VRAM)",
+                "gpu": "NVIDIA GeForce GTX série 900 (4GB VRAM)",
                 "dx": "Version 11",
                 "storage": "15 GB"
             }
@@ -633,7 +633,7 @@
                 "os": "Windows 7 SP1+ / 8 / 10 (64-bit)",
                 "cpu": "Intel Core i3 / AMD Phenom II X3",
                 "ram": "8 GB RAM",
-                "gpu": "Nvidia GeForce GTX 660 / AMD Radeon R9 270",
+                "gpu": "NVIDIA GeForce GTX 660 / AMD Radeon R9 270",
                 "dx": "Version 11",
                 "storage": "Non spécifié"
             },
@@ -641,7 +641,7 @@
                 "os": "Windows 7 SP1+ / 8 / 10 (64-bit)",
                 "cpu": "Intel Core i5 @ 3GHz / AMD FX series @ 3.2GHz",
                 "ram": "16 GB RAM",
-                "gpu": "Nvidia GeForce GTX 1060 / AMD Radeon R9 390X",
+                "gpu": "NVIDIA GeForce GTX 1060 / AMD Radeon R9 390X",
                 "dx": "Version 11",
                 "storage": "Non spécifié"
             }
@@ -681,7 +681,7 @@
                 "os": "Windows XP (SP2) / Vista / 7",
                 "cpu": "Pentium 4 2.4 GHz / Athlon XP 2.4 GHz 64",
                 "ram": "1 GB RAM",
-                "gpu": "128 MB (nVidia GeForce 6600 / ATI Radeon X1300 ou similaire)",
+                "gpu": "128 MB (NVIDIA GeForce 6600 / ATI Radeon X1300 ou similaire)",
                 "dx": "Version 9.0c",
                 "storage": "14 GB"
             },
@@ -833,7 +833,7 @@
                 "os": "Windows 10/11",
                 "cpu": "AMD Ryzen 5 5600X / équivalent",
                 "ram": "16 GB RAM",
-                "gpu": "Nvidia GeForce RTX 3060 Ti / équivalent",
+                "gpu": "NVIDIA GeForce RTX 3060 Ti / équivalent",
                 "dx": "Non spécifié",
                 "storage": "20 GB"
             }
@@ -1113,7 +1113,7 @@
                 "os": "Windows 7 / 8 / 8.1 (64-bit)",
                 "cpu": "Intel Core i5-2500K 3.3GHz / AMD Phenom II X4 940",
                 "ram": "6 GB RAM",
-                "gpu": "Nvidia GeForce GTX 660 / AMD Radeon HD 7870",
+                "gpu": "NVIDIA GeForce GTX 660 / AMD Radeon HD 7870",
                 "dx": "Non spécifié",
                 "storage": "40 GB"
             },
@@ -1121,7 +1121,7 @@
                 "os": "Windows 7 / 8 / 8.1 (64-bit)",
                 "cpu": "Intel Core i7 3770 3.4 GHz / AMD FX-8350 4 GHz",
                 "ram": "8 GB RAM",
-                "gpu": "Nvidia GeForce GTX 770 / AMD Radeon R9 290",
+                "gpu": "NVIDIA GeForce GTX 770 / AMD Radeon R9 290",
                 "dx": "Non spécifié",
                 "storage": "40 GB"
             }
@@ -1161,7 +1161,7 @@
                 "os": "Windows 7 - SP1 (64-bit)",
                 "cpu": "Intel Core i5-2500K / AMD FX-6300",
                 "ram": "8 GB RAM",
-                "gpu": "Nvidia GeForce GTX 770 (2GB) / AMD Radeon R9 280 (3GB)",
+                "gpu": "NVIDIA GeForce GTX 770 (2GB) / AMD Radeon R9 280 (3GB)",
                 "dx": "DirectX Compatible",
                 "storage": "150 GB"
             },
@@ -1169,7 +1169,7 @@
                 "os": "Windows 10 - v1803 (64-bit)",
                 "cpu": "Intel Core i7-4770K / AMD Ryzen 5 1500X",
                 "ram": "12 GB RAM",
-                "gpu": "Nvidia GeForce GTX 1060 (6GB) / AMD Radeon RX 480 (4GB)",
+                "gpu": "NVIDIA GeForce GTX 1060 (6GB) / AMD Radeon RX 480 (4GB)",
                 "dx": "DirectX Compatible",
                 "storage": "150 GB"
             }
@@ -1185,7 +1185,7 @@
                 "os": "Windows 10 (64-bit)",
                 "cpu": "Intel Core i5-4690 / AMD FX 8350",
                 "ram": "8 GB RAM",
-                "gpu": "Nvidia GTX 970 / RX 480 (4GB+ VRAM)",
+                "gpu": "NVIDIA GTX 970 / RX 480 (4GB+ VRAM)",
                 "dx": "Version 11",
                 "storage": "150 GB (SSD requis)"
             },
@@ -1193,7 +1193,7 @@
                 "os": "Windows 10 (64-bit)",
                 "cpu": "Intel Core i7-8700K / AMD Ryzen 5 3600",
                 "ram": "16 GB RAM",
-                "gpu": "Nvidia RTX 2060 Super / RX 5700 XT (8GB+ VRAM)",
+                "gpu": "NVIDIA RTX 2060 Super / RX 5700 XT (8GB+ VRAM)",
                 "dx": "Version 11",
                 "storage": "150 GB (SSD requis)"
             }
@@ -1377,7 +1377,7 @@
                 "os": "Windows 10 (64-bit)",
                 "cpu": "Intel Core i5-6600K / AMD FX-6300",
                 "ram": "8 GB RAM",
-                "gpu": "Nvidia GeForce GTX 760 (2GB) / AMD Radeon R9 280 (3GB)",
+                "gpu": "NVIDIA GeForce GTX 760 (2GB) / AMD Radeon R9 280 (3GB)",
                 "dx": "Non spécifié",
                 "storage": "45 GB"
             },
@@ -1385,7 +1385,7 @@
                 "os": "Windows 10 (64-bit)",
                 "cpu": "Intel Core i7-2700K / AMD Ryzen 5 2600",
                 "ram": "16 GB RAM",
-                "gpu": "Nvidia GeForce GTX 970 (4GB) / AMD Radeon RX 570 (4GB)",
+                "gpu": "NVIDIA GeForce GTX 970 (4GB) / AMD Radeon RX 570 (4GB)",
                 "dx": "Non spécifié",
                 "storage": "45 GB"
             }
@@ -1401,7 +1401,7 @@
                 "os": "Windows XP - SP3 / Vista - SP1",
                 "cpu": "Intel Core 2 Duo 1.8GHz / AMD Athlon X2 64 2.4GHz",
                 "ram": "1.5 GB RAM",
-                "gpu": "Nvidia GeForce 7900 (256MB) / ATI Radeon X1900 (256MB)",
+                "gpu": "NVIDIA GeForce 7900 (256MB) / ATI Radeon X1900 (256MB)",
                 "dx": "Version 9.0c",
                 "storage": "32 GB"
             },
@@ -1425,7 +1425,7 @@
                 "os": "Windows 10 (64-bit)",
                 "cpu": "Intel Core i5-6600K / AMD FX-6300",
                 "ram": "8 GB RAM",
-                "gpu": "Nvidia GeForce GTX 760 (2GB) / AMD Radeon R9 280 (3GB)",
+                "gpu": "NVIDIA GeForce GTX 760 (2GB) / AMD Radeon R9 280 (3GB)",
                 "dx": "Non spécifié",
                 "storage": "45 GB"
             },
@@ -1433,7 +1433,7 @@
                 "os": "Windows 10 (64-bit)",
                 "cpu": "Intel Core i7-2700K / AMD Ryzen 5 2600",
                 "ram": "16 GB RAM",
-                "gpu": "Nvidia GeForce GTX 970 (4GB) / AMD Radeon RX 570 (4GB)",
+                "gpu": "NVIDIA GeForce GTX 970 (4GB) / AMD Radeon RX 570 (4GB)",
                 "dx": "Non spécifié",
                 "storage": "45 GB"
             }
@@ -1449,7 +1449,7 @@
                 "os": "Windows 10 (64-bit)",
                 "cpu": "Intel Core i5-6600K / AMD FX-6300",
                 "ram": "8 GB RAM",
-                "gpu": "Nvidia GeForce GTX 760 (2GB) / AMD Radeon R9 280 (3GB)",
+                "gpu": "NVIDIA GeForce GTX 760 (2GB) / AMD Radeon R9 280 (3GB)",
                 "dx": "Non spécifié",
                 "storage": "45 GB"
             },
@@ -1457,7 +1457,7 @@
                 "os": "Windows 10 (64-bit)",
                 "cpu": "Intel Core i7-2700K / AMD Ryzen 5 2600",
                 "ram": "16 GB RAM",
-                "gpu": "Nvidia GeForce GTX 970 (4GB) / AMD Radeon RX 570 (4GB)",
+                "gpu": "NVIDIA GeForce GTX 970 (4GB) / AMD Radeon RX 570 (4GB)",
                 "dx": "Non spécifié",
                 "storage": "45 GB"
             }
@@ -1521,7 +1521,7 @@
                 "os": "Windows 10 (64-bit)",
                 "cpu": "Intel Core i5-6600K / AMD FX-6300",
                 "ram": "8 GB RAM",
-                "gpu": "Nvidia GeForce GTX 760 (2GB) / AMD Radeon R9 280 (3GB)",
+                "gpu": "NVIDIA GeForce GTX 760 (2GB) / AMD Radeon R9 280 (3GB)",
                 "dx": "Non spécifié",
                 "storage": "45 GB"
             },
@@ -1529,7 +1529,7 @@
                 "os": "Windows 10 (64-bit)",
                 "cpu": "Intel Core i7-2700K / AMD Ryzen 5 2600",
                 "ram": "16 GB RAM",
-                "gpu": "Nvidia GeForce GTX 970 (4GB) / AMD Radeon RX 570 (4GB)",
+                "gpu": "NVIDIA GeForce GTX 970 (4GB) / AMD Radeon RX 570 (4GB)",
                 "dx": "Non spécifié",
                 "storage": "45 GB"
             }
@@ -1665,7 +1665,7 @@
                 "os": "Win 10 64-bit",
                 "cpu": "Intel i5-3340 / AMD equivalent",
                 "ram": "8 GB RAM",
-                "gpu": "Nvidia GeForce GTX 960 (2GB) / AMD equivalent",
+                "gpu": "NVIDIA GeForce GTX 960 (2GB) / AMD equivalent",
                 "dx": "Non spécifié",
                 "storage": "Non spécifié"
             },
@@ -1673,7 +1673,7 @@
                 "os": "Win 10 64-bit",
                 "cpu": "Intel i7-3770 / AMD equivalent",
                 "ram": "16 GB RAM",
-                "gpu": "Nvidia GeForce GTX 1060 (4GB) / AMD equivalent",
+                "gpu": "NVIDIA GeForce GTX 1060 (4GB) / AMD equivalent",
                 "dx": "Non spécifié",
                 "storage": "Non spécifié"
             }
@@ -1833,7 +1833,7 @@
                 "os": "Windows 10 (64-bit)",
                 "cpu": "Intel Core i5-2500K @ 3.3 GHz / AMD FX-6300 @ 3.5 GHz",
                 "ram": "8 GB RAM",
-                "gpu": "Nvidia GeForce GTX 780 (3GB) / AMD Radeon R9 290 (4GB)",
+                "gpu": "NVIDIA GeForce GTX 780 (3GB) / AMD Radeon R9 290 (4GB)",
                 "dx": "Version 12",
                 "storage": "100 GB"
             },
@@ -1841,7 +1841,7 @@
                 "os": "Windows 10 (64-bit)",
                 "cpu": "Intel Core i7-4770K @ 3.5 GHz / AMD Ryzen 5 1500X @ 3.5 GHz",
                 "ram": "16 GB RAM",
-                "gpu": "Nvidia GeForce GTX 1060 (6GB) / AMD Radeon RX 580 (8GB)",
+                "gpu": "NVIDIA GeForce GTX 1060 (6GB) / AMD Radeon RX 580 (8GB)",
                 "dx": "Version 12",
                 "storage": "100 GB"
             }
@@ -1964,6 +1964,582 @@
                 "gpu": "GeForce RTX 2060 Super (8GB) / Radeon RX 6600 (8GB)",
                 "dx": "Version 12",
                 "storage": "Non spécifié (SSD requis)"
+            }
+        }
+    },
+    {
+        "nom": "Call of Duty: Deluxe Edition",
+        "categorie": "Repacks",
+        "image": "https://1.bp.blogspot.com/-tzNhcYaf18I/YDuZgt3fx4I/AAAAAAABHvs/WWaC7VQ9d7krLVL_5OCZ7T_Yf9rUFTz-ACLcBGAsYHQ/s460/call-of-duty-pc-cover.jpg",
+        "lien": "https://www.filecrypt.cc/Container/6B89CC2E7C.html",
+        "config": {
+            "min": {
+                "os": "Windows 98 / ME / 2000 / XP",
+                "cpu": "Intel Pentium 3 @ 700 MHz",
+                "ram": "128 MB RAM",
+                "gpu": "32 MB VRAM (compatible DirectX)",
+                "dx": "Version 9.0b",
+                "storage": "1.4 GB"
+            },
+            "rec": {
+                "os": "Non spécifié",
+                "cpu": "Non spécifié",
+                "ram": "Non spécifié",
+                "gpu": "Non spécifié",
+                "dx": "Non spécifié",
+                "storage": "Non spécifié"
+            }
+        }
+    },
+    {
+        "nom": "Call of Duty 2",
+        "categorie": "Repacks",
+        "image": "https://1.bp.blogspot.com/-_OCR82IdDrc/YDufTLvG4mI/AAAAAAABHv0/ltoKDjk8Ju4rP2xXvi7ORQZWx-wnhK19ACLcBGAsYHQ/s460/call-of-duty-2-pc-cover.jpg",
+        "lien": "https://www.filecrypt.cc/Container/060F01727D.html",
+        "config": {
+            "min": {
+                "os": "Windows 2000 / XP",
+                "cpu": "Intel Pentium @ 1.4 GHz / AMD Athlon XP 1700+ (ou supérieur)",
+                "ram": "256 MB RAM",
+                "gpu": "64 MB VRAM",
+                "dx": "Version 9.0c",
+                "storage": "Non spécifié"
+            },
+            "rec": {
+                "os": "Non spécifié",
+                "cpu": "Non spécifié",
+                "ram": "512 MB RAM",
+                "gpu": "128 MB VRAM",
+                "dx": "Non spécifié",
+                "storage": "Non spécifié"
+            }
+        }
+    },
+    {
+        "nom": "Call of Duty 4: Modern Warfare",
+        "categorie": "Repacks",
+        "image": "https://2.bp.blogspot.com/-1q_PT0mZJms/WXxbEfiHCNI/AAAAAAAAiuc/B4HTcIfdSqUyBcbOhWohfbwIhz38G_tbwCLcBGAs/s1600/Call-of-Duty-4-Modern-Warfare-PC-Game-Cover-www.ovagames.com.jpg",
+        "lien": "https://www.filecrypt.cc/Container/A929D5F187.html",
+        "config": {
+            "min": {
+                "os": "Windows XP / Vista",
+                "cpu": "Intel Pentium 4 2.4 GHz / AMD Athlon 64 2800+ / Dual Core @ 1.8 GHz",
+                "ram": "512 MB RAM (XP) / 768 MB RAM (Vista)",
+                "gpu": "NVIDIA GeForce 6600 / ATI Radeon 9800 Pro (ou supérieure)",
+                "dx": "Version 9.0c",
+                "storage": "8 GB"
+            },
+            "rec": {
+                "os": "Non spécifié",
+                "cpu": "Non spécifié",
+                "ram": "Non spécifié",
+                "gpu": "Non spécifié",
+                "dx": "Non spécifié",
+                "storage": "Non spécifié"
+            }
+        }
+    },
+    {
+        "nom": "Call of Duty: Modern Warfare 2",
+        "categorie": "PROPHET",
+        "image": "https://1.bp.blogspot.com/-O9JfrOtwSFA/WYPFlzxyC1I/AAAAAAAAi90/ps7iE0_RMqEmjhzWI4cnSOUtECvNiqY7wCLcBGAs/s1600/call-of-duty-modern-warfare-2-pc-cover-www.ovagames.com.jpg",
+        "lien": "https://www.filecrypt.cc/Container/A4C7D30C62.html",
+        "config": {
+            "min": {
+                "os": "Windows XP / Vista (ou supérieur)",
+                "cpu": "Intel Pentium 4 3.2 GHz / AMD Athlon 64 3200+ (ou supérieur)",
+                "ram": "1 GB RAM",
+                "gpu": "NVIDIA GeForce 6600 GT (256 MB) / ATI Radeon X1600 XT (ou supérieure)",
+                "dx": "Version 9.0c",
+                "storage": "12 GB"
+            },
+            "rec": {
+                "os": "Non spécifié",
+                "cpu": "Non spécifié",
+                "ram": "Non spécifié",
+                "gpu": "Non spécifié",
+                "dx": "Non spécifié",
+                "storage": "Non spécifié"
+            }
+        }
+    },
+    {
+        "nom": "Call of Duty: Modern Warfare 3",
+        "categorie": "PLAZA",
+        "image": "https://3.bp.blogspot.com/-9FqqNb_VuFI/WX76CfSFnRI/AAAAAAAAi1Y/3puKT2FOx1Ej6-wW-dVcqa906adT7_8JgCLcBGAs/s1600/Call-of-Duty-Modern-Warfare-3-PC-Game-Cover-www.ovagames.com.jpg",
+        "lien": "https://www.filecrypt.cc/Container/226FC25907.html",
+        "config": {
+            "min": {
+                "os": "Windows XP / Vista / 7",
+                "cpu": "Intel Core 2 Duo @ 2.4 GHz / AMD Athlon 64 X2 5000+",
+                "ram": "2 GB RAM",
+                "gpu": "nVidia GeForce 8600 / ATI Radeon HD 2600 Pro (256 MB)",
+                "dx": "Version 9.0c",
+                "storage": "70 GB"
+            },
+            "rec": {
+                "os": "Windows XP / Vista / 7",
+                "cpu": "Intel Core 2 Duo @ 3.0 GHz / AMD Athlon 64 X2 6000+",
+                "ram": "4 GB RAM",
+                "gpu": "nVidia GeForce GTX 460 / ATI Radeon HD 6850 (1 GB)",
+                "dx": "Version 9.0c",
+                "storage": "70 GB"
+            }
+        }
+    },
+    {
+        "nom": "Call of Duty: Modern Warfare Remastered",
+        "categorie": "CODEX",
+        "image": "https://2.bp.blogspot.com/-ohTPNgN1wMA/WXyCVRrIdNI/AAAAAAAAivI/cDbDZh3xDVYqE1vUsL37Cm8ECRNroNUegCLcBGAs/s1600/call-of-duty-modern-warfare-remastered-pc-cover-www.ovagames.com.jpg",
+        "lien": "https://www.filecrypt.cc/Container/CD5E5B6EEB.html",
+        "config": {
+            "min": {
+                "os": "Windows 7 (64-bit) / Windows 8 (64-bit) / Windows 8.1 (64-bit) / Windows 10 (64-bit)",
+                "cpu": "Intel Core i3-530 @ 2.93 GHz / AMD Phenom II X4 810 @ 2.80 GHz",
+                "ram": "6 GB RAM",
+                "gpu": "NVIDIA GeForce GTS 450 (1GB) / ATI Radeon HD 7850 (1GB)",
+                "dx": "Version 11",
+                "storage": "55 GB"
+            },
+            "rec": {
+                "os": "Non spécifié",
+                "cpu": "Non spécifié",
+                "ram": "Non spécifié",
+                "gpu": "Non spécifié",
+                "dx": "Non spécifié",
+                "storage": "Non spécifié"
+            }
+        }
+    },
+    {
+        "nom": "Call of Duty: Modern Warfare",
+        "categorie": "Repacks",
+        "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgd9SuctxIEEIafqBrfaUA7NbQFwCX45_KAFam0n4xfxKjEA00QR1IOGL3d_dKY4KvTgKyyhbaWfkYWghhXKLpMGEBWgm0WiRZYzteoOCzKMEw8lr1R5MZZyjjBSOOT5PbiVXhq4302S7yOMgK-3-_hI5vpJylDzai9zaDtveN5Kopz5rbj9IiaYT3dYRw/s460/cod-modern-warfare-pc-cover.jpg",
+        "lien": "https://www.filecrypt.cc/Container/9BC1EDF751.html",
+        "config": {
+            "min": {
+                "os": "Windows 10 (64-bit)",
+                "cpu": "Intel Core i3-4340 / AMD FX-6300",
+                "ram": "8 GB RAM",
+                "gpu": "NVIDIA GeForce GTX 670 / NVIDIA GeForce GTX 1650 / AMD Radeon HD 7950",
+                "dx": "Version 12",
+                "storage": "175 GB"
+            },
+            "rec": {
+                "os": "Windows 10 (64-bit, dernière mise à jour)",
+                "cpu": "Intel Core i5-2500K / AMD Ryzen 5 1600X",
+                "ram": "12 GB RAM",
+                "gpu": "NVIDIA GeForce GTX 970 / NVIDIA GeForce GTX 1660 / AMD Radeon R9 390 / AMD Radeon RX 580",
+                "dx": "Version 12",
+                "storage": "175 GB"
+            }
+        }
+    },
+    {
+        "nom": "Call of Duty: Modern Warfare II",
+        "categorie": "Repacks",
+        "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhicxPIV88UC9-xUlPWVGdz2gev54WmN7_Lg4K4p3VElOrrl9kQjt5Ow-Wzt_KveJtupGyTK6IIMLUmSnPfcoGxfUWIqS1pamEZm7pjJA2tMOy05iYnfeMcOw6vJor_AweHxQQN-vW8Vg31Nr-tZa-dr67ZcbeDx9mEmO8XjFa9GQl7hYCIZMzJ7hbv9_U/s460/cod-mw-2-pc-cover.jpg",
+        "lien": "https://www.filecrypt.cc/Container/7C42CC89D3.html",
+        "config": {
+            "min": {
+                "os": "Windows 10 (64-bit, dernière mise à jour)",
+                "cpu": "Intel Core i3-6100 / Core i5-2500K / AMD Ryzen 3 1200",
+                "ram": "8 GB RAM",
+                "gpu": "NVIDIA GeForce GTX 960 / AMD Radeon RX 470",
+                "dx": "Version 12",
+                "storage": "125 GB"
+            },
+            "rec": {
+                "os": "Windows 10 / 11 (64-bit, dernière mise à jour)",
+                "cpu": "Intel Core i5-6600K / Core i7-4770 / AMD Ryzen 5 1400",
+                "ram": "8 GB RAM",
+                "gpu": "NVIDIA GeForce GTX 1060 / AMD Radeon RX 580 / Intel Arc A770",
+                "dx": "Version 12",
+                "storage": "125 GB"
+            }
+        }
+    },
+    {
+        "nom": "Call of Duty: Modern Warfare III",
+        "categorie": "Repacks",
+        "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjbn-ktWTE5cCVhN0bA77jjPHsD_aI3FnNdR7Pa58-T8ITuDl4AJyqli0uZ00cD_vlRJwhCICe8V6ng3Q91LiEs71oBRqhdXEm7-BYDG9orjRYYTzjHSevhMkuUANx5DOfWIgXDulqd_97G72VWhvVvB00QL_hTudvE1WLdTrSrSU0u9bj5NRePSuRudmg/s460/call-of-duty-modern-warfare-3-pc-cover.jpg",
+        "lien": "https://www.filecrypt.cc/Container/A7A02C6450.html",
+        "config": {
+            "min": {
+                "os": "Windows 10 (64-bit, dernière mise à jour)",
+                "cpu": "Intel Core i5-6600 / AMD Ryzen 5 1400",
+                "ram": "8 GB RAM",
+                "gpu": "NVIDIA GeForce GTX 960 / GTX 1650 / AMD Radeon RX 470",
+                "dx": "Version 12",
+                "storage": "102 GB (SSD requis)"
+            },
+            "rec": {
+                "os": "Windows 10 / 11 (64-bit, dernière mise à jour)",
+                "cpu": "Intel Core i7-6700K / AMD Ryzen 5 1600X",
+                "ram": "16 GB RAM",
+                "gpu": "NVIDIA GeForce GTX 1080 Ti / RTX 3060 / AMD Radeon RX 6600 XT / Intel Arc A770",
+                "dx": "Version 12",
+                "storage": "102 GB (SSD requis)"
+            }
+        }
+    },
+    {
+        "nom": "Call of Duty: World at War",
+        "categorie": "Repacks",
+        "image": "https://3.bp.blogspot.com/-11PD_FsOvXc/WX748GxSnuI/AAAAAAAAi1U/cJn0Fbsyp3EJ426EcUOkfDJtfadkytSnwCLcBGAs/s1600/call-of-duty-world-at-war-pc-cover-www.ovagames.com.jpg",
+        "lien": "https://www.filecrypt.cc/Container/67F16629EC.html",
+        "config": {
+            "min": {
+                "os": "Windows XP / Vista",
+                "cpu": "Intel Pentium 4 @ 3 GHz / AMD Athlon 64 3200+",
+                "ram": "512 MB RAM",
+                "gpu": "nVidia GeForce 6600 / ATI Radeon X1600 (256 MB)",
+                "dx": "Version 9.0c",
+                "storage": "8 GB"
+            },
+            "rec": {
+                "os": "Non spécifié",
+                "cpu": "Non spécifié",
+                "ram": "Non spécifié",
+                "gpu": "Non spécifié",
+                "dx": "Non spécifié",
+                "storage": "Non spécifié"
+            }
+        }
+    },
+    {
+        "nom": "Call of Duty: WWII - Deluxe Edition",
+        "categorie": "Repacks",
+        "image": "https://1.bp.blogspot.com/-JoEs9l-y0og/X9vk7tHUObI/AAAAAAABGIE/lStgoKjaV7Ajpeuo7IvxfxdOho907AccACLcBGAsYHQ/s460/call-of-duty-wwii-pc-cover.jpg",
+        "lien": "https://www.filecrypt.cc/Container/6C182B49DE.html",
+        "config": {
+            "min": {
+                "os": "Windows 7 (64-bit) ou plus récent",
+                "cpu": "Intel Core i3-3225 @ 3.3 GHz / AMD Ryzen 5 1400",
+                "ram": "8 GB RAM",
+                "gpu": "NVIDIA GeForce GTX 660 (2 GB) / GTX 1050 / ATI Radeon HD 7850 (2 GB) / AMD Radeon RX 550",
+                "dx": "Version 11",
+                "storage": "90 GB"
+            },
+            "rec": {
+                "os": "Non spécifié",
+                "cpu": "Non spécifié",
+                "ram": "Non spécifié",
+                "gpu": "Non spécifié",
+                "dx": "Non spécifié",
+                "storage": "Non spécifié"
+            }
+        }
+    },
+    {
+        "nom": "Call of Duty: Black Ops",
+        "categorie": "PLAZA",
+        "image": "https://2.bp.blogspot.com/-6OBRZkufTbM/WXxhMPmlyaI/AAAAAAAAiu4/OFmkz1eUI8Q0NleZia3m0Gh0xHHopGg8gCLcBGAs/s1600/call-of-duty-black-ops-pc-cover2-www.ovagames.com.jpg",
+        "lien": "https://www.filecrypt.cc/Container/49667C4BE3.html",
+        "config": {
+            "min": {
+                "os": "Windows XP / Vista / 7",
+                "cpu": "Intel Core 2 Duo E6600 / AMD Phenom X3 8750 (ou supérieur)",
+                "ram": "2 GB RAM",
+                "gpu": "NVIDIA GeForce 8600 GT / ATI Radeon X1950 Pro (256 MB, Shader 3.0 ou supérieur)",
+                "dx": "Version 9.0c",
+                "storage": "25 GB"
+            },
+            "rec": {
+                "os": "Non spécifié",
+                "cpu": "Non spécifié",
+                "ram": "Non spécifié",
+                "gpu": "Non spécifié",
+                "dx": "Non spécifié",
+                "storage": "Non spécifié"
+            }
+        }
+    },
+    {
+        "nom": "Call of Duty: Black Ops II",
+        "categorie": "PLAZA",
+        "image": "https://3.bp.blogspot.com/-3QiKIEq4TX0/WcLSjuDiHjI/AAAAAAAAkpA/vjblYyNED4MQ86dHSYdYruVdt4gfmJXwgCLcBGAs/s1600/call-of-duty-black-ops-2-pc-cover-www.ovagames.com.jpg",
+        "lien": "https://www.filecrypt.cc/Container/34BCECAC33.html",
+        "config": {
+            "min": {
+                "os": "Windows Vista SP2 / Windows 7 (XP non supporté)",
+                "cpu": "Intel Core 2 Duo E8200 @ 2.66 GHz / AMD Phenom X3 8750 @ 2.4 GHz",
+                "ram": "2 GB RAM (OS 32-bit) / 4 GB RAM (OS 64-bit)",
+                "gpu": "Nvidia GeForce 8800 GT (512 MB) / ATI Radeon HD 3870 (512 MB)",
+                "dx": "Version 9.0c",
+                "storage": "16 GB"
+            },
+            "rec": {
+                "os": "Non spécifié",
+                "cpu": "Non spécifié",
+                "ram": "Non spécifié",
+                "gpu": "Non spécifié",
+                "dx": "Non spécifié",
+                "storage": "Non spécifié"
+            }
+        }
+    },
+    {
+        "nom": "Call of Duty: Black Ops III - Complete Edition",
+        "categorie": "Repacks",
+        "image": "https://1.bp.blogspot.com/-yiXXljU1FuU/YO-1_N93LHI/AAAAAAABL8Q/tLRzvZeS--Ik67x3J7BZUWEEqOEckQBuACLcBGAsYHQ/s460/call-of-duty-black-ops-3-deluxe-pc-cover.jpg",
+        "lien": "https://www.filecrypt.cc/Container/5A13DEE1D0.html",
+        "config": {
+            "min": {
+                "os": "Windows 7 (64-bit) / Windows 8 (64-bit) / Windows 8.1 (64-bit)",
+                "cpu": "Intel Core i3-530 @ 2.93 GHz / AMD Phenom II X4 810 @ 2.60 GHz",
+                "ram": "6 GB RAM",
+                "gpu": "NVIDIA GeForce GTX 470 (1 GB) / ATI Radeon HD 6970 (1 GB)",
+                "dx": "Version 11",
+                "storage": "60 GB"
+            },
+            "rec": {
+                "os": "Non spécifié",
+                "cpu": "Non spécifié",
+                "ram": "Non spécifié",
+                "gpu": "Non spécifié",
+                "dx": "Non spécifié",
+                "storage": "Non spécifié"
+            }
+        }
+    },
+    {
+        "nom": "Call of Duty: Black Ops Cold War",
+        "categorie": "Repacks",
+        "image": "https://blogger.googleusercontent.com/img/a/AVvXsEjPrsk47EXQTDRz_kBg9oXJtu9K28Px6eoP_MXxDYpn0Yt9Ra7_dhfaXODS_SXmwuO072UH1Qie_5G41UNDJEG9gZSvZdi3mDqg6zIDIfH9R5cYAOAn03FZEXk6mOWrLty2JN-PHqNpid-tpSZwEo9jn9_wC-OpqTsoxd4zBJjE3oaVKO8I6yAW0QhpsR8",
+        "lien": "https://www.filecrypt.cc/Container/4270A606DA.html",
+        "config": {
+            "min": {
+                "os": "Windows 10 (64-bit, v.1803 ou plus récente)",
+                "cpu": "Intel Core i3-4340 / AMD FX-6300",
+                "ram": "8 GB RAM",
+                "gpu": "NVIDIA GeForce GTX 670 / NVIDIA GeForce GTX 1650 / AMD Radeon HD 7950",
+                "dx": "Version 12",
+                "storage": "175 GB"
+            },
+            "rec": {
+                "os": "Windows 10 (64-bit, dernière mise à jour)",
+                "cpu": "Intel Core i5-2500K / AMD Ryzen 5 1600X",
+                "ram": "12 GB RAM",
+                "gpu": "NVIDIA GeForce GTX 970 / NVIDIA GeForce GTX 1660 Super / AMD Radeon R9 390 / AMD Radeon RX 580",
+                "dx": "Version 12",
+                "storage": "175 GB"
+            }
+        }
+    },
+    {
+        "nom": "Call of Duty: Black Ops 6",
+        "categorie": "Repacks",
+        "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEh6rz73de7eeirzrgCCNSesiUdMxv8PsvYk8v5QTzEE6b_DWABR66H6fMqBaGB4C4Xa3SkmFfHvrwnkM4b_yuQh32Io3wPnU2wxfp6URUZYm_tawI9iQJesYrvNP85Aegso3aVH81TdJUT_QUrZOBnNVSKpuh_-yWa56EIh1EJFB6uB1FUgAjJJFZAHZVw/s460/cod-bo-6-pc-cover.jpg",
+        "lien": "https://www.filecrypt.cc/Container/19BF7E3312.html",
+        "config": {
+            "min": {
+                "os": "Windows 10 (64-bit, dernière mise à jour)",
+                "cpu": "AMD Ryzen 5 1400 / Intel Core i5-6600",
+                "ram": "8 GB RAM",
+                "gpu": "AMD Radeon RX 470 / NVIDIA GeForce GTX 960 / Intel Arc A580",
+                "dx": "Version 12",
+                "storage": "128 GB (SSD requis)"
+            },
+            "rec": {
+                "os": "Windows 10 / 11 (64-bit, dernière mise à jour)",
+                "cpu": "AMD Ryzen 5 1600X / Intel Core i7-6700K",
+                "ram": "12 GB RAM",
+                "gpu": "AMD Radeon RX 6600 XT / NVIDIA GeForce GTX 1080 Ti / RTX 3060",
+                "dx": "Version 12",
+                "storage": "128 GB (SSD requis)"
+            }
+        }
+    },
+    {
+        "nom": "NBA 2K23",
+        "categorie": "Repacks",
+        "image": "https://1.bp.blogspot.com/-pG6sy0oNp9U/YxtQmDaizzI/AAAAAAABTfc/KYxVc6Wf1U8mEBOd01iPM_JBuj7S7s9YQCNcBGAsYHQ/s460/nba-2k23-pc-cover.jpg",
+        "lien": "https://www.filecrypt.cc/Container/162948BD15.html",
+        "config": {
+            "min": {
+                "os": "Windows 7 / 8.1 / 10 (64-bit)",
+                "cpu": "Intel Core i3-2100 @ 3.10 GHz / AMD FX-4100 @ 3.60 GHz (ou supérieur avec SSE 4.2 et AVX)",
+                "ram": "4 GB RAM",
+                "gpu": "NVIDIA GeForce GT 450 (1 GB) / ATI Radeon HD 7770 (1 GB) (ou supérieure)",
+                "dx": "Version 11",
+                "storage": "110 GB"
+            },
+            "rec": {
+                "os": "Windows 7 / 8.1 / 10 (64-bit)",
+                "cpu": "Intel Core i5-4430 @ 3 GHz / AMD FX-8370 @ 3.4 GHz (ou supérieur avec SSE 4.2 et AVX)",
+                "ram": "8 GB RAM",
+                "gpu": "NVIDIA GeForce GTX 770 (2 GB) / ATI Radeon R9 270 (2 GB) (ou supérieure)",
+                "dx": "Version 11",
+                "storage": "110 GB"
+            }
+        }
+    },
+    {
+        "nom": "NBA 2K22",
+        "categorie": "Repacks",
+        "image": "https://1.bp.blogspot.com/-GXaXCtcCtWk/YTtDtru-HAI/AAAAAAABOKk/fq5tK9l2PIceTqT6hZLX4m5IGN-JZ8EOQCLcBGAsYHQ/s460/nba-2k22-pc-cover.jpg",
+        "lien": "https://www.filecrypt.cc/Container/BBCBC30D6B.html",
+        "config": {
+            "min": {
+                "os": "Windows 7 / 8.1 / 10 (64-bit)",
+                "cpu": "Intel Core i3-2100 @ 3.10 GHz / AMD FX-4100 @ 3.60 GHz (ou supérieur avec SSE 4.2 et AVX)",
+                "ram": "4 GB RAM",
+                "gpu": "NVIDIA GeForce GT 450 (1 GB) / ATI Radeon HD 7770 (1 GB) (ou supérieure)",
+                "dx": "Version 11",
+                "storage": "110 GB"
+            },
+            "rec": {
+                "os": "Windows 7 / 8.1 / 10 (64-bit)",
+                "cpu": "Intel Core i5-4430 @ 3 GHz / AMD FX-8370 @ 3.4 GHz (ou supérieur avec SSE 4.2 et AVX)",
+                "ram": "8 GB RAM",
+                "gpu": "NVIDIA GeForce GTX 770 (2 GB) / ATI Radeon R9 270 (2 GB) (ou supérieure)",
+                "dx": "Version 11",
+                "storage": "110 GB"
+            }
+        }
+    },
+    {
+        "nom": "NBA 2K21",
+        "categorie": "Repacks",
+        "image": "https://1.bp.blogspot.com/-tHPiM9Q3AQQ/X1HNZ95M9AI/AAAAAAABC3Q/29mot8nmkR0WLmXxbPe0tCT1bMbnDQ8gwCLcBGAsYHQ/s1600/nba-2k21-pc-cover.jpg",
+        "lien": "https://www.filecrypt.cc/Container/B6ECADFE49.html",
+        "config": {
+            "min": {
+                "os": "Windows 7 / 10 (64-bit)",
+                "cpu": "Intel Core i3-530 / AMD FX-4100",
+                "ram": "4 GB RAM",
+                "gpu": "nVidia GTS 450 / ATI HD 7770",
+                "dx": "Version 11",
+                "storage": "110 GB"
+            },
+            "rec": {
+                "os": "Windows 7 / 10 (64-bit)",
+                "cpu": "Intel Core i5-4430 / AMD FX-8370",
+                "ram": "8 GB RAM",
+                "gpu": "nVidia GTX 770 / ATI R9 270",
+                "dx": "Version 11",
+                "storage": "110 GB"
+            }
+        }
+    },
+    {
+        "nom": "Little Nightmares - Complete Edition",
+        "categorie": "GOG",
+        "image": "https://1.bp.blogspot.com/-KCMwYW-X3nA/YSxefywhjiI/AAAAAAABNwA/9LHE5IfWkuAmQSzileDoNsYCpbNk_35UQCLcBGAsYHQ/s460/little-nightmares-pc-cover.jpg",
+        "lien": "https://www.filecrypt.cc/Container/31F5B09185.html",
+        "config": {
+            "min": {
+                "os": "Windows 7 (64-bit)",
+                "cpu": "Intel CPU Core i3",
+                "ram": "4 GB RAM",
+                "gpu": "Nvidia GTX 460",
+                "dx": "Version 11",
+                "storage": "10 GB"
+            },
+            "rec": {
+                "os": "Windows 7 (64-bit)",
+                "cpu": "Intel CPU Core i7",
+                "ram": "8 GB RAM",
+                "gpu": "Nvidia GPU GeForce GTX 660",
+                "dx": "Version 11",
+                "storage": "10 GB"
+            }
+        }
+    },
+    {
+        "nom": "Little Nightmares II - Deluxe Edition",
+        "categorie": "GOG",
+        "image": "https://1.bp.blogspot.com/-Vqyoaf65Gec/YCSSVYmiwqI/AAAAAAABHPg/PdbzB5dmMpIakKBfrFPkWtAsQMDjObKmwCLcBGAsYHQ/s460/little-nightmares-ii-deluxe-pc-cover.jpg",
+        "lien": "https://www.filecrypt.cc/Container/C5AC8D14C9.html",
+        "config": {
+            "min": {
+                "os": "Windows 10",
+                "cpu": "Intel Core i5-2300 / AMD FX-4350",
+                "ram": "4 GB RAM",
+                "gpu": "Nvidia GeForce GTX 570 (1 GB) / AMD Radeon HD 7850 (2 GB)",
+                "dx": "Version 11",
+                "storage": "Non spécifié"
+            },
+            "rec": {
+                "os": "Windows 10",
+                "cpu": "Intel Core i7-3770 / AMD FX-8350",
+                "ram": "4 GB RAM",
+                "gpu": "Nvidia GeForce GTX 760 (2 GB) / AMD Radeon HD 7870 (2 GB)",
+                "dx": "Version 11",
+                "storage": "Non spécifié"
+            }
+        }
+    },
+    {
+        "nom": "Little Nightmares III - Deluxe Edition",
+        "categorie": "Repacks",
+        "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgYE5PL_Ve_0GY1fhyCx7o0cZbkRiOsgoorxKmcVncsNz0rkBa0sQQeCU-G-8jt8Im109u5Ql6VwdZ_vjmhFXvceAEK-WhPhxFKODHSNhaTY1OVmB2Lp1WAdNZWokKpjhnjBf8h9D6pWGA16b0QEr7H4_UTXLcYhw4Oo5nzO_f9aY12-MPBrREOUJ_mTZE/s460/little-nightmares-3-pc-cover.jpg",
+        "lien": "https://www.filecrypt.cc/Container/241CC5B21B.html",
+        "config": {
+            "min": {
+                "os": "Windows 11",
+                "cpu": "Intel Core i5-6500 / AMD Ryzen 3 1200",
+                "ram": "8 GB RAM",
+                "gpu": "Nvidia GeForce GTX 1060 / AMD Radeon RX 580",
+                "dx": "Non spécifié",
+                "storage": "Non spécifié"
+            },
+            "rec": {
+                "os": "Windows 11",
+                "cpu": "Intel Core i5-8400 / AMD Ryzen 5 1600",
+                "ram": "12 GB RAM",
+                "gpu": "Nvidia GeForce RTX 2080 (8 GB) / AMD Radeon RX 6800",
+                "dx": "Non spécifié",
+                "storage": "Non spécifié"
+            }
+        }
+    },
+    {
+        "nom": "Little Nightmares - Enhanced Edition",
+        "categorie": "Repacks",
+        "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEi893vHvv8dNTVYCD7nZorJtz1xekjriIWCkyhEQkBSd0O7E8qNgd58H61jgKewoQPFdeB3686iyzA1OG54eBUnBAt-CXpRoB6Glt-q5vjLH__eN3JITZwlPnSOgh7Kr1rzHuK5YxuTfGArL7CbiiykJubZ9tZrVB3zo2Pu8K6FK__pVoL30s7LQI6t1mk/s460/little-nightmares-enhanced-edition-pc-cover.jpg",
+        "lien": "https://www.filecrypt.cc/Container/4664E5003D.html",
+        "config": {
+            "min": {
+                "os": "Windows 10 (64-bit)",
+                "cpu": "Intel Core i3-2100 / AMD FX-4350",
+                "ram": "6 GB RAM",
+                "gpu": "Nvidia GeForce GTX 650 Ti (2 GB) / AMD Radeon HD 7850 (2 GB)",
+                "dx": "Version 11",
+                "storage": "10 GB"
+            },
+            "rec": {
+                "os": "Windows 10 (64-bit)",
+                "cpu": "Intel Core i5-6600 / AMD Ryzen 5 1400",
+                "ram": "8 GB RAM",
+                "gpu": "Nvidia GeForce RTX 2070 (8 GB) / AMD Radeon RX 6700 (10 GB)",
+                "dx": "Version 11",
+                "storage": "10 GB"
+            }
+        }
+    },
+    {
+        "nom": "Reanimal - Deluxe Edition",
+        "categorie": "Repacks",
+        "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhdUQYAksjgtTFMl2PYpQgAE53YXanybJ1LshHEhkmL1mCqPhVAs_cKjrsXhIqDv6Kc5o1kjogUT0gct7UFsTQdnP557N82t2-5VnQvCwnSZg7FJD8p0MTtjqsG2fzekVF9fc5CqThsAt3OATlqh_f_-NZSYZU6V-OiO79QZYuIaDfFLDIKIZ1XMkBODxI/s460/reanimal-pc-cover.jpg",
+        "lien": "https://www.filecrypt.cc/Container/73252A63AB.html",
+        "config": {
+            "min": {
+                "os": "Windows 10 / 11 (64-bit)",
+                "cpu": "AMD Ryzen 5 2400G / Intel Core i5-9400F",
+                "ram": "8 GB RAM",
+                "gpu": "NVIDIA GeForce GTX 1060 / AMD Radeon RX 480",
+                "dx": "Version 12",
+                "storage": "18 GB"
+            },
+            "rec": {
+                "os": "Windows 10 / 11 (64-bit)",
+                "cpu": "AMD Ryzen 5 3600X / Intel Core i7-7700K",
+                "ram": "16 GB RAM",
+                "gpu": "NVIDIA GeForce RTX 2060 / AMD Radeon RX 6600 XT",
+                "dx": "Version 12",
+                "storage": "18 GB"
             }
         }
     }
