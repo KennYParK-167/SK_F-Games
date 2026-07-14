@@ -1798,5 +1798,173 @@
                 "storage": "190 GB"
             }
         }
+    },
+    {
+        "nom": "Red Dead Redemption",
+        "categorie": "Repacks",
+        "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEihvnC_JtzoLfmNWNtd1mlloJumrUVUyIoWffRiRTav8hcvKTnyj0nJ5epXOCRyFSOB778NqH314hIEYskCqgm-dcZC_4v_2W6WNzMkQnu4OgyGiwehfoDPDzFIN1UZEQ4JUe4x7yAZv41Hs-DYWBBosu6mTy7owJQhpegKMkET94lLGhJMBb3wemCJp3U/s460/red-dead-redemption-pc-cover.jpg",
+        "lien": "https://www.filecrypt.cc/Container/61EF876B72.html",
+        "config": {
+            "min": {
+                "os": "Windows 10 (64-bit)",
+                "cpu": "Intel Core i5-4670 / AMD FX-9590",
+                "ram": "8 GB RAM",
+                "gpu": "NVIDIA GeForce GTX 960 / AMD Radeon R7 360",
+                "dx": "Version 12",
+                "storage": "12 GB"
+            },
+            "rec": {
+                "os": "Windows 10 (64-bit)",
+                "cpu": "Intel Core i5-8500 / AMD Ryzen 5 3500X",
+                "ram": "8 GB RAM",
+                "gpu": "NVIDIA RTX 2070 / AMD RX 5700 XT",
+                "dx": "Version 12",
+                "storage": "12 GB (SSD recommandé)"
+            }
+        }
+    },
+    {
+        "nom": "Horizon Zero Dawn: Complete Edition",
+        "categorie": "GOG",
+        "image": "https://1.bp.blogspot.com/-lBtWyo-fsDU/X73dxLgmX4I/AAAAAAABFSw/vB-JlIaBfLYR4agOkMGnA4Ug4NNepjDmQCLcBGAsYHQ/s460/horizon-zero-dawn-complete-pc-cover.jpg",
+        "lien": "https://www.filecrypt.cc/Container/B1183DFC63.html",
+        "config": {
+            "min": {
+                "os": "Windows 10 (64-bit)",
+                "cpu": "Intel Core i5-2500K @ 3.3 GHz / AMD FX-6300 @ 3.5 GHz",
+                "ram": "8 GB RAM",
+                "gpu": "Nvidia GeForce GTX 780 (3GB) / AMD Radeon R9 290 (4GB)",
+                "dx": "Version 12",
+                "storage": "100 GB"
+            },
+            "rec": {
+                "os": "Windows 10 (64-bit)",
+                "cpu": "Intel Core i7-4770K @ 3.5 GHz / AMD Ryzen 5 1500X @ 3.5 GHz",
+                "ram": "16 GB RAM",
+                "gpu": "Nvidia GeForce GTX 1060 (6GB) / AMD Radeon RX 580 (8GB)",
+                "dx": "Version 12",
+                "storage": "100 GB"
+            }
+        }
+    },
+    {
+        "nom": "Horizon Zero Dawn Remastered",
+        "categorie": "Repacks",
+        "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiuYQFZ093gGiddH_tn3jp178IK-VfvtjdW1C0KkWrX0JcbSJPr7-qXqFsMiUF6HuTjp8cs_QeRVikFTyfbvC-nkDihYafgfABwrKHGn3W9vF6-MXxV0i3fnC33H3TElX4_eiOHgRNQSX93UqDJO-lkcMR35zSxMQAHiod01-KmO8c0QIzXyeyJTsChXvc/s460/horizon-zero-dawn-remastered-pc-cover.jpg",
+        "lien": "https://www.filecrypt.cc/Container/D072947EE6.html",
+        "config": {
+            "min": {
+                "os": "Windows 10 (64-bit, version 1909 ou supérieure)",
+                "cpu": "Intel Core i3-8100 / AMD Ryzen 3 1300X",
+                "ram": "16 GB RAM",
+                "gpu": "NVIDIA GeForce GTX 1650 (4GB) / AMD Radeon RX 5500 XT (4GB)",
+                "dx": "Non spécifié",
+                "storage": "135 GB (SSD requis)"
+            },
+            "rec": {
+                "os": "Windows 10 (64-bit, version 1909 ou supérieure)",
+                "cpu": "Intel Core i5-8600 / AMD Ryzen 5 3600",
+                "ram": "16 GB RAM",
+                "gpu": "NVIDIA GeForce RTX 3060 / AMD Radeon RX 5700",
+                "dx": "Non spécifié",
+                "storage": "135 GB (SSD requis)"
+            }
+        }
+    },
+    {
+        "nom": "Horizon Forbidden West: Complete Edition",
+        "categorie": "Repacks",
+        "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiCWYGtfygyUJR_M_FgNbVjuiYb4v61ajNKcafPu7F2Hni3RaLwzg7jk8d4Jmhj_2ntOooJSCZ2Ofbk5RJwk0KYLp9VLbBoAqiwAmp1bgFnAToJcNkjeKy9mp4xKNywKBEgFiZ95g3XteXj9Xq0j5bdNOZn8qtMzStPDNeYjw-rSMXat52exXFccmGHON0/s460/horizon-forbidden-west-pc-cover.jpg",
+        "lien": "https://www.filecrypt.cc/Container/C145B2B02F.html",
+        "config": {
+            "min": {
+                "os": "Windows 10 (64-bit, version 1909 ou supérieure)",
+                "cpu": "Intel Core i3-8100 / AMD Ryzen 3 1300X",
+                "ram": "16 GB RAM",
+                "gpu": "NVIDIA GeForce GTX 1650 (4GB) / AMD Radeon RX 5500 XT (4GB)",
+                "dx": "Non spécifié",
+                "storage": "150 GB (SSD requis)"
+            },
+            "rec": {
+                "os": "Windows 10 (64-bit, version 1909 ou supérieure)",
+                "cpu": "Intel Core i5-8600 / AMD Ryzen 5 3600",
+                "ram": "16 GB RAM",
+                "gpu": "NVIDIA GeForce RTX 3060 / AMD Radeon RX 5700",
+                "dx": "Non spécifié",
+                "storage": "150 GB (SSD requis)"
+            }
+        }
+    },
+    {
+        "nom": "LEGO Horizon Adventures: Deluxe Edition",
+        "categorie": "Repacks",
+        "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjCXYmXOlP60f5rnsfhcKtwWv19qhMCOKc4xRyeFa_7ixo7PV2-Tbh3fJq47N5wVH-kYT_6IPTCZ_CMG3Kqivg5OzfTT79LOXn6mD4mcffrC2Y5jatosGRxzH6HyK4S5WzDmaaYCQRYjgUg6X2YFlt6PxQjpwWx4-k5PJG2mhwDe1IOiCztAOFbQ0QDyC0/s460/lego-horizon-adventures-pc-cover.jpg",
+        "lien": "https://www.filecrypt.cc/Container/17F6833255.html",
+        "config": {
+            "min": {
+                "os": "Windows 10 (64-bit)",
+                "cpu": "Intel Core i5-8400 / AMD Ryzen 5 2600",
+                "ram": "16 GB RAM",
+                "gpu": "NVIDIA GeForce GTX 1650 / AMD Radeon RX 580",
+                "dx": "Non spécifié",
+                "storage": "30 GB"
+            },
+            "rec": {
+                "os": "Windows 10 (64-bit)",
+                "cpu": "Intel Core i5-10600K / AMD Ryzen 5 3600",
+                "ram": "16 GB RAM",
+                "gpu": "NVIDIA GeForce RTX 3070 / AMD Radeon RX 6800",
+                "dx": "Non spécifié",
+                "storage": "30 GB"
+            }
+        }
+    },
+    {
+        "nom": "Starfield: Premium Edition",
+        "categorie": "Repacks",
+        "image": "https://1.bp.blogspot.com/-UEkRXOaPWHk/ZPFrWOrV-6I/AAAAAAABYy0/rMvLZIvJ3jcmaQfoHdczjiXgEjYML0X8gCNcBGAsYHQ/s460/starfield-pc-cover.jpg",
+        "lien": "https://www.filecrypt.cc/Container/6CB891A0F6.html",
+        "config": {
+            "min": {
+                "os": "Windows 10 (version 21H1 ou supérieure)",
+                "cpu": "AMD Ryzen 5 2600X / Intel Core i7-6800K",
+                "ram": "16 GB RAM",
+                "gpu": "AMD Radeon RX 5700 / NVIDIA GeForce GTX 1070 Ti",
+                "dx": "Version 12",
+                "storage": "125 GB (SSD requis)"
+            },
+            "rec": {
+                "os": "Windows 10 / 11 (avec mises à jour)",
+                "cpu": "AMD Ryzen 5 3600X / Intel Core i5-10600K",
+                "ram": "16 GB RAM",
+                "gpu": "AMD Radeon RX 6800 XT / NVIDIA GeForce RTX 2080",
+                "dx": "Version 12",
+                "storage": "125 GB (SSD requis)"
+            }
+        }
+    },
+    {
+        "nom": "Resident Evil Requiem: Deluxe Edition",
+        "categorie": "Repacks",
+        "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgB7WRlHqR0tOUEFO0phwGC1_AsPKuBK2LgPgxMz7E7K8Eb1x6BFGXMIQDTDL88ohChJ7jxpFpwbeE9kNdo-tMJA4yfvxP_II6tJqC9C4mudg_ZucGx7QuKD-nJkMiZSGD3KLtNxQRuqhmBtNIVaMEXCKlet742N6Dm3vq_TYJ8Hg5Cs9pPRzaSGSI7NvE/s460/resident-evil-requiem-pc-cover.jpg",
+        "lien": "https://www.filecrypt.cc/Container/DAD9D5E058.html",
+        "config": {
+            "min": {
+                "os": "Windows 11 (64-bit)",
+                "cpu": "Intel Core i5-8500 / AMD Ryzen 5 3500",
+                "ram": "16 GB RAM",
+                "gpu": "GeForce GTX 1660 (6GB) / Radeon RX 5500 XT (8GB)",
+                "dx": "Version 12",
+                "storage": "Non spécifié (SSD requis)"
+            },
+            "rec": {
+                "os": "Windows 11 (64-bit)",
+                "cpu": "Intel Core i7-8700 / AMD Ryzen 5 5500",
+                "ram": "16 GB RAM",
+                "gpu": "GeForce RTX 2060 Super (8GB) / Radeon RX 6600 (8GB)",
+                "dx": "Version 12",
+                "storage": "Non spécifié (SSD requis)"
+            }
+        }
     }
 ]
