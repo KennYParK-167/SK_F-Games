@@ -1,0 +1,1802 @@
+[
+    {
+        "nom": "Arctic Awakening",
+        "categorie": "GOG",
+        "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjivw2WkNYAAd7ju-o1_fgUZZSKanXYfoDTfjwt5rp_fYnlhNDP87gy1Y3V6XMXSNibE-XLgN7CI6B8xwBZyoaXZXhsG3mGry-eSuWVZ7SfDKoCY436CJrs2eh3Ep7O7tK_mv96ZY7u52W3cMbVNeMy-VKmkrgpT-vBBpw6-k3_B9yEKlvrOnkcF-u9brc/s460/artic-awakening-pc-cover.jpg",
+        "lien": "https://www.filecrypt.cc/Container/6037F2DEC9.html",
+        "config": {
+            "min": {
+                "os": "Windows 10 / 11 (64-bit)",
+                "cpu": "Intel Core i3-6100 / AMD FX 8350",
+                "ram": "8 GB RAM",
+                "gpu": "NVIDIA GeForce GTX 1650 / AMD RX 570",
+                "dx": "Version 11",
+                "storage": "10 GB"
+            },
+            "rec": {
+                "os": "Windows 10 / 11 (64-bit)",
+                "cpu": "Intel i5-9600K / Ryzen 5 3600",
+                "ram": "16 GB RAM",
+                "gpu": "NVIDIA RTX 2060 / AMD RX 6600",
+                "dx": "Version 11",
+                "storage": "10 GB"
+            }
+        }
+    },
+    {
+        "nom": "Soulstone Survivors",
+        "categorie": "GOG",
+        "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgaGR1s7wwytevYnv47qZkU26ifsbtf9nt64ewAzB8meT1KcwWnFpWYvfnIC7OhAxD_Ps9a2S2uc289LPYu4DZ82LVXB4wJRI8iTe-YEFMXNyKF4s_H5sRNy9UyijBFfomY1ZCUKejvZdAaE9m3VWqHDTcenw76rLvYWE0k8Z_2Hotr_tvzdOwnHaB8X1k/s460/soulstone-survivors-pc-cover.jpg",
+        "lien": "https://www.filecrypt.cc/Container/9451E10B55.html",
+        "config": {
+            "min": {
+                "os": "Windows 7 or newer",
+                "cpu": "2.5Ghz or better",
+                "ram": "4 GB RAM",
+                "gpu": "Non spécifié",
+                "dx": "Non spécifié",
+                "storage": "2 GB"
+            },
+            "rec": {
+                "os": "Non spécifié",
+                "cpu": "Non spécifié",
+                "ram": "Non spécifié",
+                "gpu": "Non spécifié",
+                "dx": "Non spécifié",
+                "storage": "Non spécifié"
+            }
+        }
+    },
+    {
+        "nom": "Biped 2",
+        "categorie": "GOG",
+        "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgofbr2cCIAENIGOVbVBCemdUOUsst_YjtWf83XLyc0keDI7ZW97RIRcZ-WCzt9uD9RXuylSNqZiM_To6q5iwBq7WikSVKoabiEC1hlXRktCgWQ2pCnOsZZrz0yjMwKIH9Fa1lR9X80iWcUJQdjy5lf59U0nTWBTSv05MRc7MAyZoJ2HLliH1wUQrdjZgA/s460/biped-2-pc-cover.jpg",
+        "lien": "https://www.filecrypt.cc/Container/42AD402A8B.html",
+        "config": {
+            "min": {
+                "os": "Windows 10/11",
+                "cpu": "i3 Sandy Bridge Dual Core or Equivalent",
+                "ram": "8 GB RAM",
+                "gpu": "NVIDIA GeForce GTX 960",
+                "dx": "Non spécifié",
+                "storage": "6 GB"
+            },
+            "rec": {
+                "os": "Windows 10/11",
+                "cpu": "i5 Sandy Bridge Dual Core or Equivalent",
+                "ram": "16 GB RAM",
+                "gpu": "NVIDIA GeForce 1050Ti",
+                "dx": "Non spécifié",
+                "storage": "6 GB"
+            }
+        }
+    },
+    {
+        "nom": "Biped",
+        "categorie": "GOG",
+        "image": "https://1.bp.blogspot.com/-QU3IbKwsCtM/Xwvoptyrv0I/AAAAAAABBb0/uxb9PTCEfQUwb8VKwEh9oqcWh10lueMYgCLcBGAsYHQ/s1600/biped-pc-cover.jpg",
+        "lien": "https://www.filecrypt.cc/Container/D6035BA4B3.html",
+        "config": {
+            "min": {
+                "os": "Windows 7 SP1 / 8.1 / 10",
+                "cpu": "i3 Sandy Bridge Dual Core or Equivalent",
+                "ram": "4 GB RAM",
+                "gpu": "NVIDIA GeForce GTX 660",
+                "dx": "Non spécifié",
+                "storage": "8 GB"
+            },
+            "rec": {
+                "os": "Windows 7 SP1 / 8.1 / 10",
+                "cpu": "i5 Sandy Bridge Dual Core or Equivalent",
+                "ram": "8 GB RAM",
+                "gpu": "NVIDIA GeForce GTX 960",
+                "dx": "Non spécifié",
+                "storage": "8 GB"
+            }
+        }
+    },
+    {
+        "nom": "Army of Ruin",
+        "categorie": "GOG",
+        "image": "https://1.bp.blogspot.com/-ynGdB6SZ26Y/ZNkCTng3PJI/AAAAAAABYlI/6FI62uDby9EGRf7adHTp-_vXt1XVKCTxgCNcBGAsYHQ/s460/army-of-ruin-pc-cover.jpg",
+        "lien": "https://www.filecrypt.cc/Container/28AD30B3DE.html",
+        "config": {
+            "min": {
+                "os": "Windows Vista or newer",
+                "cpu": "Quad core processor",
+                "ram": "2 GB RAM",
+                "gpu": "DirectX 10 capable hardware",
+                "dx": "Version 11",
+                "storage": "1 GB"
+            },
+            "rec": {
+                "os": "Windows 7 or newer",
+                "cpu": "Quad core processor",
+                "ram": "6 GB RAM",
+                "gpu": "GeForce 960 or better",
+                "dx": "Version 11",
+                "storage": "1 GB"
+            }
+        }
+    },
+    {
+        "nom": "Shotgun King: The Final Checkmate",
+        "categorie": "GOG",
+        "image": "https://1.bp.blogspot.com/-Nh82qlpEZk4/Y4ZeURNFEfI/AAAAAAABUio/xpL6lew-PPcAZr1I-56kzAGR0Vo6B06KwCNcBGAsYHQ/s460/shotgun-king-the-final-checkmate-pc-cover.jpg",
+        "lien": "https://www.filecrypt.cc/Container/5CDB236A55.html",
+        "config": {
+            "min": {
+                "os": "Windows 7",
+                "cpu": "Oui, il en faut un !",
+                "ram": "Non spécifié",
+                "gpu": "Un écran fonctionnel",
+                "dx": "Non spécifié",
+                "storage": "80 MB"
+            },
+            "rec": {
+                "os": "Non spécifié",
+                "cpu": "Non spécifié",
+                "ram": "Non spécifié",
+                "gpu": "Non spécifié",
+                "dx": "Non spécifié",
+                "storage": "Non spécifié"
+            }
+        }
+    },
+    {
+        "nom": "Stellaris: Galaxy Edition",
+        "categorie": "GOG",
+        "image": "https://1.bp.blogspot.com/-oWjF_knxnPc/X5xrlc09PCI/AAAAAAABEOM/fntUmeAXyJQwn7wPLha2vdrKowNJY2WagCLcBGAsYHQ/s460/stellaris-galaxy-edition-pc-cover.jpg",
+        "lien": "https://www.filecrypt.cc/Container/85D0E7E14C.html",
+        "config": {
+            "min": {
+                "os": "Windows 7 x86 or newer",
+                "cpu": "AMD Athlon II X4 640 @ 3.0 Ghz / Intel Core 2 Quad 9400 @ 2.66 Ghz",
+                "ram": "2 GB RAM",
+                "gpu": "AMD HD 5770 / Nvidia GTX 460 (1024MB VRAM)",
+                "dx": "Version 9.0c",
+                "storage": "4 GB"
+            },
+            "rec": {
+                "os": "Windows 7 x64 or newer",
+                "cpu": "AMD Phenom II X4 850 @ 3.3 Ghz / Intel i3 2100 @ 3.1 Ghz",
+                "ram": "4 GB RAM",
+                "gpu": "AMD HD 6850 / Nvidia GTX 560TI (1024MB VRAM)",
+                "dx": "Version 9.0c",
+                "storage": "4 GB"
+            }
+        }
+    },
+    {
+        "nom": "MechWarrior 5: Mercenaries - Succession Wars Edition",
+        "categorie": "GOG",
+        "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg8E2VBSMwnBbkjz63ThR1aUeY84z1Aoyz7yobFGF0hZ-OzGnom09NN8v9TE44eWFz3rEMzpBbq8slVk68t06QNWI3o1iwUbI4LTFrBsYXPG9yumCAZCKWeC4N-CKHxZoXpyVAnN4ghBJiEHanJ-qK937upoxxv1ip2OvAfLnUsVYJwZZuOHJmrLxA9Pk4/s460/mechwarrior-5-mercenaries-pc-cover.jpg",
+        "lien": "https://www.filecrypt.cc/Container/A9B9995E44.html",
+        "config": {
+            "min": {
+                "os": "Windows 7 / 8.1 / 10 (64-bit)",
+                "cpu": "Intel Core i3-7100 / AMD Ryzen 3 1200",
+                "ram": "8 GB RAM",
+                "gpu": "NVIDIA GeForce GTX 770 / AMD Radeon R9 280X",
+                "dx": "Version 11",
+                "storage": "55 GB (SSD requis)"
+            },
+            "rec": {
+                "os": "Windows 7 / 8.1 / 10 (64-bit)",
+                "cpu": "Intel Core i7-6700K / AMD Ryzen 7 1700",
+                "ram": "16 GB RAM",
+                "gpu": "NVIDIA GeForce GTX 1070 / AMD RX Vega 56",
+                "dx": "Version 11",
+                "storage": "55 GB (SSD requis)"
+            }
+        }
+    },
+    {
+        "nom": "No Man's Sky",
+        "categorie": "GOG",
+        "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgoYZo0u3m5PHf5kv0G7hOSFzkbPRy-XzfnBi7jtFqTplTReQCfEqx7suOu2G28AtoNIS9g9cZZTTgSGGNPzXG5KliYGW5Bp0mz67JNFFMqIguEyIwLXQoW0tvEg_tlxstKymjyGgjHPMAsH6hZCi9q7dgisoKFmEv5xjzEROMHoyAf3W6P1gv97SxBinY/s460/no-mans-sky-pc-cover.jpg",
+        "lien": "https://www.filecrypt.cc/Container/404C07B216.html",
+        "config": {
+            "min": {
+                "os": "Windows 7 / 8.1 / 10 (64-bit)",
+                "cpu": "Intel Core i3",
+                "ram": "8 GB RAM",
+                "gpu": "NVIDIA GTX 480 / AMD Radeon 7870",
+                "dx": "Non spécifié",
+                "storage": "10 GB"
+            },
+            "rec": {
+                "os": "Non spécifié",
+                "cpu": "Non spécifié",
+                "ram": "Non spécifié",
+                "gpu": "Non spécifié",
+                "dx": "Non spécifié",
+                "storage": "Non spécifié"
+            }
+        }
+    },
+    {
+        "nom": "Dead Cells: Medley of Pain Bundle",
+        "categorie": "GOG",
+        "image": "https://1.bp.blogspot.com/-DcyoZ2gY9_Q/ZE6ROZmBfrI/AAAAAAABW6k/-nX2UJrantADtZE0BSjnqWQpAbbpI5LuACNcBGAsYHQ/s460/dead-cells-medley-of-pain-bundle-pc-cover.jpg",
+        "lien": "https://www.filecrypt.cc/Container/2D651FD1DC.html",
+        "config": {
+            "min": {
+                "os": "Windows 7+",
+                "cpu": "Intel i5+",
+                "ram": "2 GB RAM",
+                "gpu": "Nvidia 450 GTS / Radeon HD 5750 or better",
+                "dx": "Version 9.1+ (ou OpenGL 3.2+)",
+                "storage": "500 MB"
+            },
+            "rec": {
+                "os": "Windows 7+",
+                "cpu": "Intel i5+",
+                "ram": "4 GB RAM",
+                "gpu": "Nvidia GTX 460 / Radeon HD 7800 or better",
+                "dx": "Version 9.1+ (ou OpenGL 3.2+)",
+                "storage": "500 MB"
+            }
+        }
+    },
+    {
+        "nom": "Solasta: Crown of the Magister - Supporter Edition",
+        "categorie": "GOG",
+        "image": "https://1.bp.blogspot.com/-5hlRFG4CWNw/Y3MqVxk4RnI/AAAAAAABUY0/sJE0WDGHa80-Sc42g30kGc4Bvkt0vnE9gCNcBGAsYHQ/s460/solasta-supporter-edition-pc-cover.jpg",
+        "lien": "https://www.filecrypt.cc/Container/A243DC9F82.html",
+        "config": {
+            "min": {
+                "os": "Windows 7 / 8.1 / 10",
+                "cpu": "AMD FX 4300 / Intel Core i5-3570K",
+                "ram": "8 GB RAM",
+                "gpu": "Radeon R9 285 / GeForce GTX 950",
+                "dx": "Version 11",
+                "storage": "30 GB"
+            },
+            "rec": {
+                "os": "Windows 10",
+                "cpu": "AMD Ryzen 3 1300X / Intel Core i5-7400",
+                "ram": "8 GB RAM",
+                "gpu": "Radeon RX 590 / GeForce GTX 1060",
+                "dx": "Version 11",
+                "storage": "40 GB"
+            }
+        }
+    },
+    {
+        "nom": "Grind Survivors",
+        "categorie": "GOG",
+        "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEioFgNnEIh1mMIjgSM7fCoQkdx6SpyCWOm1V3LlB47gRAl9fOJYz6zjdPF2MaSCTOQ-uZ1EeaivdVfJzAdR4yjMm59o60p31E4flY4p7LcycaCeBhDZ0oV4J3p3UgLBmdMTmSESDAJVf-GNLrnlNeCpx9SbE_xX-c7-PYyYDavRJ4EE8wOIbfi7CFE25o4/s460/grind-survivors-pc-cover.jpg",
+        "lien": "https://www.filecrypt.cc/Container/18D958C733.html",
+        "config": {
+            "min": {
+                "os": "Windows 10 64-bit",
+                "cpu": "Intel Core i5-4690 / AMD Ryzen 5 1500X",
+                "ram": "8 GB RAM",
+                "gpu": "NVIDIA GeForce GTX 1060 6GB / AMD Radeon RX 580",
+                "dx": "Non spécifié",
+                "storage": "8 GB"
+            },
+            "rec": {
+                "os": "Windows 10 64-bit",
+                "cpu": "Intel Core i7-8700K / AMD Ryzen 7 2700X",
+                "ram": "16 GB RAM",
+                "gpu": "NVIDIA GeForce RTX 2060 / AMD Radeon RX 6600 XT",
+                "dx": "Non spécifié",
+                "storage": "8 GB"
+            }
+        }
+    },
+    {
+        "nom": "Seeds of Calamity: Farmhouse Supporter Pack",
+        "categorie": "GOG",
+        "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg84br00XFDGAbn0rxbiqhUtLC2_b2hCyvFCU0wffzt1QVNCpuwzcilSfkOUWLvbabImiSq4wGx9xqi38lxDcjK1Uuwiklh0_LJP3tq4y1S_eMEoInG9IPbLVgUfTsfAdmDS7GRooEvBNSur-RtnidzYJZJLrDJC32ScNDIEu4_gel8RID0iL32ykVXrIk/s460/seeds-of-calamity-pc-cover.jpg",
+        "lien": "https://www.filecrypt.cc/Container/77866B4ACD.html",
+        "config": {
+            "min": {
+                "os": "Windows XP, Vista, 7, 8/8.1, 10",
+                "cpu": "2.0 Ghz",
+                "ram": "2 GB RAM",
+                "gpu": "256 mb video memory",
+                "dx": "Non spécifié",
+                "storage": "1 GB"
+            },
+            "rec": {
+                "os": "Non spécifié",
+                "cpu": "Non spécifié",
+                "ram": "Non spécifié",
+                "gpu": "Non spécifié",
+                "dx": "Non spécifié",
+                "storage": "Non spécifié"
+            }
+        }
+    },
+    {
+        "nom": "Core Keeper",
+        "categorie": "GOG",
+        "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEihmjthOx26RMn1J7FBODZA3D8kHp8cFpY9pe50QH6Gun3_fMkaZMtz5iEwZVT0vP6O7tb1rPYUU-v4xf8lkH64u1oRpJUlSu5SlXBaY6aDocP1qWuiI5PKXZp9UJbbv2ovixFVv2uooJWyAbokVymmvc-pSwOd53rRypXvojo5SR1bLy0mhemYOl4nKfI/s460/core-keeper-pc-cover.jpg",
+        "lien": "https://www.filecrypt.cc/Container/E306C1714F.html",
+        "config": {
+            "min": {
+                "os": "Windows 10 64-bit",
+                "cpu": "Intel Core i5-2300 / AMD Ryzen 3 1200",
+                "ram": "8 GB RAM",
+                "gpu": "GeForce GTX 460 / Radeon HD 5850",
+                "dx": "Non spécifié",
+                "storage": "Non spécifié"
+            },
+            "rec": {
+                "os": "Windows 10 64-bit",
+                "cpu": "Intel Core i5-8400 / AMD Ryzen 7 2700X",
+                "ram": "8 GB RAM",
+                "gpu": "GeForce GTX 1050 Ti / Radeon R9 280X",
+                "dx": "Non spécifié",
+                "storage": "Non spécifié"
+            }
+        }
+    },
+    {
+        "nom": "Terraria",
+        "categorie": "GOG",
+        "image": "https://1.bp.blogspot.com/-8VBJg2QQZDU/X4aZViT3uII/AAAAAAABDeo/NMSuoYsNZukC4-_92Lr_ze11oNGx_hEOwCLcBGAsYHQ/s460/terraria-pc-cover.jpg",
+        "lien": "https://www.filecrypt.cc/Container/82CC7D131A.html",
+        "config": {
+            "min": {
+                "os": "Windows Xp, Vista, 7, 8/8.1, 10",
+                "cpu": "2.0 Ghz",
+                "ram": "2.5 GB RAM",
+                "gpu": "128mb Video Memory (Shader Model 2.0+)",
+                "dx": "9.0c or Greater",
+                "storage": "200 MB"
+            },
+            "rec": {
+                "os": "Windows 7, 8/8.1, 10",
+                "cpu": "Dual Core 3.0 Ghz",
+                "ram": "4 GB RAM",
+                "gpu": "256mb Video Memory (Shader Model 2.0+)",
+                "dx": "9.0c or Greater",
+                "storage": "200 MB"
+            }
+        }
+    },
+    {
+        "nom": "The Long Dark: Quiet Apocalypse Edition",
+        "categorie": "GOG",
+        "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhxvHV2bMWYh0hfTZXiw7WXwhoW2Ajy01JV781UZWcFOP7O4KSBaf6iQNEAwytn4pYT639Wxk5Sua_76j__ySCfkCjN3IWC8faWaAiycg0QcAAz2CGB9EEtX-03rBYDW6mqovtYldLWeXQswG9VrOIYI3z8kMiBtEg0fpTKR4w_4FFV-OVQ5A_lyrtkz2s/s460/the-long-dark-pc-cover.jpg",
+        "lien": "https://www.filecrypt.cc/Container/47240AB5B1.html",
+        "config": {
+            "min": {
+                "os": "Windows XP",
+                "cpu": "Dual-Core Intel i5 CPU @ 2GHz+",
+                "ram": "4 GB RAM",
+                "gpu": "Intel 4xxx Series (512MB VRAM or better)",
+                "dx": "Non spécifié",
+                "storage": "1 GB"
+            },
+            "rec": {
+                "os": "Windows 7",
+                "cpu": "Intel i7 CPU @ 2.6GHz or higher",
+                "ram": "8 GB RAM",
+                "gpu": "nVidia GTX 555 (1GB VRAM or better)",
+                "dx": "Non spécifié",
+                "storage": "1 GB"
+            }
+        }
+    },
+    {
+        "nom": "MULLET MADJACK",
+        "categorie": "GOG",
+        "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgPvKLx038cQ1lvvzCAtGqupFVClH4uHGXlZ3Pg78hBm2euLzdNOXrtKvf5mBER4Do7DVQVrZK1YAwxejajiStYab4sA14SR99WbTy5XMgvBZqw8yqozrLb7IHSvtzGx2TPeA8zA7S4w1qte4MaqUQA0caLLgESz41yw1OZ8kwGdyouC7S20qGRyB1yKxE/s460/mullet-madjack-pc-cover.jpg",
+        "lien": "https://www.filecrypt.cc/Container/5D7111342A.html",
+        "config": {
+            "min": {
+                "os": "Windows 10",
+                "cpu": "2.4 GHz",
+                "ram": "8 GB RAM",
+                "gpu": "GeForce GTX 970",
+                "dx": "Non spécifié",
+                "storage": "5 GB"
+            },
+            "rec": {
+                "os": "Windows 10",
+                "cpu": "4.0 GHz",
+                "ram": "16 GB RAM",
+                "gpu": "GeForce GTX 1060",
+                "dx": "Non spécifié",
+                "storage": "5 GB"
+            }
+        }
+    },
+    {
+        "nom": "Chasm",
+        "categorie": "GOG",
+        "image": "https://1.bp.blogspot.com/-bmbEDFTN5sg/YOBEG6GlCDI/AAAAAAABLJ0/xMGRs6FvviAk3LAJMK24zMn5R0sv1viuACLcBGAsYHQ/s460/chasm-pc-cover.jpg",
+        "lien": "https://www.filecrypt.cc/Container/E8081AADB7.html",
+        "config": {
+            "min": {
+                "os": "Windows XP (SP3)+",
+                "cpu": "Dual Core CPU",
+                "ram": "1 GB RAM",
+                "gpu": "Support OpenGL 3.0+ (ou 2.1 avec extensions ARB)",
+                "dx": "Non spécifié",
+                "storage": "1 GB"
+            },
+            "rec": {
+                "os": "Non spécifié",
+                "cpu": "Non spécifié",
+                "ram": "Non spécifié",
+                "gpu": "Non spécifié",
+                "dx": "Non spécifié",
+                "storage": "Non spécifié"
+            }
+        }
+    },
+    {
+        "nom": "Discounty",
+        "categorie": "GOG",
+        "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhXJqTrl5IPIC2Xisely1UppgIFGroz3aMF1-vtRYU7-0jyocW0uDLRauzg0VsZhXLdU2tzg-o1_ztxFaqc4tZoWsaAFVXLDN0OMY5tbMmHDnKV_r1Eokw4inr-KnTsu2QKdOSki5pPNU-ZCG8RiOebxmREP2IIAasD1ESK0A4g0HOWDbqnLklTcIJbRI0/s460/discountry-pc-cover.jpg",
+        "lien": "https://www.filecrypt.cc/Container/EFDB915011.html",
+        "config": {
+            "min": {
+                "os": "Windows 10",
+                "cpu": "Intel Core2 Quad Q8400 / AMD Phenom II X2 550",
+                "ram": "6 GB RAM",
+                "gpu": "NVIDIA GeForce GT 520 (1 GB) / AMD Radeon HD 5570 (1 GB)",
+                "dx": "Non spécifié",
+                "storage": "570 MB"
+            },
+            "rec": {
+                "os": "Windows 10",
+                "cpu": "Intel Core i7-4770T / AMD Ryzen 3 1200",
+                "ram": "8 GB RAM",
+                "gpu": "NVIDIA GeForce GTX 660 Ti (2 GB) / AMD Radeon HD 7870 (2 GB)",
+                "dx": "Non spécifié",
+                "storage": "570 MB"
+            }
+        }
+    },
+    {
+        "nom": "Brotato: Supporter Bundle",
+        "categorie": "GOG",
+        "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjZm9K1WKULjxOtlYM15kx3Gpx9Q-MqVjjScjYPlq1bjAytm79z-NVOv8SB9jEy4sRkNqcRs_WSaXVjFWPgJ7vgLlOpIGG_QK7dutfqyDlwkbF6mqRUP7JgSE8c9PumGqm6VI3d-HnCxU35xspPA1STp3_PkLmHuoXOhIaNoF6ypi9cWSPZBDTjpydVGoA/s460/brotato-pc-cover.jpg",
+        "lien": "https://www.filecrypt.cc/Container/D4C0FC181D.html",
+        "config": {
+            "min": {
+                "os": "Windows 7+",
+                "cpu": "2 GHz",
+                "ram": "4 GB RAM",
+                "gpu": "128MB (OpenGL 3+)",
+                "dx": "Non spécifié",
+                "storage": "200 MB"
+            },
+            "rec": {
+                "os": "Non spécifié",
+                "cpu": "Non spécifié",
+                "ram": "Non spécifié",
+                "gpu": "Non spécifié",
+                "dx": "Non spécifié",
+                "storage": "Non spécifié"
+            }
+        }
+    },
+    {
+        "nom": "Hollow Knight",
+        "categorie": "GOG",
+        "image": "https://1.bp.blogspot.com/-p1i6WrJdkKA/ZDVTbLWSndI/AAAAAAABWo0/XbVMe-6nbsUDbnrSjAB2Pw7nNgfzy-0BQCNcBGAsYHQ/s460/hollow-knight-pc-cover.jpg",
+        "lien": "https://www.filecrypt.cc/Container/EFD374A99B.html",
+        "config": {
+            "min": {
+                "os": "Windows 7",
+                "cpu": "Intel Core 2 Duo E5200",
+                "ram": "4 GB RAM",
+                "gpu": "GeForce 9800GTX+ (1GB)",
+                "dx": "Version 10",
+                "storage": "9 GB"
+            },
+            "rec": {
+                "os": "Windows 10",
+                "cpu": "Intel Core i5",
+                "ram": "8 GB RAM",
+                "gpu": "GeForce GTX 560",
+                "dx": "Version 11",
+                "storage": "9 GB"
+            }
+        }
+    },
+    {
+        "nom": "Hollow Knight: Silksong",
+        "categorie": "Repacks",
+        "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgnoUelCRPaUgidnWsF0dOeVTalU6dMBBRJrDH9W5Wej3e3z5IsY8Hnsq473jDu0G_9L_GFLorzEC1jLCtThqo-0TkychMKyz6KSfzUWyV46v4LV6_RNfxKARkM3_MuvEs3V_xVe4TrS0OLDIHHTRXt0Cf1aMbwc0wuvZavob70jp04y2PIQ0saFv9tq2g/s460/hollow-knight-silksong-pc-cover.jpg",
+        "lien": "https://www.filecrypt.cc/Container/A4430349D3.html",
+        "config": {
+            "min": {
+                "os": "Windows 10 version 21H1 (build 19043) or newer",
+                "cpu": "Intel Core i3-3240 / AMD FX-4300",
+                "ram": "4 GB RAM",
+                "gpu": "GeForce GTX 560 Ti (1GB) / Radeon HD 7750 (1GB)",
+                "dx": "Version 10",
+                "storage": "8 GB"
+            },
+            "rec": {
+                "os": "Windows 10 version 21H1 (build 19043) or newer",
+                "cpu": "Intel Core i5-3470",
+                "ram": "8 GB RAM",
+                "gpu": "GeForce GTX 1050 (2GB) / Radeon R9 380 (2GB)",
+                "dx": "Version 10",
+                "storage": "8 GB"
+            }
+        }
+    },
+    {
+        "nom": "Ys X: Nordics - Ultimate Launch Edition",
+        "categorie": "GOG",
+        "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg1-g-amQjxHLpYIAEyF-HyczJwq2KdIzjGn7agGSp7pNKSP_VAwa9f9MGKYwCv6cXkV1p9pgiAUzyw5VSkJc3Fe4y2zEveE1UqZT4F5L0IFW0Lhp5uhjCw3ZHkF131zI45Dx06xCsGG70qgc5jcQuPcPovXF673P4lCp__G6roV4xKRQeluLZmhKJ4zBU/s460/ys-x-proud-nordics-pc-cover.jpg",
+        "lien": "https://www.filecrypt.cc/Container/8F11AF27EC.html",
+        "config": {
+            "min": {
+                "os": "Windows 10 64-bit",
+                "cpu": "Intel Core i5-3470 / AMD Ryzen 3 1200",
+                "ram": "8 GB RAM",
+                "gpu": "GeForce GTX 1060 (6 GB) / AMD Radeon RX 580",
+                "dx": "Version 12",
+                "storage": "16 GB"
+            },
+            "rec": {
+                "os": "Windows 10 64-bit",
+                "cpu": "Intel Core i7-12700",
+                "ram": "Non spécifié",
+                "gpu": "GeForce RTX 3060 (12 GB)",
+                "dx": "Version 12",
+                "storage": "16 GB"
+            }
+        }
+    },
+    {
+        "nom": "Under The Island",
+        "categorie": "GOG",
+        "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEic58wHmTzmsYSNaZi4qQgEr1HPjoyk4-mDx6cb-gCefUK10loHzGqoIvo6tuP-68Uf4K9Si0sTiVI2T8CElUbQhtgzkHko-P_0QILrHZDpcD-6nObFMDJKiNNWJMwZgQ-R6v3nRgdmcVqnutQboFkk-eb8B6VGfZfT_aUdYHr7fxpBih25IQl0RcQV-ko/s460/under-of-island-pc-cover.jpg",
+        "lien": "https://www.filecrypt.cc/Container/6C0B44B665.html",
+        "config": {
+            "min": {
+                "os": "Windows 7/8/8.1/10 (x86/x64)",
+                "cpu": "Intel Core i5-3210M (2 * 2500 MHz) ou équivalent",
+                "ram": "4 GB RAM",
+                "gpu": "Intel HD 4000",
+                "dx": "Version 9.0c",
+                "storage": "1 GB"
+            },
+            "rec": {
+                "os": "Windows 7/8/8.1/10 (x64)",
+                "cpu": "Intel Pentium G3250 (2 * 3200 MHz) / AMD Phenom 9850 Quad-Core (4 * 2500 MHz) ou équivalent",
+                "ram": "8 GB RAM",
+                "gpu": "GeForce GTX 460 (1024 MB) / Radeon HD 6850 (1024 MB)",
+                "dx": "Version 9.0c",
+                "storage": "1 GB"
+            }
+        }
+    },
+    {
+        "nom": "Formula Legends",
+        "categorie": "GOG",
+        "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjcxEB3da-OVckiaUXWFwZU63D6DtQ_NNxQargSs9E9mycHy-63U2BzewiOG8kY0yu8WLxFglzKfuagNnNvtIXMRWe_sQoOPr2-EurUHwSZcfPy0IbSFPAjvOMy7san9aZN9mtt9qQCvBO3_t7WweyNIDn83IuEgziMkV15H09gPwxphxbhQiuFh5FVDFk/s460/formula-legends-pc-cover.jpg",
+        "lien": "https://www.filecrypt.cc/Container/4BA26D2284.html",
+        "config": {
+            "min": {
+                "os": "Windows 10",
+                "cpu": "Intel Core i5-6600K / AMD Ryzen 3 3100",
+                "ram": "8 GB RAM",
+                "gpu": "NVIDIA GeForce GTX 780 / AMD Radeon RX 480",
+                "dx": "Version 12",
+                "storage": "6 GB"
+            },
+            "rec": {
+                "os": "Windows 11",
+                "cpu": "Intel Core i7 (13ème gen) / AMD Ryzen 7 7800",
+                "ram": "16 GB RAM",
+                "gpu": "NVIDIA GeForce RTX 2060 / AMD Radeon RX 5700",
+                "dx": "Version 12",
+                "storage": "6 GB"
+            }
+        }
+    },
+    {
+        "nom": "Gas Station Simulator",
+        "categorie": "GOG",
+        "image": "https://1.bp.blogspot.com/-yyfskjsglA0/YfBMxnaoN3I/AAAAAAAAAx0/iZ9InCjWDAkCWlsMuQMoeBfaEprxYhZYwCNcBGAsYHQ/s460/gas-station-simulator-pc-cover.jpg",
+        "lien": "https://www.filecrypt.cc/Container/993DF77AFF.html",
+        "config": {
+            "min": {
+                "os": "Windows 7 (64-bit) / 10 (64-bit)",
+                "cpu": "Intel Core i3 3.0 GHz",
+                "ram": "4 GB RAM",
+                "gpu": "NVidia GeForce GTX 660 (2GB VRAM)",
+                "dx": "Version 11",
+                "storage": "10 GB"
+            },
+            "rec": {
+                "os": "Windows 10",
+                "cpu": "Intel Core i5 (génération récente)",
+                "ram": "8 GB RAM",
+                "gpu": "NVidia GeForce GTX série 900 (4GB VRAM)",
+                "dx": "Version 11",
+                "storage": "15 GB"
+            }
+        }
+    },
+    {
+        "nom": "Phoenix Point: Complete Edition",
+        "categorie": "GOG",
+        "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhHDyju8-yOH17wyRwJyY5xDsgnYroQRxAUdcAw5DzGvUz09qN2e8RSmcYk3fA7BhlSWsEiUNLK4JbmdMptKSLFxjO2N78cVSGQekvXoQFTW6vKFhMXUz5FKxgsiASFD3ED5YdN_AjMs53kZct_-dwxFS-x79_HebiEK-0OEyFw60UGKstR5hLxXpX8n3s/s460/phoenix-point-complete-pc-cover.jpg",
+        "lien": "https://www.filecrypt.cc/Container/B430446C0F.html",
+        "config": {
+            "min": {
+                "os": "Windows 7 SP1+ / 8 / 10 (64-bit)",
+                "cpu": "Intel Core i3 / AMD Phenom II X3",
+                "ram": "8 GB RAM",
+                "gpu": "Nvidia GeForce GTX 660 / AMD Radeon R9 270",
+                "dx": "Version 11",
+                "storage": "Non spécifié"
+            },
+            "rec": {
+                "os": "Windows 7 SP1+ / 8 / 10 (64-bit)",
+                "cpu": "Intel Core i5 @ 3GHz / AMD FX series @ 3.2GHz",
+                "ram": "16 GB RAM",
+                "gpu": "Nvidia GeForce GTX 1060 / AMD Radeon R9 390X",
+                "dx": "Version 11",
+                "storage": "Non spécifié"
+            }
+        }
+    },
+    {
+        "nom": "The Legend of Heroes: Trails beyond the Horizon - Complete Edition",
+        "categorie": "GOG",
+        "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjh5QmBhFFw6zcPE88s1TO9hsHEpjo2I602nnLPZeUo69J_GSf1yEnAe14kfKqCO-EHi-DVg6n37M7RuRpxkYdi9dc7awJS2Q7vEy5YcZmIyKkXWkqfn-yuM5F1iu7e55TqUnGkeDOkQB9zwKHJO7wAeEmjKa5MlNTDhIZAPjQYsYd3x1aTSEuIAtQzkBk/s460/trails-beyond-the-horizon-pc-cover.jpg",
+        "lien": "https://www.filecrypt.cc/Container/EF9EF04E4C.html",
+        "config": {
+            "min": {
+                "os": "Windows 10/11 (64-bit)",
+                "cpu": "AMD Ryzen 5 1600",
+                "ram": "8 GB RAM",
+                "gpu": "NVIDIA GeForce GTX 1050",
+                "dx": "Version 11",
+                "storage": "30 GB"
+            },
+            "rec": {
+                "os": "Windows 10/11 (64-bit)",
+                "cpu": "Intel Core i5-10400",
+                "ram": "16 GB RAM",
+                "gpu": "NVIDIA GeForce GTX 1650",
+                "dx": "Version 11",
+                "storage": "30 GB"
+            }
+        }
+    },
+    {
+        "nom": "Turok (2008)",
+        "categorie": "Repacks",
+        "image": "https://1.bp.blogspot.com/-iBf3GIGjfc0/WlL7hmMkh8I/AAAAAAAApCM/jisoIIGLLlg2UmRtsraPa-aIDwhWPlnIwCLcBGAs/s1600/turok-2008-pc-cover-www.ovagames.com.jpg",
+        "lien": "https://www.filecrypt.cc/Container/E36DD24148.html",
+        "config": {
+            "min": {
+                "os": "Windows XP (SP2) / Vista / 7",
+                "cpu": "Pentium 4 2.4 GHz / Athlon XP 2.4 GHz 64",
+                "ram": "1 GB RAM",
+                "gpu": "128 MB (nVidia GeForce 6600 / ATI Radeon X1300 ou similaire)",
+                "dx": "Version 9.0c",
+                "storage": "14 GB"
+            },
+            "rec": {
+                "os": "Non spécifié",
+                "cpu": "Non spécifié",
+                "ram": "Non spécifié",
+                "gpu": "Non spécifié",
+                "dx": "Non spécifié",
+                "storage": "Non spécifié"
+            }
+        }
+    },
+    {
+        "nom": "Turok 2: Seeds of Evil",
+        "categorie": "GOG",
+        "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiSDCfbC_cr0hSD1OrbwPM6-b0UNwiXqX5v8OmqxmdcFZzPaCE-VIwLV-M1BbpBOO4TjExI15uuNvy_TAwhGv-m9LvKdlNmZ4h6CDWm5ApQKRhGstkNUZqi_E2xnRskhlDXzSq_Did1E_czHDYWa6RPeMO71k69627KRXWsQinst2CCERD2wI5CTHabmDo/s460/turok-2-seeds-of-evil-pc-cover.jpg",
+        "lien": "https://www.filecrypt.cc/Container/6E6FFE409C.html",
+        "config": {
+            "min": {
+                "os": "Windows 7 (64-bit)",
+                "cpu": "Intel / AMD Dual-Core @ 2.0 GHz",
+                "ram": "1 GB RAM",
+                "gpu": "Support OpenGL 3.2 ou DirectX 10",
+                "dx": "Version 10",
+                "storage": "1 GB"
+            },
+            "rec": {
+                "os": "Windows 10 (64-bit)",
+                "cpu": "Intel Core i5-2300 2.8 GHz / AMD Phenom II X4 945 3.0 GHz ou équivalent",
+                "ram": "2 GB RAM",
+                "gpu": "Non spécifié",
+                "dx": "Non spécifié",
+                "storage": "1 GB"
+            }
+        }
+    },
+    {
+        "nom": "Control: Ultimate Edition",
+        "categorie": "GOG",
+        "image": "https://images-2.gog.com/6e6dbbd1637253394627e72c2b99f39d5c89e160ef07ca0d7823ad7603062496.jpg",
+        "lien": "https://www.filecrypt.cc/Container/4B9DF9906F.html",
+        "config": {
+            "min": {
+                "os": "Windows 7 (64-bit)",
+                "cpu": "Intel Core i5-4690 / AMD FX 4350",
+                "ram": "8 GB RAM",
+                "gpu": "NVIDIA GeForce GTX 780 / AMD Radeon R9 280X",
+                "dx": "Version 11",
+                "storage": "42 GB"
+            },
+            "rec": {
+                "os": "Windows 10 (64-bit)",
+                "cpu": "Intel Core i5-7600K / AMD Ryzen 5 1600X",
+                "ram": "16 GB RAM",
+                "gpu": "NVIDIA GeForce GTX 1660 ou 1060 / AMD Radeon RX 580 (Ray Tracing: RTX 2060)",
+                "dx": "Version 12",
+                "storage": "42 GB"
+            }
+        }
+    },
+    {
+        "nom": "Disco Elysium: The Final Cut",
+        "categorie": "GOG",
+        "image": "https://1.bp.blogspot.com/-8Op7x9Kz2TY/YGo9rWf63UI/AAAAAAABI7c/0PUiHtpOVh0EREWYhkBs902kpznnKT4mgCLcBGAsYHQ/s460/disco-elysium-the-final-cut-pc-cover.jpg",
+        "lien": "https://www.filecrypt.cc/Container/94BF22086F.html",
+        "config": {
+            "min": {
+                "os": "Windows 7/8/10",
+                "cpu": "Intel Core i5-7500 / AMD 1500 ou équivalent",
+                "ram": "4 GB RAM",
+                "gpu": "Intel HD Graphics 620 ou équivalent",
+                "dx": "Version 11",
+                "storage": "22 GB"
+            },
+            "rec": {
+                "os": "Windows 7/8/10",
+                "cpu": "Intel Core i7 / AMD 1800 ou équivalent",
+                "ram": "8 GB RAM",
+                "gpu": "NVIDIA GeForce GTX 1060 ou équivalent",
+                "dx": "Version 11",
+                "storage": "22 GB"
+            }
+        }
+    },
+    {
+        "nom": "Highrise City",
+        "categorie": "GOG",
+        "image": "https://1.bp.blogspot.com/-vidOTRqzGjc/ZP25WiuYODI/AAAAAAABY6o/MPQEyQEU3qIDeobK7GdLkgmh-2QBzj1gQCNcBGAsYHQ/s460/high-rise-city-pc-cover.jpg",
+        "lien": "https://www.filecrypt.cc/Container/CC0E7631F5.html",
+        "config": {
+            "min": {
+                "os": "Windows 10",
+                "cpu": "Intel Core i7-7700 @ 3.6Ghz",
+                "ram": "16 GB RAM",
+                "gpu": "GeForce GTX 760 Ti",
+                "dx": "Version 11",
+                "storage": "25 GB"
+            },
+            "rec": {
+                "os": "Windows 10",
+                "cpu": "AMD Ryzen 9 3900X @ 3800MHz",
+                "ram": "32 GB RAM",
+                "gpu": "GeForce GTX 1080 Ti / Radeon RX 5700 XT",
+                "dx": "Version 11",
+                "storage": "25 GB"
+            }
+        }
+    },
+    {
+        "nom": "#DRIVE Rally",
+        "categorie": "GOG",
+        "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgNOBS8U9owZRtaGPyT0EFU0ucvo3mJuAMdd40_xqsg6220hXjIvNyawrU8YuLoOyT3SdaKwUxFbZF7LE3pZ10AiL2QvCi8t8Aty7EEBU2XSsJZ7mRzVz_GVabDdHlPC-dAVe0Eokqeni4lxJPH31AmqWXg05RHmECDXAqwYMd7ub6DJe-TSBePpPdHJy0/s460/drive-rally-pc-cover.jpg",
+        "lien": "https://www.filecrypt.cc/Container/E1C52693DD.html",
+        "config": {
+            "min": {
+                "os": "Windows 10",
+                "cpu": "Intel Core i3 @ 2.5GHz ou équivalent",
+                "ram": "4 GB RAM",
+                "gpu": "NVIDIA GeForce GTX 650 ou équivalent",
+                "dx": "Non spécifié",
+                "storage": "5 GB"
+            },
+            "rec": {
+                "os": "Windows 10",
+                "cpu": "Intel Core i5 @ 3.0GHz ou équivalent",
+                "ram": "8 GB RAM",
+                "gpu": "NVIDIA GeForce GTX 970 ou équivalent",
+                "dx": "Non spécifié",
+                "storage": "5 GB"
+            }
+        }
+    },
+    {
+        "nom": "Akimbot",
+        "categorie": "GOG",
+        "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg4OE1VsSGOwnpLFZpmxhc9jSwXIFrzOLCOJLKtkOZKf5upg1JfPZnUsu7KN1EDT9x4ik4YHMHElOYkFIDiUlmTwxfBYEUoO816WNfJHmPyt4Xr-1GBkKFjJBrSHwghsPu_zO-ptGZj5oUgUj952xO9D4vsHZD6Qp2p5eeB0qqlrggNnCvd6gQU6nEoqRE/s460/akimbot-pc-cover.jpg",
+        "lien": "https://www.filecrypt.cc/Container/C8B6916AE1.html",
+        "config": {
+            "min": {
+                "os": "Windows 10",
+                "cpu": "AMD Ryzen 5 1500X / équivalent",
+                "ram": "16 GB RAM",
+                "gpu": "AMD Radeon R9 380 / équivalent",
+                "dx": "Non spécifié",
+                "storage": "20 GB"
+            },
+            "rec": {
+                "os": "Windows 10/11",
+                "cpu": "AMD Ryzen 5 5600X / équivalent",
+                "ram": "16 GB RAM",
+                "gpu": "Nvidia GeForce RTX 3060 Ti / équivalent",
+                "dx": "Non spécifié",
+                "storage": "20 GB"
+            }
+        }
+    },
+    {
+        "nom": "I Am Your Beast",
+        "categorie": "GOG",
+        "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEh_BWsxTW9uh0mkJIvohKCpvdYwWhc51KJTWlzXfIQIquD6QXo5EooVB8wJRg5R3UpF-jRAG1tz6Kz7NqQJlxDSbl9qVoVSMd-wwEiCF5LANVq7wOj65A6K9vKEn5ByzT_Esrfe8ZNFhrB2EVnII2fb5IIODX3vMZP1sycQdXXktkmmNpnykzry3FGi-ko/s460/i-am-your-beast-pc-cover.jpg",
+        "lien": "https://www.filecrypt.cc/Container/8990C9C5DB.html",
+        "config": {
+            "min": {
+                "os": "Windows 8 (64-bit)",
+                "cpu": "Dual-Core @ 2 GHz",
+                "ram": "4 GB RAM",
+                "gpu": "Intel HD Graphics 2000",
+                "dx": "Non spécifié",
+                "storage": "3 GB"
+            },
+            "rec": {
+                "os": "Non spécifié",
+                "cpu": "Non spécifié",
+                "ram": "Non spécifié",
+                "gpu": "Non spécifié",
+                "dx": "Non spécifié",
+                "storage": "Non spécifié"
+            }
+        }
+    },
+    {
+        "nom": "Moros Protocol",
+        "categorie": "GOG",
+        "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiwZgGyZtfXsMyXuAXvp5E5f7uDAxS5S4F2HUFOoz84QxwLADwY3JwPbEjaMdNIh9eOk-r_BC-7ccUE1PTpJX-YVKi_BF26sVd_ihiPWMnEPQ10XlGjo84Z1OaB9s08upCswBOLYxOYyGufUpFC85Gvlix8UH014Rk-i8hVxk6eS65_uMeva4KOciXqJ1Y/s460/moros-protocol-pc-cover.jpg",
+        "lien": "https://www.filecrypt.cc/Container/ABCE6AA07B.html",
+        "config": {
+            "min": {
+                "os": "Windows 10",
+                "cpu": "Intel Core i5 / AMD Ryzen 5",
+                "ram": "8 GB RAM",
+                "gpu": "NVIDIA GeForce GTX 1050Ti",
+                "dx": "Version 10",
+                "storage": "2 GB"
+            },
+            "rec": {
+                "os": "Non spécifié",
+                "cpu": "Non spécifié",
+                "ram": "Non spécifié",
+                "gpu": "Non spécifié",
+                "dx": "Non spécifié",
+                "storage": "Non spécifié"
+            }
+        }
+    },
+    {
+        "nom": "Marvel's Spider-Man Remastered",
+        "categorie": "Repacks",
+        "image": "https://1.bp.blogspot.com/-vq2jB7vuoOU/Yva_k9BpMbI/AAAAAAABTN8/FjIsO9B8nP8BhFwS79E27yhyuBn7aYJ1ACNcBGAsYHQ/s460/marvels-spiderman-remastered-pc-cover.jpg",
+        "lien": "https://www.filecrypt.cc/Container/DFC7767658.html",
+        "config": {
+            "min": {
+                "os": "Windows 10 (64-bit)",
+                "cpu": "Intel Core i3-4160 @ 3.6 GHz ou équivalent AMD",
+                "ram": "8 GB RAM",
+                "gpu": "NVIDIA GeForce GTX 950 / AMD Radeon RX 470",
+                "dx": "Version 12",
+                "storage": "75 GB"
+            },
+            "rec": {
+                "os": "Windows 10 (64-bit)",
+                "cpu": "Intel Core i5-4670 @ 3.4 GHz / AMD Ryzen 5 1600 @ 3.2 GHz",
+                "ram": "16 GB RAM",
+                "gpu": "NVIDIA GeForce GTX 1060 (6GB) / AMD Radeon RX 580 (8GB)",
+                "dx": "Version 12",
+                "storage": "75 GB"
+            }
+        }
+    },
+    {
+        "nom": "Marvel's Spider-Man 2: Deluxe Edition",
+        "categorie": "Repacks",
+        "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj65kxboIRoGX9HL_dPoQXRlWYBP-Aw4PNZQtSP4nYhFSiGR46pKfzEDCFyj7acNxzIgh_Xo8UpBowEMwCEs2kHS3NzebyqiIB6UbX3xJsWAHmJunVKDJy6f0OOR7RUlHb_K1fuxSs_FwVcUL8kirGmqewNY5V0Y38UOn9vE1eII8uzH-JR39Jfve5CJLs/s460/marvels-spider-man-2-pc-cover.jpg",
+        "lien": "https://www.filecrypt.cc/Container/E90EB17E3D.html",
+        "config": {
+            "min": {
+                "os": "Windows 10/11 (version 1909 ou supérieure)",
+                "cpu": "Intel Core i3-8100 / AMD Ryzen 3 3100",
+                "ram": "16 GB RAM",
+                "gpu": "NVIDIA GeForce GTX 1650 / AMD Radeon RX 5500 XT",
+                "dx": "Non spécifié",
+                "storage": "Non spécifié"
+            },
+            "rec": {
+                "os": "Windows 10/11 (version 1909 ou supérieure)",
+                "cpu": "Intel Core i5-8400 / AMD Ryzen 5 3600",
+                "ram": "16 GB RAM",
+                "gpu": "NVIDIA GeForce RTX 3060 / AMD Radeon RX 5700",
+                "dx": "Non spécifié",
+                "storage": "Non spécifié"
+            }
+        }
+    },
+    {
+        "nom": "Marvel's Spider-Man: Miles Morales",
+        "categorie": "Repacks",
+        "image": "https://1.bp.blogspot.com/-4O0jGVWLwu4/Y3hGDgr9JXI/AAAAAAABUdI/3l6CltPVHOUUCn4qUZxH7U1FYM1bcOUjwCNcBGAsYHQ/s460/marvels-spider-man-miles-morales-pc-cover.jpg",
+        "lien": "https://www.filecrypt.cc/Container/D614DE28EA.html",
+        "config": {
+            "min": {
+                "os": "Windows 10 (64-bit, version 1909)",
+                "cpu": "Intel Core i3-4160 @ 3.6 GHz ou équivalent AMD",
+                "ram": "8 GB RAM",
+                "gpu": "NVIDIA GeForce GTX 950 / AMD Radeon RX 470",
+                "dx": "Version 12",
+                "storage": "75 GB"
+            },
+            "rec": {
+                "os": "Windows 10 (64-bit, version 1909)",
+                "cpu": "Intel Core i5-4670 @ 3.4 GHz / AMD Ryzen 5 1600 @ 3.2 GHz",
+                "ram": "16 GB RAM",
+                "gpu": "NVIDIA GeForce GTX 1060 (6GB) / AMD Radeon RX 580 (8GB)",
+                "dx": "Version 12",
+                "storage": "75 GB (SSD recommandé)"
+            }
+        }
+    },
+    {
+        "nom": "Ghost of Tsushima: Director's Cut",
+        "categorie": "Repacks",
+        "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjW_EccDBD6sE_9jvKBqiEpojivxWMrqzgdx6vO6KsyXFlvfhZOJMpXpmFnrIKu-nFTHdIJJ3kevcpSgA4uRRfrKknfBkg5rPllobyi6mm-rs0waQbiOUxDY5X0ukGADsM8ieS_MRfmwkmVhvkXTQkJTZ1exPo2b3LYNFc2C2eSn0YY2gFBo8ifWtDIPS4/s460/ghost-of-tsushima-directors-cut-pc-cover.jpg",
+        "lien": "https://www.filecrypt.cc/Container/5FEF089531.html",
+        "config": {
+            "min": {
+                "os": "Windows 10 (64-bit)",
+                "cpu": "Intel Core i3-7100 / AMD Ryzen 3 1200",
+                "ram": "8 GB RAM",
+                "gpu": "NVIDIA GeForce GTX 960 / AMD Radeon RX 5500 XT",
+                "dx": "Non spécifié",
+                "storage": "75 GB (SSD recommandé)"
+            },
+            "rec": {
+                "os": "Windows 10 (64-bit)",
+                "cpu": "Intel Core i5-8600 / AMD Ryzen 5 3600",
+                "ram": "16 GB RAM",
+                "gpu": "NVIDIA GeForce RTX 2060 / AMD Radeon RX 5600 XT",
+                "dx": "Non spécifié",
+                "storage": "75 GB (SSD requis)"
+            }
+        }
+    },
+    {
+        "nom": "Dying Light Ultimate Edition",
+        "categorie": "Repacks",
+        "image": "https://1.bp.blogspot.com/-JNyv7of6jCE/Yi-OXdvBigI/AAAAAAAAA_Q/6l4VQLzEI2M63bEDdRs142EYjCiPfcJ5QCNcBGAsYHQ/s460/dying-light-pc-cover.jpg",
+        "lien": "https://www.filecrypt.cc/Container/63535EE5AF.html",
+        "config": {
+            "min": {
+                "os": "Windows 7 / 8 / 8.1 (64-bit)",
+                "cpu": "Intel Core i5-2500 @3.3 GHz / AMD FX-8320 @3.5 GHz",
+                "ram": "4 GB RAM DDR3",
+                "gpu": "NVIDIA GeForce GTX 560 / AMD Radeon HD 6870 (1GB VRAM)",
+                "dx": "Version 11",
+                "storage": "50 GB"
+            },
+            "rec": {
+                "os": "Windows 7 / 8 / 8.1 (64-bit)",
+                "cpu": "Intel Core i5-4670K @3.4 GHz / AMD FX-8350 @4.0 GHz",
+                "ram": "8 GB RAM DDR3",
+                "gpu": "NVIDIA GeForce GTX 780 / AMD Radeon R9 290 (2GB VRAM)",
+                "dx": "Version 11",
+                "storage": "50 GB"
+            }
+        }
+    },
+    {
+        "nom": "Dying Light 2 Stay Human Ultimate Edition",
+        "categorie": "Repacks",
+        "image": "https://1.bp.blogspot.com/-PXfPar_5rgg/YuzV-cmIHdI/AAAAAAABTJI/7v7kVyPF2hsAMBPgMiEWRKLRePJ95EpAwCNcBGAsYHQ/s460/dying-light-2-stay-human-pc-cover.jpg",
+        "lien": "https://www.filecrypt.cc/Container/089EA51252.html",
+        "config": {
+            "min": {
+                "os": "Windows 7 (64-bit)",
+                "cpu": "Intel Core i3-9100 / AMD Ryzen 3 2300X",
+                "ram": "8 GB RAM",
+                "gpu": "NVIDIA GeForce GTX 1050 Ti / AMD Radeon RX 560 (4GB VRAM)",
+                "dx": "Non spécifié",
+                "storage": "60 GB"
+            },
+            "rec": {
+                "os": "Windows 10 (64-bit)",
+                "cpu": "AMD Ryzen 5 3600X / Intel Core i5-8600K (3.6 GHz ou plus)",
+                "ram": "16 GB RAM",
+                "gpu": "NVIDIA GeForce RTX 2060 (6GB) / AMD RX Vega 56 (8GB)",
+                "dx": "Non spécifié",
+                "storage": "60 GB"
+            }
+        }
+    },
+    {
+        "nom": "Dying Light: The Beast - Deluxe Edition",
+        "categorie": "Repacks",
+        "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjXCMUf7ji_gjby_fWdfV4UKDczStQ4mOrtL4pd1TGryFUnNURrYInTyBNfOmHcBjnFAIIDoknQdVYHHWDrOAHUwFI5IaW5kQ7nhk4h-Jf-xczVhx2X1ixwMo2kGTC-hrjsguG5oH5vneNd8OEsXBwWCf6Q93yHKCJNDX90mr_NeoSEBO7PCZ0F073GVaA/s460/dying-light-the-beast-pc-cover.jpg",
+        "lien": "https://www.filecrypt.cc/Container/6A00668593.html",
+        "config": {
+            "min": {
+                "os": "Windows 10 ou plus récent (64-bit)",
+                "cpu": "Intel i5-13400F / AMD Ryzen 7 5800X",
+                "ram": "16 GB RAM",
+                "gpu": "NVIDIA GeForce 1060 / AMD Radeon 5500 XT / Intel ARC A750",
+                "dx": "Non spécifié",
+                "storage": "70 GB (SSD requis)"
+            },
+            "rec": {
+                "os": "Windows 10 ou plus récent (64-bit)",
+                "cpu": "Intel i5-13400F / AMD Ryzen 7 7700",
+                "ram": "16 GB RAM",
+                "gpu": "NVIDIA GeForce RTX 3070 TI / AMD Radeon 6750 XT / Intel ARC B580",
+                "dx": "Non spécifié",
+                "storage": "70 GB (SSD requis)"
+            }
+        }
+    },
+    {
+        "nom": "The Witcher: Enhanced Edition",
+        "categorie": "GOG",
+        "image": "https://images-4.gog.com/37d4a208d1f5bb0e163da540ac894ba46a7d566ede31aaaefc74bbcd46ebd190.jpg",
+        "lien": "https://www.filecrypt.cc/Container/56719564BF.html",
+        "config": {
+            "min": {
+                "os": "Windows XP / Vista",
+                "cpu": "Intel Pentium 4 2.4 GHz / AMD Athlon 64 +2800",
+                "ram": "1 GB RAM",
+                "gpu": "NVIDIA GeForce 6600 / ATI Radeon 9800",
+                "dx": "Version 9.0c",
+                "storage": "15 GB"
+            },
+            "rec": {
+                "os": "Windows XP / Vista",
+                "cpu": "Intel Pentium 4 3.0 GHz / AMD Athlon 64 +3000",
+                "ram": "2 GB RAM",
+                "gpu": "NVIDIA GeForce 7800 GTX / ATI Radeon X1950 XT",
+                "dx": "Version 9.0c",
+                "storage": "15 GB"
+            }
+        }
+    },
+    {
+        "nom": "The Witcher 2: Assassins of Kings - Enhanced Edition",
+        "categorie": "GOG",
+        "image": "https://1.bp.blogspot.com/-VM0OKCHa4S8/X0Ih1FXyEzI/AAAAAAABCos/QmWY6WgbVJweYzL2mg8hUhiKMLYcWn0fwCLcBGAsYHQ/s1600/the-witcher-2-assassins-of-kings-enhanced-edition-pc-cover.jpg",
+        "lien": "https://www.filecrypt.cc/Container/970FEF4673.html",
+        "config": {
+            "min": {
+                "os": "Windows XP / Vista / 7",
+                "cpu": "Intel 2.2 GHz Dual-Core / AMD 2.5 GHz Dual-Core",
+                "ram": "1.5 GB (XP) / 2 GB (Vista/7)",
+                "gpu": "GeForce 8800 (512 MB) / Radeon HD3850 (512 MB)",
+                "dx": "Version 9.29",
+                "storage": "25 GB"
+            },
+            "rec": {
+                "os": "Windows XP / Vista / 7",
+                "cpu": "Intel ou AMD Quad-Core",
+                "ram": "3 GB (XP) / 4 GB (Vista/7)",
+                "gpu": "GeForce 260 (1 GB) / Radeon HD 4850 (1 GB)",
+                "dx": "Version 9.29",
+                "storage": "25 GB"
+            }
+        }
+    },
+    {
+        "nom": "The Witcher 3: Wild Hunt - Complete Edition",
+        "categorie": "Repacks",
+        "image": "https://1.bp.blogspot.com/-Lx2Tuu78xJ4/Y5lTZ7LcwmI/AAAAAAABUuo/uNTF_9Vcf9gbHBVVUq64QDJ_fmv_sD1CQCNcBGAsYHQ/s460/the-witcher-3-complete-pc-cover.jpg",
+        "lien": "https://www.filecrypt.cc/Container/EC606036BC.html",
+        "config": {
+            "min": {
+                "os": "Windows 7 / 8 / 8.1 (64-bit)",
+                "cpu": "Intel Core i5-2500K 3.3GHz / AMD Phenom II X4 940",
+                "ram": "6 GB RAM",
+                "gpu": "Nvidia GeForce GTX 660 / AMD Radeon HD 7870",
+                "dx": "Non spécifié",
+                "storage": "40 GB"
+            },
+            "rec": {
+                "os": "Windows 7 / 8 / 8.1 (64-bit)",
+                "cpu": "Intel Core i7 3770 3.4 GHz / AMD FX-8350 4 GHz",
+                "ram": "8 GB RAM",
+                "gpu": "Nvidia GeForce GTX 770 / AMD Radeon R9 290",
+                "dx": "Non spécifié",
+                "storage": "40 GB"
+            }
+        }
+    },
+    {
+        "nom": "Elden Ring Deluxe Edition",
+        "categorie": "Repacks",
+        "image": "https://1.bp.blogspot.com/-kOTxQvgEGYY/YhiUp1-hXWI/AAAAAAAAAOc/4JAEN2nbuwgMW7qyxasz9SlXO1lN9MQawCNcBGAsYHQ/s460/elden-ring-pc-cover.jpg",
+        "lien": "https://www.filecrypt.cc/Container/EF6677F9C2.html",
+        "config": {
+            "min": {
+                "os": "Windows 10 (64-bit)",
+                "cpu": "Intel Core i5-8400 / AMD Ryzen 3 3300X",
+                "ram": "12 GB RAM",
+                "gpu": "NVIDIA GeForce GTX 1060 (3 GB) / AMD Radeon RX 580 (4 GB)",
+                "dx": "Version 12",
+                "storage": "60 GB"
+            },
+            "rec": {
+                "os": "Windows 10 / 11 (64-bit)",
+                "cpu": "Intel Core i7-8700K / AMD Ryzen 5 3600X",
+                "ram": "16 GB RAM",
+                "gpu": "NVIDIA GeForce GTX 1070 (8 GB) / AMD Radeon RX Vega 56 (8 GB)",
+                "dx": "Version 12",
+                "storage": "60 GB"
+            }
+        }
+    },
+    {
+        "nom": "Red Dead Redemption 2",
+        "categorie": "Repacks",
+        "image": "https://1.bp.blogspot.com/-v8e1rkz0B2Q/X5Gfyj3akWI/AAAAAAABD6g/t-CgjofHqBcHcfoG4j1QY-IdArMn4IuIQCLcBGAsYHQ/s460/red-dead-redemption-2-pc-cover.jpg",
+        "lien": "https://www.filecrypt.cc/Container/8711E7056F.html",
+        "config": {
+            "min": {
+                "os": "Windows 7 - SP1 (64-bit)",
+                "cpu": "Intel Core i5-2500K / AMD FX-6300",
+                "ram": "8 GB RAM",
+                "gpu": "Nvidia GeForce GTX 770 (2GB) / AMD Radeon R9 280 (3GB)",
+                "dx": "DirectX Compatible",
+                "storage": "150 GB"
+            },
+            "rec": {
+                "os": "Windows 10 - v1803 (64-bit)",
+                "cpu": "Intel Core i7-4770K / AMD Ryzen 5 1500X",
+                "ram": "12 GB RAM",
+                "gpu": "Nvidia GeForce GTX 1060 (6GB) / AMD Radeon RX 480 (4GB)",
+                "dx": "DirectX Compatible",
+                "storage": "150 GB"
+            }
+        }
+    },
+    {
+        "nom": "Baldur's Gate 3 Deluxe Edition",
+        "categorie": "Repacks",
+        "image": "https://1.bp.blogspot.com/-hLnc0Vf44SY/ZMwwkP94q_I/AAAAAAABYfo/gXsd7JVrrtEJ_HWbxqKT7OAlyuqmxQzVgCNcBGAsYHQ/s460/baldurs-gate-3-pc-cover.jpg",
+        "lien": "https://www.filecrypt.cc/Container/1C950B72A4.html",
+        "config": {
+            "min": {
+                "os": "Windows 10 (64-bit)",
+                "cpu": "Intel Core i5-4690 / AMD FX 8350",
+                "ram": "8 GB RAM",
+                "gpu": "Nvidia GTX 970 / RX 480 (4GB+ VRAM)",
+                "dx": "Version 11",
+                "storage": "150 GB (SSD requis)"
+            },
+            "rec": {
+                "os": "Windows 10 (64-bit)",
+                "cpu": "Intel Core i7-8700K / AMD Ryzen 5 3600",
+                "ram": "16 GB RAM",
+                "gpu": "Nvidia RTX 2060 Super / RX 5700 XT (8GB+ VRAM)",
+                "dx": "Version 11",
+                "storage": "150 GB (SSD requis)"
+            }
+        }
+    },
+    {
+        "nom": "Baldur's Gate II: Enhanced Edition",
+        "categorie": "GOG",
+        "image": "https://1.bp.blogspot.com/-z9waDSKCyQo/YImQZtofXVI/AAAAAAABJqI/gLVjWLgl9OsxlDlUqakUM1mHuHcEyYp4gCLcBGAsYHQ/s460/baldurs-gate-2-enhanced-edition-pc-cover.jpg",
+        "lien": "https://www.filecrypt.cc/Container/F97C14CC6B.html",
+        "config": {
+            "min": {
+                "os": "Windows XP / Vista / 7 / 8 / 10",
+                "cpu": "1 GHz",
+                "ram": "512 MB RAM",
+                "gpu": "Compatible OpenGL 2.0",
+                "dx": "Non applicable",
+                "storage": "3 GB"
+            },
+            "rec": {
+                "os": "Non spécifié",
+                "cpu": "Non spécifié",
+                "ram": "Non spécifié",
+                "gpu": "Non spécifié",
+                "dx": "Non applicable",
+                "storage": "3 GB"
+            }
+        }
+    },
+    {
+        "nom": "Baldur's Gate: Enhanced Edition",
+        "categorie": "GOG",
+        "image": "https://1.bp.blogspot.com/-sZrlU2-FfYs/YImMR4Fu2CI/AAAAAAABJpQ/-OiyJMmyx50K6j5ieN8IAQuEoaTs9ZMZgCLcBGAsYHQ/s460/baldurs-gate-enhanced-edition-pc-cover.jpg",
+        "lien": "https://www.filecrypt.cc/Container/7B446FE214.html",
+        "config": {
+            "min": {
+                "os": "Windows XP / Vista / 7 / 8",
+                "cpu": "1 GHz",
+                "ram": "512 MB RAM",
+                "gpu": "Compatible OpenGL 2.0",
+                "dx": "Non applicable",
+                "storage": "2.17 GB"
+            },
+            "rec": {
+                "os": "Non spécifié",
+                "cpu": "Non spécifié",
+                "ram": "Non spécifié",
+                "gpu": "Non spécifié",
+                "dx": "Non applicable",
+                "storage": "2.17 GB"
+            }
+        }
+    },
+    {
+        "nom": "Baldur's Gate: Dark Alliance",
+        "categorie": "GOG",
+        "image": "https://blogger.googleusercontent.com/img/a/AVvXsEhuHB334i0CuDdAqMJtpT4szjaVi6Tl1kfhhyBiMj7gDPqw_o7h5eCNKVSuNwOlMpswOn0EAR9hZyXHIStz5rDrfdwitk5c0v--zd3GRtOvOShI6VqFJbIJbEd6aKhRi42tKEmLmcrQZcbJn_0o7oalUa1if7Ji-eZxX-rw00R9_B6SXzbV2fTJ3iSN=s460",
+        "lien": "https://www.filecrypt.cc/Container/21C0C9DC8C.html",
+        "config": {
+            "min": {
+                "os": "Windows 7 / 8 / 10 (64-bit)",
+                "cpu": "Pentium 4 2Ghz / AMD Athlon XP 2400",
+                "ram": "1 GB RAM",
+                "gpu": "GeForce FX5700 ou mieux / ATI Radeon 9600 ou mieux",
+                "dx": "Non spécifié",
+                "storage": "6 GB"
+            },
+            "rec": {
+                "os": "Non spécifié",
+                "cpu": "Non spécifié",
+                "ram": "Non spécifié",
+                "gpu": "Non spécifié",
+                "dx": "Non spécifié",
+                "storage": "6 GB"
+            }
+        }
+    },
+    {
+        "nom": "Baldur's Gate: Dark Alliance II",
+        "categorie": "GOG",
+        "image": "https://1.bp.blogspot.com/--eKiOW7NzCk/Ytn6Y2nTNbI/AAAAAAAABHU/16M6AuuF8M43fPyCNKvixnkc67IO4NKBwCNcBGAsYHQ/s460/baldurs-gate-dark-alliance-2-pc-cover.jpg",
+        "lien": "https://www.filecrypt.cc/Container/AA84DB8C18.html",
+        "config": {
+            "min": {
+                "os": "Windows 7 / 8 / 10 (64-bit)",
+                "cpu": "Pentium 4 2Ghz / AMD Athlon XP 2400",
+                "ram": "1 GB RAM",
+                "gpu": "GeForce FX5700 ou mieux / ATI Radeon 9600 ou mieux",
+                "dx": "Non spécifié",
+                "storage": "6 GB"
+            },
+            "rec": {
+                "os": "Non spécifié",
+                "cpu": "Non spécifié",
+                "ram": "Non spécifié",
+                "gpu": "Non spécifié",
+                "dx": "Non spécifié",
+                "storage": "6 GB"
+            }
+        }
+    },
+    {
+        "nom": "Cyberpunk 2077 Ultimate Edition",
+        "categorie": "Repacks",
+        "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEifz-U0Jtc-USAE93oVGTKxEdaHRRm8YPRX6fWHX4LGwq3maDc6U_DtZAH7ncib2MlWGaLjQogP9rvRyZ83mHbsAVFdpUn4veR-POgrnIdxRNpyT5spDgMg81ifr8aBisKgSsYcr_2DFEbek0GbTj9jaAgjNaFop6B0pOH1RdYJ17zxhQYeoifB5Iv2ThY/s460/cyberpunk-2077-ultimate-pc-cover.jpg",
+        "lien": "https://www.filecrypt.cc/Container/7547E7184A.html",
+        "config": {
+            "min": {
+                "os": "Windows 7 ou 10 (64-bit)",
+                "cpu": "Intel Core i5-3570K / AMD FX-8310",
+                "ram": "8 GB RAM",
+                "gpu": "NVIDIA GeForce GTX 780 / AMD Radeon RX 470",
+                "dx": "Version 12",
+                "storage": "70 GB"
+            },
+            "rec": {
+                "os": "Windows 10 (64-bit)",
+                "cpu": "Intel Core i7-4790 / AMD Ryzen 3 3200G",
+                "ram": "12 GB RAM",
+                "gpu": "GTX 1060 6GB / GTX 1660 Super / Radeon RX 590",
+                "dx": "Version 12",
+                "storage": "70 GB (SSD recommandé)"
+            }
+        }
+    },
+    {
+        "nom": "Grand Theft Auto: San Andreas",
+        "categorie": "Repacks",
+        "image": "https://4.bp.blogspot.com/-fPwFO3JnUn4/WlHCYhjS2DI/AAAAAAAApAw/V6oESNxgaV05yIKJx_5bSj4WWRTmWj-QgCLcBGAs/s1600/grand-theft-auto-san-andreas-pc-cover-www.ovagames.com.jpg",
+        "lien": "https://www.filecrypt.cc/Container/11631043AC.html",
+        "config": {
+            "min": {
+                "os": "Windows 2000 / XP",
+                "cpu": "1 GHz Pentium III / AMD Athlon",
+                "ram": "256 MB RAM",
+                "gpu": "64 MB Video Card (GeForce 3 ou mieux)",
+                "dx": "Version 9.0",
+                "storage": "3.6 GB"
+            },
+            "rec": {
+                "os": "Windows 2000 / XP",
+                "cpu": "Intel Pentium 4 / AMD Athlon XP",
+                "ram": "384 MB RAM",
+                "gpu": "128 MB Video Card (GeForce 6 ou mieux)",
+                "dx": "Compatible DirectX 9",
+                "storage": "4.7 GB"
+            }
+        }
+    },
+    {
+        "nom": "Grand Theft Auto: Vice City",
+        "categorie": "Repacks",
+        "image": "https://1.bp.blogspot.com/-T-_jEBu5sF4/XfcOTUNeaEI/AAAAAAAA8FQ/lSM7b9XGBNYd_tIrFABYBVaJ6DcWMKv3ACLcBGAsYHQ/s1600/grand-theft-auto-vice-city-pc-cover.jpg",
+        "lien": "https://www.filecrypt.cc/Container/9403E66DDF.html",
+        "config": {
+            "min": {
+                "os": "Windows 2000 / XP",
+                "cpu": "Intel Pentium III 800 MHz / AMD Athlon 800 MHz / Intel Celeron 1.2 GHz / AMD Duron 1.2 GHz",
+                "ram": "128 MB RAM",
+                "gpu": "32 MB Video Card (GeForce ou mieux)",
+                "dx": "Version 9.0",
+                "storage": "915 MB (+ 635 MB sans support DXTC)"
+            },
+            "rec": {
+                "os": "Windows 2000 / XP",
+                "cpu": "Intel Pentium IV / AMD Athlon XP",
+                "ram": "256 MB RAM",
+                "gpu": "64 MB Video Card (GeForce 3 / Radeon 8500 ou mieux avec support DXTC)",
+                "dx": "Compatible DirectX 9",
+                "storage": "1.55 GB (+ 635 MB sans support DXTC)"
+            }
+        }
+    },
+    {
+        "nom": "Grand Theft Auto III: The Definitive Edition",
+        "categorie": "Repacks",
+        "image": "https://blogger.googleusercontent.com/img/a/AVvXsEj_tiCQPcuCFivqi4fnhcAJjiEwUmflvS7VZCtG7AeVKEe2lCaMaUmq4KFk9T9Jozu4dW9ZhkLoD7i6ArVZWgkitC-_oRuoV6aLGnjJxGX43maXq-Qgli6Qg7MQdTxJhEgYsiN0R7EbvOAGBlpOWAhpHzb8dzAgCvhcIKBwj9pKZDFAnNR9YeGwxeqAXw=s460",
+        "lien": "https://www.filecrypt.cc/Container/B3F93ADF5E.html",
+        "config": {
+            "min": {
+                "os": "Windows 10 (64-bit)",
+                "cpu": "Intel Core i5-6600K / AMD FX-6300",
+                "ram": "8 GB RAM",
+                "gpu": "Nvidia GeForce GTX 760 (2GB) / AMD Radeon R9 280 (3GB)",
+                "dx": "Non spécifié",
+                "storage": "45 GB"
+            },
+            "rec": {
+                "os": "Windows 10 (64-bit)",
+                "cpu": "Intel Core i7-2700K / AMD Ryzen 5 2600",
+                "ram": "16 GB RAM",
+                "gpu": "Nvidia GeForce GTX 970 (4GB) / AMD Radeon RX 570 (4GB)",
+                "dx": "Non spécifié",
+                "storage": "45 GB"
+            }
+        }
+    },
+    {
+        "nom": "Grand Theft Auto IV: Complete Edition",
+        "categorie": "Repacks",
+        "image": "https://1.bp.blogspot.com/-yVcFwRQlsMs/XO8F3dSQv_I/AAAAAAAA1eA/36HZlOXyzjwCMOTJJGIwp5omyv3EPTWQgCLcBGAs/s1600/grand-theft-auto-4-complete-edition-pc-cover-www.ovagames.com.jpg",
+        "lien": "https://www.filecrypt.cc/Container/CFC36DE2CF.html",
+        "config": {
+            "min": {
+                "os": "Windows XP - SP3 / Vista - SP1",
+                "cpu": "Intel Core 2 Duo 1.8GHz / AMD Athlon X2 64 2.4GHz",
+                "ram": "1.5 GB RAM",
+                "gpu": "Nvidia GeForce 7900 (256MB) / ATI Radeon X1900 (256MB)",
+                "dx": "Version 9.0c",
+                "storage": "32 GB"
+            },
+            "rec": {
+                "os": "Non spécifié",
+                "cpu": "Non spécifié",
+                "ram": "Non spécifié",
+                "gpu": "Non spécifié",
+                "dx": "Non spécifié",
+                "storage": "32 GB"
+            }
+        }
+    },
+    {
+        "nom": "Grand Theft Auto: San Andreas - The Definitive Edition",
+        "categorie": "Repacks",
+        "image": "https://blogger.googleusercontent.com/img/a/AVvXsEiik1mizK8Rzs-9v8s6OXkN7LrFlds9seP87IB_gvL3aUfiOysLnnP12FWbujR7p72KDyuPm3WRIW7lyYS_ES4-MLoSHezUIpmolrxtc3f_df_K9jKmOWXeMx1YhHdI4ZrNZVwT8V55cG_5dV_ivo4QhHTwzh86dnU69Eq5-INi317cqINVKTyW0ZZCvg=s460",
+        "lien": "https://www.filecrypt.cc/Container/A734D185BC.html",
+        "config": {
+            "min": {
+                "os": "Windows 10 (64-bit)",
+                "cpu": "Intel Core i5-6600K / AMD FX-6300",
+                "ram": "8 GB RAM",
+                "gpu": "Nvidia GeForce GTX 760 (2GB) / AMD Radeon R9 280 (3GB)",
+                "dx": "Non spécifié",
+                "storage": "45 GB"
+            },
+            "rec": {
+                "os": "Windows 10 (64-bit)",
+                "cpu": "Intel Core i7-2700K / AMD Ryzen 5 2600",
+                "ram": "16 GB RAM",
+                "gpu": "Nvidia GeForce GTX 970 (4GB) / AMD Radeon RX 570 (4GB)",
+                "dx": "Non spécifié",
+                "storage": "45 GB"
+            }
+        }
+    },
+    {
+        "nom": "Grand Theft Auto: Vice City - The Definitive Edition",
+        "categorie": "Repacks",
+        "image": "https://blogger.googleusercontent.com/img/a/AVvXsEiiHqJhoMpklTThv-YzdNi-KnG1nL3shvcwYYF5D0yZVhCu46eDaUBqUJhIZY9USsUySf4X5zc87800-ggSXigkDmFKosElcgPCOvrkjIkTAoMRKojv4as6joUrN3oc12Qa48t9UBRbQdL9oASAsrg2WrJzhbYq00dcMX2cFC4N8ea7wQ8qyOMt9dQwVg=s460",
+        "lien": "https://www.filecrypt.cc/Container/081E27EDE1.html",
+        "config": {
+            "min": {
+                "os": "Windows 10 (64-bit)",
+                "cpu": "Intel Core i5-6600K / AMD FX-6300",
+                "ram": "8 GB RAM",
+                "gpu": "Nvidia GeForce GTX 760 (2GB) / AMD Radeon R9 280 (3GB)",
+                "dx": "Non spécifié",
+                "storage": "45 GB"
+            },
+            "rec": {
+                "os": "Windows 10 (64-bit)",
+                "cpu": "Intel Core i7-2700K / AMD Ryzen 5 2600",
+                "ram": "16 GB RAM",
+                "gpu": "Nvidia GeForce GTX 970 (4GB) / AMD Radeon RX 570 (4GB)",
+                "dx": "Non spécifié",
+                "storage": "45 GB"
+            }
+        }
+    },
+    {
+        "nom": "Grand Theft Auto V",
+        "categorie": "Repacks",
+        "image": "https://1.bp.blogspot.com/-eSpUYxrCofI/Ym1XzK0dWSI/AAAAAAAABLQ/JwhP3itrf2wsZY1ww4M9ygl7k3Lyc4h9QCNcBGAsYHQ/s460/grand-theft-auto-5-pc-cover.jpg",
+        "lien": "https://www.filecrypt.cc/Container/6BB60EBE5E.html",
+        "config": {
+            "min": {
+                "os": "Windows Vista - SP2 / 7 - SP1 / 8 / 8.1 (64-bit)",
+                "cpu": "Intel Core 2 Quad Q6600 @ 2.40GHz / AMD Phenom 9850 Quad-Core @ 2.5GHz",
+                "ram": "4 GB RAM",
+                "gpu": "NVIDIA 9800 GT (1GB) / AMD HD 4870 (1GB)",
+                "dx": "Compatible DirectX 10",
+                "storage": "65 GB"
+            },
+            "rec": {
+                "os": "Windows 7 - SP1 / 8 / 8.1 (64-bit)",
+                "cpu": "Intel Core i5 3470 @ 3.2GHz / AMD FX-8350 @ 4GHz",
+                "ram": "8 GB RAM",
+                "gpu": "NVIDIA GeForce GTX 660 (2GB) / AMD Radeon HD 7870 (2GB)",
+                "dx": "Compatible DirectX 10",
+                "storage": "65 GB"
+            }
+        }
+    },
+    {
+        "nom": "Grand Theft Auto V Enhanced",
+        "categorie": "Repacks",
+        "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiOj8Xi0gzskerwJPIosLZ02gTwvs84qTAJf0uw8dh8TvC0NCbOHl3oHfTl9WP07yOK3slkQWlZK0LOMmYu_12UrOKZ43sVx_NNuxj6AaBdQ28MoQknR3kXBDUrsWlqywDRuR7sOpQSuVgovBmz8vhWDYO6coeliQobXd0g20H8ntlB9AdvaDJpS2tnN-E/s460/gta-5-enhanced-pc-cover.jpg",
+        "lien": "https://www.filecrypt.cc/Container/6901D20658.html",
+        "config": {
+            "min": {
+                "os": "Windows 10 (64-bit)",
+                "cpu": "Intel Core i7-4770 / AMD FX-9590",
+                "ram": "8 GB RAM",
+                "gpu": "NVIDIA GeForce GTX 1630 (4GB) / AMD Radeon RX 6400 (4GB)",
+                "dx": "Compatible DirectX 10",
+                "storage": "105 GB (SSD requis)"
+            },
+            "rec": {
+                "os": "Windows 11 (64-bit)",
+                "cpu": "Intel Core i5-9600K / AMD Ryzen 5 3600",
+                "ram": "16 GB RAM",
+                "gpu": "NVIDIA GeForce RTX 3060 (8GB) / AMD Radeon RX 6600XT (8GB)",
+                "dx": "Non spécifié",
+                "storage": "105 GB (SSD DirectStorage requis)"
+            }
+        }
+    },
+    {
+        "nom": "Grand Theft Auto: The Trilogy - The Definitive Edition",
+        "categorie": "Repacks",
+        "image": "https://blogger.googleusercontent.com/img/a/AVvXsEhZUYhPPttkk3320iS2GLIA-bzqTW3HmnFaUfInkXV9wvMdvGAd7PAm0oA4LHJ1ajgM079ELaMV-nW91gi_BrwsAaI-L0ah7Q4QUnYz8b0XRsEympZCkDg0RR4yMApzqwRd-cAhxPwlAtXMfbj9V5fLqKAkRQcCW-AXRGiqd3Z2YoJn19B9wVlY_noc=s460",
+        "lien": "https://www.filecrypt.cc/Container/7E18CAD07E.html",
+        "config": {
+            "min": {
+                "os": "Windows 10 (64-bit)",
+                "cpu": "Intel Core i5-6600K / AMD FX-6300",
+                "ram": "8 GB RAM",
+                "gpu": "Nvidia GeForce GTX 760 (2GB) / AMD Radeon R9 280 (3GB)",
+                "dx": "Non spécifié",
+                "storage": "45 GB"
+            },
+            "rec": {
+                "os": "Windows 10 (64-bit)",
+                "cpu": "Intel Core i7-2700K / AMD Ryzen 5 2600",
+                "ram": "16 GB RAM",
+                "gpu": "Nvidia GeForce GTX 970 (4GB) / AMD Radeon RX 570 (4GB)",
+                "dx": "Non spécifié",
+                "storage": "45 GB"
+            }
+        }
+    },
+    {
+        "nom": "Hades: Battle out of Hell",
+        "categorie": "Repacks",
+        "image": "https://1.bp.blogspot.com/-RTt-zgfQfUk/YGaspiRLCsI/AAAAAAABI04/p_RjXqtwJEkoibBM8_3fh8esJFP_eDGwwCLcBGAsYHQ/s460/hades-pc-cover.jpg",
+        "lien": "https://www.filecrypt.cc/Container/87900933D4.html",
+        "config": {
+            "min": {
+                "os": "Windows 7 - SP1",
+                "cpu": "Dual Core 2.4 GHz",
+                "ram": "4 GB RAM",
+                "gpu": "1 GB VRAM",
+                "dx": "Compatible DirectX 10+",
+                "storage": "15 GB"
+            },
+            "rec": {
+                "os": "Windows 7 - SP1",
+                "cpu": "Dual Core 3.0 GHz+",
+                "ram": "8 GB RAM",
+                "gpu": "2 GB VRAM",
+                "dx": "Compatible DirectX 10+",
+                "storage": "20 GB"
+            }
+        }
+    },
+    {
+        "nom": "Hades II",
+        "categorie": "Repacks",
+        "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgCrPdoXqrif8k9fkTysTcGIRliU9WWkmVuI3CzTO8aqvO38vouemhi8bzs2em6VbNOLIfcLYfZ1jA17ukATtPj7b2wNAAWgDSgWcne64iQ-2H0B3GJqjACFkrne9AC53KzvG3BcH0A3cHTj1eiKtZfAfJKnGT_g20ISppyRb8sCEzg53IWobexc0VyzG8/s460/hades-2-pc-cover.jpg",
+        "lien": "https://www.filecrypt.cc/Container/A44E6B8D7D.html",
+        "config": {
+            "min": {
+                "os": "Windows 10 (64-bit)",
+                "cpu": "Dual Core 2.4 GHz",
+                "ram": "8 GB RAM",
+                "gpu": "GeForce GTX 950 / Radeon R7 360 / Intel HD Graphics 630",
+                "dx": "Non spécifié",
+                "storage": "10 GB"
+            },
+            "rec": {
+                "os": "Windows 10 (64-bit)",
+                "cpu": "Quad Core 2.4 GHz",
+                "ram": "16 GB RAM",
+                "gpu": "GeForce RTX 2060 / Radeon RX 5600 XT / Intel Arc A580",
+                "dx": "Non spécifié",
+                "storage": "10 GB"
+            }
+        }
+    },
+    {
+        "nom": "Alan Wake",
+        "categorie": "GOG",
+        "image": "https://1.bp.blogspot.com/-cHSvQC3xnBk/YU4sNIHdHjI/AAAAAAABOsU/hMlLMhvcJUALelKG5XhzzSkKFuIM7wbbwCLcBGAsYHQ/s460/alan-wake-pc-cover.jpg",
+        "lien": "https://www.filecrypt.cc/Container/47351B022B.html",
+        "config": {
+            "min": {
+                "os": "Windows XP - SP2",
+                "cpu": "Intel Dual Core 2 GHz / AMD Dual Core 2.8 GHz",
+                "ram": "2 GB RAM",
+                "gpu": "Compatible DirectX 10 avec 512 MB VRAM",
+                "dx": "Version 9.0c",
+                "storage": "8 GB"
+            },
+            "rec": {
+                "os": "Windows 7",
+                "cpu": "Intel Quad Core 2.66 GHz / AMD Quad Core 3.2 GHz",
+                "ram": "4 GB RAM",
+                "gpu": "Compatible DirectX 10 ou plus avec 1 GB VRAM",
+                "dx": "Version 10",
+                "storage": "8 GB"
+            }
+        }
+    },
+    {
+        "nom": "Alan Wake's American Nightmare",
+        "categorie": "GOG",
+        "image": "https://1.bp.blogspot.com/-wRfGak6tsxY/YU4zVOtiKaI/AAAAAAABOs0/8UhR8Yj08ykWDQHBZfIMmZYiI7K6j8VSgCLcBGAsYHQ/s460/alan-wakes-american-nightmare-pc-cover.jpg",
+        "lien": "https://www.filecrypt.cc/Container/81A2429F52.html",
+        "config": {
+            "min": {
+                "os": "Windows XP - SP2",
+                "cpu": "Intel Dual Core 2 GHz / AMD Dual Core 2.8 GHz",
+                "ram": "2 GB RAM",
+                "gpu": "Compatible DirectX 10 avec 512 MB VRAM",
+                "dx": "Version 10",
+                "storage": "8 GB"
+            },
+            "rec": {
+                "os": "Windows 7",
+                "cpu": "Intel Quad Core 2.66 GHz / AMD Quad Core 3.2 GHz",
+                "ram": "4 GB RAM",
+                "gpu": "Compatible DirectX 10 ou plus avec 1 GB VRAM",
+                "dx": "Version 10",
+                "storage": "8 GB"
+            }
+        }
+    },
+    {
+        "nom": "Alan Wake 2: Deluxe Edition",
+        "categorie": "Repacks",
+        "image": "https://blogger.googleusercontent.com/img/a/AVvXsEgN9BcsyMuJvpqH_DInjwGinnbhWYTsP4rcQm_hxHwep4avhA52a6v5DztmxBi4EsFfxCs7IwqqV0mcErYAABWu0w5v_HSwzhW_93hG3tdi_bH4f_cCo_fjBHEQ8iyh_m2ulzUunb0zRf4g99W-7pqTDUzOeuzSVeaSrUO18KnyYvop1KwBrINRKyhEjoY",
+        "lien": "https://www.filecrypt.cc/Container/1C9AEAF524.html",
+        "config": {
+            "min": {
+                "os": "Windows 10 / 11 (64-bit)",
+                "cpu": "Intel i5-7600K / AMD equivalent",
+                "ram": "16 GB RAM",
+                "gpu": "GeForce RTX 2060 / Radeon RX 6600",
+                "dx": "Non spécifié",
+                "storage": "90 GB (SSD requis)"
+            },
+            "rec": {
+                "os": "Windows 10 / 11 (64-bit)",
+                "cpu": "AMD Ryzen 7 3700X / Intel equivalent",
+                "ram": "16 GB RAM",
+                "gpu": "GeForce RTX 3060 / Radeon RX 6600 XT",
+                "dx": "Non spécifié",
+                "storage": "90 GB (SSD requis)"
+            }
+        }
+    },
+    {
+        "nom": "Alan Wake Remastered",
+        "categorie": "Repacks",
+        "image": "https://1.bp.blogspot.com/-RqsmsxLFHes/Yd2yJbLzQAI/AAAAAAAAAFE/ffleiG5cy0obxfhdOEI6uNBJqf7O8DbuQCNcBGAsYHQ/s460/alan-wake-remastered-pc-cover.jpg",
+        "lien": "https://www.filecrypt.cc/Container/B3F292D702.html",
+        "config": {
+            "min": {
+                "os": "Win 10 64-bit",
+                "cpu": "Intel i5-3340 / AMD equivalent",
+                "ram": "8 GB RAM",
+                "gpu": "Nvidia GeForce GTX 960 (2GB) / AMD equivalent",
+                "dx": "Non spécifié",
+                "storage": "Non spécifié"
+            },
+            "rec": {
+                "os": "Win 10 64-bit",
+                "cpu": "Intel i7-3770 / AMD equivalent",
+                "ram": "16 GB RAM",
+                "gpu": "Nvidia GeForce GTX 1060 (4GB) / AMD equivalent",
+                "dx": "Non spécifié",
+                "storage": "Non spécifié"
+            }
+        }
+    },
+    {
+        "nom": "Hogwarts Legacy: Deluxe Edition",
+        "categorie": "Repacks",
+        "image": "https://1.bp.blogspot.com/-17heQiY_R8A/Y-Ym-CHD3LI/AAAAAAABV4U/2-iOHL5LSLoGUKuqUgbYLAXMidq1ZPgxACNcBGAsYHQ/s460/hogwarts-legacy-pc-cover.jpg",
+        "lien": "https://www.filecrypt.cc/Container/BC60257F63.html",
+        "config": {
+            "min": {
+                "os": "Windows 10 (64-bit)",
+                "cpu": "Intel Core i5-6600 (3.3 GHz) / AMD Ryzen 5 1400 (3.2 GHz)",
+                "ram": "16 GB RAM",
+                "gpu": "NVIDIA GeForce GTX 960 (4GB) / AMD Radeon RX 470 (4GB)",
+                "dx": "Version 12",
+                "storage": "85 GB (SSD recommandé, HDD supporté)"
+            },
+            "rec": {
+                "os": "Windows 10 (64-bit)",
+                "cpu": "Intel Core i7-8700 (3.2 GHz) / AMD Ryzen 5 3600 (3.6 GHz)",
+                "ram": "16 GB RAM",
+                "gpu": "NVIDIA GeForce GTX 1080 Ti / AMD Radeon RX 5700 XT / Intel Arc A770",
+                "dx": "Version 12",
+                "storage": "85 GB (SSD requis)"
+            }
+        }
+    },
+    {
+        "nom": "LEGO Harry Potter: Years 1-4",
+        "categorie": "GOG",
+        "image": "https://blogger.googleusercontent.com/img/a/AVvXsEjbZ-uLFiVdEa2cTNGBkyTFESWXS3n61nALY0bSRw73Az7WAaCNBosLXsg6K3A9DlwNs0ka4kB2GVK984BxtWmGbXBj2I4QqZjSst2qX3zim5ieZBawvBkH865Y_RyjAO2T6r-mRhQQlommiB-8sPB5ODVv60B3n92bNUVE-xgZFGSrFOlOEWtEmBov=s460",
+        "lien": "https://www.filecrypt.cc/Container/F0B1C59475.html",
+        "config": {
+            "min": {
+                "os": "Windows XP / Vista",
+                "cpu": "Intel Pentium 4 1.8 GHz / AMD Athlon XP 2200+",
+                "ram": "512 MB RAM",
+                "gpu": "ATI Radeon X1300 / NVIDIA GeForce FX 5800 (256 MB)",
+                "dx": "Compatible DirectX 9.0c",
+                "storage": "Non spécifié"
+            },
+            "rec": {
+                "os": "Windows XP / Vista",
+                "cpu": "Intel Core 2 Duo / AMD Athlon 64 @ 2.8 GHz",
+                "ram": "2 GB RAM",
+                "gpu": "ATI Radeon HD 2900 / NVIDIA GeForce 8800",
+                "dx": "Compatible DirectX 9.0c",
+                "storage": "Non spécifié"
+            }
+        }
+    },
+    {
+        "nom": "LEGO Harry Potter: Years 5-7",
+        "categorie": "GOG",
+        "image": "https://blogger.googleusercontent.com/img/a/AVvXsEjOVcQM6R7wPhjo5K5L6BN_YC30R8esVxxJsvxEIRBR2o9xpti8n0fJV9aEuu5cfiTvWWh6zEu2DHrbfErIfLM6e8TXjv8lm09G8IAyKdqzYGmv3guTZ9mK1VjBaegfuwvc5piB7gdZJuL4ofTovTk2sIVDIgxKoR-k-W4ihPvTMXIUwJxGaNT2t8HE=s460",
+        "lien": "https://www.filecrypt.cc/Container/9EB40EBFF3.html",
+        "config": {
+            "min": {
+                "os": "Windows XP / Vista",
+                "cpu": "Intel Pentium 4 1.8 GHz / AMD Athlon XP 2200+",
+                "ram": "512 MB RAM",
+                "gpu": "ATI Radeon X1300 / NVIDIA GeForce FX 5800 (256 MB)",
+                "dx": "Compatible DirectX 9.0c",
+                "storage": "Non spécifié"
+            },
+            "rec": {
+                "os": "Windows XP / Vista",
+                "cpu": "Intel Core 2 Duo / AMD Athlon 64 @ 2.8 GHz",
+                "ram": "2 GB RAM",
+                "gpu": "ATI Radeon HD 2900 / NVIDIA GeForce 8800",
+                "dx": "Compatible DirectX 9.0c",
+                "storage": "Non spécifié"
+            }
+        }
+    },
+    {
+        "nom": "God of War",
+        "categorie": "Repacks",
+        "image": "https://1.bp.blogspot.com/-c2vaUX3RJSc/YeIEwnR2cxI/AAAAAAAAARk/7iaEfYuL0ygWP_WoWPulic20YcWeFNpNgCNcBGAsYHQ/s460/god-of-war-pc-cover.jpg",
+        "lien": "https://www.filecrypt.cc/Container/B13AC8383E.html",
+        "config": {
+            "min": {
+                "os": "Windows 10 (64-bit)",
+                "cpu": "Intel Core i5-2500K (4 cores @ 3.3 GHz) / AMD Ryzen 3 1200 (4 cores @ 3.1 GHz)",
+                "ram": "8 GB RAM",
+                "gpu": "NVIDIA GeForce GTX 960 (4GB) / AMD Radeon R9 290X (4GB)",
+                "dx": "Version 11 (Feature Level 11_1 requis)",
+                "storage": "70 GB"
+            },
+            "rec": {
+                "os": "Windows 10 (64-bit)",
+                "cpu": "Intel Core i5-6600K (4 cores @ 3.5 GHz) / AMD Ryzen 5 2400G (4 cores @ 3.6 GHz)",
+                "ram": "8 GB RAM",
+                "gpu": "NVIDIA GeForce GTX 1060 (6GB) / AMD Radeon RX 570 (4GB)",
+                "dx": "Version 11 (Feature Level 11_1 requis)",
+                "storage": "70 GB"
+            }
+        }
+    },
+    {
+        "nom": "God of War: Ragnarok - Deluxe Edition",
+        "categorie": "Repacks",
+        "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEh8QJcESKeEGrd402L9Em9Qza-7INd6pivez59i1Axwp2Mbg98ZdB5m54Hb1agS7OZRMnImaxI15SssqbTm1OG_d5zUpNFyNzvDAKBMXQE0GTf2-p64iVVoxMgXwKeXeaJMh2XeG90PNImmMgV33BOlPuPYCPrlD3t__W0Mza2IZQECO8Tl7m5lfTU9Kr8/s460/god-of-war-ragnarok-pc-cover.jpg",
+        "lien": "https://www.filecrypt.cc/Container/06A5720E2F.html",
+        "config": {
+            "min": {
+                "os": "Windows 10 (64-bit)",
+                "cpu": "Intel i5-4670K / AMD Ryzen 3 1200",
+                "ram": "8 GB RAM",
+                "gpu": "NVIDIA GeForce GTX 1060 (6GB) / AMD Radeon RX 5500 XT (8GB) / Intel Arc A750",
+                "dx": "Version 12",
+                "storage": "190 GB"
+            },
+            "rec": {
+                "os": "Windows 10 (64-bit)",
+                "cpu": "Intel i5-8600 / AMD Ryzen 5 3600",
+                "ram": "16 GB RAM",
+                "gpu": "NVIDIA GeForce RTX 2060 Super / AMD Radeon RX 5700 / Intel Arc A770",
+                "dx": "Version 12",
+                "storage": "190 GB"
+            }
+        }
+    }
+]

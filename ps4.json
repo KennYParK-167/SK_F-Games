@@ -1,0 +1,74 @@
+[
+    {
+        "nom": "The Walking Dead: A New Frontier",
+        "categorie": "PS4",
+        "image": "https://www.superpsx.com/wp-content/uploads/2024/09/The-Walking-Dead_-A-New-Frontier-Season-Pass-PS4-PKG.webp",
+        "lien": "https://vik1ngfile.site/f/iOB8FFqi6W",
+        "config": {
+            "min": {
+                "os": "PS4 System Software",
+                "cpu": "AMD Jaguar 8 cores",
+                "ram": "8 GB GDDR5",
+                "gpu": "AMD Radeon",
+                "dx": "Non applicable",
+                "storage": "Non spécifié"
+            },
+            "rec": {
+                "os": "Non spécifié",
+                "cpu": "Non spécifié",
+                "ram": "Non spécifié",
+                "gpu": "Non spécifié",
+                "dx": "Non applicable",
+                "storage": "Non spécifié"
+            }
+        }
+    },
+    {
+        "nom": "Chorus",
+        "categorie": "PS4",
+        "image": "https://www.superpsx.com/wp-content/uploads/2024/09/Chorus-PS4-PKG.webp",
+        "lien": "https://www.rootz.so/d/2kPC4",
+        "config": {
+            "min": {
+                "os": "PS4 System Software",
+                "cpu": "AMD Jaguar 8 cores",
+                "ram": "8 GB GDDR5",
+                "gpu": "AMD Radeon",
+                "dx": "Non applicable",
+                "storage": "Non spécifié"
+            },
+            "rec": {
+                "os": "Non spécifié",
+                "cpu": "Non spécifié",
+                "ram": "Non spécifié",
+                "gpu": "Non spécifié",
+                "dx": "Non applicable",
+                "storage": "Non spécifié"
+            }
+        }
+    },
+    {
+        "nom": "Assassin’s Creed Syndicate",
+        "categorie": "PS4",
+        "image": "https://www.superpsx.com/wp-content/uploads/2018/04/Assassins-Creed-Syndicate-PS4-PKG.webp",
+        "lien": "https://vik1ngfile.site/f/DgZB09nu00",
+        "config": {
+            "min": {
+                "os": "PS4 System Software",
+                "cpu": "AMD Jaguar 8 cores",
+                "ram": "8 GB GDDR5",
+                "gpu": "AMD Radeon",
+                "dx": "Non applicable",
+                "storage": "Non spécifié"
+            },
+            "rec": {
+                "os": "Non spécifié",
+                "cpu": "Non spécifié",
+                "ram": "Non spécifié",
+                "gpu": "Non spécifié",
+                "dx": "Non applicable",
+                "storage": "Non spécifié"
+            }
+        }
+    }
+]
