@@ -1,20 +1,20 @@
-1. Cyberpunk 2077
-2. The Witcher 3: Wild Hunt
-3. Elden Ring
-4. Red Dead Redemption 2
-5. Baldur's Gate 3
-6. Grand Theft Auto V
-7. Hades II
-8. Alan Wake 2
-9. Hogwarts Legacy
-10. God of War Ragnarök
-11. Ghost of Tsushima
-12. Marvel's Spider-Man Remastered
-13. Horizon Forbidden West
-14. Starfield
+    1. Cyberpunk 2077
+    2. The Witcher 3: Wild Hunt
+    3. Elden Ring
+    4. Red Dead Redemption 2
+    5. Baldur's Gate 3
+    6. Grand Theft Auto V
+    7. Hades II
+    8. Alan Wake 2
+    9. Hogwarts Legacy
+    10. God of War Ragnarök
+    11. Ghost of Tsushima
+    12. Marvel's Spider-Man Remastered
+    13. Horizon Forbidden West
+    14. Starfield
 15. Resident Evil 4 Remake
-16. Dying Light 2: Stay Human
-17. Cyberpunk 2077: Phantom Liberty
+    16. Dying Light 2: Stay Human
+    17. Cyberpunk 2077: Phantom Liberty
 18. Black Myth: Wukong
 19. Helldivers 2
 20. Doom Eternal
@@ -41,10 +41,10 @@
 41. Fallout 4
 42. Skyrim: Special Edition
 43. BioShock Infinite
-44. Control
+    44. Control
 45. Days Gone
 46. Monster Hunter: World
 47. Metro Exodus
-48. Red Dead Redemption
+    48. Red Dead Redemption
 49. Tomb Raider (2013)
-50. Hades
+    50. Hades
