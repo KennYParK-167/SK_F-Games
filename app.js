@@ -1,23 +1,13 @@
-// --- CONFIGURATION SUPABASE ---
-// REMPLACE CES DEUX LIGNES PAR TES PROPRES CLÉS SUPABASE (que tu as copiées) !
-const SUPABASE_URL = "https://yqmjjhefhsasnaevbnke.supabase.co"; //
-const SUPABASE_ANON_KEY = "sb_publishable_xwTUSF9OHZ2LK3vVoVFlZw_bXz74mUq"; 
-
-// Initialisation du client Supabase
-const supabase = window.supabase ? window.supabase.createClient(SUPABASE_URL, SUPABASE_ANON_KEY) : null;
-
 let allGames = [];          
 let displayedGames = [];    
-const GAMES_PER_PAGE = 16; 
+const GAMES_PER_PAGE = 16;   // Modifié à 16 jeux par page
 let currentPage = 1;
 let currentCategory = 'all'; 
-
-let userSession = null;
-let userWishlist = []; // Stocke les IDs ou noms des jeux mis en favoris
 
 let lastScrollY = window.scrollY;
 let accumulatedScroll = 0;
 
+// --- DOCK DE MAPPING DES FICHIERS JSON ---
 const fichiersPlateformes = {
     'all': 'jeux.json',
     'GOG': 'jeux.json',
@@ -25,7 +15,7 @@ const fichiersPlateformes = {
     'PS4': 'ps4.json'
 };
 
-/* --- ALGORITHME DE MÉLANGE QUOTIDIEN --- */
+/* --- SEED COMPATIBLE : ALGORITHME DE MÉLANGE QUOTIDIEN --- */
 function shuffleByDay(array) {
     const today = new Date();
     const seed = today.getFullYear() * 10000 + (today.getMonth() + 1) * 100 + today.getDate();
@@ -49,24 +39,7 @@ function shuffleByDay(array) {
     return array;
 }
 
-/* --- LOGIQUE DU BURGER ET NAVIGATION RESPONSIVE --- */
-const burgerBtn = document.getElementById('burger-btn');
-const navMenu = document.getElementById('nav-menu');
-
-burgerBtn.addEventListener('click', () => {
-    burgerBtn.classList.toggle('open');
-    navMenu.classList.toggle('open');
-});
-
-// Ferme le menu burger si on clique sur un lien ou en dehors
-document.addEventListener('click', (e) => {
-    if (!burgerBtn.contains(e.target) && !navMenu.contains(e.target)) {
-        burgerBtn.classList.remove('open');
-        navMenu.classList.remove('open');
-    }
-});
-
-/* --- DROPDOWN CATÉGORIES --- */
+/* --- LOGIQUE DU COMPOSANT DROPDOWN CUSTOMISÉ --- */
 const dropdown = document.getElementById('category-dropdown');
 const dropdownBtn = document.getElementById('dropdown-btn');
 const selectedValueSpan = document.getElementById('selected-value');
@@ -88,10 +61,6 @@ document.querySelectorAll('.dropdown-item').forEach(item => {
         
         fetchGames();
         dropdown.classList.remove('open');
-        
-        // Ferme le burger après sélection
-        burgerBtn.classList.remove('open');
-        navMenu.classList.remove('open');
     });
 });
 
@@ -99,7 +68,7 @@ document.addEventListener('click', () => {
     dropdown.classList.remove('open');
 });
 
-/* --- LOUPE RESPONSIVE MOBILE --- */
+/* --- GESTION DE LA LOUPE RESPONSIVE SUR MOBILE --- */
 const searchToggleBtn = document.getElementById('search-toggle-btn');
 const searchBox = document.getElementById('search-box');
 
@@ -122,7 +91,7 @@ document.addEventListener('click', () => {
     }
 });
 
-/* --- MODALE : HARDWARE SPECS --- */
+/* --- FENÊTRE MODALE : LOGIQUE D'AFFICHAGE DU HARDWARE --- */
 const modal = document.getElementById('config-modal');
 const closeModalBtn = document.getElementById('close-modal-btn');
 const tabBtns = document.querySelectorAll('.tab-btn');
@@ -159,185 +128,15 @@ function openConfigModal(game) {
         minContainer.innerHTML = renderList(game.config.min);
         recContainer.innerHTML = renderList(game.config.rec);
     } else {
-        const fallback = `<li><strong>Information</strong> Caractéristiques non requises ou non spécifiées.</li>`;
+        const fallback = `<li><strong>Information</strong> Les caractéristiques matérielles ne sont pas requises ou renseignées pour ce jeu.</li>`;
         minContainer.innerHTML = fallback;
         recContainer.innerHTML = fallback;
     }
+    
     modal.classList.add('open');
 }
 
-/* --- AUTHENTIFICATION : LOGIQUE SUPABASE --- */
-const authModal = document.getElementById('auth-modal');
-const authBtn = document.getElementById('auth-btn');
-const authBtnText = document.getElementById('auth-btn-text');
-const closeAuthBtn = document.getElementById('close-auth-btn');
-const tabLoginBtn = document.getElementById('tab-login-btn');
-const tabRegisterBtn = document.getElementById('tab-register-btn');
-const loginForm = document.getElementById('login-form');
-const registerForm = document.getElementById('register-form');
-const authMessage = document.getElementById('auth-message');
-const wishlistToggle = document.getElementById('wishlist-toggle');
-
-// Ouvre / Ferme la modale
-authBtn.addEventListener('click', async () => {
-    if (userSession) {
-        // Déconnexion si déjà connecté
-        const { error } = await supabase.auth.signOut();
-        if (!error) {
-            updateUserUI(null);
-            showAuthMessage("Déconnecté avec succès", "success");
-        }
-    } else {
-        authModal.classList.add('open');
-    }
-});
-
-closeAuthBtn.addEventListener('click', () => authModal.classList.remove('open'));
-authModal.addEventListener('click', (e) => { if (e.target === authModal) authModal.classList.remove('open'); });
-
-// Onglets Inscription / Connexion
-tabLoginBtn.addEventListener('click', () => {
-    tabLoginBtn.classList.add('active');
-    tabRegisterBtn.classList.remove('active');
-    loginForm.classList.add('active');
-    registerForm.classList.remove('active');
-});
-
-tabRegisterBtn.addEventListener('click', () => {
-    tabRegisterBtn.classList.add('active');
-    tabLoginBtn.classList.remove('active');
-    registerForm.classList.add('active');
-    loginForm.classList.remove('active');
-});
-
-// Soumission : Inscription
-registerForm.addEventListener('submit', async (e) => {
-    e.preventDefault();
-    showAuthMessage("Création du compte...", "");
-    const email = document.getElementById('register-email').value;
-    const password = document.getElementById('register-password').value;
-
-    const { data, error } = await supabase.auth.signUp({ email, password });
-
-    if (error) {
-        showAuthMessage(error.message, "error");
-    } else {
-        showAuthMessage("Inscription réussie ! Vérifie ton email pour valider le compte.", "success");
-        registerForm.reset();
-    }
-});
-
-// Soumission : Connexion
-loginForm.addEventListener('submit', async (e) => {
-    e.preventDefault();
-    showAuthMessage("Connexion...", "");
-    const email = document.getElementById('login-email').value;
-    const password = document.getElementById('login-password').value;
-
-    const { data, error } = await supabase.auth.signInWithPassword({ email, password });
-
-    if (error) {
-        showAuthMessage(error.message, "error");
-    } else {
-        showAuthMessage("Connexion réussie !", "success");
-        updateUserUI(data.user);
-        setTimeout(() => {
-            authModal.classList.remove('open');
-            authMessage.textContent = "";
-        }, 1500);
-        loginForm.reset();
-    }
-});
-
-function showAuthMessage(text, type) {
-    authMessage.textContent = text;
-    authMessage.className = `auth-message ${type}`;
-}
-
-// Mise à jour de l'interface utilisateur (Connexion/Déconnexion)
-function updateUserUI(user) {
-    userSession = user;
-    if (user) {
-        authBtnText.textContent = "Déconnexion";
-        wishlistToggle.classList.remove('hidden');
-        fetchUserWishlist();
-    } else {
-        authBtnText.textContent = "Se connecter";
-        wishlistToggle.classList.add('hidden');
-        userWishlist = [];
-        renderGames(displayedGames); // Rafraîchit les icônes de favoris
-    }
-}
-
-// Récupère la Wishlist de l'utilisateur
-async function fetchUserWishlist() {
-    if (!supabase || !userSession) return;
-    
-    const { data, error } = await supabase
-        .from('wishlists')
-        .select('game_nom')
-        .eq('user_id', userSession.id);
-
-    if (!error && data) {
-        userWishlist = data.map(item => item.game_nom);
-        renderGames(displayedGames); // Met à jour l'état visuel des coeurs
-    }
-}
-
-// Gère le clic sur l'icône de Wishlist
-async function toggleWishlist(gameNom, buttonElement) {
-    if (!supabase) return;
-    if (!userSession) {
-        // Redirige vers la connexion si pas connecté
-        authModal.classList.add('open');
-        showAuthMessage("Connecte-toi pour ajouter à ta wishlist !", "error");
-        return;
-    }
-
-    const isFav = userWishlist.includes(gameNom);
-
-    if (isFav) {
-        // Retirer de la wishlist
-        const { error } = await supabase
-            .from('wishlists')
-            .delete()
-            .eq('user_id', userSession.id)
-            .eq('game_nom', gameNom);
-
-        if (!error) {
-            userWishlist = userWishlist.filter(name => name !== gameNom);
-            buttonElement.classList.remove('active');
-            buttonElement.querySelector('i').className = 'fa-regular fa-heart';
-        }
-    } else {
-        // Ajouter à la wishlist
-        const { error } = await supabase
-            .from('wishlists')
-            .insert([{ user_id: userSession.id, game_nom: gameNom }]);
-
-        if (!error) {
-            userWishlist.push(gameNom);
-            buttonElement.classList.add('active');
-            buttonElement.querySelector('i').className = 'fa-solid fa-heart';
-        }
-    }
-}
-
-// Gère le filtrage de la liste de favoris (clic sur "Mon Profil")
-let showingFavoritesOnly = false;
-wishlistToggle.addEventListener('click', () => {
-    showingFavoritesOnly = !showingFavoritesOnly;
-    wishlistToggle.classList.toggle('active', showingFavoritesOnly);
-    
-    if (showingFavoritesOnly) {
-        wishlistToggle.innerHTML = `<i class="fa-solid fa-gamepad"></i> Tous les jeux`;
-    } else {
-        wishlistToggle.innerHTML = `<i class="fa-solid fa-heart"></i> Mon Profil`;
-    }
-    applyFilters();
-});
-
-/* --- NAVBAR ACCUMULATIVE --- */
+/* --- NAVBAR ACCUMULATIVE (SMART SCROLL HIDE) --- */
 window.addEventListener('scroll', () => {
     const navbar = document.getElementById('main-navbar');
     const currentScrollY = window.scrollY;
@@ -352,6 +151,7 @@ window.addEventListener('scroll', () => {
         navbar.classList.add('hidden');
         if (window.innerWidth < 768) {
             searchToggleBtn.classList.remove('active');
+            searchBox.classList.open = false;
             searchBox.classList.remove('open');
         }
         accumulatedScroll = 0;
@@ -362,7 +162,7 @@ window.addEventListener('scroll', () => {
     lastScrollY = currentScrollY;
 });
 
-/* FETCH DYNAMIQUE DU JSON PAR PLATEFORME */
+/* --- FETCH DYNAMIQUE DU JSON PAR PLATEFORME --- */
 async function fetchGames() {
     if (currentCategory === 'all') {
         try {
@@ -371,7 +171,7 @@ async function fetchGames() {
                 fetch('ps4.json')
             ]);
             
-            if (!responsePc.ok || !responsePs4.ok) throw new Error("Erreur réseau détectée");
+            if (!responsePc.ok || !responsePs4.ok) throw new Error("Erreur réseau détectée lors du chargement des catalogues");
             
             const jeuxPc = await responsePc.json();
             const jeuxPs4 = await responsePs4.json();
@@ -383,7 +183,7 @@ async function fetchGames() {
             document.getElementById('games-container').innerHTML = `
                 <div class="alert-container">
                     <i class="fa-solid fa-circle-info alert-icon"></i>
-                    <p class="alert-text">Impossible de charger le catalogue de jeux.</p>
+                    <p class="alert-text">Impossible de charger la base de données des jeux.</p>
                 </div>
             `;
             document.getElementById('pagination-container').style.display = 'none';
@@ -395,7 +195,7 @@ async function fetchGames() {
 
     try {
         const response = await fetch(fichierCible);
-        if (!response.ok) throw new Error("Erreur de chargement");
+        if (!response.ok) throw new Error("Erreur réseau détectée lors du chargement");
         allGames = await response.json();
         applyFilters(); 
     } catch (error) {
@@ -403,14 +203,14 @@ async function fetchGames() {
         document.getElementById('games-container').innerHTML = `
             <div class="alert-container">
                 <i class="fa-solid fa-circle-info alert-icon"></i>
-                <p class="alert-text">Impossible de charger la base de données.</p>
+                <p class="alert-text">Impossible de charger la base de données des jeux.</p>
             </div>
         `;
         document.getElementById('pagination-container').style.display = 'none';
     }
 }
 
-/* CALCUL DE LA SÉLECTION FILTRÉE */
+/* ACCÈS ET CALCUL DE LA SÉLECTION FILTRÉE */
 function getFilteredSource() {
     const searchString = document.getElementById('search-input').value.toLowerCase().trim();
 
@@ -420,6 +220,8 @@ function getFilteredSource() {
         let matchesCategory = true;
         if (currentCategory === 'GOG' || currentCategory === 'Repacks') {
             matchesCategory = game.categorie.toLowerCase() === currentCategory.toLowerCase();
+        } else if (currentCategory === 'ps4') {
+            matchesCategory = true;
         }
 
         return matchesSearch && matchesCategory;
@@ -429,23 +231,21 @@ function getFilteredSource() {
         source = shuffleByDay([...source]);
     }
 
-    // Filtrer par favoris uniquement si l'utilisateur a cliqué sur "Mon Profil"
-    if (showingFavoritesOnly && userSession) {
-        source = source.filter(game => userWishlist.includes(game.nom));
-    }
-
     return source;
 }
 
+/* SYSTEME DE RENDER ET FILTRAGE CENTRALISÉ */
 function applyFilters() {
     currentPage = 1;
     showPage(currentPage);
 }
 
+// Calcule la tranche d'index à afficher et reconstruit la pagination
 function showPage(page) {
     const filteredSource = getFilteredSource();
     const totalPages = Math.ceil(filteredSource.length / GAMES_PER_PAGE);
     
+    // Protection des bornes de pages
     if (page < 1) page = 1;
     if (page > totalPages && totalPages > 0) page = totalPages;
     currentPage = page;
@@ -456,6 +256,8 @@ function showPage(page) {
 
     renderGames(displayedGames);
     renderPagination(totalPages);
+    
+    // Petit effet fluide pour remonter en haut du site lors d'un changement de page
     window.scrollTo({ top: 0, behavior: 'smooth' });
 }
 
@@ -467,7 +269,7 @@ function renderGames(gamesList) {
         container.innerHTML = `
             <div class="alert-container">
                 <i class="fa-solid fa-circle-info alert-icon"></i>
-                <p class="alert-text">Aucun jeu à afficher pour le moment.</p>
+                <p class="alert-text">Aucun jeu ne correspond à votre recherche actuelle.</p>
             </div>
         `;
         return;
@@ -487,19 +289,6 @@ function appendGames(gamesList) {
         clone.querySelector('.game-category').textContent = game.categorie;
         clone.querySelector('.download-btn').href = game.lien;
         
-        // Gestion de l'état de l'icône wishlist
-        const wishBtn = clone.querySelector('.wishlist-btn');
-        const isFav = userWishlist.includes(game.nom);
-        
-        if (isFav) {
-            wishBtn.classList.add('active');
-            wishBtn.querySelector('i').className = 'fa-solid fa-heart';
-        }
-
-        wishBtn.addEventListener('click', () => {
-            toggleWishlist(game.nom, wishBtn);
-        });
-
         clone.querySelector('.config-specs-btn').addEventListener('click', () => {
             openConfigModal(game);
         });
@@ -508,17 +297,19 @@ function appendGames(gamesList) {
     });
 }
 
-/* RENDU DES BOUTONS DE PAGINATION */
+/* RENDER DE L'ÉLÉMENT DE PAGINATION CONTROLLER */
 function renderPagination(totalPages) {
     const paginationContainer = document.getElementById('pagination-container');
     paginationContainer.innerHTML = '';
 
+    // Si on a 1 seule page ou aucune, on cache complètement le conteneur de pagination
     if (totalPages <= 1) {
         paginationContainer.style.display = 'none';
         return;
     }
     paginationContainer.style.display = 'flex';
 
+    // Bouton Précédent (chevron)
     const prevBtn = document.createElement('button');
     prevBtn.className = `pagination-btn ${currentPage === 1 ? 'disabled' : ''}`;
     prevBtn.innerHTML = `<i class="fa-solid fa-chevron-left"></i>`;
@@ -526,12 +317,14 @@ function renderPagination(totalPages) {
     prevBtn.addEventListener('click', () => showPage(currentPage - 1));
     paginationContainer.appendChild(prevBtn);
 
+    // Définition des pages à afficher pour ne pas surcharger les mobiles (limite visuelle)
     let startPage = Math.max(1, currentPage - 2);
     let endPage = Math.min(totalPages, startPage + 4);
     if (endPage - startPage < 4) {
         startPage = Math.max(1, endPage - 4);
     }
 
+    // Indicateur de première page si on est loin
     if (startPage > 1) {
         const firstPageBtn = document.createElement('button');
         firstPageBtn.className = 'pagination-btn';
@@ -547,6 +340,7 @@ function renderPagination(totalPages) {
         }
     }
 
+    // Génération des boutons numériques individuels
     for (let i = startPage; i <= endPage; i++) {
         const pageBtn = document.createElement('button');
         pageBtn.className = `pagination-btn ${i === currentPage ? 'active' : ''}`;
@@ -555,6 +349,7 @@ function renderPagination(totalPages) {
         paginationContainer.appendChild(pageBtn);
     }
 
+    // Indicateur de dernière page si on est loin
     if (endPage < totalPages) {
         if (endPage < totalPages - 1) {
             const ellipsis = document.createElement('span');
@@ -570,6 +365,7 @@ function renderPagination(totalPages) {
         paginationContainer.appendChild(lastPageBtn);
     }
 
+    // Bouton Suivant (chevron)
     const nextBtn = document.createElement('button');
     nextBtn.className = `pagination-btn ${currentPage === totalPages ? 'disabled' : ''}`;
     nextBtn.innerHTML = `<i class="fa-solid fa-chevron-right"></i>`;
@@ -578,22 +374,5 @@ function renderPagination(totalPages) {
     paginationContainer.appendChild(nextBtn);
 }
 
-// Initialisation globale et vérification de la session active
 document.getElementById('search-input').addEventListener('input', applyFilters);
-
-document.addEventListener('DOMContentLoaded', async () => {
-    await fetchGames();
-    
-    if (supabase) {
-        // Gère automatiquement les sessions d'authentification (jetons)
-        const { data: { session } } = await supabase.auth.getSession();
-        if (session) {
-            updateUserUI(session.user);
-        }
-
-        // Écoute les changements d'état (Connexion, Déconnexion)
-        supabase.auth.onAuthStateChange((_event, session) => {
-            updateUserUI(session ? session.user : null);
-        });
-    }
-});
+document.addEventListener('DOMContentLoaded', fetchGames);

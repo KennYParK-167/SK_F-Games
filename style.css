@@ -1,621 +1,629 @@
-/* --- VARIABLES DE DESIGN ULTRA-MINIMALISTE SOMBRE --- */
+/* ==========================================================================
+   VARIABLES & CONFIGURATION GÉNÉRALE
+   ========================================================================== */
 :root {
-    --bg-dark: #0f0f11;
-    --bg-card: #16161a;
-    --border-color: #242429;
-    --text-primary: #f5f5f5;
-    --text-secondary: #94a3b8;
-    --accent-green: #10b981;
-    --accent-orange: #f97316;
-    --bg-hover: #1f1f24;
-    --font-family: 'Segoe UI', -apple-system, BlinkMacSystemFont, Roboto, sans-serif;
+    --bg-color: #121212;             
+    --card-bg: #1e1e1e;              
+    --text-main: #fffffa;            
+    --text-muted: #b0b0b0;           
+    --border-color: #3a3a3a;         
+    
+    /* Palette de Verts Cyber */
+    --accent-solid: #004d1a;         
+    --accent-hover: #006622;         
+    --green-text: #00ff66;           
 }
 
 * {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
-    -webkit-tap-highlight-color: transparent; /* Supprime le highlight bleu au clic sur mobile */
 }
 
 body {
-    background-color: var(--bg-dark);
-    color: var(--text-primary);
-    font-family: var(--font-family);
-    overflow-x: hidden;
-    padding-top: 80px;
+    background-color: var(--bg-color);
+    color: var(--text-main);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    max-width: 1280px;
+    margin: 0 auto;
+    padding: 120px 1rem 2rem 1rem; /* Marge supérieure pour laisser respirer sous la barre fixe */
 }
 
-/* --- SCROLLBAR --- */
-::-webkit-scrollbar {
-    width: 6px;
-}
-::-webkit-scrollbar-track {
-    background: var(--bg-dark);
-}
-::-webkit-scrollbar-thumb {
-    background: var(--border-color);
-    border-radius: 3px;
-}
-::-webkit-scrollbar-thumb:hover {
-    background: var(--text-secondary);
-}
-
-/* --- CONFIGURATION NAVBAR --- */
+/* ==========================================================================
+   NAVBAR COMPOSANT FIXED
+   ========================================================================== */
 .navbar {
     position: fixed;
     top: 0;
     left: 0;
-    width: 100%;
+    right: 0;
     height: 70px;
-    background-color: rgba(15, 15, 17, 0.95);
+    background-color: rgba(30, 30, 30, 0.85);
+    backdrop-filter: blur(10px);
     border-bottom: 1px solid var(--border-color);
-    backdrop-filter: blur(8px);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 1rem;
     z-index: 1000;
-    transition: transform 0.3s ease;
+    transition: transform 0.3s cubic-bezier(0.4, 0, 0.2, 1), opacity 0.3s ease, box-shadow 0.3s ease;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.5), 0 1px 15px rgba(0, 255, 102, 0.03);
 }
+
+/* Cache la navbar au défilement descendant */
 .navbar.hidden {
     transform: translateY(-100%);
+    opacity: 0;
 }
-.nav-container {
-    max-width: 1400px;
-    margin: 0 auto;
-    height: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    padding: 0 24px;
-    position: relative;
-}
-.nav-logo {
-    color: var(--text-primary);
-    text-decoration: none;
+
+.brand {
+    font-size: 1.2rem;
     font-weight: 700;
-    font-size: 1.25rem;
-    letter-spacing: -0.5px;
-}
-
-/* --- STRUCTURE DU MENU NAVIGATION --- */
-.nav-menu {
+    color: var(--text-main);
+    letter-spacing: 0.5px;
     display: flex;
     align-items: center;
-    gap: 16px;
+    gap: 8px;
+    white-space: nowrap;
+    flex-shrink: 0;
 }
 
-/* --- BOUTONS --- */
-.btn {
-    border: none;
-    border-radius: 4px;
-    cursor: pointer;
-    font-weight: 600;
-    font-size: 0.9rem;
-    display: inline-flex;
+.brand i {
+    color: var(--green-text);
+}
+
+.nav-controls {
+    display: flex;
     align-items: center;
-    justify-content: center;
-    transition: all 0.2s ease;
-    outline: none;
-}
-.btn-stealth {
-    background: transparent;
-    color: var(--text-secondary);
-    padding: 8px 16px;
-    border: 1px solid transparent;
-}
-.btn-stealth:hover {
-    color: var(--text-primary);
-    background-color: var(--bg-hover);
-    border-color: var(--border-color);
-}
-.btn-submit {
-    background-color: var(--accent-green);
-    color: var(--bg-dark);
-    padding: 12px;
-    width: 100%;
-    margin-top: 10px;
-}
-.btn-submit:hover {
-    filter: brightness(1.1);
-}
-.hidden {
-    display: none !important;
+    gap: 12px;
 }
 
-/* --- CUSTOM DROPDOWN --- */
+/* ==========================================================================
+   SÉLECTEUR DE CATÉGORIE CUSTOMISÉ (DROPDOWN MODERNE)
+   ========================================================================== */
 .custom-dropdown {
     position: relative;
-    width: 190px;
+    user-select: none;
 }
-.dropdown-btn {
-    width: 100%;
-    background-color: var(--bg-card);
+
+.dropdown-trigger {
+    background-color: #1a1a1a;
     border: 1px solid var(--border-color);
-    color: var(--text-primary);
+    color: var(--text-main);
     padding: 8px 14px;
-    font-weight: 600;
-    border-radius: 4px;
+    border-radius: 6px;
+    font-size: 0.9rem;
+    font-family: inherit;
+    font-weight: 500;
     cursor: pointer;
     display: flex;
-    justify-content: space-between;
     align-items: center;
-    font-size: 0.9rem;
-    outline: none;
+    gap: 10px;
+    transition: border-color 0.2s ease, box-shadow 0.2s ease;
 }
-.dropdown-btn:hover {
-    background-color: var(--bg-hover);
+
+/* Effets de focus sur le menu */
+.custom-dropdown:hover .dropdown-trigger,
+.custom-dropdown.open .dropdown-trigger {
+    border-color: var(--green-text);
+    box-shadow: 0 0 10px rgba(0, 255, 102, 0.15);
 }
-.dropdown-list {
+
+.arrow-icon {
+    font-size: 0.75rem;
+    color: var(--text-muted);
+    transition: transform 0.2s ease, color 0.2s ease;
+}
+
+.custom-dropdown.open .arrow-icon {
+    transform: rotate(180deg);
+    color: var(--green-text);
+}
+
+/* Liste des choix du dropdown */
+.dropdown-menu {
     position: absolute;
     top: calc(100% + 6px);
-    left: 0;
-    width: 100%;
-    background-color: var(--bg-card);
-    border: 1px solid var(--border-color);
-    border-radius: 4px;
-    overflow: hidden;
-    z-index: 100;
+    right: 0;
+    background-color: #1a1a1a;
+    border: 1px solid var(--green-text); /* Contour vert complet */
+    border-radius: 6px;
+    width: 130px;
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.6), 0 0 15px rgba(0, 255, 102, 0.08);
     opacity: 0;
+    transform: translateY(-8px);
     pointer-events: none;
-    transform: translateY(-10px);
-    transition: all 0.2s ease;
+    z-index: 1010;
+    overflow: hidden;
+    transition: transform 0.2s ease, opacity 0.2s ease;
 }
-.custom-dropdown.open .dropdown-list {
+
+.custom-dropdown.open .dropdown-menu {
     opacity: 1;
-    pointer-events: auto;
     transform: translateY(0);
+    pointer-events: auto;
 }
+
 .dropdown-item {
     padding: 10px 14px;
+    font-size: 0.9rem;
+    color: var(--text-muted);
     cursor: pointer;
-    font-size: 0.85rem;
-    color: var(--text-secondary);
-    transition: background 0.15s;
-}
-.dropdown-item:hover, .dropdown-item.active {
-    background-color: var(--bg-hover);
-    color: var(--text-primary);
+    transition: background-color 0.15s ease, color 0.15s ease;
 }
 
-/* --- RECHERCHE RESPONSIVE --- */
-.search-container {
-    display: flex;
-    align-items: center;
+.dropdown-item:hover {
+    background-color: rgba(0, 255, 102, 0.06);
+    color: var(--text-main);
 }
-.search-toggle {
-    background: transparent;
+
+.dropdown-item.active {
+    background-color: var(--accent-solid);
+    color: var(--green-text);
+    font-weight: 600;
+}
+
+/* ==========================================================================
+   BARRE DE RECHERCHE RESPONSIVE COMPLÈTE
+   ========================================================================== */
+.mobile-search-toggle {
+    background: none;
     border: none;
-    color: var(--text-secondary);
+    color: var(--text-main);
     font-size: 1.1rem;
     cursor: pointer;
-    width: 40px;
-    height: 40px;
-    border-radius: 50%;
+    padding: 8px;
     display: flex;
     align-items: center;
     justify-content: center;
-    transition: background 0.2s;
-    outline: none;
-}
-.search-toggle:hover, .search-toggle.active {
-    color: var(--text-primary);
-    background-color: var(--bg-hover);
-}
-.search-box {
-    position: absolute;
-    right: 24px;
-    top: 80px;
-    background-color: var(--bg-card);
-    border: 1px solid var(--border-color);
-    border-radius: 4px;
-    padding: 6px;
-    width: calc(100% - 48px);
-    max-width: 400px;
-    opacity: 0;
-    transform: translateY(-10px);
-    pointer-events: none;
-    transition: all 0.2s ease;
-}
-.search-box.open {
-    opacity: 1;
-    transform: translateY(0);
-    pointer-events: auto;
-}
-.search-box input {
-    width: 100%;
-    background: transparent;
-    border: none;
-    outline: none;
-    color: var(--text-primary);
-    padding: 8px 12px;
-    font-size: 0.95rem;
-}
-
-/* --- BURGER BUTTON --- */
-.burger-btn {
-    display: none;
-    flex-direction: column;
-    justify-content: space-between;
-    width: 22px;
-    height: 16px;
-    background: transparent;
-    border: none;
-    cursor: pointer;
-    z-index: 1100;
-    outline: none;
-}
-.burger-btn span {
-    width: 100%;
-    height: 2px;
-    background-color: var(--text-primary);
-    transition: all 0.3s ease;
-}
-.burger-btn.open span:nth-child(1) {
-    transform: translateY(7px) rotate(45deg);
-}
-.burger-btn.open span:nth-child(2) {
-    opacity: 0;
-}
-.burger-btn.open span:nth-child(3) {
-    transform: translateY(-7px) rotate(-45deg);
-}
-
-/* --- MAIN CONTENT & GRID --- */
-.main-content {
-    max-width: 1400px;
-    margin: 0 auto;
-    padding: 24px;
-}
-.games-grid {
-    display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
-    gap: 20px;
-}
-
-/* --- GAME CARD --- */
-.game-card {
-    background-color: var(--bg-card);
-    border: 1px solid var(--border-color);
     border-radius: 6px;
-    overflow: hidden;
-    display: flex;
-    flex-direction: column;
-    transition: border-color 0.2s;
+    transition: background-color 0.2s ease, color 0.2s ease;
 }
-.game-card:hover {
-    border-color: #3b3b42;
+
+.mobile-search-toggle:hover,
+.mobile-search-toggle.active {
+    background-color: rgba(255, 255, 255, 0.05);
+    color: var(--green-text);
 }
-.img-container {
+
+.search-container {
+    position: relative;
+}
+
+/* Le wrapper qui maintient l'icône loupe calée à la bonne place à l'intérieur de l'input */
+.search-inner {
     position: relative;
     width: 100%;
-    padding-top: 125%; /* Ratio 4:5 moderne */
+    max-width: 500px;
+    margin: 0 auto;
 }
-.game-img {
+
+.search-icon {
     position: absolute;
-    top: 0;
-    left: 0;
+    left: 14px;
+    top: 50%;
+    transform: translateY(-50%);
+    color: var(--text-muted);
+    font-size: 0.9rem;
+    pointer-events: none;
+    transition: color 0.2s ease;
+    z-index: 2;
+}
+
+.search-input {
     width: 100%;
-    height: 100%;
-    object-fit: cover;
-}
-.wishlist-btn {
-    position: absolute;
-    top: 12px;
-    right: 12px;
-    background-color: rgba(22, 22, 26, 0.8);
-    backdrop-filter: blur(4px);
+    padding: 10px 16px 10px 40px; /* Dégagement calculé pour ne pas chevaucher la loupe */
+    background-color: #121212;
     border: 1px solid var(--border-color);
-    color: var(--text-secondary);
-    width: 36px;
-    height: 36px;
-    border-radius: 50%;
+    border-radius: 6px;
+    color: var(--text-main);
+    font-size: 0.95rem;
+    outline: none;
+    transition: border-color 0.2s ease, box-shadow 0.2s ease;
+    display: block;
+}
+
+.search-inner:focus-within .search-icon {
+    color: var(--green-text);
+}
+
+.search-input:focus {
+    border-color: var(--green-text);
+    box-shadow: 0 0 12px rgba(0, 255, 102, 0.2);
+}
+
+/* ==========================================================================
+   DESIGN INTERFACE SMARTPHONE (RECHERCHE BANDEAU DÉPLOYABLE)
+   ========================================================================== */
+@media (max-width: 767px) {
+    .search-container {
+        position: fixed;
+        top: 70px; 
+        left: 0;
+        right: 0;
+        background-color: #1a1a1a;
+        padding: 12px 1rem;
+        border-bottom: 1px solid var(--border-color);
+        box-shadow: 0 8px 16px rgba(0, 0, 0, 0.4);
+        transform: translateY(-20px);
+        opacity: 0;
+        pointer-events: none;
+        transition: transform 0.25s cubic-bezier(0.4, 0, 0.2, 1), opacity 0.2s ease;
+        z-index: 999;
+    }
+
+    .search-container.open {
+        transform: translateY(0);
+        opacity: 1;
+        pointer-events: auto;
+    }
+}
+
+/* ==========================================================================
+   BOUTON DISCRET CARACTÉRISTIQUES (SUR LA CARTE DE JEU)
+   ========================================================================== */
+.config-specs-btn {
+    background: none;
+    border: 1px solid rgba(255, 255, 255, 0.08);
+    color: var(--text-muted);
+    padding: 7px 10px;
+    font-size: 0.75rem;
+    font-weight: 500;
+    font-family: inherit;
+    border-radius: 5px;
     cursor: pointer;
     display: flex;
     align-items: center;
     justify-content: center;
-    font-size: 1rem;
-    transition: all 0.2s ease;
-    outline: none;
-}
-.wishlist-btn:hover {
-    color: #ef4444;
-    transform: scale(1.05);
-}
-.wishlist-btn.active {
-    color: #ef4444;
-    background-color: var(--bg-card);
-}
-.game-info {
-    padding: 16px;
-    display: flex;
-    flex-direction: column;
-    flex-grow: 1;
-}
-.game-category {
-    font-size: 0.75rem;
-    text-transform: uppercase;
-    color: var(--accent-orange);
-    letter-spacing: 0.5px;
-    margin-bottom: 6px;
-    font-weight: 700;
-}
-.game-title {
-    font-size: 1.05rem;
-    font-weight: 600;
-    line-height: 1.3;
-    margin-bottom: 16px;
-    color: var(--text-primary);
-}
-.card-actions {
-    margin-top: auto;
-    display: flex;
-    gap: 8px;
-}
-.btn-download {
-    flex-grow: 1;
-    background-color: var(--accent-green);
-    color: var(--bg-dark);
-    padding: 10px 14px;
-    text-decoration: none;
-}
-.btn-download:hover {
-    filter: brightness(1.1);
-}
-.btn-specs {
-    background-color: var(--bg-hover);
-    border: 1px solid var(--border-color);
-    color: var(--text-primary);
-    width: 40px;
-    height: 40px;
-}
-.btn-specs:hover {
-    border-color: var(--text-secondary);
+    gap: 6px;
+    margin-bottom: 4px;
+    transition: border-color 0.2s ease, color 0.2s ease, background-color 0.2s ease;
 }
 
-/* --- MODALES --- */
-.modal {
+.config-specs-btn:hover {
+    border-color: var(--green-text);
+    color: var(--text-main);
+    background-color: rgba(0, 255, 102, 0.02);
+}
+
+/* ==========================================================================
+   FENÊTRE MODALE POP-UP (SYSTEM CONFIG)
+   ========================================================================== */
+.modal-overlay {
     position: fixed;
     top: 0;
     left: 0;
-    width: 100%;
-    height: 100%;
-    background-color: rgba(10, 10, 12, 0.85);
-    backdrop-filter: blur(4px);
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.6);
+    backdrop-filter: blur(8px); /* Floute l'arrière-plan de la liste */
     display: flex;
     align-items: center;
     justify-content: center;
     z-index: 2000;
     opacity: 0;
     pointer-events: none;
-    transition: opacity 0.2s ease;
+    transition: opacity 0.25s ease;
 }
-.modal.open {
+
+.modal-overlay.open {
     opacity: 1;
     pointer-events: auto;
 }
+
 .modal-content {
-    background-color: var(--bg-card);
+    background-color: #1a1a1a;
     border: 1px solid var(--border-color);
-    border-radius: 6px;
+    width: 92%;
+    max-width: 440px;
+    border-radius: 8px;
     padding: 24px;
-    width: 90%;
-    max-width: 500px;
     position: relative;
+    box-shadow: 0 20px 40px rgba(0, 0, 0, 0.7), 0 0 30px rgba(0, 255, 102, 0.05);
+    transform: scale(0.92);
+    transition: transform 0.25s cubic-bezier(0.4, 0, 0.2, 1), border-color 0.25s ease;
 }
-.close-btn {
+
+.modal-overlay.open .modal-content {
+    transform: scale(1);
+    border-color: var(--green-text);
+}
+
+.modal-close {
     position: absolute;
     top: 14px;
     right: 18px;
-    background: transparent;
+    background: none;
     border: none;
-    color: var(--text-secondary);
-    font-size: 1.8rem;
+    color: var(--text-muted);
+    font-size: 1.6rem;
     cursor: pointer;
-    outline: none;
-}
-.close-btn:hover {
-    color: var(--text-primary);
+    transition: color 0.2s ease;
 }
 
-/* --- DESIGN INTERNE AUTH (MODALE) --- */
-.auth-tabs {
+.modal-close:hover {
+    color: #ff5252;
+}
+
+.modal-game-title {
+    font-size: 1.15rem;
+    font-weight: 600;
+    margin-bottom: 18px;
+    padding-right: 24px;
+    color: var(--text-main);
+}
+
+/* Menu interne Onglets */
+.config-tabs {
     display: flex;
     border-bottom: 1px solid var(--border-color);
-    margin-bottom: 20px;
-    margin-top: 10px;
-}
-.auth-tab-btn {
-    flex: 1;
-    background: transparent;
-    border: none;
-    color: var(--text-secondary);
-    padding: 10px;
-    font-weight: 600;
-    cursor: pointer;
-    font-size: 0.95rem;
-    border-bottom: 2px solid transparent;
-    outline: none;
-}
-.auth-tab-btn.active {
-    color: var(--text-primary);
-    border-color: var(--accent-green);
-}
-.auth-form {
-    display: none;
-}
-.auth-form.active {
-    display: block;
-}
-.form-group {
-    margin-bottom: 16px;
-    display: flex;
-    flex-direction: column;
-    gap: 6px;
-}
-.form-group label {
-    font-size: 0.8rem;
-    color: var(--text-secondary);
-    font-weight: 600;
-    text-transform: uppercase;
-}
-.form-group input {
-    background-color: var(--bg-hover);
-    border: 1px solid var(--border-color);
-    border-radius: 4px;
-    padding: 12px;
-    color: var(--text-primary);
-    outline: none;
-}
-.form-group input:focus {
-    border-color: var(--text-secondary);
-}
-.auth-message {
-    text-align: center;
-    font-size: 0.85rem;
-    margin-top: 12px;
-}
-.auth-message.success {
-    color: var(--accent-green);
-}
-.auth-message.error {
-    color: #ef4444;
+    gap: 16px;
+    margin-bottom: 18px;
 }
 
-/* --- CONFIG SPECS TABS --- */
-.modal-title {
-    font-size: 1.25rem;
-    margin-bottom: 16px;
-    padding-right: 20px;
-}
-.tabs {
-    display: flex;
-    gap: 8px;
-    margin-bottom: 16px;
-}
 .tab-btn {
-    flex: 1;
-    background-color: var(--bg-hover);
-    border: 1px solid var(--border-color);
-    color: var(--text-secondary);
-    padding: 10px;
-    border-radius: 4px;
-    cursor: pointer;
+    background: none;
+    border: none;
+    color: var(--text-muted);
+    padding: 8px 4px;
+    font-size: 0.9rem;
     font-weight: 600;
-    outline: none;
+    cursor: pointer;
+    position: relative;
+    font-family: inherit;
+    transition: color 0.2s ease;
 }
-.tab-btn.active {
-    background-color: var(--accent-green);
-    color: var(--bg-dark);
-    border-color: var(--accent-green);
+
+.tab-btn:hover, .tab-btn.active {
+    color: var(--green-text);
 }
+
+.tab-btn.active::after {
+    content: '';
+    position: absolute;
+    bottom: -1px;
+    left: 0;
+    right: 0;
+    height: 2px;
+    background-color: var(--green-text);
+    box-shadow: 0 0 8px var(--green-text);
+}
+
+/* Configuration listes */
 .config-list {
     display: none;
     list-style: none;
+    flex-direction: column;
+    gap: 12px;
 }
+
 .config-list.active {
-    display: block;
+    display: flex;
 }
+
 .config-list li {
-    padding: 8px 0;
-    font-size: 0.85rem;
-    border-bottom: 1px solid var(--border-color);
+    font-size: 0.88rem;
+    color: var(--text-muted);
+    line-height: 1.4;
     display: flex;
-    justify-content: space-between;
+    flex-direction: column;
 }
+
 .config-list li strong {
-    color: var(--text-secondary);
+    color: var(--text-main);
+    font-size: 0.72rem;
+    text-transform: uppercase;
+    letter-spacing: 0.6px;
+    margin-bottom: 3px;
 }
 
-/* --- ALERTES --- */
-.alert-container {
-    grid-column: 1 / -1;
-    text-align: center;
-    padding: 40px;
+/* ==========================================================================
+   GRILLE ET STYLISATION DES CARTES
+   ========================================================================== */
+#games-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); 
+    gap: 16px;
+    width: 100%;
+    margin-top: 1rem;
+}
+
+.game-card {
+    background-color: var(--card-bg);
     border: 1px solid var(--border-color);
-    border-radius: 6px;
-    background-color: var(--bg-card);
-}
-.alert-icon {
-    font-size: 2rem;
-    color: var(--accent-orange);
-    margin-bottom: 12px;
-}
-
-/* --- PAGINATION --- */
-.pagination {
-    margin-top: 40px;
+    border-radius: 8px;
+    overflow: hidden;
     display: flex;
-    justify-content: center;
-    gap: 8px;
+    flex-direction: column;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+    transition: transform 0.2s ease, border-color 0.2s ease, box-shadow 0.2s ease;
 }
-.pagination-btn {
-    background-color: var(--bg-card);
-    border: 1px solid var(--border-color);
-    color: var(--text-secondary);
-    width: 40px;
-    height: 40px;
-    border-radius: 4px;
-    cursor: pointer;
+
+.game-card:hover {
+    transform: translateY(-4px);
+    border-color: rgba(0, 255, 102, 0.5);
+    box-shadow: 0 12px 24px rgba(0, 0, 0, 0.5), 0 0 20px rgba(0, 255, 102, 0.12);
+}
+
+.game-img {
+    width: 100%;
+    height: 140px;
+    object-fit: cover;
+    background-color: #121212;
+}
+
+.game-info {
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+    justify-content: space-between;
+    gap: 12px;
+}
+
+.game-title {
+    margin: 0;
+    font-size: 0.85rem;
+    font-weight: 500;
+    line-height: 1.3;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+}
+
+.game-category {
+    font-size: 0.75rem;
+    color: var(--text-muted);
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
     font-weight: 600;
+    margin-top: auto;
+}
+
+.download-btn {
     display: flex;
     align-items: center;
     justify-content: center;
-    outline: none;
-}
-.pagination-btn:hover:not(.disabled) {
-    border-color: var(--text-secondary);
-    color: var(--text-primary);
-}
-.pagination-btn.active {
-    background-color: var(--accent-green);
-    color: var(--bg-dark);
-    border-color: var(--accent-green);
-}
-.pagination-btn.disabled {
-    opacity: 0.3;
-    cursor: not-allowed;
+    gap: 6px;
+    background-color: var(--accent-solid);
+    color: var(--text-main);
+    text-decoration: none;
+    padding: 8px;
+    border-radius: 6px;
+    font-weight: 600;
+    font-size: 0.8rem;
+    transition: background-color 0.2s ease, box-shadow 0.2s ease;
 }
 
-/* --- RESPONSIVE MOBILE ET TABLETTES (MAX 768PX) --- */
-@media (max-width: 768px) {
-    body {
-        padding-top: 70px;
+.download-btn:hover {
+    background-color: var(--accent-hover);
+    box-shadow: 0 0 12px rgba(0, 255, 102, 0.25);
+}
+
+/* BLOC ALERT */
+.alert-container {
+    grid-column: 1 / -1;
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    background-color: rgba(255, 75, 75, 0.07);
+    border: 1px solid rgba(255, 75, 75, 0.2);   
+    border-radius: 8px;
+    padding: 16px 20px;
+    margin: 2rem auto;
+    max-width: 600px;
+    width: 100%;
+}
+
+.alert-icon { color: #ff5252; font-size: 1.1rem; flex-shrink: 0; }
+.alert-text { color: #ff8585; font-size: 0.95rem; font-weight: 500; }
+
+/* ==========================================================================
+   MEDIA QUERY GRANDS ÉCRANS (PC / MONITEURS)
+   ========================================================================== */
+@media (min-width: 768px) {
+    .navbar {
+        padding: 0 2rem;
     }
-    .burger-btn {
-        display: flex; /* Active le bouton burger */
+
+    .brand {
+        font-size: 1.4rem;
+        gap: 10px;
     }
-    .nav-menu {
-        position: fixed;
-        top: 70px;
-        left: 0;
+
+    .mobile-search-toggle {
+        display: none;
+    }
+
+    .search-container {
+        display: block;
+        width: 260px;
+    }
+    
+    .search-inner {
         width: 100%;
-        height: calc(100vh - 70px);
-        background-color: var(--bg-dark);
-        border-top: 1px solid var(--border-color);
-        flex-direction: column;
-        padding: 40px 24px;
+    }
+
+    #games-container {
+        grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
         gap: 24px;
-        transform: translateX(-100%);
-        transition: transform 0.3s cubic-bezier(0.4, 0, 0.2, 1);
-        z-index: 999;
     }
-    .nav-menu.open {
-        transform: translateX(0);
+
+    .game-img {
+        height: 160px;
     }
-    .custom-dropdown {
-        width: 100%; /* S'adapte en pleine largeur sur mobile */
+
+    .game-title {
+        font-size: 1.15rem;
     }
-    .auth-zone {
-        width: 100%;
-        display: flex;
-        flex-direction: column;
-        gap: 12px;
+
+    .download-btn {
+        padding: 10px;
+        font-size: 0.9rem;
+        gap: 8px;
     }
-    .auth-zone .btn {
-        width: 100%;
-        padding: 14px;
-        background-color: var(--bg-card);
-        border-color: var(--border-color);
-    }
-    .search-box {
-        top: 70px;
+}
+
+/* ==========================================================================
+   SYSTÈME DE PAGINATION (MODERNE, INTÉGRÉ AU THÈME)
+   ========================================================================== */
+.pagination-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    margin: 3rem 0;
+    user-select: none;
+    flex-wrap: wrap;
+}
+
+.pagination-btn {
+    background-color: var(--card-bg);
+    border: 1px solid var(--border-color);
+    color: var(--text-muted);
+    min-width: 40px;
+    height: 40px;
+    padding: 0 6px;
+    font-size: 0.9rem;
+    font-weight: 600;
+    border-radius: 6px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all 0.2s ease;
+}
+
+.pagination-btn:hover:not(.disabled) {
+    border-color: var(--green-text);
+    color: var(--text-main);
+    background-color: rgba(0, 255, 102, 0.04);
+}
+
+.pagination-btn.active {
+    background-color: var(--accent-solid);
+    color: var(--green-text);
+    border-color: var(--green-text);
+    box-shadow: 0 0 10px rgba(0, 255, 102, 0.15);
+}
+
+.pagination-btn.disabled {
+    opacity: 0.4;
+    cursor: not-allowed;
+    border-color: rgba(255, 255, 255, 0.03);
+}
+
+.pagination-ellipsis {
+    color: var(--text-muted);
+    font-size: 1rem;
+    padding: 0 4px;
+    letter-spacing: 1.5px;
+}
+
+@media (max-width: 480px) {
+    .pagination-btn {
+        min-width: 35px;
+        height: 35px;
+        font-size: 0.8rem;
     }
 }
