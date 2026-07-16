@@ -1,21 +1,32 @@
 <!DOCTYPE html>
 <html lang="fr">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Profiter de notre catalogue de jeux gratuit avec notre serveur discord pour les demande. Un site de distribution du jeux diverse Roms, PC, Console etc...">
+    <meta name="description"
+        content="Profiter de notre catalogue de jeux gratuit avec notre serveur discord pour les demande. Un site de distribution du jeux diverse Roms, PC, Console etc...">
     <title>F-Games Links | SK GAMING & CO.</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
     <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
 
+    <!-- Barre de Navigation Principale -->
     <nav class="navbar" id="main-navbar">
         <div class="brand">
             <i class="fa-solid fa-gamepad"></i> SK F-Games
         </div>
-        
+
         <div class="nav-controls">
+            <!-- Bouton Direct Wishlist (Cœur) -->
+            <button class="nav-wishlist-btn" id="nav-wishlist-trigger" title="Ma Liste">
+                <i class="fa-solid fa-heart"></i>
+                <span class="nav-wishlist-text">Ma Liste</span>
+            </button>
+
+            <!-- Menu Déroulant Catégories -->
             <div class="custom-dropdown" id="category-dropdown">
                 <button class="dropdown-trigger" id="dropdown-btn">
                     <span id="selected-value">Tout</span>
@@ -28,7 +39,7 @@
                     <div class="dropdown-item" data-value="PS4">PS4</div>
                 </div>
             </div>
-            
+
             <button class="mobile-search-toggle" id="search-toggle-btn">
                 <i class="fa-solid fa-magnifying-glass"></i>
             </button>
@@ -42,16 +53,19 @@
         </div>
     </nav>
 
-    <main id="games-container"></main>
+    <!-- Conteneur Principal (Boîte de contenu) -->
+    <div class="main-container">
+        <main id="games-container"></main>
+        <!-- Conteneur pour le système de pagination -->
+        <div class="pagination-container" id="pagination-container"></div>
+    </div>
 
-    <!-- Conteneur pour le système de pagination -->
-    <div class="pagination-container" id="pagination-container"></div>
-
+    <!-- Modale de configuration système -->
     <div class="modal-overlay" id="config-modal">
         <div class="modal-content">
             <button class="modal-close" id="close-modal-btn">&times;</button>
             <h3 class="modal-game-title" id="modal-game-title">Nom du Jeu</h3>
-            
+
             <div class="config-tabs">
                 <button class="tab-btn active" data-tab="min">Minimum</button>
                 <button class="tab-btn" data-tab="rec">Recommandé</button>
@@ -64,17 +78,24 @@
         </div>
     </div>
 
+    <!-- Template des cartes de jeux -->
     <template id="game-card-template">
         <div class="game-card">
             <img class="game-img" src="" alt="">
             <div class="game-info">
                 <h2 class="game-title"></h2>
                 <span class="game-category"></span>
-                
-                <button class="config-specs-btn">
-                    <i class="fa-solid fa-microchip"></i> Configuration requise
-                </button>
-                
+
+                <!-- Zone d'action en bas -->
+                <div class="game-actions-row">
+                    <button class="config-specs-btn">
+                        <i class="fa-solid fa-microchip"></i> Configuration requise
+                    </button>
+                    <button class="wishlist-btn" title="Ajouter à ma liste">
+                        <i class="fa-solid fa-plus"></i>
+                    </button>
+                </div>
+
                 <a class="download-btn" href="" target="_blank">
                     <i class="fa-solid fa-download"></i> Télécharger
                 </a>
@@ -82,6 +103,43 @@
         </div>
     </template>
 
+
+    <!-- Footer -->
+    <footer class="site-footer">
+        <div class="footer-container">
+            <div class="footer-col">
+                <h3>SK F-Games</h3>
+                <p class="footer-desc">Plateforme de distribution de jeux. Rejoignez notre communauté pour toute demande
+                    ou support.</p>
+            </div>
+            <div class="footer-col">
+                <h3>Navigation</h3>
+                <ul class="footer-links">
+                    <li><a href="#" class="footer-nav-link" data-target="all">Accueil</a></li>
+                    <li><a href="#" class="footer-nav-link" data-target="GOG">GOG</a></li>
+                    <li><a href="#" class="footer-nav-link" data-target="Repacks">Repacks</a></li>
+                    <li><a href="#" class="footer-nav-link" data-target="PS4">PS4</a></li>
+                </ul>
+            </div>
+            <div class="footer-col">
+                <h3>Disclaimer</h3>
+                <p class="footer-desc" style="font-size: 0.75rem;">
+                    Ce site est une plateforme de référencement. Tous les jeux et contenus appartiennent à leurs
+                    éditeurs respectifs. Nous ne possédons aucun droit sur les fichiers distribués. En utilisant ce
+                    site, vous confirmez posséder les licences originales des jeux téléchargés.
+                </p>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2026 SK GAMING & CO. Tous droits réservés.</p>
+            <div class="div-access">
+                <a href="#" title="Discord" class="back-to-top-btn"><i class="fa-brands fa-discord"></i></a>
+                <button class="back-to-top-btn" id="back-to-top"><i class="fa-solid fa-arrow-up"></i></button>
+            </div>
+        </div>
+    </footer>
+
     <script src="app.js"></script>
 </body>
+
 </html>

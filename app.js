@@ -1,6 +1,6 @@
 let allGames = [];          
 let displayedGames = [];    
-const GAMES_PER_PAGE = 16;   // Modifié à 16 jeux par page
+const GAMES_PER_PAGE = 16;   // 16 jeux par page
 let currentPage = 1;
 let currentCategory = 'all'; 
 
@@ -14,6 +14,34 @@ const fichiersPlateformes = {
     'Repacks': 'jeux.json',
     'PS4': 'ps4.json'
 };
+
+/* --- SYSTEME LOCALSTORAGE : GESTION DE LA WISHLIST (MA LISTE) --- */
+function getWishlist() {
+    const list = localStorage.getItem('sk_fgames_wishlist');
+    return list ? JSON.parse(list) : [];
+}
+
+function saveWishlist(list) {
+    localStorage.setItem('sk_fgames_wishlist', JSON.stringify(list));
+}
+
+function toggleWishlist(game) {
+    let wishlist = getWishlist();
+    const index = wishlist.findIndex(item => item.nom === game.nom);
+
+    if (index === -1) {
+        wishlist.push(game);
+    } else {
+        wishlist.splice(index, 1);
+    }
+    
+    saveWishlist(wishlist);
+
+    // Si on est actuellement sur l'onglet wishlist, on rafraîchit la page en direct
+    if (currentCategory === 'wishlist') {
+        applyFilters();
+    }
+}
 
 /* --- SEED COMPATIBLE : ALGORITHME DE MÉLANGE QUOTIDIEN --- */
 function shuffleByDay(array) {
@@ -43,6 +71,7 @@ function shuffleByDay(array) {
 const dropdown = document.getElementById('category-dropdown');
 const dropdownBtn = document.getElementById('dropdown-btn');
 const selectedValueSpan = document.getElementById('selected-value');
+const navWishlistTrigger = document.getElementById('nav-wishlist-trigger');
 
 dropdownBtn.addEventListener('click', (e) => {
     e.stopPropagation();
@@ -56,6 +85,11 @@ document.querySelectorAll('.dropdown-item').forEach(item => {
         document.querySelector('.dropdown-item.active').classList.remove('active');
         item.classList.add('active');
         
+        // Désactive visuellement le bouton favoris de la navbar quand on change de catégorie
+        if (navWishlistTrigger) {
+            navWishlistTrigger.classList.remove('active');
+        }
+        
         selectedValueSpan.textContent = item.textContent;
         currentCategory = item.getAttribute('data-value');
         
@@ -67,6 +101,32 @@ document.querySelectorAll('.dropdown-item').forEach(item => {
 document.addEventListener('click', () => {
     dropdown.classList.remove('open');
 });
+
+/* --- EVENEMENT CLIC SUR LE BOUTON "MA LISTE" --- */
+if (navWishlistTrigger) {
+    navWishlistTrigger.addEventListener('click', () => {
+        if (navWishlistTrigger.classList.contains('active')) {
+            // S'il est déjà actif, on le désactive et on retourne sur "Tout"
+            navWishlistTrigger.classList.remove('active');
+            
+            const defaultItem = document.querySelector('.dropdown-item[data-value="all"]');
+            document.querySelectorAll('.dropdown-item').forEach(el => el.classList.remove('active'));
+            defaultItem.classList.add('active');
+            
+            selectedValueSpan.textContent = defaultItem.textContent;
+            currentCategory = 'all';
+        } else {
+            // Sinon, on l'active et on affiche la wishlist
+            navWishlistTrigger.classList.add('active');
+            
+            // On désactive la sélection visuelle dans le menu déroulant
+            document.querySelectorAll('.dropdown-item').forEach(el => el.classList.remove('active'));
+            selectedValueSpan.textContent = "Ma Liste";
+            currentCategory = 'wishlist';
+        }
+        fetchGames();
+    });
+}
 
 /* --- GESTION DE LA LOUPE RESPONSIVE SUR MOBILE --- */
 const searchToggleBtn = document.getElementById('search-toggle-btn');
@@ -151,7 +211,6 @@ window.addEventListener('scroll', () => {
         navbar.classList.add('hidden');
         if (window.innerWidth < 768) {
             searchToggleBtn.classList.remove('active');
-            searchBox.classList.open = false;
             searchBox.classList.remove('open');
         }
         accumulatedScroll = 0;
@@ -164,6 +223,12 @@ window.addEventListener('scroll', () => {
 
 /* --- FETCH DYNAMIQUE DU JSON PAR PLATEFORME --- */
 async function fetchGames() {
+    if (currentCategory === 'wishlist') {
+        allGames = getWishlist();
+        applyFilters();
+        return;
+    }
+
     if (currentCategory === 'all') {
         try {
             const [responsePc, responsePs4] = await Promise.all([
@@ -210,7 +275,7 @@ async function fetchGames() {
     }
 }
 
-/* ACCÈS ET CALCUL DE LA SÉLECTION FILTRÉE */
+/* ACCÈS ET CALCUL DE LA SÉLECTION FILTRÉE --- */
 function getFilteredSource() {
     const searchString = document.getElementById('search-input').value.toLowerCase().trim();
 
@@ -221,6 +286,8 @@ function getFilteredSource() {
         if (currentCategory === 'GOG' || currentCategory === 'Repacks') {
             matchesCategory = game.categorie.toLowerCase() === currentCategory.toLowerCase();
         } else if (currentCategory === 'ps4') {
+            matchesCategory = true;
+        } else if (currentCategory === 'wishlist') {
             matchesCategory = true;
         }
 
@@ -266,10 +333,14 @@ function renderGames(gamesList) {
     container.innerHTML = ''; 
 
     if (gamesList.length === 0) {
+        const message = currentCategory === 'wishlist' 
+            ? "Votre liste de favoris est actuellement vide." 
+            : "Aucun jeu ne correspond à votre recherche actuelle.";
+
         container.innerHTML = `
             <div class="alert-container">
                 <i class="fa-solid fa-circle-info alert-icon"></i>
-                <p class="alert-text">Aucun jeu ne correspond à votre recherche actuelle.</p>
+                <p class="alert-text">${message}</p>
             </div>
         `;
         return;
@@ -280,6 +351,7 @@ function renderGames(gamesList) {
 function appendGames(gamesList) {
     const container = document.getElementById('games-container');
     const template = document.getElementById('game-card-template');
+    const wishlist = getWishlist();
 
     gamesList.forEach(game => {
         const clone = template.content.cloneNode(true);
@@ -289,6 +361,27 @@ function appendGames(gamesList) {
         clone.querySelector('.game-category').textContent = game.categorie;
         clone.querySelector('.download-btn').href = game.lien;
         
+        // Configuration initiale du petit bouton carré d'ajout à la liste (+)
+        const isFav = wishlist.some(item => item.nom === game.nom);
+        const wishBtn = clone.querySelector('.wishlist-btn');
+        
+        if (wishBtn) {
+            if (isFav) {
+                wishBtn.classList.add('active');
+                wishBtn.innerHTML = `<i class="fa-solid fa-check"></i>`;
+            } else {
+                wishBtn.innerHTML = `<i class="fa-solid fa-plus"></i>`;
+            }
+
+            wishBtn.addEventListener('click', (e) => {
+                e.stopPropagation();
+                toggleWishlist(game);
+                
+                const activeNow = wishBtn.classList.toggle('active');
+                wishBtn.innerHTML = activeNow ? `<i class="fa-solid fa-check"></i>` : `<i class="fa-solid fa-plus"></i>`;
+            });
+        }
+
         clone.querySelector('.config-specs-btn').addEventListener('click', () => {
             openConfigModal(game);
         });
@@ -374,5 +467,33 @@ function renderPagination(totalPages) {
     paginationContainer.appendChild(nextBtn);
 }
 
+/* --- INTERACTIONS FOOTER : NAVIGATION ET BACK-TO-TOP --- */
+
+// Bouton de retour vers le haut fluide
+const backToTopBtn = document.getElementById('back-to-top');
+if (backToTopBtn) {
+    backToTopBtn.addEventListener('click', () => {
+        window.scrollTo({ top: 0, behavior: 'smooth' });
+    });
+}
+
+// Rendre fonctionnel les liens de navigation du footer
+document.querySelectorAll('.footer-nav-link').forEach(link => {
+    link.addEventListener('click', (e) => {
+        e.preventDefault();
+        const targetCategory = link.getAttribute('data-target');
+        
+        // Simule le clic sur l'élément correspondant dans le dropdown de navigation principal
+        const correspondingDropdownItem = document.querySelector(`.dropdown-item[data-value="${targetCategory}"]`);
+        
+        if (correspondingDropdownItem) {
+            correspondingDropdownItem.click();
+            // Remonte en haut de la page pour voir les résultats
+            window.scrollTo({ top: 0, behavior: 'smooth' });
+        }
+    });
+});
+
+
 document.getElementById('search-input').addEventListener('input', applyFilters);
-document.addEventListener('DOMContentLoaded', fetchGames);
+document.addEventListener('DOMContentLoaded', fetchGames); 
