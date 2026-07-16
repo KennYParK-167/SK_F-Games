@@ -2542,5 +2542,598 @@
                 "storage": "18 GB"
             }
         }
+    },
+    {
+        "nom": "Resident Evil 5 Gold Edition",
+        "categorie": "Repacks",
+        "image": "https://1.bp.blogspot.com/-33QZgAFLRcU/X6YXHtbAFwI/AAAAAAABEeA/8JAsN84ZBo8bJQF27Fy8_KDem8a9WQm8ACLcBGAsYHQ/s460/resident-evil-5-gold-pc-cover.jpeg",
+        "lien": "https://www.filecrypt.cc/Container/C55E260A9B.html",
+        "config": {
+            "min": {
+                "os": "Windows 7",
+                "cpu": "Intel Core 2 Quad 2.4GHz / AMD Phenom II x4 3.4GHz",
+                "ram": "4 GB RAM",
+                "gpu": "NVIDIA GeForce 9800 series (512 MB) / ATI Radeon HD 7770 (512 MB)",
+                "dx": "Version 9.0c",
+                "storage": "20 GB"
+            },
+            "rec": {
+                "os": "Windows 7",
+                "cpu": "Intel Core i5-3570 / AMD Phenom II x4 3.4GHz",
+                "ram": "4 GB RAM",
+                "gpu": "NVIDIA GeForce GTX 650 (512 MB) / ATI Radeon HD 7770 (512 MB)",
+                "dx": "Version 9.0c",
+                "storage": "20 GB"
+            }
+        }
+    },
+    {
+        "nom": "Resident Evil Operation Raccoon City Complete Pac",
+        "categorie": "Repacks",
+        "image": "https://steamcdn-a.akamaihd.net/steam/apps/209100/header.jpg",
+        "lien": "https://www.filecrypt.cc/Container/E71744BA70.html",
+        "config": {
+            "min": {
+                "os": "Windows Vista / XP / 7",
+                "cpu": "Intel Core 2 Duo 2.4 GHz / AMD Athlon X2 2.8 GHz",
+                "ram": "2 GB RAM",
+                "gpu": "NVIDIA GeForce 8800GTS / ATI Radeon HD 3850",
+                "dx": "Version 9.0c",
+                "storage": "8 GB"
+            },
+            "rec": {
+                "os": "Windows Vista / XP / 7",
+                "cpu": "Intel Core 2 Quad 2.7 GHz / AMD Phenom II X4 3 GHz",
+                "ram": "4 GB RAM",
+                "gpu": "NVIDIA GeForce GTX 560",
+                "dx": "Version 9.0c",
+                "storage": "8 GB"
+            }
+        }
+    },
+    {
+        "nom": "Resident Evil Revelations Complete Pack",
+        "categorie": "Repacks",
+        "image": "https://1.bp.blogspot.com/-hzmMYDqQzoM/XyiQotYckgI/AAAAAAABCEo/ghczPuaI7rQ9dlLMjaOYEXlE3edHr9ljQCLcBGAsYHQ/s460/header.jpg",
+        "lien": "https://www.filecrypt.cc/Container/AAFCC5DAF2.html",
+        "config": {
+            "min": {
+                "os": "Windows XP / Vista / 7",
+                "cpu": "Intel Core 2 Duo 2.4 GHz / AMD Athlon 64 X2 5600+",
+                "ram": "2 GB RAM",
+                "gpu": "nVidia GeForce 8800 GTS / ATI Radeon HD 3850 (512 MB)",
+                "dx": "Version 9.0c",
+                "storage": "8 GB"
+            },
+            "rec": {
+                "os": "Windows Vista / 7",
+                "cpu": "Intel Core 2 Quad 2.66 GHz / AMD Phenom II X4 3.0 GHz",
+                "ram": "4 GB RAM",
+                "gpu": "nVidia GeForce GTX 560 / ATI Radeon HD 6950 (1 GB)",
+                "dx": "Version 9.0c",
+                "storage": "8 GB"
+            }
+        }
+    },
+    {
+        "nom": "Resident Evil 0 HD Remaster",
+        "categorie": "Repacks",
+        "image": "https://1.bp.blogspot.com/-cLlgVi7gZww/Y7KleMTjilI/AAAAAAABU_g/0nN-ZogAAlkTplSIeaPnpCUzWrjrgwDrACNcBGAsYHQ/s460/resident-evil-0-hd-remaster-pc-cover.jpg",
+        "lien": "https://www.filecrypt.cc/Container/D7EBAA15C7.html",
+        "config": {
+            "min": {
+                "os": "Windows 7 SP1 / Windows 8.1",
+                "cpu": "Intel Core 2 Duo 2.4 GHz",
+                "ram": "2 GB RAM",
+                "gpu": "NVIDIA GeForce GTX 260",
+                "dx": "Version 9.0c",
+                "storage": "13 GB"
+            },
+            "rec": {
+                "os": "Windows 7 SP1 / Windows 8.1",
+                "cpu": "Intel Core 2 Quad 2.7 GHz",
+                "ram": "4 GB RAM",
+                "gpu": "NVIDIA GeForce GTX 560",
+                "dx": "Version 9.0c",
+                "storage": "13 GB"
+            }
+        }
+    },
+    {
+        "nom": "Resident Evil 3 2020 Deluxe Edition",
+        "categorie": "Repacks",
+        "image": "https://1.bp.blogspot.com/-hx2ke0_az90/X3YNhUhP52I/AAAAAAABDP8/kGTf4D-hDNgBGW9jC8mluXs3CRT9sGzOQCLcBGAsYHQ/s460/resident-evil-3-pc-cover.jpg",
+        "lien": "https://www.filecrypt.cc/Container/5303618D0A.html",
+        "config": {
+            "min": {
+                "os": "WINDOWS 10 (64-BIT)",
+                "cpu": "Intel Core i5-4460 / AMD FX-6300",
+                "ram": "8 GB RAM",
+                "gpu": "NVIDIA GeForce GTX 960 / AMD Radeon RX 460",
+                "dx": "Version 12",
+                "storage": "45 GB"
+            },
+            "rec": {
+                "os": "WINDOWS 10 (64-BIT)",
+                "cpu": "Intel Core i7-3770 / AMD FX-9590",
+                "ram": "8 GB RAM",
+                "gpu": "NVIDIA GeForce GTX 1060 / AMD Radeon RX 480 (3 GB)",
+                "dx": "Version 12",
+                "storage": "45 GB"
+            }
+        }
+    },
+    {
+        "nom": "Resident Evil 4 Ultimate HD Edition",
+        "categorie": "Repacks",
+        "image": "https://1.bp.blogspot.com/-QtvEDfoPbBs/Y7KdLFakNvI/AAAAAAABU_E/O0E--10LZ-0HwgHRHwUB5SORfBVsIohoACNcBGAsYHQ/s460/resident-evil-4-ultimate-hd-edition-pc-cover.jpg",
+        "lien": "https://www.filecrypt.cc/Container/2355560D61.html",
+        "config": {
+            "min": {
+                "os": "Windows XP / Vista / 7 / 8",
+                "cpu": "Intel Core 2 Duo 2.4 GHz / AMD Athlon X2 2.8 GHz",
+                "ram": "2 GB RAM",
+                "gpu": "NVIDIA GeForce 8800GTS / ATI Radeon HD 4850",
+                "dx": "Version 9.0c",
+                "storage": "15 GB"
+            },
+            "rec": {
+                "os": "Windows Vista / 7 / 8",
+                "cpu": "Intel Core 2 Quad 2.7 GHz / AMD Phenom II X4 3 GHz",
+                "ram": "4 GB RAM",
+                "gpu": "NVIDIA GeForce GTX 560",
+                "dx": "Version 9.0c",
+                "storage": "15 GB"
+            }
+        }
+    },
+    {
+        "nom": "Resident Evil 6 Complete Pack",
+        "categorie": "Repacks",
+        "image": "https://1.bp.blogspot.com/-CCX9qMqZZcc/Y7KR5xksnlI/AAAAAAABU-c/AKXVbyC8xSULtag6YXAEoeBYmkxFqAdIgCNcBGAsYHQ/s586/resident-evil-6-complete-pack-pc-cover.jpg",
+        "lien": "https://www.filecrypt.cc/Container/B8C3560275.html",
+        "config": {
+            "min": {
+                "os": "Windows Vista / XP / 7 / 8",
+                "cpu": "Intel Core 2 Duo 2.4 GHz / AMD Athlon X2 2.8 GHz",
+                "ram": "2 GB RAM",
+                "gpu": "NVIDIA GeForce 8800GTS",
+                "dx": "Version 9.0c",
+                "storage": "16 GB"
+            },
+            "rec": {
+                "os": "Windows Vista / XP / 7 / 8",
+                "cpu": "Intel Core 2 Quad 2.7 GHz / AMD Phenom II X4 3 GHz",
+                "ram": "4 GB RAM",
+                "gpu": "NVIDIA GeForce GTX 560",
+                "dx": "Version 9.0c",
+                "storage": "16 GB"
+            }
+        }
+    },
+    {
+        "nom": "Resident Evil 4 2023 Remake Gold Edition",
+        "categorie": "Repacks",
+        "image": "https://1.bp.blogspot.com/-_K06tNOjS0I/ZGAyBTHRnXI/AAAAAAABXGA/6OWTeFBLD202_F60Rk7-c18mzD-HjWuRACNcBGAsYHQ/s460/resident-evil-4-pc-cover.jpg",
+        "lien": "https://www.filecrypt.cc/Container/B43EA9DCF9.html",
+        "config": {
+            "min": {
+                "os": "Windows 10 (64 bit)",
+                "cpu": "AMD Ryzen 3 1200 / Intel Core i5-7500",
+                "ram": "8 GB RAM",
+                "gpu": "AMD Radeon RX 560 (4 GB) / NVIDIA GeForce GTX 1050 Ti (4 GB)",
+                "dx": "Version 12",
+                "storage": "Non spécifié"
+            },
+            "rec": {
+                "os": "Windows 10 (64 bit) / Windows 11 (64 bit)",
+                "cpu": "AMD Ryzen 5 3600 / Intel Core i7 8700",
+                "ram": "16 GB RAM",
+                "gpu": "AMD Radeon RX 5700 / NVIDIA GeForce GTX 1070",
+                "dx": "Version 12",
+                "storage": "Non spécifié"
+            }
+        }
+    },
+    {
+        "nom": "Resident Evil Village Gold Edition",
+        "categorie": "Repacks",
+        "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhKZ1D2_682FE2OX70VbbK2JQsiQ_paclQ8WqjYhpFSIjGJp7rfGkqyaO1bEC7QK5Vvg0sS8IYo9e26Nhp_-xo5vht6B86hzeXYjRIdf54hxKSUTrQjAuxTsztWkbnWjDZsL_xj4v-6Ow_OFVcq8A83qvI-TGOyrwaATN-y2gJXVyRu08BsZtyka5JQ5Vc/s460/resident-evil-village-pc-cover.jpg",
+        "lien": "https://www.filecrypt.cc/Container/31252993CC.html",
+        "config": {
+            "min": {
+                "os": "Windows 10 (64 bit)",
+                "cpu": "AMD Ryzen 3 1200 / Intel Core i5-7500",
+                "ram": "8 GB RAM",
+                "gpu": "AMD Radeon RX 560 (4 GB) / NVIDIA GeForce GTX 1050 Ti (4 GB)",
+                "dx": "Version 12",
+                "storage": "Non spécifié"
+            },
+            "rec": {
+                "os": "Windows 10 (64 bit)",
+                "cpu": "AMD Ryzen 5 3600 / Intel Core i7 8700",
+                "ram": "16 GB RAM",
+                "gpu": "AMD Radeon RX 5700 / NVIDIA GeForce GTX 1070",
+                "dx": "Version 12",
+                "storage": "Non spécifié"
+            }
+        }
+    },
+    {
+        "nom": "Resident Evil 7 Biohazard Gold Edition",
+        "categorie": "Repacks",
+        "image": "https://1.bp.blogspot.com/-QkZfYg6dd5Q/Yqlye3HSjXI/AAAAAAAAA6k/GFnIUmStSAgCyuXSaJb82MehWkc4daklQCNcBGAsYHQ/s586/resident-evil-7-biohazard-gold-edition-pc-cover.jpg",
+        "lien": "https://www.filecrypt.cc/Container/97804F7AEF.html",
+        "config": {
+            "min": {
+                "os": "WINDOWS 10 (64-BIT)",
+                "cpu": "Intel Core i5-4460 2.70GHz / AMD FX-6300",
+                "ram": "8 GB RAM",
+                "gpu": "NVIDIA GeForce GTX 960 / AMD Radeon RX 460",
+                "dx": "Version 12",
+                "storage": "24 GB"
+            },
+            "rec": {
+                "os": "WINDOWS 10 (64-BIT)",
+                "cpu": "Intel Core i7 3770 3.4GHz / AMD equivalent",
+                "ram": "8 GB RAM",
+                "gpu": "NVIDIA GeForce GTX 1060 (3 GB)",
+                "dx": "Version 12",
+                "storage": "24 GB"
+            }
+        }
+    },
+    {
+        "nom": "Black Myth Wukong Deluxe Edition",
+        "categorie": "Repacks",
+        "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgH4kCMBrvBoJwrpUd-J9X25xRBiSKw7tKKCUngXT9f0gNMnan5oTj81ng-5aQCDQgYUI106Dq6YZRWL4XxLT7uLLsEdBX1cEeF6C4OGRvsqGtLEWVK4fBhen0X6OOIh9zDMFnlWKlcdw_NWaV8X5kdGmS71C3xsVtvMNos7KEvw3rUBPEBLkzWt4xgvqM/s460/black-myth-wukong-pc-cover.jpg",
+        "lien": "https://www.filecrypt.cc/Container/12A10B521B.html",
+        "config": {
+            "min": {
+                "os": "Windows 10 64-bit",
+                "cpu": "Intel Core i5-8400 / AMD Ryzen 5 1600",
+                "ram": "16 GB RAM",
+                "gpu": "NVIDIA GeForce GTX 1060 (6 GB) / AMD Radeon RX 580 (8 GB)",
+                "dx": "Version 11",
+                "storage": "130 GB"
+            },
+            "rec": {
+                "os": "Windows 10 64-bit",
+                "cpu": "Intel Core i7-9700 / AMD Ryzen 5 5500",
+                "ram": "16 GB RAM",
+                "gpu": "NVIDIA GeForce RTX 2060 / AMD Radeon RX 5700 XT / INTEL Arc A750",
+                "dx": "Version 12",
+                "storage": "130 GB"
+            }
+        }
+    },
+    {
+        "nom": "HELLDIVERS Digital Deluxe Edition",
+        "categorie": "Repacks",
+        "image": "https://1.bp.blogspot.com/-5DN731ULYto/YelEl0RsyNI/AAAAAAAAAfk/341KEddbOTgC0undWWl-seAtMi9L_BwYwCNcBGAsYHQ/s460/helldivers-pc-cover.jpg",
+        "lien": "https://www.filecrypt.cc/Container/AC049958A9.html",
+        "config": {
+            "min": {
+                "os": "Windows Vista / Windows 7",
+                "cpu": "2.4GHz Dual Core",
+                "ram": "4 GB RAM",
+                "gpu": "NVIDIA GeForce 9800 (512 MB) / ATI Radeon HD 2600 XT (512 MB)",
+                "dx": "Version 10",
+                "storage": "7 GB"
+            },
+            "rec": {
+                "os": "Windows Vista / Windows 7",
+                "cpu": "2.4GHz Dual Core",
+                "ram": "4 GB RAM",
+                "gpu": "NVIDIA GeForce GTX 460 (1 GB) / AMD Radeon HD 5870 (1 GB)",
+                "dx": "Version 10",
+                "storage": "7 GB"
+            }
+        }
+    },
+    {
+        "nom": "DOOM 2016",
+        "categorie": "Repacks",
+        "image": "https://1.bp.blogspot.com/-sRRkSY6sBDA/Wrl8RT-4EaI/AAAAAAAAra4/-pX15p_s9gk7BOHvENstLRvnCe9OmGEpQCLcBGAs/s1600/doom-2016-pc-cover-www.ovagames.com.jpg",
+        "lien": "https://www.filecrypt.cc/Container/19A595C729.html",
+        "config": {
+            "min": {
+                "os": "Windows 7 / 8.1 / 10 (64-bit)",
+                "cpu": "Intel Core i5-2400 / AMD FX-8320",
+                "ram": "8 GB RAM",
+                "gpu": "NVIDIA GTX 670 (2 GB) / AMD Radeon HD 7870 (2 GB)",
+                "dx": "Non spécifié",
+                "storage": "55 GB"
+            },
+            "rec": {
+                "os": "Windows 7 / 8.1 / 10 (64-bit)",
+                "cpu": "Intel Core i7-3770 / AMD FX-8350",
+                "ram": "8 GB RAM",
+                "gpu": "NVIDIA GTX 970 (4 GB) / AMD Radeon R9 290 (4 GB)",
+                "dx": "Non spécifié",
+                "storage": "55 GB"
+            }
+        }
+    },
+    {
+        "nom": "DOOM Eternal Deluxe Edition",
+        "categorie": "Repacks",
+        "image": "https://blogger.googleusercontent.com/img/a/AVvXsEhUmTGSFknYGRi6Ksu1HVBu_Aq2DPFwBBsJGajbCr0cdWEZIXaiAnuvWqVCNxhN0qJleRfDx10U-eG9qYPB3nmS_poYlo5pFXY1U5h2OBEp8OOePIUBFezDw2sttmtAVaGwtihOuMsvLlwL-lYy2wbDh4p9nkHPZQllqxhlot3ZwNBpgQpPXMvrmScE=s586",
+        "lien": "https://www.filecrypt.cc/Container/2BA3EE1B2E.html",
+        "config": {
+            "min": {
+                "os": "Windows 7 / 10 (64-bit)",
+                "cpu": "Intel Core i5 @ 3.3 GHz / AMD Ryzen 3 @ 3.1 GHz",
+                "ram": "8 GB RAM",
+                "gpu": "NVIDIA GeForce GTX 1050Ti (4GB) / GTX 1060 (3GB) / GTX 1650 (4GB) or AMD Radeon R9 280 (3GB) / R9 290 (4GB) / RX 470 (4GB)",
+                "dx": "Non spécifié",
+                "storage": "50 GB"
+            },
+            "rec": {
+                "os": "Windows 10 (64-bit)",
+                "cpu": "Intel Core i7-6700K / AMD Ryzen 7 1800X",
+                "ram": "8 GB RAM",
+                "gpu": "NVIDIA GeForce GTX 1060 (6GB) / GTX 970 (4GB) / AMD Radeon RX 480 (8GB)",
+                "dx": "Non spécifié",
+                "storage": "50 GB"
+            }
+        }
+    },
+    {
+        "nom": "DOOM The Dark Ages Premium Edition",
+        "categorie": "Repacks",
+        "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiPSPll-aIo_wkbXd3CTGX-J99hXTp6PwkixmrFVQ2zGQFHlFAPjTPLHwxj2_7g0pzt8KtR03u3IkGj6QLdXBc0x5jgd_vBQjYNeldY1MDy-zRZsaSSy-3YtKfShXBDkLsej6Tvnbc3GlHxEy1FxksHqyHN1oxCp_K3iChuFNNHnLRRVGNklItv2cXMX-M/s460/doom-the-dark-ages-pc-cover.jpg",
+        "lien": "https://www.filecrypt.cc/Container/647E0B83DC.html",
+        "config": {
+            "min": {
+                "os": "Windows 10 / 11 (64-Bit)",
+                "cpu": "AMD Ryzen 7 3700X / Intel Core i7 10700K (8 cores / 16 threads, 3.2 GHz)",
+                "ram": "16 GB RAM",
+                "gpu": "NVIDIA RTX 2060 SUPER / AMD RX 6600 (8 GB VRAM)",
+                "dx": "Non spécifié",
+                "storage": "100 GB (NVME SSD requis)"
+            },
+            "rec": {
+                "os": "Windows 10 / 11 (64-Bit)",
+                "cpu": "AMD Ryzen 7 5700X / Intel Core i7 12700K (8 cores / 16 threads, 3.2 GHz)",
+                "ram": "32 GB RAM",
+                "gpu": "NVIDIA RTX 3080 / AMD RX 6800 (10 GB VRAM)",
+                "dx": "Non spécifié",
+                "storage": "100 GB (NVME SSD requis)"
+            }
+        }
+    },
+    {
+        "nom": "Forza Horizon 3 Ultimate Edition",
+        "categorie": "Repacks",
+        "image": "https://1.bp.blogspot.com/-H5bAb-1dSY4/Yi0iqufSHhI/AAAAAAAAASQ/f41P0MFINUMVABL0z4FkmL1Yn9qjAxELACNcBGAsYHQ/s460/forza-horizon-3-pc-covers.jpg",
+        "lien": "https://www.filecrypt.cc/Container/EB67292E44.html",
+        "config": {
+            "min": {
+                "os": "Windows 10 (x64)",
+                "cpu": "Intel Core i3-4170 @ 3.7GHz",
+                "ram": "8 GB RAM",
+                "gpu": "NVIDIA GT 740 / AMD R7 250x (2 GB VRAM)",
+                "dx": "DirectX 12 API, Hardware Feature Level 11",
+                "storage": "Non spécifié"
+            },
+            "rec": {
+                "os": "Windows 10 (x64)",
+                "cpu": "Intel Core i7 3820 @ 3.6GHz",
+                "ram": "12 GB RAM",
+                "gpu": "NVIDIA GTX 970 or GTX 1060 / AMD R9 290X or RX 480 (4 GB VRAM)",
+                "dx": "DirectX 12 API, Hardware Feature Level 11",
+                "storage": "Non spécifié"
+            }
+        }
+    },
+    {
+        "nom": "Forza Horizon 4 Ultimate Edition",
+        "categorie": "Repacks",
+        "image": "https://1.bp.blogspot.com/-akhrT_x4QuA/XVG4g0O-gLI/AAAAAAAA4A0/LtDPq1HDplo_c2N-ccffnnkEX9xHn-i1QCLcBGAs/s1600/forza-horizon-4-pc-cover-www.ovagames.com.jpg",
+        "lien": "https://www.filecrypt.cc/Container/7718CD5E0C.html",
+        "config": {
+            "min": {
+                "os": "Windows (64-bit)",
+                "cpu": "Intel i3-4170 @ 3.7GHz / Intel i5 750 @ 2.67GHz",
+                "ram": "8 GB RAM",
+                "gpu": "NVIDIA GeForce GTX 650 Ti / AMD Radeon R7 250x (2 GB VRAM)",
+                "dx": "DirectX 12 API, Hardware Feature Level 11",
+                "storage": "Non spécifié"
+            },
+            "rec": {
+                "os": "Windows (64-bit)",
+                "cpu": "Intel i7-3820 @ 3.6GHz",
+                "ram": "12 GB RAM",
+                "gpu": "NVIDIA GeForce GTX 970 or GTX 1060 (3GB) / AMD Radeon R9 290x or RX 470 (4 GB VRAM)",
+                "dx": "DirectX 12 API, Hardware Feature Level 11",
+                "storage": "Non spécifié"
+            }
+        }
+    },
+    {
+        "nom": "Forza Horizon 6 Premium Edition",
+        "categorie": "Repacks",
+        "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgd6v-XsOtIb2e_OmC33Xj857W7WhNJ5ZHf6eUgpXZiUMm1C8UWrTwovhRWgBx8TT2mNs2QtBAKRYIHRndhwjiWGIG-pNQ4amWbJcrjtWTwfrWb6apfVfdFWgsRbvL75dtHdYrq6vwe_nMUp8gT9siRFR9a0MDUX-WAxrEiUgdgQXtMR-ePz9mON_sTF4U/s460/forza-horizon-6-pc-cover.jpg",
+        "lien": "https://www.filecrypt.cc/Container/AA4A4D98C5.html",
+        "config": {
+            "min": {
+                "os": "Windows 10 22H2 (version 19045 ou supérieure)",
+                "cpu": "Intel i5-8400 / AMD Ryzen 5 1600",
+                "ram": "16 GB RAM",
+                "gpu": "NVIDIA GTX 1650 / AMD RX 6500 XT / Intel Arc A380",
+                "dx": "Version 12",
+                "storage": "167 GB (SSD requis)"
+            },
+            "rec": {
+                "os": "Windows 10 22H2 (version 19045 ou supérieure)",
+                "cpu": "Intel i5-12400F / AMD Ryzen 5 5600X",
+                "ram": "16 GB RAM",
+                "gpu": "NVIDIA RTX 3060 Ti / AMD RX 6700 XT / Intel Arc A580",
+                "dx": "Version 12",
+                "storage": "167 GB (SSD requis)"
+            }
+        }
+    }, {
+  "nom": "Sifu Deluxe Edition",
+  "categorie": "Repacks",
+  "image": "https://1.bp.blogspot.com/-OA4rmf114aQ/YgvUKo7_wQI/AAAAAAAAAK0/AVAovRvXk98jqtyn2zU5Qog2aKaET8hEQCNcBGAsYHQ/s1600/sifu-deluxe-edition-pc-cover.jpg",
+  "lien": "https://www.filecrypt.cc/Container/8FB7228D31.html",
+  "config": {
+    "min": {
+      "os": "Windows 8.1",
+      "cpu": "AMD FX-4350 / Intel Core i5-3470 ou équivalent",
+      "ram": "8 GB RAM",
+      "gpu": "Radeon R7 250 / GeForce GT 640 ou équivalent",
+      "dx": "Non spécifié",
+      "storage": "22 GB"
+    },
+    "rec": {
+      "os": "Windows 10",
+      "cpu": "AMD FX-9590 / Intel Core i7-6700K ou équivalent",
+      "ram": "10 GB RAM",
+      "gpu": "GeForce GTX 970 / Radeon R9 390X ou équivalent",
+      "dx": "Non spécifié",
+      "storage": "22 GB"
     }
+  }
+}, {
+  "nom": "Sekiro Shadows Die Twice GOTY Edition",
+  "categorie": "Repacks",
+  "image": "https://1.bp.blogspot.com/-oCUn60HdDaE/X5qwepud5qI/AAAAAAABEJw/YX7-mzOOt9o7aiWOA-n39fKOmk4zzjDswCLcBGAsYHQ/s460/sekiro-shadows-die-twice-goty-pc-cover.jpg",
+  "lien": "https://www.filecrypt.cc/Container/0AD6890E2F.html",
+  "config": {
+    "min": {
+      "os": "Windows 7 / 8 / 10 (64-bit)",
+      "cpu": "Intel Core i3-2100 / AMD FX-6300",
+      "ram": "4 GB RAM",
+      "gpu": "NVIDIA GeForce GTX 760 / AMD Radeon HD 7950",
+      "dx": "Version 11",
+      "storage": "25 GB"
+    },
+    "rec": {
+      "os": "Windows 7 / 8 / 10 (64-bit)",
+      "cpu": "Intel Core i5-2500K / AMD Ryzen 5 1400",
+      "ram": "8 GB RAM",
+      "gpu": "NVIDIA GeForce GTX 970 / AMD Radeon RX 570",
+      "dx": "Version 11",
+      "storage": "25 GB"
+    }
+  }
+}, {
+  "nom": "Lies of P Deluxe Edition",
+  "categorie": "Repacks",
+  "image": "https://1.bp.blogspot.com/-AUpM_CeA4ZA/ZcyPVdHv0bI/AAAAAAABarE/npOquEpwTqgGitU_c7IZ5mSpRJuuILarACNcBGAsYHQ/s460/lies-of-p-pc-cover.jpg",
+  "lien": "https://www.filecrypt.cc/Container/98957847A8.html",
+  "config": {
+    "min": {
+      "os": "Windows 10 (64-bit)",
+      "cpu": "AMD Ryzen 3 1200 / Intel Core i3-6300",
+      "ram": "8 GB RAM",
+      "gpu": "AMD Radeon RX 560 (4 GB) / NVIDIA GeForce GTX 960 (4 GB)",
+      "dx": "Version 12",
+      "storage": "50 GB"
+    },
+    "rec": {
+      "os": "Windows 10 (64-bit)",
+      "cpu": "AMD Ryzen 3 1200 / Intel Core i3-6300",
+      "ram": "16 GB RAM",
+      "gpu": "AMD Radeon RX 6500 XT (4 GB) / NVIDIA GeForce GTX 1660 (6 GB)",
+      "dx": "Version 12",
+      "storage": "50 GB"
+    }
+  }
+}, {
+  "nom": "Death Stranding Directors Cut",
+  "categorie": "Repacks",
+  "image": "https://1.bp.blogspot.com/-rIAkWxSFhw4/YkbTK1UIpsI/AAAAAAAABG0/J5I3pDVDyUAyN_x31sr5fVfVr97CLwDpACNcBGAsYHQ/s460/death-stranding-directors-cut-pc-cover.jpg",
+  "lien": "https://www.filecrypt.cc/Container/6E0D5F93CB.html",
+  "config": {
+    "min": {
+      "os": "Windows 10",
+      "cpu": "Intel Core i5-3470 / AMD Ryzen 3 1200",
+      "ram": "8 GB RAM",
+      "gpu": "GeForce GTX 1050 (3 GB) / AMD Radeon RX 560 (4 GB)",
+      "dx": "Version 12",
+      "storage": "80 GB"
+    },
+    "rec": {
+      "os": "Windows 10",
+      "cpu": "Intel Core i7-3770 / AMD Ryzen 5 1600",
+      "ram": "8 GB RAM",
+      "gpu": "GeForce GTX 1060 (6 GB) / AMD Radeon RX 590",
+      "dx": "Version 12",
+      "storage": "80 GB"
+    }
+  }
+}, {
+  "nom": "Death Stranding 2 On the Beach Deluxe Edition",
+  "categorie": "Repacks",
+  "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEi1vG49tGpsP2ObJGgQmP8HM-H0ccKEaK9u-WrNYTh0BZnwvuoZCMV_ml-PLe8jY8AlFYaee22Wx3P5hyqvf5R0a8lmFmQjBmk8uGIa6XvvF3GqTQRw6Vz_pwPYcr5_dXFl_DAKcFKzlvS5GGUDh0vFg7tbm_ZE_EzEcoWWrkrkSc91G2JxuLf5107_IwE/s460/death-stranding-2-on-the-beach-pc-cover.jpg",
+  "lien": "https://www.filecrypt.cc/Container/80A93E4E70.html",
+  "config": {
+    "min": {
+      "os": "Windows 10 / 11 (version 1909 ou supérieure)",
+      "cpu": "Intel Core i3-10100 / AMD Ryzen 3 3100",
+      "ram": "16 GB RAM",
+      "gpu": "NVIDIA GeForce GTX 1660 / AMD Radeon RX 5500 XT (8 GB)",
+      "dx": "Non spécifié",
+      "storage": "150 GB (SSD requis)"
+    },
+    "rec": {
+      "os": "Windows 10 / 11 (version 1909 ou supérieure)",
+      "cpu": "Intel Core i7-11700 / AMD Ryzen 7 5700X",
+      "ram": "16 GB RAM",
+      "gpu": "NVIDIA GeForce RTX 3070 / AMD Radeon RX 6800",
+      "dx": "Non spécifié",
+      "storage": "150 GB (SSD requis)"
+    }
+  }
+}, {
+  "nom": "Detroit Become Human",
+  "categorie": "Repacks",
+  "image": "https://1.bp.blogspot.com/-XTWA6KmdSWQ/XutlIzJbXNI/AAAAAAABBBA/ylXT1GK3n-kXdYTt27qlZGf7GlNR7-11ACLcBGAsYHQ/s1600/detroit-become-human-pc-cover.jpg",
+  "lien": "https://www.filecrypt.cc/Container/46E60B05E8.html",
+  "config": {
+    "min": {
+      "os": "Windows 10 (64-bit)",
+      "cpu": "Intel Core i5-2300 @ 2.8 GHz / AMD Ryzen 3 1200 @ 3.1 GHz / AMD FX-8350 @ 4.2 GHz",
+      "ram": "8 GB RAM",
+      "gpu": "Nvidia GeForce GTX 780 / AMD HD 7950 (3 GB VRAM minimum, Vulkan 1.1 requis)",
+      "dx": "Non spécifié",
+      "storage": "55 GB"
+    },
+    "rec": {
+      "os": "Windows 10 (64-bit)",
+      "cpu": "Intel Core i5-6600 @ 3.3 GHz / AMD Ryzen 3 1300 X @ 3.4 GHz",
+      "ram": "12 GB RAM",
+      "gpu": "Nvidia GeForce GTX 1060 / AMD Radeon RX 580 (4 GB VRAM minimum, Vulkan 1.1 requis)",
+      "dx": "Non spécifié",
+      "storage": "55 GB"
+    }
+  }
+}, {
+  "nom": "Stray",
+  "categorie": "Repacks",
+  "image": "https://1.bp.blogspot.com/-dYVuBhx2aPU/YtcNTecUP8I/AAAAAAAABPY/7nLN2YtuhKk64K4a9iWAvJ1oCPou9xSlACNcBGAsYHQ/s460/stray-pc-cover.jpg",
+  "lien": "https://www.filecrypt.cc/Container/3B007F78B5.html",
+  "config": {
+    "min": {
+      "os": "Windows 10",
+      "cpu": "Intel Core i5-2300 / AMD FX-6350",
+      "ram": "8 GB RAM",
+      "gpu": "NVIDIA GeForce GTX 650 Ti (2 GB) / AMD Radeon R7 360 (2 GB)",
+      "dx": "Version 12",
+      "storage": "10 GB"
+    },
+    "rec": {
+      "os": "Windows 10",
+      "cpu": "Intel Core i5-8400 / AMD Ryzen 5 2600",
+      "ram": "8 GB RAM",
+      "gpu": "NVIDIA GeForce GTX 780 (3 GB) / AMD Radeon R9 290X (4 GB)",
+      "dx": "Version 12",
+      "storage": "10 GB"
+    }
+  }
+}
 ]
