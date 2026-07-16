@@ -12,23 +12,23 @@
     12. Marvel's Spider-Man Remastered
     13. Horizon Forbidden West
     14. Starfield
-15. Resident Evil 4 Remake
+    15. Resident Evil 4 Remake
     16. Dying Light 2: Stay Human
     17. Cyberpunk 2077: Phantom Liberty
-18. Black Myth: Wukong
-19. Helldivers 2
-20. Doom Eternal
-21. Forza Horizon 5
-22. EA Sports FC 24
-23. Sifu
-24. Sekiro: Shadows Die Twice
-25. Lies of P
-26. Death Stranding Director's Cut
-27. Detroit: Become Human
-28. Stray
-29. It Takes Two
+    18. Black Myth: Wukong
+    19. Helldivers 2
+    20. Doom Eternal
+    21. Forza Horizon 5
+            22. EA Sports FC 24
+    23. Sifu
+    24. Sekiro: Shadows Die Twice
+    25. Lies of P
+    26. Death Stranding Director's Cut
+    27. Detroit: Become Human
+    28. Stray
+    29. It Takes Two
 30. Sea of Stars
-31. Hollow Knight
+    31. Hollow Knight
 32. Outer Wilds
 33. Subnautica
 34. Manor Lords
