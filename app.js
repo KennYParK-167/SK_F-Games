@@ -13,8 +13,8 @@ let currentCarouselIndex = 0;
 let progressInterval = null;
 let currentProgress = 0;
 let isCarouselHovered = false;
-const CAROUSEL_DURATION = 15000; // 15 secondes
-const PROGRESS_STEP = 50; // (Utilisé pour le calcul interne si nécessaire)
+const CAROUSEL_DURATION = 20000; // 15 secondes
+const PROGRESS_STEP = 1000; // (Utilisé pour le calcul interne si nécessaire)
 
 const fichiersPlateformes = {
     'home': 'jeux.json',
@@ -395,27 +395,24 @@ async function fetchGames() {
 }
 
 /* ACCÈS ET CALCUL DE LA SÉLECTION FILTRÉE --- */
+/* --- FONCTION OPTIMISÉE POUR UN MÉLANGE QUOTIDIEN --- */
 function getFilteredSource() {
     const searchString = document.getElementById('search-input').value.toLowerCase().trim();
-
+    
+    // 1. Filtrage initial selon la recherche
     let source = allGames.filter(game => {
-        const matchesSearch = game.nom.toLowerCase().includes(searchString);
-        let matchesCategory = true;
-        if (currentCategory === 'GOG' || currentCategory === 'Repacks') {
-            matchesCategory = game.categorie.toLowerCase() === currentCategory.toLowerCase();
-        } else if (currentCategory === 'ps4') {
-            matchesCategory = true;
-        }
-        return matchesSearch && matchesCategory;
+        return game.nom.toLowerCase().includes(searchString);
     });
 
-    if (currentCategory === 'home' && searchString === '') {
-        source = shuffleByDay([...source]);
-    } 
-    else if (currentCategory === 'all' && searchString === '') {
-        source = [...source].sort(() => Math.random() - 0.7);
+    // 2. Application du mélange quotidien si aucune recherche n'est active
+    if (searchString === '') {
+        // Mélange unique basé sur la date pour "home" et "all"
+        if (currentCategory === 'home' || currentCategory === 'all') {
+            source = shuffleByDay([...source]);
+        }
     }
 
+    // Gestion de l'affichage du carrousel
     const wrapper = document.getElementById('hero-carousel-wrapper');
     if (wrapper) {
         if (searchString !== '' || currentCategory !== 'home') {
