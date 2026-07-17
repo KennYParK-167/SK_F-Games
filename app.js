@@ -13,8 +13,8 @@ let currentCarouselIndex = 0;
 let progressInterval = null;
 let currentProgress = 0;
 let isCarouselHovered = false;
-const CAROUSEL_DURATION = 15000; // 10 secondes
-const PROGRESS_STEP = 50; // Mise à jour toutes les 50ms
+const CAROUSEL_DURATION = 15000; // 15 secondes
+const PROGRESS_STEP = 50; // (Utilisé pour le calcul interne si nécessaire)
 
 const fichiersPlateformes = {
     'home': 'jeux.json',
@@ -237,12 +237,10 @@ window.addEventListener('scroll', () => {
     lastScrollY = currentScrollY;
 });
 
-/* --- ENGINE CARROUSEL AVEC PROGRESSION & HOVER STOP --- */
-/* --- ENGINE CARROUSEL AVEC PROGRESSION & HOVER STOP --- */
+/* --- ENGINE CARROUSEL OPTIMISÉ AVEC REQUESTANIMATIONFRAME --- */
 function initHeroCarousel(games) {
     const wrapper = document.getElementById('hero-carousel-wrapper');
     
-    // Mélange aléatoire complet des jeux possédant un synopsis à chaque chargement
     carouselGames = games.filter(g => g.synopsis)
                          .sort(() => Math.random() - 0.5)
                          .slice(0, 10);
@@ -270,26 +268,40 @@ function setupCarouselEvents() {
 function startCarouselTimeline() {
     renderCarouselCard();
     currentProgress = 0;
-
-    clearInterval(progressInterval);
-    progressInterval = setInterval(() => {
-        if (!isCarouselHovered) {
-            currentProgress += PROGRESS_STEP;
-            let percent = (currentProgress / CAROUSEL_DURATION) * 100;
-            
-            const progressBar = document.getElementById('carousel-progress-bar');
-            if (progressBar) progressBar.style.width = `${percent}%`;
-
-            if (currentProgress >= CAROUSEL_DURATION) {
-                currentCarouselIndex = (currentCarouselIndex + 1) % carouselGames.length;
-                startCarouselTimeline();
-            }
+    
+    let lastTimestamp = performance.now();
+    cancelAnimationFrame(progressInterval);
+    
+    const animate = (timestamp) => {
+        if (isCarouselHovered) {
+            lastTimestamp = timestamp;
+            progressInterval = requestAnimationFrame(animate);
+            return;
         }
-    }, PROGRESS_STEP);
+
+        const deltaTime = timestamp - lastTimestamp;
+        lastTimestamp = timestamp;
+        
+        currentProgress += deltaTime;
+        let percent = (currentProgress / CAROUSEL_DURATION) * 100;
+        
+        const progressBar = document.getElementById('carousel-progress-bar');
+        if (progressBar) progressBar.style.width = `${Math.min(percent, 100)}%`;
+
+        if (currentProgress >= CAROUSEL_DURATION) {
+            currentCarouselIndex = (currentCarouselIndex + 1) % carouselGames.length;
+            startCarouselTimeline();
+        } else {
+            progressInterval = requestAnimationFrame(animate);
+        }
+    };
+
+    progressInterval = requestAnimationFrame(animate);
 }
 
 function stopCarouselTimeline() {
-    clearInterval(progressInterval);
+    cancelAnimationFrame(progressInterval);
+    progressInterval = null;
 }
 
 function renderCarouselCard() {
@@ -348,7 +360,6 @@ async function fetchGames() {
     const fichierCible = fichiersPlateformes[currentCategory] || 'jeux.json';
 
     try {
-        // Chargement combiné pour l'Accueil ou pour Tout afin de fusionner PC et PS4
         if (currentCategory === 'home' || currentCategory === 'all') {
             const [responsePc, responsePs4] = await Promise.all([
                 fetch('jeux.json'),
@@ -384,7 +395,6 @@ async function fetchGames() {
 }
 
 /* ACCÈS ET CALCUL DE LA SÉLECTION FILTRÉE --- */
-/* ACCÈS ET CALCUL DE LA SÉLECTION FILTRÉE --- */
 function getFilteredSource() {
     const searchString = document.getElementById('search-input').value.toLowerCase().trim();
 
@@ -394,19 +404,17 @@ function getFilteredSource() {
         if (currentCategory === 'GOG' || currentCategory === 'Repacks') {
             matchesCategory = game.categorie.toLowerCase() === currentCategory.toLowerCase();
         } else if (currentCategory === 'ps4') {
-            matchesCategory = true; // Logique spécifique si besoin
+            matchesCategory = true;
         }
         return matchesSearch && matchesCategory;
     });
 
-    // ACCUEIL : Mélange aléatoire dynamique basé sur l'heure ou un hash simple pour varier de "Tout"
     if (currentCategory === 'home' && searchString === '') {
         source = shuffleByDay([...source]);
     } 
-    // TOUT : Tri alphabétique fixe pour le catalogue complet, plus lisible
     else if (currentCategory === 'all' && searchString === '') {
-    source = [...source].sort(() => Math.random() - 0.7);
-}
+        source = [...source].sort(() => Math.random() - 0.7);
+    }
 
     const wrapper = document.getElementById('hero-carousel-wrapper');
     if (wrapper) {
@@ -430,7 +438,6 @@ function applyFilters() {
 function showPage(page) {
     const filteredSource = getFilteredSource();
     
-    // Si on est sur l'Accueil, on coupe strictement à 16 jeux max (sans pagination)
     if (currentCategory === 'home') {
         displayedGames = filteredSource.slice(0, 16);
         renderGames(displayedGames);
@@ -510,7 +517,6 @@ function appendGames(gamesList) {
     });
 }
 
-/* RENDER DE L'ÉLÉMENT DE PAGINATION CONTROLLER */
 function renderPagination(totalPages) {
     const paginationContainer = document.getElementById('pagination-container');
     paginationContainer.innerHTML = '';
@@ -521,7 +527,6 @@ function renderPagination(totalPages) {
     }
     paginationContainer.style.display = 'flex';
 
-    // Bouton Précédent
     const prevBtn = document.createElement('button');
     prevBtn.className = `pagination-btn ${currentPage === 1 ? 'disabled' : ''}`;
     prevBtn.innerHTML = `<i class="fa-solid fa-chevron-left"></i>`;
@@ -529,10 +534,8 @@ function renderPagination(totalPages) {
     prevBtn.onclick = () => { showPage(currentPage - 1); window.scrollTo({ top: 0, behavior: 'smooth' }); };
     paginationContainer.appendChild(prevBtn);
 
-    // LOGIQUE MODIFIÉE : Afficher au moins jusqu'à la page 3, puis les points, puis la page 10
     const range = [];
     for (let i = 1; i <= totalPages; i++) {
-        // Condition pour afficher 1, 2, 3, l'ellipse, puis 10
         if (i <= 3 || i === totalPages || (i >= currentPage - 1 && i <= currentPage + 1)) {
             if (!range.includes(i)) range.push(i);
         }
@@ -555,7 +558,6 @@ function renderPagination(totalPages) {
         last = i;
     }
 
-    // Bouton Suivant
     const nextBtn = document.createElement('button');
     nextBtn.className = `pagination-btn ${currentPage === totalPages ? 'disabled' : ''}`;
     nextBtn.innerHTML = `<i class="fa-solid fa-chevron-right"></i>`;
