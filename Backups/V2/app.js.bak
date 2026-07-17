@@ -2,22 +2,13 @@ let allGames = [];
 let displayedGames = [];    
 const GAMES_PER_PAGE = 16;   // 16 jeux par page
 let currentPage = 1;
-let currentCategory = 'home'; // Par défaut sur la page Accueil dédiée
+let currentCategory = 'all'; 
 
 let lastScrollY = window.scrollY;
 let accumulatedScroll = 0;
 
-// --- VARIABLES DU CARROUSEL AVEC PROGRESSION & STOPOVER ---
-let carouselGames = [];
-let currentCarouselIndex = 0;
-let progressInterval = null;
-let currentProgress = 0;
-let isCarouselHovered = false;
-const CAROUSEL_DURATION = 15000; // 10 secondes
-const PROGRESS_STEP = 50; // Mise à jour toutes les 50ms
-
+// --- DOCK DE MAPPING DES FICHIERS JSON ---
 const fichiersPlateformes = {
-    'home': 'jeux.json',
     'all': 'jeux.json',
     'GOG': 'jeux.json',
     'Repacks': 'jeux.json',
@@ -46,6 +37,7 @@ function toggleWishlist(game) {
     
     saveWishlist(wishlist);
 
+    // Si on est actuellement sur l'onglet wishlist, on rafraîchit la page en direct
     if (currentCategory === 'wishlist') {
         applyFilters();
     }
@@ -93,6 +85,7 @@ document.querySelectorAll('.dropdown-item').forEach(item => {
         document.querySelector('.dropdown-item.active').classList.remove('active');
         item.classList.add('active');
         
+        // Désactive visuellement le bouton favoris de la navbar quand on change de catégorie
         if (navWishlistTrigger) {
             navWishlistTrigger.classList.remove('active');
         }
@@ -113,16 +106,20 @@ document.addEventListener('click', () => {
 if (navWishlistTrigger) {
     navWishlistTrigger.addEventListener('click', () => {
         if (navWishlistTrigger.classList.contains('active')) {
+            // S'il est déjà actif, on le désactive et on retourne sur "Tout"
             navWishlistTrigger.classList.remove('active');
             
-            const defaultItem = document.querySelector('.dropdown-item[data-value="home"]');
+            const defaultItem = document.querySelector('.dropdown-item[data-value="all"]');
             document.querySelectorAll('.dropdown-item').forEach(el => el.classList.remove('active'));
             defaultItem.classList.add('active');
             
             selectedValueSpan.textContent = defaultItem.textContent;
-            currentCategory = 'home';
+            currentCategory = 'all';
         } else {
+            // Sinon, on l'active et on affiche la wishlist
             navWishlistTrigger.classList.add('active');
+            
+            // On désactive la sélection visuelle dans le menu déroulant
             document.querySelectorAll('.dropdown-item').forEach(el => el.classList.remove('active'));
             selectedValueSpan.textContent = "Ma Liste";
             currentCategory = 'wishlist';
@@ -154,7 +151,7 @@ document.addEventListener('click', () => {
     }
 });
 
-/* --- FENÊTRE MODALE : LOGIQUE D'AFFICHAGE --- */
+/* --- FENÊTRE MODALE : LOGIQUE D'AFFICHAGE DU HARDWARE --- */
 const modal = document.getElementById('config-modal');
 const closeModalBtn = document.getElementById('close-modal-btn');
 const tabBtns = document.querySelectorAll('.tab-btn');
@@ -165,23 +162,16 @@ modal.addEventListener('click', (e) => { if (e.target === modal) modal.classList
 tabBtns.forEach(btn => {
     btn.addEventListener('click', () => {
         document.querySelector('.tab-btn.active').classList.remove('active');
-        document.querySelector('.config-display > .active').classList.remove('active');
+        document.querySelector('.config-list.active').classList.remove('active');
         
         btn.classList.add('active');
         document.getElementById(`config-${btn.getAttribute('data-tab')}`).classList.add('active');
     });
 });
 
-function openConfigModal(game, defaultTab = 'about') {
+function openConfigModal(game) {
     document.getElementById('modal-game-title').textContent = game.nom;
     
-    const aboutContainer = document.getElementById('config-about');
-    aboutContainer.innerHTML = `
-        <p style="margin-bottom: 12px;"><strong>Description :</strong> ${game.description || 'Aucune description disponible.'}</p>
-        <p style="margin-bottom: 12px;"><strong>Synopsis :</strong> <em>${game.synopsis || 'Aucun synopsis renseigné.'}</em></p>
-        <p><strong>Statut Linux/Proton :</strong> <span class="linux-badge ${(game.linux_status || 'unknown').toLowerCase()}" style="position:static; display:inline-block; margin-left:5px;">${game.linux_status || 'Non renseigné'}</span></p>
-    `;
-
     const minContainer = document.getElementById('config-min');
     const recContainer = document.getElementById('config-rec');
     
@@ -198,21 +188,15 @@ function openConfigModal(game, defaultTab = 'about') {
         minContainer.innerHTML = renderList(game.config.min);
         recContainer.innerHTML = renderList(game.config.rec);
     } else {
-        const fallback = `<li><strong>Information</strong> Caractéristiques non renseignées.</li>`;
+        const fallback = `<li><strong>Information</strong> Les caractéristiques matérielles ne sont pas requises ou renseignées pour ce jeu.</li>`;
         minContainer.innerHTML = fallback;
         recContainer.innerHTML = fallback;
     }
     
-    document.querySelectorAll('.tab-btn').forEach(btn => btn.classList.remove('active'));
-    document.querySelectorAll('.config-display > *').forEach(el => el.classList.remove('active'));
-    
-    document.querySelector(`.tab-btn[data-tab="${defaultTab}"]`).classList.add('active');
-    document.getElementById(`config-${defaultTab}`).classList.add('active');
-
     modal.classList.add('open');
 }
 
-/* --- NAVBAR FIXED HIDE LOGIC --- */
+/* --- NAVBAR ACCUMULATIVE (SMART SCROLL HIDE) --- */
 window.addEventListener('scroll', () => {
     const navbar = document.getElementById('main-navbar');
     const currentScrollY = window.scrollY;
@@ -237,106 +221,6 @@ window.addEventListener('scroll', () => {
     lastScrollY = currentScrollY;
 });
 
-/* --- ENGINE CARROUSEL AVEC PROGRESSION & HOVER STOP --- */
-/* --- ENGINE CARROUSEL AVEC PROGRESSION & HOVER STOP --- */
-function initHeroCarousel(games) {
-    const wrapper = document.getElementById('hero-carousel-wrapper');
-    
-    // Mélange aléatoire complet des jeux possédant un synopsis à chaque chargement
-    carouselGames = games.filter(g => g.synopsis)
-                         .sort(() => Math.random() - 0.5)
-                         .slice(0, 10);
-
-    if (carouselGames.length === 0 || currentCategory !== 'home') {
-        wrapper.style.display = 'none';
-        stopCarouselTimeline();
-        return;
-    }
-
-    wrapper.style.display = 'block';
-    currentCarouselIndex = 0;
-    isCarouselHovered = false;
-    
-    setupCarouselEvents();
-    startCarouselTimeline();
-}
-
-function setupCarouselEvents() {
-    const container = document.getElementById('hero-carousel-wrapper');
-    container.onmouseenter = () => { isCarouselHovered = true; };
-    container.onmouseleave = () => { isCarouselHovered = false; };
-}
-
-function startCarouselTimeline() {
-    renderCarouselCard();
-    currentProgress = 0;
-
-    clearInterval(progressInterval);
-    progressInterval = setInterval(() => {
-        if (!isCarouselHovered) {
-            currentProgress += PROGRESS_STEP;
-            let percent = (currentProgress / CAROUSEL_DURATION) * 100;
-            
-            const progressBar = document.getElementById('carousel-progress-bar');
-            if (progressBar) progressBar.style.width = `${percent}%`;
-
-            if (currentProgress >= CAROUSEL_DURATION) {
-                currentCarouselIndex = (currentCarouselIndex + 1) % carouselGames.length;
-                startCarouselTimeline();
-            }
-        }
-    }, PROGRESS_STEP);
-}
-
-function stopCarouselTimeline() {
-    clearInterval(progressInterval);
-}
-
-function renderCarouselCard() {
-    const container = document.getElementById('hero-carousel-container');
-    if (!carouselGames[currentCarouselIndex]) return;
-    
-    const game = carouselGames[currentCarouselIndex];
-    container.style.backgroundImage = `url('${game.image}')`;
-    
-    let dotsHtml = carouselGames.map((_, idx) => `
-        <div class="carousel-dot ${idx === currentCarouselIndex ? 'active' : ''}" data-idx="${idx}"></div>
-    `).join('');
-
-    container.innerHTML = `
-        <div class="hero-carousel-content">
-            <div class="hero-carousel-tags">
-                <span class="tag-version"><i class="fa-solid fa-code-branch"></i> Stable</span>
-                <span class="tag-platform">PC / LINUX</span>
-                <span class="linux-badge ${(game.linux_status || '').toLowerCase()}">${game.linux_status || 'Proton'}</span>
-            </div>
-            <h1 class="hero-carousel-title">${game.nom}</h1>
-            <p class="hero-carousel-synopsis">${game.synopsis}</p>
-            <div class="hero-carousel-actions">
-                <a class="hero-btn-download" href="${game.lien}" target="_blank">
-                    <i class="fa-solid fa-download"></i> Télécharger
-                </a>
-                <button class="hero-btn-details">
-                    Details <i class="fa-solid fa-chevron-right" style="font-size:0.75rem;"></i>
-                </button>
-            </div>
-        </div>
-        <div class="carousel-progress-bar-container">
-            <div class="carousel-progress-bar" id="carousel-progress-bar"></div>
-        </div>
-        <div class="carousel-dots">${dotsHtml}</div>
-    `;
-
-    container.querySelector('.hero-btn-details').onclick = () => openConfigModal(game, 'about');
-    
-    container.querySelectorAll('.carousel-dot').forEach(dot => {
-        dot.onclick = (e) => {
-            currentCarouselIndex = parseInt(e.target.getAttribute('data-idx'));
-            startCarouselTimeline();
-        };
-    });
-}
-
 /* --- FETCH DYNAMIQUE DU JSON PAR PLATEFORME --- */
 async function fetchGames() {
     if (currentCategory === 'wishlist') {
@@ -345,77 +229,73 @@ async function fetchGames() {
         return;
     }
 
-    const fichierCible = fichiersPlateformes[currentCategory] || 'jeux.json';
-
-    try {
-        // Chargement combiné pour l'Accueil ou pour Tout afin de fusionner PC et PS4
-        if (currentCategory === 'home' || currentCategory === 'all') {
+    if (currentCategory === 'all') {
+        try {
             const [responsePc, responsePs4] = await Promise.all([
                 fetch('jeux.json'),
                 fetch('ps4.json')
             ]);
-            if (!responsePc.ok || !responsePs4.ok) throw new Error("Erreur réseau globale");
+            
+            if (!responsePc.ok || !responsePs4.ok) throw new Error("Erreur réseau détectée lors du chargement des catalogues");
             
             const jeuxPc = await responsePc.json();
             const jeuxPs4 = await responsePs4.json();
+            
             allGames = [...jeuxPc, ...jeuxPs4];
-
-            if (currentCategory === 'home') {
-                initHeroCarousel(jeuxPc);
-            } else {
-                document.getElementById('hero-carousel-wrapper').style.display = 'none';
-                stopCarouselTimeline();
-            }
-        } else {
-            const response = await fetch(fichierCible);
-            if (!response.ok) throw new Error("Erreur de chargement");
-            allGames = await response.json();
-            document.getElementById('hero-carousel-wrapper').style.display = 'none';
-            stopCarouselTimeline();
+            applyFilters();
+        } catch (error) {
+            console.error("Erreur JSON Global :", error);
+            document.getElementById('games-container').innerHTML = `
+                <div class="alert-container">
+                    <i class="fa-solid fa-circle-info alert-icon"></i>
+                    <p class="alert-text">Impossible de charger la base de données des jeux.</p>
+                </div>
+            `;
+            document.getElementById('pagination-container').style.display = 'none';
         }
-        applyFilters();
+        return;
+    }
+
+    const fichierCible = fichiersPlateformes[currentCategory] || 'jeux.json';
+
+    try {
+        const response = await fetch(fichierCible);
+        if (!response.ok) throw new Error("Erreur réseau détectée lors du chargement");
+        allGames = await response.json();
+        applyFilters(); 
     } catch (error) {
-        console.error("Erreur :", error);
+        console.error("Erreur JSON :", error);
         document.getElementById('games-container').innerHTML = `
-            <div class="alert-container"><p class="alert-text">Impossible de charger la base de données des jeux.</p></div>
+            <div class="alert-container">
+                <i class="fa-solid fa-circle-info alert-icon"></i>
+                <p class="alert-text">Impossible de charger la base de données des jeux.</p>
+            </div>
         `;
         document.getElementById('pagination-container').style.display = 'none';
     }
 }
 
 /* ACCÈS ET CALCUL DE LA SÉLECTION FILTRÉE --- */
-/* ACCÈS ET CALCUL DE LA SÉLECTION FILTRÉE --- */
 function getFilteredSource() {
     const searchString = document.getElementById('search-input').value.toLowerCase().trim();
 
     let source = allGames.filter(game => {
         const matchesSearch = game.nom.toLowerCase().includes(searchString);
+        
         let matchesCategory = true;
         if (currentCategory === 'GOG' || currentCategory === 'Repacks') {
             matchesCategory = game.categorie.toLowerCase() === currentCategory.toLowerCase();
         } else if (currentCategory === 'ps4') {
-            matchesCategory = true; // Logique spécifique si besoin
+            matchesCategory = true;
+        } else if (currentCategory === 'wishlist') {
+            matchesCategory = true;
         }
+
         return matchesSearch && matchesCategory;
     });
 
-    // ACCUEIL : Mélange aléatoire dynamique basé sur l'heure ou un hash simple pour varier de "Tout"
-    if (currentCategory === 'home' && searchString === '') {
+    if (currentCategory === 'all' && searchString === '') {
         source = shuffleByDay([...source]);
-    } 
-    // TOUT : Tri alphabétique fixe pour le catalogue complet, plus lisible
-    else if (currentCategory === 'all' && searchString === '') {
-    source = [...source].sort(() => Math.random() - 0.7);
-}
-
-    const wrapper = document.getElementById('hero-carousel-wrapper');
-    if (wrapper) {
-        if (searchString !== '' || currentCategory !== 'home') {
-            wrapper.style.display = 'none';
-            stopCarouselTimeline();
-        } else if (currentCategory === 'home' && carouselGames.length > 0) {
-            wrapper.style.display = 'block';
-        }
     }
 
     return source;
@@ -427,18 +307,12 @@ function applyFilters() {
     showPage(currentPage);
 }
 
+// Calcule la tranche d'index à afficher et reconstruit la pagination
 function showPage(page) {
     const filteredSource = getFilteredSource();
-    
-    // Si on est sur l'Accueil, on coupe strictement à 16 jeux max (sans pagination)
-    if (currentCategory === 'home') {
-        displayedGames = filteredSource.slice(0, 16);
-        renderGames(displayedGames);
-        document.getElementById('pagination-container').style.display = 'none';
-        return;
-    }
-
     const totalPages = Math.ceil(filteredSource.length / GAMES_PER_PAGE);
+    
+    // Protection des bornes de pages
     if (page < 1) page = 1;
     if (page > totalPages && totalPages > 0) page = totalPages;
     currentPage = page;
@@ -449,6 +323,9 @@ function showPage(page) {
 
     renderGames(displayedGames);
     renderPagination(totalPages);
+    
+    // Petit effet fluide pour remonter en haut du site lors d'un changement de page
+    window.scrollTo({ top: 0, behavior: 'smooth' });
 }
 
 function renderGames(gamesList) {
@@ -456,7 +333,16 @@ function renderGames(gamesList) {
     container.innerHTML = ''; 
 
     if (gamesList.length === 0) {
-        container.innerHTML = `<div class="alert-container"><p class="alert-text">Aucun jeu trouvé.</p></div>`;
+        const message = currentCategory === 'wishlist' 
+            ? "Votre liste de favoris est actuellement vide." 
+            : "Aucun jeu ne correspond à votre recherche actuelle.";
+
+        container.innerHTML = `
+            <div class="alert-container">
+                <i class="fa-solid fa-circle-info alert-icon"></i>
+                <p class="alert-text">${message}</p>
+            </div>
+        `;
         return;
     }
     appendGames(gamesList);
@@ -475,36 +361,30 @@ function appendGames(gamesList) {
         clone.querySelector('.game-category').textContent = game.categorie;
         clone.querySelector('.download-btn').href = game.lien;
         
-        if(game.date_sortie) {
-            clone.querySelector('.game-release-date').textContent = game.date_sortie.split('-')[0];
-        }
-
-        const badge = clone.getElementById('card-linux-badge');
-        if(game.linux_status) {
-            badge.textContent = game.linux_status;
-            badge.className = `linux-badge ${game.linux_status.toLowerCase()}`;
-        } else {
-            badge.style.display = 'none';
-        }
-        
+        // Configuration initiale du petit bouton carré d'ajout à la liste (+)
         const isFav = wishlist.some(item => item.nom === game.nom);
         const wishBtn = clone.querySelector('.wishlist-btn');
+        
         if (wishBtn) {
-            wishBtn.innerHTML = isFav ? `<i class="fa-solid fa-check"></i>` : `<i class="fa-solid fa-plus"></i>`;
-            if (isFav) wishBtn.classList.add('active');
+            if (isFav) {
+                wishBtn.classList.add('active');
+                wishBtn.innerHTML = `<i class="fa-solid fa-check"></i>`;
+            } else {
+                wishBtn.innerHTML = `<i class="fa-solid fa-plus"></i>`;
+            }
 
-            wishBtn.onclick = (e) => {
+            wishBtn.addEventListener('click', (e) => {
                 e.stopPropagation();
                 toggleWishlist(game);
+                
                 const activeNow = wishBtn.classList.toggle('active');
                 wishBtn.innerHTML = activeNow ? `<i class="fa-solid fa-check"></i>` : `<i class="fa-solid fa-plus"></i>`;
-            };
+            });
         }
 
-        const aboutBtn = clone.querySelector('.about-game-btn');
-        if (aboutBtn) {
-            aboutBtn.onclick = () => openConfigModal(game, 'about');
-        }
+        clone.querySelector('.config-specs-btn').addEventListener('click', () => {
+            openConfigModal(game);
+        });
 
         container.appendChild(clone);
     });
@@ -515,70 +395,105 @@ function renderPagination(totalPages) {
     const paginationContainer = document.getElementById('pagination-container');
     paginationContainer.innerHTML = '';
 
+    // Si on a 1 seule page ou aucune, on cache complètement le conteneur de pagination
     if (totalPages <= 1) {
         paginationContainer.style.display = 'none';
         return;
     }
     paginationContainer.style.display = 'flex';
 
-    // Bouton Précédent
+    // Bouton Précédent (chevron)
     const prevBtn = document.createElement('button');
     prevBtn.className = `pagination-btn ${currentPage === 1 ? 'disabled' : ''}`;
     prevBtn.innerHTML = `<i class="fa-solid fa-chevron-left"></i>`;
     prevBtn.disabled = currentPage === 1;
-    prevBtn.onclick = () => { showPage(currentPage - 1); window.scrollTo({ top: 0, behavior: 'smooth' }); };
+    prevBtn.addEventListener('click', () => showPage(currentPage - 1));
     paginationContainer.appendChild(prevBtn);
 
-    // LOGIQUE MODIFIÉE : Afficher au moins jusqu'à la page 3, puis les points, puis la page 10
-    const range = [];
-    for (let i = 1; i <= totalPages; i++) {
-        // Condition pour afficher 1, 2, 3, l'ellipse, puis 10
-        if (i <= 3 || i === totalPages || (i >= currentPage - 1 && i <= currentPage + 1)) {
-            if (!range.includes(i)) range.push(i);
+    // Définition des pages à afficher pour ne pas surcharger les mobiles (limite visuelle)
+    let startPage = Math.max(1, currentPage - 2);
+    let endPage = Math.min(totalPages, startPage + 4);
+    if (endPage - startPage < 4) {
+        startPage = Math.max(1, endPage - 4);
+    }
+
+    // Indicateur de première page si on est loin
+    if (startPage > 1) {
+        const firstPageBtn = document.createElement('button');
+        firstPageBtn.className = 'pagination-btn';
+        firstPageBtn.textContent = '1';
+        firstPageBtn.addEventListener('click', () => showPage(1));
+        paginationContainer.appendChild(firstPageBtn);
+
+        if (startPage > 2) {
+            const ellipsis = document.createElement('span');
+            ellipsis.className = 'pagination-ellipsis';
+            ellipsis.textContent = '...';
+            paginationContainer.appendChild(ellipsis);
         }
     }
 
-    let last;
-    for (let i of range) {
-        if (last && i - last > 1) {
+    // Génération des boutons numériques individuels
+    for (let i = startPage; i <= endPage; i++) {
+        const pageBtn = document.createElement('button');
+        pageBtn.className = `pagination-btn ${i === currentPage ? 'active' : ''}`;
+        pageBtn.textContent = i;
+        pageBtn.addEventListener('click', () => showPage(i));
+        paginationContainer.appendChild(pageBtn);
+    }
+
+    // Indicateur de dernière page si on est loin
+    if (endPage < totalPages) {
+        if (endPage < totalPages - 1) {
             const ellipsis = document.createElement('span');
             ellipsis.className = 'pagination-ellipsis';
             ellipsis.textContent = '...';
             paginationContainer.appendChild(ellipsis);
         }
         
-        const pageBtn = document.createElement('button');
-        pageBtn.className = `pagination-btn ${i === currentPage ? 'active' : ''}`;
-        pageBtn.textContent = i;
-        pageBtn.onclick = () => { showPage(i); window.scrollTo({ top: 0, behavior: 'smooth' }); };
-        paginationContainer.appendChild(pageBtn);
-        last = i;
+        const lastPageBtn = document.createElement('button');
+        lastPageBtn.className = 'pagination-btn';
+        lastPageBtn.textContent = totalPages;
+        lastPageBtn.addEventListener('click', () => showPage(totalPages));
+        paginationContainer.appendChild(lastPageBtn);
     }
 
-    // Bouton Suivant
+    // Bouton Suivant (chevron)
     const nextBtn = document.createElement('button');
     nextBtn.className = `pagination-btn ${currentPage === totalPages ? 'disabled' : ''}`;
     nextBtn.innerHTML = `<i class="fa-solid fa-chevron-right"></i>`;
     nextBtn.disabled = currentPage === totalPages;
-    nextBtn.onclick = () => { showPage(currentPage + 1); window.scrollTo({ top: 0, behavior: 'smooth' }); };
+    nextBtn.addEventListener('click', () => showPage(currentPage + 1));
     paginationContainer.appendChild(nextBtn);
 }
 
-/* --- INTERACTIONS FOOTER --- */
-const backToTopBtn = document.getElementById('back-to-top');
-if (backToTopBtn) backToTopBtn.onclick = () => window.scrollTo({ top: 0, behavior: 'smooth' });
+/* --- INTERACTIONS FOOTER : NAVIGATION ET BACK-TO-TOP --- */
 
+// Bouton de retour vers le haut fluide
+const backToTopBtn = document.getElementById('back-to-top');
+if (backToTopBtn) {
+    backToTopBtn.addEventListener('click', () => {
+        window.scrollTo({ top: 0, behavior: 'smooth' });
+    });
+}
+
+// Rendre fonctionnel les liens de navigation du footer
 document.querySelectorAll('.footer-nav-link').forEach(link => {
-    link.onclick = (e) => {
+    link.addEventListener('click', (e) => {
         e.preventDefault();
         const targetCategory = link.getAttribute('data-target');
+        
+        // Simule le clic sur l'élément correspondant dans le dropdown de navigation principal
         const correspondingDropdownItem = document.querySelector(`.dropdown-item[data-value="${targetCategory}"]`);
+        
         if (correspondingDropdownItem) {
             correspondingDropdownItem.click();
+            // Remonte en haut de la page pour voir les résultats
             window.scrollTo({ top: 0, behavior: 'smooth' });
         }
-    };
+    });
 });
 
+
 document.getElementById('search-input').addEventListener('input', applyFilters);
-document.addEventListener('DOMContentLoaded', fetchGames);
+document.addEventListener('DOMContentLoaded', fetchGames); 

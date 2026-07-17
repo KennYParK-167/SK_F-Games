@@ -30,12 +30,11 @@
             <!-- Menu Déroulant Catégories -->
             <div class="custom-dropdown" id="category-dropdown">
                 <button class="dropdown-trigger" id="dropdown-btn">
-                    <span id="selected-value">Accueil</span>
+                    <span id="selected-value">Tout</span>
                     <i class="fa-solid fa-chevron-down arrow-icon"></i>
                 </button>
                 <div class="dropdown-menu" id="dropdown-options">
-                    <div class="dropdown-item active" data-value="home">Accueil</div>
-                    <div class="dropdown-item" data-value="all">Tout</div>
+                    <div class="dropdown-item active" data-value="all">Tout</div>
                     <div class="dropdown-item" data-value="GOG">GOG</div>
                     <div class="dropdown-item" data-value="Repacks">Repacks</div>
                     <div class="dropdown-item" data-value="PS4">PS4</div>
@@ -55,14 +54,7 @@
         </div>
     </nav>
 
-    <!-- GRAND BOX CARROUSEL AVEC BARRE DE PROGRESSION -->
-    <div class="hero-carousel-wrapper" id="hero-carousel-wrapper">
-        <div class="hero-carousel" id="hero-carousel-container">
-            <!-- Injecté dynamiquement par app.js -->
-        </div>
-    </div>
-
-    <!-- Conteneur Principal -->
+    <!-- Conteneur Principal (Boîte de contenu) -->
     <div class="main-container">
         <main id="games-container"></main>
         <!-- Conteneur pour le système de pagination -->
@@ -76,37 +68,29 @@
             <h3 class="modal-game-title" id="modal-game-title">Nom du Jeu</h3>
 
             <div class="config-tabs">
-                <button class="tab-btn active" data-tab="about" id="tab-about-btn">À Propos</button>
-                <button class="tab-btn" data-tab="min">Minimum</button>
+                <button class="tab-btn active" data-tab="min">Minimum</button>
                 <button class="tab-btn" data-tab="rec">Recommandé</button>
             </div>
 
             <div class="config-display">
-                <div class="config-list active" id="config-about" style="color: var(--text-muted); font-size: 0.9rem; line-height: 1.5;"></div>
-                <ul class="config-list" id="config-min"></ul>
+                <ul class="config-list active" id="config-min"></ul>
                 <ul class="config-list" id="config-rec"></ul>
             </div>
         </div>
     </div>
 
-    <!-- Template des cartes de jeux (Bouton Config retiré) -->
+    <!-- Template des cartes de jeux -->
     <template id="game-card-template">
         <div class="game-card">
-            <div class="game-img-container" style="position: relative;">
-                <img class="game-img" src="" alt="">
-                <span class="linux-badge" id="card-linux-badge"></span>
-            </div>
+            <img class="game-img" src="" alt="">
             <div class="game-info">
                 <h2 class="game-title"></h2>
-                <div style="display: flex; justify-content: space-between; align-items: center; margin-top: auto;">
-                    <span class="game-category"></span>
-                    <span class="game-release-date" style="font-size: 0.75rem; color: var(--text-muted);"></span>
-                </div>
+                <span class="game-category"></span>
 
                 <!-- Zone d'action en bas -->
                 <div class="game-actions-row">
-                    <button class="about-game-btn">
-                        <i class="fa-solid fa-circle-info"></i> À Propos
+                    <button class="config-specs-btn">
+                        <i class="fa-solid fa-microchip"></i> Configuration requise
                     </button>
                     <button class="wishlist-btn" title="Ajouter à ma liste">
                         <i class="fa-solid fa-plus"></i>
@@ -120,18 +104,19 @@
         </div>
     </template>
 
+
     <!-- Footer -->
     <footer class="site-footer">
         <div class="footer-container">
             <div class="footer-col">
                 <h3>SK F-Games</h3>
-                <p class="footer-desc">Plateforme de distribution de jeux. Rejoignez notre communauté pour toute demande ou support.</p>
+                <p class="footer-desc">Plateforme de distribution de jeux. Rejoignez notre communauté pour toute demande
+                    ou support.</p>
             </div>
             <div class="footer-col">
                 <h3>Navigation</h3>
                 <ul class="footer-links">
-                    <li><a href="#" class="footer-nav-link" data-target="home">Accueil</a></li>
-                    <li><a href="#" class="footer-nav-link" data-target="all">Tout</a></li>
+                    <li><a href="#" class="footer-nav-link" data-target="all">Accueil</a></li>
                     <li><a href="#" class="footer-nav-link" data-target="GOG">GOG</a></li>
                     <li><a href="#" class="footer-nav-link" data-target="Repacks">Repacks</a></li>
                     <li><a href="#" class="footer-nav-link" data-target="PS4">PS4</a></li>
@@ -140,7 +125,9 @@
             <div class="footer-col">
                 <h3>Disclaimer</h3>
                 <p class="footer-desc" style="font-size: 0.75rem;">
-                    Ce site est une plateforme de référencement. Tous les jeux et contenus appartiennent à leurs éditeurs respectifs. Nous ne possédons aucun droit sur les fichiers distribués.
+                    Ce site est une plateforme de référencement. Tous les jeux et contenus appartiennent à leurs
+                    éditeurs respectifs. Nous ne possédons aucun droit sur les fichiers distribués. En utilisant ce
+                    site, vous confirmez posséder les licences originales des jeux téléchargés.
                 </p>
             </div>
         </div>
@@ -155,4 +142,5 @@
 
     <script src="app.js"></script>
 </body>
+
 </html>

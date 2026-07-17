@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Profiter de notre catalogue de jeux gratuit avec notre serveur discord pour les demande. Un site de distribution du jeux diverse Roms, PC, Console etc...">
+    <title>F-Games Links | SK GAMING & CO.</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <nav class="navbar" id="main-navbar">
+        <div class="brand">
+            <i class="fa-solid fa-gamepad"></i> SK F-Games
+        </div>
+        
+        <div class="nav-controls">
+            <div class="custom-dropdown" id="category-dropdown">
+                <button class="dropdown-trigger" id="dropdown-btn">
+                    <span id="selected-value">Tout</span>
+                    <i class="fa-solid fa-chevron-down arrow-icon"></i>
+                </button>
+                <div class="dropdown-menu" id="dropdown-options">
+                    <div class="dropdown-item active" data-value="all">Tout</div>
+                    <div class="dropdown-item" data-value="GOG">GOG</div>
+                    <div class="dropdown-item" data-value="Repacks">Repacks</div>
+                    <div class="dropdown-item" data-value="PS4">PS4</div>
+                </div>
+            </div>
+            
+            <button class="mobile-search-toggle" id="search-toggle-btn">
+                <i class="fa-solid fa-magnifying-glass"></i>
+            </button>
+
+            <div class="search-container" id="search-box">
+                <div class="search-inner">
+                    <i class="fa-solid fa-magnifying-glass search-icon"></i>
+                    <input type="text" id="search-input" class="search-input" placeholder="Rechercher un jeu...">
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <main id="games-container"></main>
+
+    <div class="modal-overlay" id="config-modal">
+        <div class="modal-content">
+            <button class="modal-close" id="close-modal-btn">&times;</button>
+            <h3 class="modal-game-title" id="modal-game-title">Nom du Jeu</h3>
+            
+            <div class="config-tabs">
+                <button class="tab-btn active" data-tab="min">Minimum</button>
+                <button class="tab-btn" data-tab="rec">Recommandé</button>
+            </div>
+
+            <div class="config-display">
+                <ul class="config-list active" id="config-min">
+                    </ul>
+                <ul class="config-list" id="config-rec">
+                    </ul>
+            </div>
+        </div>
+    </div>
+
+    <template id="game-card-template">
+        <div class="game-card">
+            <img class="game-img" src="" alt="">
+            <div class="game-info">
+                <h2 class="game-title"></h2>
+                <span class="game-category"></span>
+                
+                <button class="config-specs-btn">
+                    <i class="fa-solid fa-microchip"></i> Configuration requise
+                </button>
+                
+                <a class="download-btn" href="" target="_blank">
+                    <i class="fa-solid fa-download"></i> Télécharger
+                </a>
+            </div>
+        </div>
+    </template>
+
+    <script src="app.js"></script>
+</body>
+</html>
