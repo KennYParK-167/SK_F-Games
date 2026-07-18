@@ -359,8 +359,22 @@
         "synopsis": "Réveillez-vous dans une caverne infinie remplie de créatures, de ressources et de bibelots. Minez, construisez, cultivez, fabriquez et combattez pour survivre dans ce monde souterrain mystérieux.",
         "linux_status": "Gold",
         "config": {
-            "min": {"os": "Windows 10 64-bit", "cpu": "Intel Core i5-2300 / AMD Ryzen 3 1200", "ram": "8 GB RAM", "gpu": "GeForce GTX 460 / Radeon HD 5850", "dx": "Non spécifié", "storage": "Non spécifié"},
-            "rec": {"os": "Windows 10 64-bit", "cpu": "Intel Core i5-8400 / AMD Ryzen 7 2700X", "ram": "8 GB RAM", "gpu": "GeForce GTX 1050 Ti / Radeon R9 280X", "dx": "Non spécifié", "storage": "Non spécifié"}
+            "min": {
+                "os": "Windows 10 64-bit",
+                "cpu": "Intel Core i5-2300 / AMD Ryzen 3 1200",
+                "ram": "8 GB RAM",
+                "gpu": "GeForce GTX 460 / Radeon HD 5850",
+                "dx": "Non spécifié",
+                "storage": "Non spécifié"
+            },
+            "rec": {
+                "os": "Windows 10 64-bit",
+                "cpu": "Intel Core i5-8400 / AMD Ryzen 7 2700X",
+                "ram": "8 GB RAM",
+                "gpu": "GeForce GTX 1050 Ti / Radeon R9 280X",
+                "dx": "Non spécifié",
+                "storage": "Non spécifié"
+            }
         }
     },
     {
@@ -372,8 +386,22 @@
         "synopsis": "Creusez, combattez, explorez et construisez dans le monde bac à sable ultime. Chaque monde est unique, offrant des biomes variés, des boss redoutables et d'innombrables objets à collectionner.",
         "linux_status": "Native",
         "config": {
-            "min": {"os": "Windows Xp, Vista, 7, 8/8.1, 10", "cpu": "2.0 Ghz", "ram": "2.5 GB RAM", "gpu": "128mb Video Memory (Shader Model 2.0+)", "dx": "9.0c or Greater", "storage": "200 MB"},
-            "rec": {"os": "Windows 7, 8/8.1, 10", "cpu": "Dual Core 3.0 Ghz", "ram": "4 GB RAM", "gpu": "256mb Video Memory (Shader Model 2.0+)", "dx": "9.0c or Greater", "storage": "200 MB"}
+            "min": {
+                "os": "Windows Xp, Vista, 7, 8/8.1, 10",
+                "cpu": "2.0 Ghz",
+                "ram": "2.5 GB RAM",
+                "gpu": "128mb Video Memory (Shader Model 2.0+)",
+                "dx": "9.0c or Greater",
+                "storage": "200 MB"
+            },
+            "rec": {
+                "os": "Windows 7, 8/8.1, 10",
+                "cpu": "Dual Core 3.0 Ghz",
+                "ram": "4 GB RAM",
+                "gpu": "256mb Video Memory (Shader Model 2.0+)",
+                "dx": "9.0c or Greater",
+                "storage": "200 MB"
+            }
         }
     },
     {
@@ -385,8 +413,22 @@
         "synopsis": "Explorez une nature sauvage glacée et étendue après une catastrophe géomagnétique. Gérez votre chaleur, votre faim et votre soif tout en évitant les prédateurs dans un monde où chaque décision est vitale.",
         "linux_status": "Platinum",
         "config": {
-            "min": {"os": "Windows XP", "cpu": "Dual-Core Intel i5 CPU @ 2GHz+", "ram": "4 GB RAM", "gpu": "Intel 4xxx Series (512MB VRAM or better)", "dx": "Non spécifié", "storage": "1 GB"},
-            "rec": {"os": "Windows 7", "cpu": "Intel i7 CPU @ 2.6GHz or higher", "ram": "8 GB RAM", "gpu": "NVIDIA GTX 555 (1GB VRAM or better)", "dx": "Non spécifié", "storage": "1 GB"}
+            "min": {
+                "os": "Windows XP",
+                "cpu": "Dual-Core Intel i5 CPU @ 2GHz+",
+                "ram": "4 GB RAM",
+                "gpu": "Intel 4xxx Series (512MB VRAM or better)",
+                "dx": "Non spécifié",
+                "storage": "1 GB"
+            },
+            "rec": {
+                "os": "Windows 7",
+                "cpu": "Intel i7 CPU @ 2.6GHz or higher",
+                "ram": "8 GB RAM",
+                "gpu": "NVIDIA GTX 555 (1GB VRAM or better)",
+                "dx": "Non spécifié",
+                "storage": "1 GB"
+            }
         }
     },
     {
@@ -398,8 +440,22 @@
         "synopsis": "Dans un monde cyberpunk, vous devez éliminer des robots pour gagner du temps et survivre. Un jeu d'action frénétique où la vitesse est votre meilleure arme.",
         "linux_status": "Platinum",
         "config": {
-            "min": {"os": "Windows 10", "cpu": "2.4 GHz", "ram": "8 GB RAM", "gpu": "GeForce GTX 970", "dx": "Non spécifié", "storage": "5 GB"},
-            "rec": {"os": "Windows 10", "cpu": "4.0 GHz", "ram": "16 GB RAM", "gpu": "GeForce GTX 1060", "dx": "Non spécifié", "storage": "5 GB"}
+            "min": {
+                "os": "Windows 10",
+                "cpu": "2.4 GHz",
+                "ram": "8 GB RAM",
+                "gpu": "GeForce GTX 970",
+                "dx": "Non spécifié",
+                "storage": "5 GB"
+            },
+            "rec": {
+                "os": "Windows 10",
+                "cpu": "4.0 GHz",
+                "ram": "16 GB RAM",
+                "gpu": "GeForce GTX 1060",
+                "dx": "Non spécifié",
+                "storage": "5 GB"
+            }
         }
     },
     {
@@ -411,8 +467,22 @@
         "synopsis": "Incarnez une recrue en mission pour enquêter sur une mine abandonnée. Explorez des salles générées procéduralement, combattez des ennemis mortels et découvrez des secrets anciens.",
         "linux_status": "Platinum",
         "config": {
-            "min": {"os": "Windows XP (SP3)+", "cpu": "Dual Core CPU", "ram": "1 GB RAM", "gpu": "Support OpenGL 3.0+ (ou 2.1 avec extensions ARB)", "dx": "Non spécifié", "storage": "1 GB"},
-            "rec": {"os": "Non spécifié", "cpu": "Non spécifié", "ram": "Non spécifié", "gpu": "Non spécifié", "dx": "Non spécifié", "storage": "Non spécifié"}
+            "min": {
+                "os": "Windows XP (SP3)+",
+                "cpu": "Dual Core CPU",
+                "ram": "1 GB RAM",
+                "gpu": "Support OpenGL 3.0+ (ou 2.1 avec extensions ARB)",
+                "dx": "Non spécifié",
+                "storage": "1 GB"
+            },
+            "rec": {
+                "os": "Non spécifié",
+                "cpu": "Non spécifié",
+                "ram": "Non spécifié",
+                "gpu": "Non spécifié",
+                "dx": "Non spécifié",
+                "storage": "Non spécifié"
+            }
         }
     },
     {
@@ -424,8 +494,22 @@
         "synopsis": "Prenez les rênes d'une petite boutique et transformez-la en un empire commercial. Gérez vos stocks, vos employés et vos clients dans ce jeu de gestion coloré.",
         "linux_status": "Gold",
         "config": {
-            "min": {"os": "Windows 10", "cpu": "Intel Core2 Quad Q8400 / AMD Phenom II X2 550", "ram": "6 GB RAM", "gpu": "NVIDIA GeForce GT 520 (1 GB) / AMD Radeon HD 5570 (1 GB)", "dx": "Non spécifié", "storage": "570 MB"},
-            "rec": {"os": "Windows 10", "cpu": "Intel Core i7-4770T / AMD Ryzen 3 1200", "ram": "8 GB RAM", "gpu": "NVIDIA GeForce GTX 660 Ti (2 GB) / AMD Radeon HD 7870 (2 GB)", "dx": "Non spécifié", "storage": "570 MB"}
+            "min": {
+                "os": "Windows 10",
+                "cpu": "Intel Core2 Quad Q8400 / AMD Phenom II X2 550",
+                "ram": "6 GB RAM",
+                "gpu": "NVIDIA GeForce GT 520 (1 GB) / AMD Radeon HD 5570 (1 GB)",
+                "dx": "Non spécifié",
+                "storage": "570 MB"
+            },
+            "rec": {
+                "os": "Windows 10",
+                "cpu": "Intel Core i7-4770T / AMD Ryzen 3 1200",
+                "ram": "8 GB RAM",
+                "gpu": "NVIDIA GeForce GTX 660 Ti (2 GB) / AMD Radeon HD 7870 (2 GB)",
+                "dx": "Non spécifié",
+                "storage": "570 MB"
+            }
         }
     },
     {
@@ -437,8 +521,22 @@
         "synopsis": "Un extraterrestre capable de manier 6 armes à la fois. Choisissez vos caractéristiques et améliorez votre personnage pour survivre face à des vagues d'ennemis infinies.",
         "linux_status": "Platinum",
         "config": {
-            "min": {"os": "Windows 7+", "cpu": "2 GHz", "ram": "4 GB RAM", "gpu": "128MB (OpenGL 3+)", "dx": "Non spécifié", "storage": "200 MB"},
-            "rec": {"os": "Non spécifié", "cpu": "Non spécifié", "ram": "Non spécifié", "gpu": "Non spécifié", "dx": "Non spécifié", "storage": "Non spécifié"}
+            "min": {
+                "os": "Windows 7+",
+                "cpu": "2 GHz",
+                "ram": "4 GB RAM",
+                "gpu": "128MB (OpenGL 3+)",
+                "dx": "Non spécifié",
+                "storage": "200 MB"
+            },
+            "rec": {
+                "os": "Non spécifié",
+                "cpu": "Non spécifié",
+                "ram": "Non spécifié",
+                "gpu": "Non spécifié",
+                "dx": "Non spécifié",
+                "storage": "Non spécifié"
+            }
         }
     },
     {
@@ -450,8 +548,22 @@
         "synopsis": "Explorez un immense royaume en ruine peuplé d'insectes et de héros. Découvrez des secrets enfouis, apprenez des compétences puissantes et affrontez des boss redoutables.",
         "linux_status": "Native",
         "config": {
-            "min": {"os": "Windows 7", "cpu": "Intel Core 2 Duo E5200", "ram": "4 GB RAM", "gpu": "GeForce 9800GTX+ (1GB)", "dx": "Version 10", "storage": "9 GB"},
-            "rec": {"os": "Windows 10", "cpu": "Intel Core i5", "ram": "8 GB RAM", "gpu": "GeForce GTX 560", "dx": "Version 11", "storage": "9 GB"}
+            "min": {
+                "os": "Windows 7",
+                "cpu": "Intel Core 2 Duo E5200",
+                "ram": "4 GB RAM",
+                "gpu": "GeForce 9800GTX+ (1GB)",
+                "dx": "Version 10",
+                "storage": "9 GB"
+            },
+            "rec": {
+                "os": "Windows 10",
+                "cpu": "Intel Core i5",
+                "ram": "8 GB RAM",
+                "gpu": "GeForce GTX 560",
+                "dx": "Version 11",
+                "storage": "9 GB"
+            }
         }
     },
     {
@@ -463,8 +575,22 @@
         "synopsis": "Incarnez Hornet, la princesse protectrice d'Hallownest, et partez à l'aventure dans un tout nouveau royaume. Un jeu d'action rapide avec des mécaniques inédites.",
         "linux_status": "Non testé",
         "config": {
-            "min": {"os": "Windows 10 version 21H1 (build 19043) or newer", "cpu": "Intel Core i3-3240 / AMD FX-4300", "ram": "4 GB RAM", "gpu": "GeForce GTX 560 Ti (1GB) / Radeon HD 7750 (1GB)", "dx": "Version 10", "storage": "8 GB"},
-            "rec": {"os": "Windows 10 version 21H1 (build 19043) or newer", "cpu": "Intel Core i5-3470", "ram": "8 GB RAM", "gpu": "GeForce GTX 1050 (2GB) / Radeon R9 380 (2GB)", "dx": "Version 10", "storage": "8 GB"}
+            "min": {
+                "os": "Windows 10 version 21H1 (build 19043) or newer",
+                "cpu": "Intel Core i3-3240 / AMD FX-4300",
+                "ram": "4 GB RAM",
+                "gpu": "GeForce GTX 560 Ti (1GB) / Radeon HD 7750 (1GB)",
+                "dx": "Version 10",
+                "storage": "8 GB"
+            },
+            "rec": {
+                "os": "Windows 10 version 21H1 (build 19043) or newer",
+                "cpu": "Intel Core i5-3470",
+                "ram": "8 GB RAM",
+                "gpu": "GeForce GTX 1050 (2GB) / Radeon R9 380 (2GB)",
+                "dx": "Version 10",
+                "storage": "8 GB"
+            }
         }
     },
     {
@@ -476,8 +602,22 @@
         "synopsis": "Suivez Adol Christin dans une nouvelle aventure épique au cœur de la mer d'Obelia. Maîtrisez un système de combat innovant pour affronter des ennemis colossaux.",
         "linux_status": "Gold",
         "config": {
-            "min": {"os": "Windows 10 64-bit", "cpu": "Intel Core i5-3470 / AMD Ryzen 3 1200", "ram": "8 GB RAM", "gpu": "GeForce GTX 1060 (6 GB) / AMD Radeon RX 580", "dx": "Version 12", "storage": "16 GB"},
-            "rec": {"os": "Windows 10 64-bit", "cpu": "Intel Core i7-12700", "ram": "Non spécifié", "gpu": "GeForce RTX 3060 (12 GB)", "dx": "Version 12", "storage": "16 GB"}
+            "min": {
+                "os": "Windows 10 64-bit",
+                "cpu": "Intel Core i5-3470 / AMD Ryzen 3 1200",
+                "ram": "8 GB RAM",
+                "gpu": "GeForce GTX 1060 (6 GB) / AMD Radeon RX 580",
+                "dx": "Version 12",
+                "storage": "16 GB"
+            },
+            "rec": {
+                "os": "Windows 10 64-bit",
+                "cpu": "Intel Core i7-12700",
+                "ram": "Non spécifié",
+                "gpu": "GeForce RTX 3060 (12 GB)",
+                "dx": "Version 12",
+                "storage": "16 GB"
+            }
         }
     },
     {
@@ -489,8 +629,22 @@
         "synopsis": "Un jeu inspiré des classiques de l'aventure 16 bits. Explorez une île mystérieuse, résolvez des puzzles et combattez des ennemis dans une aventure pleine de charme.",
         "linux_status": "Non testé",
         "config": {
-            "min": {"os": "Windows 7/8/8.1/10 (x86/x64)", "cpu": "Intel Core i5-3210M (2 * 2500 MHz) ou équivalent", "ram": "4 GB RAM", "gpu": "Intel HD 4000", "dx": "Version 9.0c", "storage": "1 GB"},
-            "rec": {"os": "Windows 7/8/8.1/10 (x64)", "cpu": "Intel Pentium G3250 (2 * 3200 MHz) / AMD Phenom 9850 Quad-Core (4 * 2500 MHz) ou équivalent", "ram": "8 GB RAM", "gpu": "GeForce GTX 460 (1024 MB) / Radeon HD 6850 (1024 MB)", "dx": "Version 9.0c", "storage": "1 GB"}
+            "min": {
+                "os": "Windows 7/8/8.1/10 (x86/x64)",
+                "cpu": "Intel Core i5-3210M (2 * 2500 MHz) ou équivalent",
+                "ram": "4 GB RAM",
+                "gpu": "Intel HD 4000",
+                "dx": "Version 9.0c",
+                "storage": "1 GB"
+            },
+            "rec": {
+                "os": "Windows 7/8/8.1/10 (x64)",
+                "cpu": "Intel Pentium G3250 (2 * 3200 MHz) / AMD Phenom 9850 Quad-Core (4 * 2500 MHz) ou équivalent",
+                "ram": "8 GB RAM",
+                "gpu": "GeForce GTX 460 (1024 MB) / Radeon HD 6850 (1024 MB)",
+                "dx": "Version 9.0c",
+                "storage": "1 GB"
+            }
         }
     },
     {
@@ -502,8 +656,22 @@
         "synopsis": "Vivez l'expérience de la Formule 1 à travers les époques. Maîtrisez les circuits les plus exigeants avec des modèles de voitures historiques et modernes.",
         "linux_status": "Non testé",
         "config": {
-            "min": {"os": "Windows 10", "cpu": "Intel Core i5-6600K / AMD Ryzen 3 3100", "ram": "8 GB RAM", "gpu": "NVIDIA GeForce GTX 780 / AMD Radeon RX 480", "dx": "Version 12", "storage": "6 GB"},
-            "rec": {"os": "Windows 11", "cpu": "Intel Core i7 (13ème gen) / AMD Ryzen 7 7800", "ram": "16 GB RAM", "gpu": "NVIDIA GeForce RTX 2060 / AMD Radeon RX 5700", "dx": "Version 12", "storage": "6 GB"}
+            "min": {
+                "os": "Windows 10",
+                "cpu": "Intel Core i5-6600K / AMD Ryzen 3 3100",
+                "ram": "8 GB RAM",
+                "gpu": "NVIDIA GeForce GTX 780 / AMD Radeon RX 480",
+                "dx": "Version 12",
+                "storage": "6 GB"
+            },
+            "rec": {
+                "os": "Windows 11",
+                "cpu": "Intel Core i7 (13ème gen) / AMD Ryzen 7 7800",
+                "ram": "16 GB RAM",
+                "gpu": "NVIDIA GeForce RTX 2060 / AMD Radeon RX 5700",
+                "dx": "Version 12",
+                "storage": "6 GB"
+            }
         }
     },
     {
@@ -515,8 +683,22 @@
         "synopsis": "Achetez une station-service abandonnée au milieu de nulle part et rénovez-la entièrement. Gérez les pompes, réparez les voitures et développez votre activité.",
         "linux_status": "Gold",
         "config": {
-            "min": {"os": "Windows 7 (64-bit) / 10 (64-bit)", "cpu": "Intel Core i3 3.0 GHz", "ram": "4 GB RAM", "gpu": "NVIDIA GeForce GTX 660 (2GB VRAM)", "dx": "Version 11", "storage": "10 GB"},
-            "rec": {"os": "Windows 10", "cpu": "Intel Core i5 (génération récente)", "ram": "8 GB RAM", "gpu": "NVIDIA GeForce GTX série 900 (4GB VRAM)", "dx": "Version 11", "storage": "15 GB"}
+            "min": {
+                "os": "Windows 7 (64-bit) / 10 (64-bit)",
+                "cpu": "Intel Core i3 3.0 GHz",
+                "ram": "4 GB RAM",
+                "gpu": "NVIDIA GeForce GTX 660 (2GB VRAM)",
+                "dx": "Version 11",
+                "storage": "10 GB"
+            },
+            "rec": {
+                "os": "Windows 10",
+                "cpu": "Intel Core i5 (génération récente)",
+                "ram": "8 GB RAM",
+                "gpu": "NVIDIA GeForce GTX série 900 (4GB VRAM)",
+                "dx": "Version 11",
+                "storage": "15 GB"
+            }
         }
     },
     {
@@ -528,8 +710,22 @@
         "synopsis": "Une menace extraterrestre mute et s'adapte à vos tactiques. Dirigez le projet Phoenix, gérez des bases à travers le monde et menez des missions tactiques intenses.",
         "linux_status": "Gold",
         "config": {
-            "min": {"os": "Windows 7 SP1+ / 8 / 10 (64-bit)", "cpu": "Intel Core i3 / AMD Phenom II X3", "ram": "8 GB RAM", "gpu": "NVIDIA GeForce GTX 660 / AMD Radeon R9 270", "dx": "Version 11", "storage": "Non spécifié"},
-            "rec": {"os": "Windows 7 SP1+ / 8 / 10 (64-bit)", "cpu": "Intel Core i5 @ 3GHz / AMD FX series @ 3.2GHz", "ram": "16 GB RAM", "gpu": "NVIDIA GeForce GTX 1060 / AMD Radeon R9 390X", "dx": "Version 11", "storage": "Non spécifié"}
+            "min": {
+                "os": "Windows 7 SP1+ / 8 / 10 (64-bit)",
+                "cpu": "Intel Core i3 / AMD Phenom II X3",
+                "ram": "8 GB RAM",
+                "gpu": "NVIDIA GeForce GTX 660 / AMD Radeon R9 270",
+                "dx": "Version 11",
+                "storage": "Non spécifié"
+            },
+            "rec": {
+                "os": "Windows 7 SP1+ / 8 / 10 (64-bit)",
+                "cpu": "Intel Core i5 @ 3GHz / AMD FX series @ 3.2GHz",
+                "ram": "16 GB RAM",
+                "gpu": "NVIDIA GeForce GTX 1060 / AMD Radeon R9 390X",
+                "dx": "Version 11",
+                "storage": "Non spécifié"
+            }
         }
     },
     {
@@ -541,8 +737,22 @@
         "synopsis": "Plongez dans un récit riche en personnages et en intrigues politiques. Maîtrisez un système de combat tactique dans un univers fantastique vaste.",
         "linux_status": "Non testé",
         "config": {
-            "min": {"os": "Windows 10/11 (64-bit)", "cpu": "AMD Ryzen 5 1600", "ram": "8 GB RAM", "gpu": "NVIDIA GeForce GTX 1050", "dx": "Version 11", "storage": "30 GB"},
-            "rec": {"os": "Windows 10/11 (64-bit)", "cpu": "Intel Core i5-10400", "ram": "16 GB RAM", "gpu": "NVIDIA GeForce GTX 1650", "dx": "Version 11", "storage": "30 GB"}
+            "min": {
+                "os": "Windows 10/11 (64-bit)",
+                "cpu": "AMD Ryzen 5 1600",
+                "ram": "8 GB RAM",
+                "gpu": "NVIDIA GeForce GTX 1050",
+                "dx": "Version 11",
+                "storage": "30 GB"
+            },
+            "rec": {
+                "os": "Windows 10/11 (64-bit)",
+                "cpu": "Intel Core i5-10400",
+                "ram": "16 GB RAM",
+                "gpu": "NVIDIA GeForce GTX 1650",
+                "dx": "Version 11",
+                "storage": "30 GB"
+            }
         }
     },
     {
@@ -554,10 +764,24 @@
         "synopsis": "Incarnez Joseph Turok, un ancien membre des forces spéciales envoyé sur une planète peuplée de dinosaures et de mercenaires hostiles.",
         "linux_status": "Silver",
         "config": {
-            "min": {"os": "Windows XP (SP2) / Vista / 7", "cpu": "Pentium 4 2.4 GHz / Athlon XP 2.4 GHz 64", "ram": "1 GB RAM", "gpu": "128 MB (NVIDIA GeForce 6600 / ATI Radeon X1300 ou similaire)", "dx": "Version 9.0c", "storage": "14 GB"},
-            "rec": {"os": "Non spécifié", "cpu": "Non spécifié", "ram": "Non spécifié", "gpu": "Non spécifié", "dx": "Non spécifié", "storage": "Non spécifié"}
+            "min": {
+                "os": "Windows XP (SP2) / Vista / 7",
+                "cpu": "Pentium 4 2.4 GHz / Athlon XP 2.4 GHz 64",
+                "ram": "1 GB RAM",
+                "gpu": "128 MB (NVIDIA GeForce 6600 / ATI Radeon X1300 ou similaire)",
+                "dx": "Version 9.0c",
+                "storage": "14 GB"
+            },
+            "rec": {
+                "os": "Non spécifié",
+                "cpu": "Non spécifié",
+                "ram": "Non spécifié",
+                "gpu": "Non spécifié",
+                "dx": "Non spécifié",
+                "storage": "Non spécifié"
+            }
         }
-    }, 
+    },
     {
         "nom": "Turok 2: Seeds of Evil",
         "categorie": "GOG",
@@ -611,7 +835,7 @@
                 "storage": "42 GB"
             }
         }
-    }, 
+    },
     {
         "nom": "Disco Elysium: The Final Cut",
         "categorie": "GOG",
@@ -621,8 +845,22 @@
         "synopsis": "Incarnez un détective avec un système de compétences unique dans un monde urbain décadent. Résolvez une affaire de meurtre complexe en explorant les méandres de votre propre esprit.",
         "linux_status": "Native",
         "config": {
-            "min": {"os": "Windows 7/8/10", "cpu": "Intel Core i5-7500 / AMD 1500 ou équivalent", "ram": "4 GB RAM", "gpu": "Intel HD Graphics 620 ou équivalent", "dx": "Version 11", "storage": "22 GB"},
-            "rec": {"os": "Windows 7/8/10", "cpu": "Intel Core i7 / AMD 1800 ou équivalent", "ram": "8 GB RAM", "gpu": "NVIDIA GeForce GTX 1060 ou équivalent", "dx": "Version 11", "storage": "22 GB"}
+            "min": {
+                "os": "Windows 7/8/10",
+                "cpu": "Intel Core i5-7500 / AMD 1500 ou équivalent",
+                "ram": "4 GB RAM",
+                "gpu": "Intel HD Graphics 620 ou équivalent",
+                "dx": "Version 11",
+                "storage": "22 GB"
+            },
+            "rec": {
+                "os": "Windows 7/8/10",
+                "cpu": "Intel Core i7 / AMD 1800 ou équivalent",
+                "ram": "8 GB RAM",
+                "gpu": "NVIDIA GeForce GTX 1060 ou équivalent",
+                "dx": "Version 11",
+                "storage": "22 GB"
+            }
         }
     },
     {
@@ -634,8 +872,22 @@
         "synopsis": "Bâtissez une métropole florissante en gérant minutieusement l'économie, les chaînes de production et les besoins de vos citoyens dans ce jeu de gestion détaillé.",
         "linux_status": "Playable",
         "config": {
-            "min": {"os": "Windows 10", "cpu": "Intel Core i7-7700 @ 3.6Ghz", "ram": "16 GB RAM", "gpu": "GeForce GTX 760 Ti", "dx": "Version 11", "storage": "25 GB"},
-            "rec": {"os": "Windows 10", "cpu": "AMD Ryzen 9 3900X @ 3800MHz", "ram": "32 GB RAM", "gpu": "GeForce GTX 1080 Ti / Radeon RX 5700 XT", "dx": "Version 11", "storage": "25 GB"}
+            "min": {
+                "os": "Windows 10",
+                "cpu": "Intel Core i7-7700 @ 3.6Ghz",
+                "ram": "16 GB RAM",
+                "gpu": "GeForce GTX 760 Ti",
+                "dx": "Version 11",
+                "storage": "25 GB"
+            },
+            "rec": {
+                "os": "Windows 10",
+                "cpu": "AMD Ryzen 9 3900X @ 3800MHz",
+                "ram": "32 GB RAM",
+                "gpu": "GeForce GTX 1080 Ti / Radeon RX 5700 XT",
+                "dx": "Version 11",
+                "storage": "25 GB"
+            }
         }
     },
     {
@@ -647,8 +899,22 @@
         "synopsis": "Prenez le volant des voitures les plus emblématiques des années 90 et dominez les étapes de rallye dans une expérience rapide et nostalgique.",
         "linux_status": "Gold",
         "config": {
-            "min": {"os": "Windows 10", "cpu": "Intel Core i3 @ 2.5GHz ou équivalent", "ram": "4 GB RAM", "gpu": "NVIDIA GeForce GTX 650 ou équivalent", "dx": "Non spécifié", "storage": "5 GB"},
-            "rec": {"os": "Windows 10", "cpu": "Intel Core i5 @ 3.0GHz ou équivalent", "ram": "8 GB RAM", "gpu": "NVIDIA GeForce GTX 970 ou équivalent", "dx": "Non spécifié", "storage": "5 GB"}
+            "min": {
+                "os": "Windows 10",
+                "cpu": "Intel Core i3 @ 2.5GHz ou équivalent",
+                "ram": "4 GB RAM",
+                "gpu": "NVIDIA GeForce GTX 650 ou équivalent",
+                "dx": "Non spécifié",
+                "storage": "5 GB"
+            },
+            "rec": {
+                "os": "Windows 10",
+                "cpu": "Intel Core i5 @ 3.0GHz ou équivalent",
+                "ram": "8 GB RAM",
+                "gpu": "NVIDIA GeForce GTX 970 ou équivalent",
+                "dx": "Non spécifié",
+                "storage": "5 GB"
+            }
         }
     },
     {
@@ -660,8 +926,22 @@
         "synopsis": "Incarnez Exe, un robot mercenaire, dans une aventure explosive à travers une galaxie remplie de robots et de défis mécaniques.",
         "linux_status": "Gold",
         "config": {
-            "min": {"os": "Windows 10", "cpu": "AMD Ryzen 5 1500X / équivalent", "ram": "16 GB RAM", "gpu": "AMD Radeon R9 380 / équivalent", "dx": "Non spécifié", "storage": "20 GB"},
-            "rec": {"os": "Windows 10/11", "cpu": "AMD Ryzen 5 5600X / équivalent", "ram": "16 GB RAM", "gpu": "NVIDIA GeForce RTX 3060 Ti / équivalent", "dx": "Non spécifié", "storage": "20 GB"}
+            "min": {
+                "os": "Windows 10",
+                "cpu": "AMD Ryzen 5 1500X / équivalent",
+                "ram": "16 GB RAM",
+                "gpu": "AMD Radeon R9 380 / équivalent",
+                "dx": "Non spécifié",
+                "storage": "20 GB"
+            },
+            "rec": {
+                "os": "Windows 10/11",
+                "cpu": "AMD Ryzen 5 5600X / équivalent",
+                "ram": "16 GB RAM",
+                "gpu": "NVIDIA GeForce RTX 3060 Ti / équivalent",
+                "dx": "Non spécifié",
+                "storage": "20 GB"
+            }
         }
     },
     {
@@ -673,8 +953,22 @@
         "synopsis": "Traqué par des forces militaires, vous devez retourner vos armes contre vos poursuivants dans cette lutte sanglante pour la liberté.",
         "linux_status": "Playable",
         "config": {
-            "min": {"os": "Windows 8 (64-bit)", "cpu": "Dual-Core @ 2 GHz", "ram": "4 GB RAM", "gpu": "Intel HD Graphics 2000", "dx": "Non spécifié", "storage": "3 GB"},
-            "rec": {"os": "Non spécifié", "cpu": "Non spécifié", "ram": "Non spécifié", "gpu": "Non spécifié", "dx": "Non spécifié", "storage": "Non spécifié"}
+            "min": {
+                "os": "Windows 8 (64-bit)",
+                "cpu": "Dual-Core @ 2 GHz",
+                "ram": "4 GB RAM",
+                "gpu": "Intel HD Graphics 2000",
+                "dx": "Non spécifié",
+                "storage": "3 GB"
+            },
+            "rec": {
+                "os": "Non spécifié",
+                "cpu": "Non spécifié",
+                "ram": "Non spécifié",
+                "gpu": "Non spécifié",
+                "dx": "Non spécifié",
+                "storage": "Non spécifié"
+            }
         }
     },
     {
@@ -686,8 +980,22 @@
         "synopsis": "Évoluez dans un environnement post-apocalyptique hostile où la gestion des ressources et la discrétion sont aussi importantes que la précision de vos tirs.",
         "linux_status": "Gold",
         "config": {
-            "min": {"os": "Windows 10", "cpu": "Intel Core i5 / AMD Ryzen 5", "ram": "8 GB RAM", "gpu": "NVIDIA GeForce GTX 1050Ti", "dx": "Version 10", "storage": "2 GB"},
-            "rec": {"os": "Non spécifié", "cpu": "Non spécifié", "ram": "Non spécifié", "gpu": "Non spécifié", "dx": "Non spécifié", "storage": "Non spécifié"}
+            "min": {
+                "os": "Windows 10",
+                "cpu": "Intel Core i5 / AMD Ryzen 5",
+                "ram": "8 GB RAM",
+                "gpu": "NVIDIA GeForce GTX 1050Ti",
+                "dx": "Version 10",
+                "storage": "2 GB"
+            },
+            "rec": {
+                "os": "Non spécifié",
+                "cpu": "Non spécifié",
+                "ram": "Non spécifié",
+                "gpu": "Non spécifié",
+                "dx": "Non spécifié",
+                "storage": "Non spécifié"
+            }
         }
     },
     {
@@ -699,8 +1007,22 @@
         "synopsis": "Incarnez Peter Parker et protégez New York contre des vilains emblématiques dans une aventure spectaculaire utilisant les capacités uniques de Spider-Man.",
         "linux_status": "Gold",
         "config": {
-            "min": {"os": "Windows 10 (64-bit)", "cpu": "Intel Core i3-4160 @ 3.6 GHz ou équivalent AMD", "ram": "8 GB RAM", "gpu": "NVIDIA GeForce GTX 950 / AMD Radeon RX 470", "dx": "Version 12", "storage": "75 GB"},
-            "rec": {"os": "Windows 10 (64-bit)", "cpu": "Intel Core i5-4670 @ 3.4 GHz / AMD Ryzen 5 1600 @ 3.2 GHz", "ram": "16 GB RAM", "gpu": "NVIDIA GeForce GTX 1060 (6GB) / AMD Radeon RX 580 (8GB)", "dx": "Version 12", "storage": "75 GB"}
+            "min": {
+                "os": "Windows 10 (64-bit)",
+                "cpu": "Intel Core i3-4160 @ 3.6 GHz ou équivalent AMD",
+                "ram": "8 GB RAM",
+                "gpu": "NVIDIA GeForce GTX 950 / AMD Radeon RX 470",
+                "dx": "Version 12",
+                "storage": "75 GB"
+            },
+            "rec": {
+                "os": "Windows 10 (64-bit)",
+                "cpu": "Intel Core i5-4670 @ 3.4 GHz / AMD Ryzen 5 1600 @ 3.2 GHz",
+                "ram": "16 GB RAM",
+                "gpu": "NVIDIA GeForce GTX 1060 (6GB) / AMD Radeon RX 580 (8GB)",
+                "dx": "Version 12",
+                "storage": "75 GB"
+            }
         }
     },
     {
@@ -712,8 +1034,22 @@
         "synopsis": "Peter et Miles font équipe pour affronter Venom et d'autres menaces dans cette aventure à grande échelle mettant en scène les deux Spider-Men.",
         "linux_status": "Gold",
         "config": {
-            "min": {"os": "Windows 10/11 (version 1909 ou supérieure)", "cpu": "Intel Core i3-8100 / AMD Ryzen 3 3100", "ram": "16 GB RAM", "gpu": "NVIDIA GeForce GTX 1650 / AMD Radeon RX 5500 XT", "dx": "Non spécifié", "storage": "Non spécifié"},
-            "rec": {"os": "Windows 10/11 (version 1909 ou supérieure)", "cpu": "Intel Core i5-8400 / AMD Ryzen 5 3600", "ram": "16 GB RAM", "gpu": "NVIDIA GeForce RTX 3060 / AMD Radeon RX 5700", "dx": "Non spécifié", "storage": "Non spécifié"}
+            "min": {
+                "os": "Windows 10/11 (version 1909 ou supérieure)",
+                "cpu": "Intel Core i3-8100 / AMD Ryzen 3 3100",
+                "ram": "16 GB RAM",
+                "gpu": "NVIDIA GeForce GTX 1650 / AMD Radeon RX 5500 XT",
+                "dx": "Non spécifié",
+                "storage": "Non spécifié"
+            },
+            "rec": {
+                "os": "Windows 10/11 (version 1909 ou supérieure)",
+                "cpu": "Intel Core i5-8400 / AMD Ryzen 5 3600",
+                "ram": "16 GB RAM",
+                "gpu": "NVIDIA GeForce RTX 3060 / AMD Radeon RX 5700",
+                "dx": "Non spécifié",
+                "storage": "Non spécifié"
+            }
         }
     },
     {
@@ -725,8 +1061,22 @@
         "synopsis": "Miles Morales doit apprendre à devenir son propre Spider-Man pour protéger son quartier et toute la ville dans une histoire touchante et pleine d'action.",
         "linux_status": "Gold",
         "config": {
-            "min": {"os": "Windows 10 (64-bit, version 1909)", "cpu": "Intel Core i3-4160 @ 3.6 GHz ou équivalent AMD", "ram": "8 GB RAM", "gpu": "NVIDIA GeForce GTX 950 / AMD Radeon RX 470", "dx": "Version 12", "storage": "75 GB"},
-            "rec": {"os": "Windows 10 (64-bit, version 1909)", "cpu": "Intel Core i5-4670 @ 3.4 GHz / AMD Ryzen 5 1600 @ 3.2 GHz", "ram": "16 GB RAM", "gpu": "NVIDIA GeForce GTX 1060 (6GB) / AMD Radeon RX 580 (8GB)", "dx": "Version 12", "storage": "75 GB (SSD recommandé)"}
+            "min": {
+                "os": "Windows 10 (64-bit, version 1909)",
+                "cpu": "Intel Core i3-4160 @ 3.6 GHz ou équivalent AMD",
+                "ram": "8 GB RAM",
+                "gpu": "NVIDIA GeForce GTX 950 / AMD Radeon RX 470",
+                "dx": "Version 12",
+                "storage": "75 GB"
+            },
+            "rec": {
+                "os": "Windows 10 (64-bit, version 1909)",
+                "cpu": "Intel Core i5-4670 @ 3.4 GHz / AMD Ryzen 5 1600 @ 3.2 GHz",
+                "ram": "16 GB RAM",
+                "gpu": "NVIDIA GeForce GTX 1060 (6GB) / AMD Radeon RX 580 (8GB)",
+                "dx": "Version 12",
+                "storage": "75 GB (SSD recommandé)"
+            }
         }
     },
     {
@@ -738,8 +1088,22 @@
         "synopsis": "Incarnez Jin Sakai, un samouraï luttant pour protéger l'île de Tsushima contre une invasion mongole massive, en choisissant entre la voie du guerrier ou celle du Fantôme.",
         "linux_status": "Platinum",
         "config": {
-            "min": {"os": "Windows 10 (64-bit)", "cpu": "Intel Core i3-7100 / AMD Ryzen 3 1200", "ram": "8 GB RAM", "gpu": "NVIDIA GeForce GTX 960 / AMD Radeon RX 5500 XT", "dx": "Non spécifié", "storage": "75 GB (SSD recommandé)"},
-            "rec": {"os": "Windows 10 (64-bit)", "cpu": "Intel Core i5-8600 / AMD Ryzen 5 3600", "ram": "16 GB RAM", "gpu": "NVIDIA GeForce RTX 2060 / AMD Radeon RX 5600 XT", "dx": "Non spécifié", "storage": "75 GB (SSD requis)"}
+            "min": {
+                "os": "Windows 10 (64-bit)",
+                "cpu": "Intel Core i3-7100 / AMD Ryzen 3 1200",
+                "ram": "8 GB RAM",
+                "gpu": "NVIDIA GeForce GTX 960 / AMD Radeon RX 5500 XT",
+                "dx": "Non spécifié",
+                "storage": "75 GB (SSD recommandé)"
+            },
+            "rec": {
+                "os": "Windows 10 (64-bit)",
+                "cpu": "Intel Core i5-8600 / AMD Ryzen 5 3600",
+                "ram": "16 GB RAM",
+                "gpu": "NVIDIA GeForce RTX 2060 / AMD Radeon RX 5600 XT",
+                "dx": "Non spécifié",
+                "storage": "75 GB (SSD requis)"
+            }
         }
     },
     {
@@ -751,8 +1115,22 @@
         "synopsis": "Explorez une ville infectée, récupérez des ressources et utilisez le parkour pour survivre à la menace des morts-vivants qui deviennent encore plus dangereux à la tombée de la nuit.",
         "linux_status": "Platinum",
         "config": {
-            "min": {"os": "Windows 7 / 8 / 8.1 (64-bit)", "cpu": "Intel Core i5-2500 @3.3 GHz / AMD FX-8320 @3.5 GHz", "ram": "4 GB RAM DDR3", "gpu": "NVIDIA GeForce GTX 560 / AMD Radeon HD 6870 (1GB VRAM)", "dx": "Version 11", "storage": "50 GB"},
-            "rec": {"os": "Windows 7 / 8 / 8.1 (64-bit)", "cpu": "Intel Core i5-4670K @3.4 GHz / AMD FX-8350 @4.0 GHz", "ram": "8 GB RAM DDR3", "gpu": "NVIDIA GeForce GTX 780 / AMD Radeon R9 290 (2GB VRAM)", "dx": "Version 11", "storage": "50 GB"}
+            "min": {
+                "os": "Windows 7 / 8 / 8.1 (64-bit)",
+                "cpu": "Intel Core i5-2500 @3.3 GHz / AMD FX-8320 @3.5 GHz",
+                "ram": "4 GB RAM DDR3",
+                "gpu": "NVIDIA GeForce GTX 560 / AMD Radeon HD 6870 (1GB VRAM)",
+                "dx": "Version 11",
+                "storage": "50 GB"
+            },
+            "rec": {
+                "os": "Windows 7 / 8 / 8.1 (64-bit)",
+                "cpu": "Intel Core i5-4670K @3.4 GHz / AMD FX-8350 @4.0 GHz",
+                "ram": "8 GB RAM DDR3",
+                "gpu": "NVIDIA GeForce GTX 780 / AMD Radeon R9 290 (2GB VRAM)",
+                "dx": "Version 11",
+                "storage": "50 GB"
+            }
         }
     },
     {
@@ -764,8 +1142,22 @@
         "synopsis": "Dans une cité ravagée, vos choix façonnent l'avenir des factions en présence tandis que vous luttez pour survivre dans ce nouveau chapitre post-apocalyptique.",
         "linux_status": "Platinum",
         "config": {
-            "min": {"os": "Windows 7 (64-bit)", "cpu": "Intel Core i3-9100 / AMD Ryzen 3 2300X", "ram": "8 GB RAM", "gpu": "NVIDIA GeForce GTX 1050 Ti / AMD Radeon RX 560 (4GB VRAM)", "dx": "Non spécifié", "storage": "60 GB"},
-            "rec": {"os": "Windows 10 (64-bit)", "cpu": "AMD Ryzen 5 3600X / Intel Core i5-8600K (3.6 GHz ou plus)", "ram": "16 GB RAM", "gpu": "NVIDIA GeForce RTX 2060 (6GB) / AMD RX Vega 56 (8GB)", "dx": "Non spécifié", "storage": "60 GB"}
+            "min": {
+                "os": "Windows 7 (64-bit)",
+                "cpu": "Intel Core i3-9100 / AMD Ryzen 3 2300X",
+                "ram": "8 GB RAM",
+                "gpu": "NVIDIA GeForce GTX 1050 Ti / AMD Radeon RX 560 (4GB VRAM)",
+                "dx": "Non spécifié",
+                "storage": "60 GB"
+            },
+            "rec": {
+                "os": "Windows 10 (64-bit)",
+                "cpu": "AMD Ryzen 5 3600X / Intel Core i5-8600K (3.6 GHz ou plus)",
+                "ram": "16 GB RAM",
+                "gpu": "NVIDIA GeForce RTX 2060 (6GB) / AMD RX Vega 56 (8GB)",
+                "dx": "Non spécifié",
+                "storage": "60 GB"
+            }
         }
     },
     {
@@ -777,8 +1169,22 @@
         "synopsis": "Libéré après des années d'expériences brutales, Kyle Crane revient pour se venger. Explorez une vaste région tout en maîtrisant des capacités inhumaines.",
         "linux_status": "Non testé",
         "config": {
-            "min": {"os": "Windows 10 ou plus récent (64-bit)", "cpu": "Intel i5-13400F / AMD Ryzen 7 5800X", "ram": "16 GB RAM", "gpu": "NVIDIA GeForce 1060 / AMD Radeon 5500 XT / Intel ARC A750", "dx": "Non spécifié", "storage": "70 GB (SSD requis)"},
-            "rec": {"os": "Windows 10 ou plus récent (64-bit)", "cpu": "Intel i5-13400F / AMD Ryzen 7 7700", "ram": "16 GB RAM", "gpu": "NVIDIA GeForce RTX 3070 TI / AMD Radeon 6750 XT / Intel ARC B580", "dx": "Non spécifié", "storage": "70 GB (SSD requis)"}
+            "min": {
+                "os": "Windows 10 ou plus récent (64-bit)",
+                "cpu": "Intel i5-13400F / AMD Ryzen 7 5800X",
+                "ram": "16 GB RAM",
+                "gpu": "NVIDIA GeForce 1060 / AMD Radeon 5500 XT / Intel ARC A750",
+                "dx": "Non spécifié",
+                "storage": "70 GB (SSD requis)"
+            },
+            "rec": {
+                "os": "Windows 10 ou plus récent (64-bit)",
+                "cpu": "Intel i5-13400F / AMD Ryzen 7 7700",
+                "ram": "16 GB RAM",
+                "gpu": "NVIDIA GeForce RTX 3070 TI / AMD Radeon 6750 XT / Intel ARC B580",
+                "dx": "Non spécifié",
+                "storage": "70 GB (SSD requis)"
+            }
         }
     },
     {
@@ -790,8 +1196,22 @@
         "synopsis": "Incarnez Geralt, un chasseur de monstres génétiquement modifié, dans une quête épique mêlant magie, trahisons et décisions morales lourdes de conséquences.",
         "linux_status": "Gold",
         "config": {
-            "min": {"os": "Windows XP / Vista", "cpu": "Intel Pentium 4 2.4 GHz / AMD Athlon 64 +2800", "ram": "1 GB RAM", "gpu": "NVIDIA GeForce 6600 / ATI Radeon 9800", "dx": "Version 9.0c", "storage": "15 GB"},
-            "rec": {"os": "Windows XP / Vista", "cpu": "Intel Pentium 4 3.0 GHz / AMD Athlon 64 +3000", "ram": "2 GB RAM", "gpu": "NVIDIA GeForce 7800 GTX / ATI Radeon X1950 XT", "dx": "Version 9.0c", "storage": "15 GB"}
+            "min": {
+                "os": "Windows XP / Vista",
+                "cpu": "Intel Pentium 4 2.4 GHz / AMD Athlon 64 +2800",
+                "ram": "1 GB RAM",
+                "gpu": "NVIDIA GeForce 6600 / ATI Radeon 9800",
+                "dx": "Version 9.0c",
+                "storage": "15 GB"
+            },
+            "rec": {
+                "os": "Windows XP / Vista",
+                "cpu": "Intel Pentium 4 3.0 GHz / AMD Athlon 64 +3000",
+                "ram": "2 GB RAM",
+                "gpu": "NVIDIA GeForce 7800 GTX / ATI Radeon X1950 XT",
+                "dx": "Version 9.0c",
+                "storage": "15 GB"
+            }
         }
     },
     {
@@ -803,8 +1223,22 @@
         "synopsis": "Geralt est impliqué dans les complots politiques de royaumes en guerre tout en cherchant à retrouver sa propre identité et celle des assassins de rois.",
         "linux_status": "Gold",
         "config": {
-            "min": {"os": "Windows XP / Vista / 7", "cpu": "Intel 2.2 GHz Dual-Core / AMD 2.5 GHz Dual-Core", "ram": "1.5 GB (XP) / 2 GB (Vista/7)", "gpu": "GeForce 8800 (512 MB) / Radeon HD3850 (512 MB)", "dx": "Version 9.29", "storage": "25 GB"},
-            "rec": {"os": "Windows XP / Vista / 7", "cpu": "Intel ou AMD Quad-Core", "ram": "3 GB (XP) / 4 GB (Vista/7)", "gpu": "GeForce 260 (1 GB) / Radeon HD 4850 (1 GB)", "dx": "Version 9.29", "storage": "25 GB"}
+            "min": {
+                "os": "Windows XP / Vista / 7",
+                "cpu": "Intel 2.2 GHz Dual-Core / AMD 2.5 GHz Dual-Core",
+                "ram": "1.5 GB (XP) / 2 GB (Vista/7)",
+                "gpu": "GeForce 8800 (512 MB) / Radeon HD3850 (512 MB)",
+                "dx": "Version 9.29",
+                "storage": "25 GB"
+            },
+            "rec": {
+                "os": "Windows XP / Vista / 7",
+                "cpu": "Intel ou AMD Quad-Core",
+                "ram": "3 GB (XP) / 4 GB (Vista/7)",
+                "gpu": "GeForce 260 (1 GB) / Radeon HD 4850 (1 GB)",
+                "dx": "Version 9.29",
+                "storage": "25 GB"
+            }
         }
     },
     {
@@ -816,10 +1250,24 @@
         "synopsis": "Parcourez un monde immense à la recherche de Ciri, l'enfant de la prophétie, tout en accomplissant des contrats de chasse aux monstres dans un récit inoubliable.",
         "linux_status": "Platinum",
         "config": {
-            "min": {"os": "Windows 7 / 8 / 8.1 (64-bit)", "cpu": "Intel Core i5-2500K 3.3GHz / AMD Phenom II X4 940", "ram": "6 GB RAM", "gpu": "NVIDIA GeForce GTX 660 / AMD Radeon HD 7870", "dx": "Non spécifié", "storage": "40 GB"},
-            "rec": {"os": "Windows 7 / 8 / 8.1 (64-bit)", "cpu": "Intel Core i7 3770 3.4 GHz / AMD FX-8350 4 GHz", "ram": "8 GB RAM", "gpu": "NVIDIA GeForce GTX 770 / AMD Radeon R9 290", "dx": "Non spécifié", "storage": "40 GB"}
+            "min": {
+                "os": "Windows 7 / 8 / 8.1 (64-bit)",
+                "cpu": "Intel Core i5-2500K 3.3GHz / AMD Phenom II X4 940",
+                "ram": "6 GB RAM",
+                "gpu": "NVIDIA GeForce GTX 660 / AMD Radeon HD 7870",
+                "dx": "Non spécifié",
+                "storage": "40 GB"
+            },
+            "rec": {
+                "os": "Windows 7 / 8 / 8.1 (64-bit)",
+                "cpu": "Intel Core i7 3770 3.4 GHz / AMD FX-8350 4 GHz",
+                "ram": "8 GB RAM",
+                "gpu": "NVIDIA GeForce GTX 770 / AMD Radeon R9 290",
+                "dx": "Non spécifié",
+                "storage": "40 GB"
+            }
         }
-    }, 
+    },
     {
         "nom": "Elden Ring Deluxe Edition",
         "categorie": "Repacks",
@@ -829,8 +1277,22 @@
         "synopsis": "Voyagez à travers l'Entre-terre pour devenir le Seigneur de l'Elden. Affrontez des boss légendaires dans ce monde vaste et exigeant créé par Hidetaka Miyazaki et George R. R. Martin.",
         "linux_status": "Gold",
         "config": {
-            "min": {"os": "Windows 10 (64-bit)", "cpu": "Intel Core i5-8400 / AMD Ryzen 3 3300X", "ram": "12 GB RAM", "gpu": "NVIDIA GeForce GTX 1060 (3 GB) / AMD Radeon RX 580 (4 GB)", "dx": "Version 12", "storage": "60 GB"},
-            "rec": {"os": "Windows 10 / 11 (64-bit)", "cpu": "Intel Core i7-8700K / AMD Ryzen 5 3600X", "ram": "16 GB RAM", "gpu": "NVIDIA GeForce GTX 1070 (8 GB) / AMD Radeon RX Vega 56 (8 GB)", "dx": "Version 12", "storage": "60 GB"}
+            "min": {
+                "os": "Windows 10 (64-bit)",
+                "cpu": "Intel Core i5-8400 / AMD Ryzen 3 3300X",
+                "ram": "12 GB RAM",
+                "gpu": "NVIDIA GeForce GTX 1060 (3 GB) / AMD Radeon RX 580 (4 GB)",
+                "dx": "Version 12",
+                "storage": "60 GB"
+            },
+            "rec": {
+                "os": "Windows 10 / 11 (64-bit)",
+                "cpu": "Intel Core i7-8700K / AMD Ryzen 5 3600X",
+                "ram": "16 GB RAM",
+                "gpu": "NVIDIA GeForce GTX 1070 (8 GB) / AMD Radeon RX Vega 56 (8 GB)",
+                "dx": "Version 12",
+                "storage": "60 GB"
+            }
         }
     },
     {
@@ -842,8 +1304,22 @@
         "synopsis": "CJ retourne chez lui à Los Santos pour découvrir que sa famille et ses amis sont en péril. Il doit reprendre le contrôle des rues.",
         "linux_status": "Gold",
         "config": {
-            "min": {"os": "Windows 2000 / XP", "cpu": "1 GHz Pentium III / AMD Athlon", "ram": "256 MB RAM", "gpu": "64 MB Video Card (GeForce 3 ou mieux)", "dx": "Version 9.0", "storage": "3.6 GB"},
-            "rec": {"os": "Windows 2000 / XP", "cpu": "Intel Pentium 4 / AMD Athlon XP", "ram": "384 MB RAM", "gpu": "128 MB Video Card (GeForce 6 ou mieux)", "dx": "Compatible DirectX 9", "storage": "4.7 GB"}
+            "min": {
+                "os": "Windows 2000 / XP",
+                "cpu": "1 GHz Pentium III / AMD Athlon",
+                "ram": "256 MB RAM",
+                "gpu": "64 MB Video Card (GeForce 3 ou mieux)",
+                "dx": "Version 9.0",
+                "storage": "3.6 GB"
+            },
+            "rec": {
+                "os": "Windows 2000 / XP",
+                "cpu": "Intel Pentium 4 / AMD Athlon XP",
+                "ram": "384 MB RAM",
+                "gpu": "128 MB Video Card (GeForce 6 ou mieux)",
+                "dx": "Compatible DirectX 9",
+                "storage": "4.7 GB"
+            }
         }
     },
     {
@@ -855,8 +1331,22 @@
         "synopsis": "Tommy Vercetti cherche à gravir les échelons du monde criminel de Vice City dans cette aventure imprégnée de néons et de trahisons.",
         "linux_status": "Gold",
         "config": {
-            "min": {"os": "Windows 2000 / XP", "cpu": "Intel Pentium III 800 MHz / AMD Athlon 800 MHz", "ram": "128 MB RAM", "gpu": "32 MB Video Card (GeForce ou mieux)", "dx": "Version 9.0", "storage": "915 MB (+ 635 MB sans support DXTC)"},
-            "rec": {"os": "Windows 2000 / XP", "cpu": "Intel Pentium IV / AMD Athlon XP", "ram": "256 MB RAM", "gpu": "64 MB Video Card (GeForce 3 / Radeon 8500 ou mieux avec support DXTC)", "dx": "Compatible DirectX 9", "storage": "1.55 GB (+ 635 MB sans support DXTC)"}
+            "min": {
+                "os": "Windows 2000 / XP",
+                "cpu": "Intel Pentium III 800 MHz / AMD Athlon 800 MHz",
+                "ram": "128 MB RAM",
+                "gpu": "32 MB Video Card (GeForce ou mieux)",
+                "dx": "Version 9.0",
+                "storage": "915 MB (+ 635 MB sans support DXTC)"
+            },
+            "rec": {
+                "os": "Windows 2000 / XP",
+                "cpu": "Intel Pentium IV / AMD Athlon XP",
+                "ram": "256 MB RAM",
+                "gpu": "64 MB Video Card (GeForce 3 / Radeon 8500 ou mieux avec support DXTC)",
+                "dx": "Compatible DirectX 9",
+                "storage": "1.55 GB (+ 635 MB sans support DXTC)"
+            }
         }
     },
     {
@@ -868,8 +1358,22 @@
         "synopsis": "Liberty City, là où tout commence. Claude, trahi par sa petite amie, doit frayer son chemin dans le crime organisé.",
         "linux_status": "Playable",
         "config": {
-            "min": {"os": "Windows 10 (64-bit)", "cpu": "Intel Core i5-6600K / AMD FX-6300", "ram": "8 GB RAM", "gpu": "NVIDIA GeForce GTX 760 (2GB) / AMD Radeon R9 280 (3GB)", "dx": "Non spécifié", "storage": "45 GB"},
-            "rec": {"os": "Windows 10 (64-bit)", "cpu": "Intel Core i7-2700K / AMD Ryzen 5 2600", "ram": "16 GB RAM", "gpu": "NVIDIA GeForce GTX 970 (4GB) / AMD Radeon RX 570 (4GB)", "dx": "Non spécifié", "storage": "45 GB"}
+            "min": {
+                "os": "Windows 10 (64-bit)",
+                "cpu": "Intel Core i5-6600K / AMD FX-6300",
+                "ram": "8 GB RAM",
+                "gpu": "NVIDIA GeForce GTX 760 (2GB) / AMD Radeon R9 280 (3GB)",
+                "dx": "Non spécifié",
+                "storage": "45 GB"
+            },
+            "rec": {
+                "os": "Windows 10 (64-bit)",
+                "cpu": "Intel Core i7-2700K / AMD Ryzen 5 2600",
+                "ram": "16 GB RAM",
+                "gpu": "NVIDIA GeForce GTX 970 (4GB) / AMD Radeon RX 570 (4GB)",
+                "dx": "Non spécifié",
+                "storage": "45 GB"
+            }
         }
     },
     {
@@ -881,8 +1385,22 @@
         "synopsis": "Niko Bellic arrive à Liberty City avec l'espoir d'échapper à son passé, mais il découvre vite les désillusions du rêve américain.",
         "linux_status": "Gold",
         "config": {
-            "min": {"os": "Windows XP - SP3 / Vista - SP1", "cpu": "Intel Core 2 Duo 1.8GHz / AMD Athlon X2 64 2.4GHz", "ram": "1.5 GB RAM", "gpu": "NVIDIA GeForce 7900 (256MB) / ATI Radeon X1900 (256MB)", "dx": "Version 9.0c", "storage": "32 GB"},
-            "rec": {"os": "Non spécifié", "cpu": "Non spécifié", "ram": "Non spécifié", "gpu": "Non spécifié", "dx": "Non spécifié", "storage": "32 GB"}
+            "min": {
+                "os": "Windows XP - SP3 / Vista - SP1",
+                "cpu": "Intel Core 2 Duo 1.8GHz / AMD Athlon X2 64 2.4GHz",
+                "ram": "1.5 GB RAM",
+                "gpu": "NVIDIA GeForce 7900 (256MB) / ATI Radeon X1900 (256MB)",
+                "dx": "Version 9.0c",
+                "storage": "32 GB"
+            },
+            "rec": {
+                "os": "Non spécifié",
+                "cpu": "Non spécifié",
+                "ram": "Non spécifié",
+                "gpu": "Non spécifié",
+                "dx": "Non spécifié",
+                "storage": "32 GB"
+            }
         }
     },
     {
@@ -894,8 +1412,22 @@
         "synopsis": "Explorez l'immense État de San Andreas avec des graphismes améliorés et des mécaniques de jeu modernisées.",
         "linux_status": "Playable",
         "config": {
-            "min": {"os": "Windows 10 (64-bit)", "cpu": "Intel Core i5-6600K / AMD FX-6300", "ram": "8 GB RAM", "gpu": "NVIDIA GeForce GTX 760 (2GB) / AMD Radeon R9 280 (3GB)", "dx": "Non spécifié", "storage": "45 GB"},
-            "rec": {"os": "Windows 10 (64-bit)", "cpu": "Intel Core i7-2700K / AMD Ryzen 5 2600", "ram": "16 GB RAM", "gpu": "NVIDIA GeForce GTX 970 (4GB) / AMD Radeon RX 570 (4GB)", "dx": "Non spécifié", "storage": "45 GB"}
+            "min": {
+                "os": "Windows 10 (64-bit)",
+                "cpu": "Intel Core i5-6600K / AMD FX-6300",
+                "ram": "8 GB RAM",
+                "gpu": "NVIDIA GeForce GTX 760 (2GB) / AMD Radeon R9 280 (3GB)",
+                "dx": "Non spécifié",
+                "storage": "45 GB"
+            },
+            "rec": {
+                "os": "Windows 10 (64-bit)",
+                "cpu": "Intel Core i7-2700K / AMD Ryzen 5 2600",
+                "ram": "16 GB RAM",
+                "gpu": "NVIDIA GeForce GTX 970 (4GB) / AMD Radeon RX 570 (4GB)",
+                "dx": "Non spécifié",
+                "storage": "45 GB"
+            }
         }
     },
     {
@@ -907,8 +1439,22 @@
         "synopsis": "Redécouvrez Vice City avec des effets visuels modernes tout en conservant l'ambiance unique des années 80.",
         "linux_status": "Playable",
         "config": {
-            "min": {"os": "Windows 10 (64-bit)", "cpu": "Intel Core i5-6600K / AMD FX-6300", "ram": "8 GB RAM", "gpu": "NVIDIA GeForce GTX 760 (2GB) / AMD Radeon R9 280 (3GB)", "dx": "Non spécifié", "storage": "45 GB"},
-            "rec": {"os": "Windows 10 (64-bit)", "cpu": "Intel Core i7-2700K / AMD Ryzen 5 2600", "ram": "16 GB RAM", "gpu": "NVIDIA GeForce GTX 970 (4GB) / AMD Radeon RX 570 (4GB)", "dx": "Non spécifié", "storage": "45 GB"}
+            "min": {
+                "os": "Windows 10 (64-bit)",
+                "cpu": "Intel Core i5-6600K / AMD FX-6300",
+                "ram": "8 GB RAM",
+                "gpu": "NVIDIA GeForce GTX 760 (2GB) / AMD Radeon R9 280 (3GB)",
+                "dx": "Non spécifié",
+                "storage": "45 GB"
+            },
+            "rec": {
+                "os": "Windows 10 (64-bit)",
+                "cpu": "Intel Core i7-2700K / AMD Ryzen 5 2600",
+                "ram": "16 GB RAM",
+                "gpu": "NVIDIA GeForce GTX 970 (4GB) / AMD Radeon RX 570 (4GB)",
+                "dx": "Non spécifié",
+                "storage": "45 GB"
+            }
         }
     },
     {
@@ -920,8 +1466,22 @@
         "synopsis": "Trois criminels aux parcours très différents s'unissent pour réaliser une série de casses audacieux dans une ville impitoyable.",
         "linux_status": "Gold",
         "config": {
-            "min": {"os": "Windows Vista - SP2 / 7 - SP1 / 8 / 8.1 (64-bit)", "cpu": "Intel Core 2 Quad Q6600 @ 2.40GHz / AMD Phenom 9850 Quad-Core @ 2.5GHz", "ram": "4 GB RAM", "gpu": "NVIDIA 9800 GT (1GB) / AMD HD 4870 (1GB)", "dx": "Compatible DirectX 10", "storage": "65 GB"},
-            "rec": {"os": "Windows 7 - SP1 / 8 / 8.1 (64-bit)", "cpu": "Intel Core i5 3470 @ 3.2GHz / AMD FX-8350 @ 4GHz", "ram": "8 GB RAM", "gpu": "NVIDIA GeForce GTX 660 (2GB) / AMD Radeon HD 7870 (2GB)", "dx": "Compatible DirectX 10", "storage": "65 GB"}
+            "min": {
+                "os": "Windows Vista - SP2 / 7 - SP1 / 8 / 8.1 (64-bit)",
+                "cpu": "Intel Core 2 Quad Q6600 @ 2.40GHz / AMD Phenom 9850 Quad-Core @ 2.5GHz",
+                "ram": "4 GB RAM",
+                "gpu": "NVIDIA 9800 GT (1GB) / AMD HD 4870 (1GB)",
+                "dx": "Compatible DirectX 10",
+                "storage": "65 GB"
+            },
+            "rec": {
+                "os": "Windows 7 - SP1 / 8 / 8.1 (64-bit)",
+                "cpu": "Intel Core i5 3470 @ 3.2GHz / AMD FX-8350 @ 4GHz",
+                "ram": "8 GB RAM",
+                "gpu": "NVIDIA GeForce GTX 660 (2GB) / AMD Radeon HD 7870 (2GB)",
+                "dx": "Compatible DirectX 10",
+                "storage": "65 GB"
+            }
         }
     },
     {
@@ -933,10 +1493,24 @@
         "synopsis": "Profitez de graphismes améliorés et de temps de chargement réduits dans cette version optimisée pour le matériel moderne.",
         "linux_status": "Gold",
         "config": {
-            "min": {"os": "Windows 10 (64-bit)", "cpu": "Intel Core i7-4770 / AMD FX-9590", "ram": "8 GB RAM", "gpu": "NVIDIA GeForce GTX 1630 (4GB) / AMD Radeon RX 6400 (4GB)", "dx": "Compatible DirectX 10", "storage": "105 GB (SSD requis)"},
-            "rec": {"os": "Windows 11 (64-bit)", "cpu": "Intel Core i5-9600K / AMD Ryzen 5 3600", "ram": "16 GB RAM", "gpu": "NVIDIA GeForce RTX 3060 (8GB) / AMD Radeon RX 6600XT (8GB)", "dx": "Non spécifié", "storage": "105 GB (SSD DirectStorage requis)"}
+            "min": {
+                "os": "Windows 10 (64-bit)",
+                "cpu": "Intel Core i7-4770 / AMD FX-9590",
+                "ram": "8 GB RAM",
+                "gpu": "NVIDIA GeForce GTX 1630 (4GB) / AMD Radeon RX 6400 (4GB)",
+                "dx": "Compatible DirectX 10",
+                "storage": "105 GB (SSD requis)"
+            },
+            "rec": {
+                "os": "Windows 11 (64-bit)",
+                "cpu": "Intel Core i5-9600K / AMD Ryzen 5 3600",
+                "ram": "16 GB RAM",
+                "gpu": "NVIDIA GeForce RTX 3060 (8GB) / AMD Radeon RX 6600XT (8GB)",
+                "dx": "Non spécifié",
+                "storage": "105 GB (SSD DirectStorage requis)"
+            }
         }
-    }, 
+    },
     {
         "nom": "Red Dead Redemption 2",
         "categorie": "Repacks",
@@ -946,8 +1520,22 @@
         "synopsis": "Suivez Arthur Morgan et la bande de Van der Linde alors qu'ils tentent de survivre à la fin de l'ère du Far West en Amérique.",
         "linux_status": "Gold",
         "config": {
-            "min": {"os": "Windows 7 - SP1 (64-bit)", "cpu": "Intel Core i5-2500K / AMD FX-6300", "ram": "8 GB RAM", "gpu": "NVIDIA GeForce GTX 770 (2GB) / AMD Radeon R9 280 (3GB)", "dx": "DirectX Compatible", "storage": "150 GB"},
-            "rec": {"os": "Windows 10 - v1803 (64-bit)", "cpu": "Intel Core i7-4770K / AMD Ryzen 5 1500X", "ram": "12 GB RAM", "gpu": "NVIDIA GeForce GTX 1060 (6GB) / AMD Radeon RX 480 (4GB)", "dx": "DirectX Compatible", "storage": "150 GB"}
+            "min": {
+                "os": "Windows 7 - SP1 (64-bit)",
+                "cpu": "Intel Core i5-2500K / AMD FX-6300",
+                "ram": "8 GB RAM",
+                "gpu": "NVIDIA GeForce GTX 770 (2GB) / AMD Radeon R9 280 (3GB)",
+                "dx": "DirectX Compatible",
+                "storage": "150 GB"
+            },
+            "rec": {
+                "os": "Windows 10 - v1803 (64-bit)",
+                "cpu": "Intel Core i7-4770K / AMD Ryzen 5 1500X",
+                "ram": "12 GB RAM",
+                "gpu": "NVIDIA GeForce GTX 1060 (6GB) / AMD Radeon RX 480 (4GB)",
+                "dx": "DirectX Compatible",
+                "storage": "150 GB"
+            }
         }
     },
     {
@@ -959,8 +1547,22 @@
         "synopsis": "Le destin des Royaumes Oubliés est entre vos mains. Rassemblez votre équipe et lancez-vous dans une aventure épique où vos choix redéfinissent le monde.",
         "linux_status": "Platinum",
         "config": {
-            "min": {"os": "Windows 10 (64-bit)", "cpu": "Intel Core i5-4690 / AMD FX 8350", "ram": "8 GB RAM", "gpu": "NVIDIA GTX 970 / RX 480 (4GB+ VRAM)", "dx": "Version 11", "storage": "150 GB (SSD requis)"},
-            "rec": {"os": "Windows 10 (64-bit)", "cpu": "Intel Core i7-8700K / AMD Ryzen 5 3600", "ram": "16 GB RAM", "gpu": "NVIDIA RTX 2060 Super / RX 5700 XT (8GB+ VRAM)", "dx": "Version 11", "storage": "150 GB (SSD requis)"}
+            "min": {
+                "os": "Windows 10 (64-bit)",
+                "cpu": "Intel Core i5-4690 / AMD FX 8350",
+                "ram": "8 GB RAM",
+                "gpu": "NVIDIA GTX 970 / RX 480 (4GB+ VRAM)",
+                "dx": "Version 11",
+                "storage": "150 GB (SSD requis)"
+            },
+            "rec": {
+                "os": "Windows 10 (64-bit)",
+                "cpu": "Intel Core i7-8700K / AMD Ryzen 5 3600",
+                "ram": "16 GB RAM",
+                "gpu": "NVIDIA RTX 2060 Super / RX 5700 XT (8GB+ VRAM)",
+                "dx": "Version 11",
+                "storage": "150 GB (SSD requis)"
+            }
         }
     },
     {
@@ -972,8 +1574,22 @@
         "synopsis": "Capturé par le magicien fou Irenicus, vous devez échapper à ses griffes et explorer les terres de l'Amn dans cette suite légendaire.",
         "linux_status": "Native",
         "config": {
-            "min": {"os": "Windows XP / Vista / 7 / 8 / 10", "cpu": "1 GHz", "ram": "512 MB RAM", "gpu": "Compatible OpenGL 2.0", "dx": "Non applicable", "storage": "3 GB"},
-            "rec": {"os": "Non spécifié", "cpu": "Non spécifié", "ram": "Non spécifié", "gpu": "Non spécifié", "dx": "Non applicable", "storage": "3 GB"}
+            "min": {
+                "os": "Windows XP / Vista / 7 / 8 / 10",
+                "cpu": "1 GHz",
+                "ram": "512 MB RAM",
+                "gpu": "Compatible OpenGL 2.0",
+                "dx": "Non applicable",
+                "storage": "3 GB"
+            },
+            "rec": {
+                "os": "Non spécifié",
+                "cpu": "Non spécifié",
+                "ram": "Non spécifié",
+                "gpu": "Non spécifié",
+                "dx": "Non applicable",
+                "storage": "3 GB"
+            }
         }
     },
     {
@@ -985,8 +1601,22 @@
         "synopsis": "Obligé de quitter votre foyer, vous vous retrouvez plongé dans un conflit qui menace les Royaumes Oubliés.",
         "linux_status": "Native",
         "config": {
-            "min": {"os": "Windows XP / Vista / 7 / 8", "cpu": "1 GHz", "ram": "512 MB RAM", "gpu": "Compatible OpenGL 2.0", "dx": "Non applicable", "storage": "2.17 GB"},
-            "rec": {"os": "Non spécifié", "cpu": "Non spécifié", "ram": "Non spécifié", "gpu": "Non spécifié", "dx": "Non applicable", "storage": "2.17 GB"}
+            "min": {
+                "os": "Windows XP / Vista / 7 / 8",
+                "cpu": "1 GHz",
+                "ram": "512 MB RAM",
+                "gpu": "Compatible OpenGL 2.0",
+                "dx": "Non applicable",
+                "storage": "2.17 GB"
+            },
+            "rec": {
+                "os": "Non spécifié",
+                "cpu": "Non spécifié",
+                "ram": "Non spécifié",
+                "gpu": "Non spécifié",
+                "dx": "Non applicable",
+                "storage": "2.17 GB"
+            }
         }
     },
     {
@@ -998,8 +1628,22 @@
         "synopsis": "Un jeu d'action intense situé dans l'univers de Donjons & Dragons, mettant l'accent sur les combats rapides et le loot.",
         "linux_status": "Gold",
         "config": {
-            "min": {"os": "Windows 7 / 8 / 10 (64-bit)", "cpu": "Pentium 4 2Ghz / AMD Athlon XP 2400", "ram": "1 GB RAM", "gpu": "GeForce FX5700 ou mieux / ATI Radeon 9600 ou mieux", "dx": "Non spécifié", "storage": "6 GB"},
-            "rec": {"os": "Non spécifié", "cpu": "Non spécifié", "ram": "Non spécifié", "gpu": "Non spécifié", "dx": "Non spécifié", "storage": "6 GB"}
+            "min": {
+                "os": "Windows 7 / 8 / 10 (64-bit)",
+                "cpu": "Pentium 4 2Ghz / AMD Athlon XP 2400",
+                "ram": "1 GB RAM",
+                "gpu": "GeForce FX5700 ou mieux / ATI Radeon 9600 ou mieux",
+                "dx": "Non spécifié",
+                "storage": "6 GB"
+            },
+            "rec": {
+                "os": "Non spécifié",
+                "cpu": "Non spécifié",
+                "ram": "Non spécifié",
+                "gpu": "Non spécifié",
+                "dx": "Non spécifié",
+                "storage": "6 GB"
+            }
         }
     },
     {
@@ -1011,8 +1655,22 @@
         "synopsis": "Poursuivez l'aventure dans une quête épique à travers Baldur's Gate avec de nouvelles classes et un arsenal plus vaste.",
         "linux_status": "Gold",
         "config": {
-            "min": {"os": "Windows 7 / 8 / 10 (64-bit)", "cpu": "Pentium 4 2Ghz / AMD Athlon XP 2400", "ram": "1 GB RAM", "gpu": "GeForce FX5700 ou mieux / ATI Radeon 9600 ou mieux", "dx": "Non spécifié", "storage": "6 GB"},
-            "rec": {"os": "Non spécifié", "cpu": "Non spécifié", "ram": "Non spécifié", "gpu": "Non spécifié", "dx": "Non spécifié", "storage": "6 GB"}
+            "min": {
+                "os": "Windows 7 / 8 / 10 (64-bit)",
+                "cpu": "Pentium 4 2Ghz / AMD Athlon XP 2400",
+                "ram": "1 GB RAM",
+                "gpu": "GeForce FX5700 ou mieux / ATI Radeon 9600 ou mieux",
+                "dx": "Non spécifié",
+                "storage": "6 GB"
+            },
+            "rec": {
+                "os": "Non spécifié",
+                "cpu": "Non spécifié",
+                "ram": "Non spécifié",
+                "gpu": "Non spécifié",
+                "dx": "Non spécifié",
+                "storage": "6 GB"
+            }
         }
     },
     {
@@ -1024,8 +1682,22 @@
         "synopsis": "Devenez un mercenaire équipé d'améliorations cybernétiques à Night City, une mégalopole obsédée par la puissance et le corps.",
         "linux_status": "Gold",
         "config": {
-            "min": {"os": "Windows 7 ou 10 (64-bit)", "cpu": "Intel Core i5-3570K / AMD FX-8310", "ram": "8 GB RAM", "gpu": "NVIDIA GeForce GTX 780 / AMD Radeon RX 470", "dx": "Version 12", "storage": "70 GB"},
-            "rec": {"os": "Windows 10 (64-bit)", "cpu": "Intel Core i7-4790 / AMD Ryzen 3 3200G", "ram": "12 GB RAM", "gpu": "GTX 1060 6GB / GTX 1660 Super / Radeon RX 590", "dx": "Version 12", "storage": "70 GB (SSD recommandé)"}
+            "min": {
+                "os": "Windows 7 ou 10 (64-bit)",
+                "cpu": "Intel Core i5-3570K / AMD FX-8310",
+                "ram": "8 GB RAM",
+                "gpu": "NVIDIA GeForce GTX 780 / AMD Radeon RX 470",
+                "dx": "Version 12",
+                "storage": "70 GB"
+            },
+            "rec": {
+                "os": "Windows 10 (64-bit)",
+                "cpu": "Intel Core i7-4790 / AMD Ryzen 3 3200G",
+                "ram": "12 GB RAM",
+                "gpu": "GTX 1060 6GB / GTX 1660 Super / Radeon RX 590",
+                "dx": "Version 12",
+                "storage": "70 GB (SSD recommandé)"
+            }
         }
     },
     {
@@ -1037,8 +1709,22 @@
         "synopsis": "Explorez un monde rempli de dinosaures mécaniques revisité avec l'esthétique LEGO, mêlant humour et action pour une aventure accessible à tous[cite: 8].",
         "linux_status": "Gold",
         "config": {
-            "min": {"os": "Windows 10 (64-bit)", "cpu": "Intel Core i5-8400 / AMD Ryzen 5 2600", "ram": "16 GB RAM", "gpu": "NVIDIA GeForce GTX 1650 / AMD Radeon RX 580", "dx": "Non spécifié", "storage": "30 GB"},
-            "rec": {"os": "Windows 10 (64-bit)", "cpu": "Intel Core i5-10600K / AMD Ryzen 5 3600", "ram": "16 GB RAM", "gpu": "NVIDIA GeForce RTX 3070 / AMD Radeon RX 6800", "dx": "Non spécifié", "storage": "30 GB"}
+            "min": {
+                "os": "Windows 10 (64-bit)",
+                "cpu": "Intel Core i5-8400 / AMD Ryzen 5 2600",
+                "ram": "16 GB RAM",
+                "gpu": "NVIDIA GeForce GTX 1650 / AMD Radeon RX 580",
+                "dx": "Non spécifié",
+                "storage": "30 GB"
+            },
+            "rec": {
+                "os": "Windows 10 (64-bit)",
+                "cpu": "Intel Core i5-10600K / AMD Ryzen 5 3600",
+                "ram": "16 GB RAM",
+                "gpu": "NVIDIA GeForce RTX 3070 / AMD Radeon RX 6800",
+                "dx": "Non spécifié",
+                "storage": "30 GB"
+            }
         }
     },
     {
@@ -1050,8 +1736,22 @@
         "synopsis": "Affrontez des horreurs indicibles dans cette expérience de survie immersive mettant à l'épreuve vos nerfs et vos ressources[cite: 8].",
         "linux_status": "Gold",
         "config": {
-            "min": {"os": "Windows 11 (64-bit)", "cpu": "Intel Core i5-8500 / AMD Ryzen 5 3500", "ram": "16 GB RAM", "gpu": "GeForce GTX 1660 (6GB) / Radeon RX 5500 XT (8GB)", "dx": "Version 12", "storage": "Non spécifié (SSD requis)"},
-            "rec": {"os": "Windows 11 (64-bit)", "cpu": "Intel Core i7-8700 / AMD Ryzen 5 5500", "ram": "16 GB RAM", "gpu": "GeForce RTX 2060 Super (8GB) / Radeon RX 6600 (8GB)", "dx": "Version 12", "storage": "Non spécifié (SSD requis)"}
+            "min": {
+                "os": "Windows 11 (64-bit)",
+                "cpu": "Intel Core i5-8500 / AMD Ryzen 5 3500",
+                "ram": "16 GB RAM",
+                "gpu": "GeForce GTX 1660 (6GB) / Radeon RX 5500 XT (8GB)",
+                "dx": "Version 12",
+                "storage": "Non spécifié (SSD requis)"
+            },
+            "rec": {
+                "os": "Windows 11 (64-bit)",
+                "cpu": "Intel Core i7-8700 / AMD Ryzen 5 5500",
+                "ram": "16 GB RAM",
+                "gpu": "GeForce RTX 2060 Super (8GB) / Radeon RX 6600 (8GB)",
+                "dx": "Version 12",
+                "storage": "Non spécifié (SSD requis)"
+            }
         }
     },
     {
@@ -1063,8 +1763,22 @@
         "synopsis": "Le monde est au bord de l'effondrement dans cette campagne intense où le danger guette à chaque coin de rue[cite: 8].",
         "linux_status": "Platinum",
         "config": {
-            "min": {"os": "Windows XP / Vista (ou supérieur)", "cpu": "Intel Pentium 4 3.2 GHz / AMD Athlon 64 3200+ (ou supérieur)", "ram": "1 GB RAM", "gpu": "NVIDIA GeForce 6600 GT (256 MB) / ATI Radeon X1600 XT (ou supérieure)", "dx": "Version 9.0c", "storage": "12 GB"},
-            "rec": {"os": "Non spécifié", "cpu": "Non spécifié", "ram": "Non spécifié", "gpu": "Non spécifié", "dx": "Non spécifié", "storage": "Non spécifié"}
+            "min": {
+                "os": "Windows XP / Vista (ou supérieur)",
+                "cpu": "Intel Pentium 4 3.2 GHz / AMD Athlon 64 3200+ (ou supérieur)",
+                "ram": "1 GB RAM",
+                "gpu": "NVIDIA GeForce 6600 GT (256 MB) / ATI Radeon X1600 XT (ou supérieure)",
+                "dx": "Version 9.0c",
+                "storage": "12 GB"
+            },
+            "rec": {
+                "os": "Non spécifié",
+                "cpu": "Non spécifié",
+                "ram": "Non spécifié",
+                "gpu": "Non spécifié",
+                "dx": "Non spécifié",
+                "storage": "Non spécifié"
+            }
         }
     },
     {
@@ -1076,8 +1790,22 @@
         "synopsis": "Le conflit mondial atteint son paroxysme dans une campagne cinématographique où rien ne sera épargné[cite: 8].",
         "linux_status": "Platinum",
         "config": {
-            "min": {"os": "Windows XP / Vista / 7", "cpu": "Intel Core 2 Duo @ 2.4 GHz / AMD Athlon 64 X2 5000+", "ram": "2 GB RAM", "gpu": "nVidia GeForce 8600 / ATI Radeon HD 2600 Pro (256 MB)", "dx": "Version 9.0c", "storage": "70 GB"},
-            "rec": {"os": "Windows XP / Vista / 7", "cpu": "Intel Core 2 Duo @ 3.0 GHz / AMD Athlon 64 X2 6000+", "ram": "4 GB RAM", "gpu": "nVidia GeForce GTX 460 / ATI Radeon HD 6850 (1 GB)", "dx": "Version 9.0c", "storage": "70 GB"}
+            "min": {
+                "os": "Windows XP / Vista / 7",
+                "cpu": "Intel Core 2 Duo @ 2.4 GHz / AMD Athlon 64 X2 5000+",
+                "ram": "2 GB RAM",
+                "gpu": "nVidia GeForce 8600 / ATI Radeon HD 2600 Pro (256 MB)",
+                "dx": "Version 9.0c",
+                "storage": "70 GB"
+            },
+            "rec": {
+                "os": "Windows XP / Vista / 7",
+                "cpu": "Intel Core 2 Duo @ 3.0 GHz / AMD Athlon 64 X2 6000+",
+                "ram": "4 GB RAM",
+                "gpu": "nVidia GeForce GTX 460 / ATI Radeon HD 6850 (1 GB)",
+                "dx": "Version 9.0c",
+                "storage": "70 GB"
+            }
         }
     },
     {
@@ -1089,8 +1817,22 @@
         "synopsis": "L'expérience Modern Warfare originale est de retour avec des graphismes modernisés et une fidélité accrue[cite: 8].",
         "linux_status": "Gold",
         "config": {
-            "min": {"os": "Windows 7 (64-bit) / Windows 8 (64-bit) / Windows 8.1 (64-bit) / Windows 10 (64-bit)", "cpu": "Intel Core i3-530 @ 2.93 GHz / AMD Phenom II X4 810 @ 2.80 GHz", "ram": "6 GB RAM", "gpu": "NVIDIA GeForce GTS 450 (1GB) / ATI Radeon HD 7850 (1GB)", "dx": "Version 11", "storage": "55 GB"},
-            "rec": {"os": "Non spécifié", "cpu": "Non spécifié", "ram": "Non spécifié", "gpu": "Non spécifié", "dx": "Non spécifié", "storage": "Non spécifié"}
+            "min": {
+                "os": "Windows 7 (64-bit) / Windows 8 (64-bit) / Windows 8.1 (64-bit) / Windows 10 (64-bit)",
+                "cpu": "Intel Core i3-530 @ 2.93 GHz / AMD Phenom II X4 810 @ 2.80 GHz",
+                "ram": "6 GB RAM",
+                "gpu": "NVIDIA GeForce GTS 450 (1GB) / ATI Radeon HD 7850 (1GB)",
+                "dx": "Version 11",
+                "storage": "55 GB"
+            },
+            "rec": {
+                "os": "Non spécifié",
+                "cpu": "Non spécifié",
+                "ram": "Non spécifié",
+                "gpu": "Non spécifié",
+                "dx": "Non spécifié",
+                "storage": "Non spécifié"
+            }
         }
     },
     {
@@ -1102,8 +1844,22 @@
         "synopsis": "Une campagne poignante et réaliste qui explore les dilemmes moraux de la guerre moderne[cite: 8].",
         "linux_status": "Gold",
         "config": {
-            "min": {"os": "Windows 10 (64-bit)", "cpu": "Intel Core i3-4340 / AMD FX-6300", "ram": "8 GB RAM", "gpu": "NVIDIA GeForce GTX 670 / NVIDIA GeForce GTX 1650 / AMD Radeon HD 7950", "dx": "Version 12", "storage": "175 GB"},
-            "rec": {"os": "Windows 10 (64-bit, dernière mise à jour)", "cpu": "Intel Core i5-2500K / AMD Ryzen 5 1600X", "ram": "12 GB RAM", "gpu": "NVIDIA GeForce GTX 970 / NVIDIA GeForce GTX 1660 / AMD Radeon R9 390 / AMD Radeon RX 580", "dx": "Version 12", "storage": "175 GB"}
+            "min": {
+                "os": "Windows 10 (64-bit)",
+                "cpu": "Intel Core i3-4340 / AMD FX-6300",
+                "ram": "8 GB RAM",
+                "gpu": "NVIDIA GeForce GTX 670 / NVIDIA GeForce GTX 1650 / AMD Radeon HD 7950",
+                "dx": "Version 12",
+                "storage": "175 GB"
+            },
+            "rec": {
+                "os": "Windows 10 (64-bit, dernière mise à jour)",
+                "cpu": "Intel Core i5-2500K / AMD Ryzen 5 1600X",
+                "ram": "12 GB RAM",
+                "gpu": "NVIDIA GeForce GTX 970 / NVIDIA GeForce GTX 1660 / AMD Radeon R9 390 / AMD Radeon RX 580",
+                "dx": "Version 12",
+                "storage": "175 GB"
+            }
         }
     },
     {
@@ -1115,8 +1871,22 @@
         "synopsis": "La Task Force 141 se reforme pour une mission mondiale visant à contrer une menace terroriste croissante[cite: 8].",
         "linux_status": "Gold",
         "config": {
-            "min": {"os": "Windows 10 (64-bit, dernière mise à jour)", "cpu": "Intel Core i3-6100 / Core i5-2500K / AMD Ryzen 3 1200", "ram": "8 GB RAM", "gpu": "NVIDIA GeForce GTX 960 / AMD Radeon RX 470", "dx": "Version 12", "storage": "125 GB"},
-            "rec": {"os": "Windows 10 / 11 (64-bit, dernière mise à jour)", "cpu": "Intel Core i5-6600K / Core i7-4770 / AMD Ryzen 5 1400", "ram": "8 GB RAM", "gpu": "NVIDIA GeForce GTX 1060 / AMD Radeon RX 580 / Intel Arc A770", "dx": "Version 12", "storage": "125 GB"}
+            "min": {
+                "os": "Windows 10 (64-bit, dernière mise à jour)",
+                "cpu": "Intel Core i3-6100 / Core i5-2500K / AMD Ryzen 3 1200",
+                "ram": "8 GB RAM",
+                "gpu": "NVIDIA GeForce GTX 960 / AMD Radeon RX 470",
+                "dx": "Version 12",
+                "storage": "125 GB"
+            },
+            "rec": {
+                "os": "Windows 10 / 11 (64-bit, dernière mise à jour)",
+                "cpu": "Intel Core i5-6600K / Core i7-4770 / AMD Ryzen 5 1400",
+                "ram": "8 GB RAM",
+                "gpu": "NVIDIA GeForce GTX 1060 / AMD Radeon RX 580 / Intel Arc A770",
+                "dx": "Version 12",
+                "storage": "125 GB"
+            }
         }
     },
     {
@@ -1128,8 +1898,22 @@
         "synopsis": "Capitaine Price et la Task Force 141 doivent faire face à Makarov dans cette conclusion épique[cite: 8].",
         "linux_status": "Gold",
         "config": {
-            "min": {"os": "Windows 10 (64-bit, dernière mise à jour)", "cpu": "Intel Core i5-6600 / AMD Ryzen 5 1400", "ram": "8 GB RAM", "gpu": "NVIDIA GeForce GTX 960 / GTX 1650 / AMD Radeon RX 470", "dx": "Version 12", "storage": "102 GB (SSD requis)"},
-            "rec": {"os": "Windows 10 / 11 (64-bit, dernière mise à jour)", "cpu": "Intel Core i7-6700K / AMD Ryzen 5 1600X", "ram": "16 GB RAM", "gpu": "NVIDIA GeForce GTX 1080 Ti / RTX 3060 / AMD Radeon RX 6600 XT / Intel Arc A770", "dx": "Version 12", "storage": "102 GB (SSD requis)"}
+            "min": {
+                "os": "Windows 10 (64-bit, dernière mise à jour)",
+                "cpu": "Intel Core i5-6600 / AMD Ryzen 5 1400",
+                "ram": "8 GB RAM",
+                "gpu": "NVIDIA GeForce GTX 960 / GTX 1650 / AMD Radeon RX 470",
+                "dx": "Version 12",
+                "storage": "102 GB (SSD requis)"
+            },
+            "rec": {
+                "os": "Windows 10 / 11 (64-bit, dernière mise à jour)",
+                "cpu": "Intel Core i7-6700K / AMD Ryzen 5 1600X",
+                "ram": "16 GB RAM",
+                "gpu": "NVIDIA GeForce GTX 1080 Ti / RTX 3060 / AMD Radeon RX 6600 XT / Intel Arc A770",
+                "dx": "Version 12",
+                "storage": "102 GB (SSD requis)"
+            }
         }
     },
     {
@@ -1141,8 +1925,22 @@
         "synopsis": "Voyagez à travers les étoiles et explorez une galaxie vaste pour découvrir des mystères anciens dans ce RPG de science-fiction[cite: 8].",
         "linux_status": "Gold",
         "config": {
-            "min": {"os": "Windows 10 (version 21H1 ou supérieure)", "cpu": "AMD Ryzen 5 2600X / Intel Core i7-6800K", "ram": "16 GB RAM", "gpu": "AMD Radeon RX 5700 / NVIDIA GeForce GTX 1070 Ti", "dx": "Version 12", "storage": "125 GB (SSD requis)"},
-            "rec": {"os": "Windows 10 / 11 (avec mises à jour)", "cpu": "AMD Ryzen 5 3600X / Intel Core i5-10600K", "ram": "16 GB RAM", "gpu": "AMD Radeon RX 6800 XT / NVIDIA GeForce RTX 2080", "dx": "Version 12", "storage": "125 GB (SSD requis)"}
+            "min": {
+                "os": "Windows 10 (version 21H1 ou supérieure)",
+                "cpu": "AMD Ryzen 5 2600X / Intel Core i7-6800K",
+                "ram": "16 GB RAM",
+                "gpu": "AMD Radeon RX 5700 / NVIDIA GeForce GTX 1070 Ti",
+                "dx": "Version 12",
+                "storage": "125 GB (SSD requis)"
+            },
+            "rec": {
+                "os": "Windows 10 / 11 (avec mises à jour)",
+                "cpu": "AMD Ryzen 5 3600X / Intel Core i5-10600K",
+                "ram": "16 GB RAM",
+                "gpu": "AMD Radeon RX 6800 XT / NVIDIA GeForce RTX 2080",
+                "dx": "Version 12",
+                "storage": "125 GB (SSD requis)"
+            }
         }
     },
     {
@@ -1154,8 +1952,22 @@
         "synopsis": "Revivez les batailles les plus intenses de la Seconde Guerre mondiale dans ce jeu de tir classique et fondateur[cite: 8].",
         "linux_status": "Platinum",
         "config": {
-            "min": {"os": "Windows 98 / ME / 2000 / XP", "cpu": "Intel Pentium 3 @ 700 MHz", "ram": "128 MB RAM", "gpu": "32 MB VRAM (compatible DirectX)", "dx": "Version 9.0b", "storage": "1.4 GB"},
-            "rec": {"os": "Non spécifié", "cpu": "Non spécifié", "ram": "Non spécifié", "gpu": "Non spécifié", "dx": "Non spécifié", "storage": "Non spécifié"}
+            "min": {
+                "os": "Windows 98 / ME / 2000 / XP",
+                "cpu": "Intel Pentium 3 @ 700 MHz",
+                "ram": "128 MB RAM",
+                "gpu": "32 MB VRAM (compatible DirectX)",
+                "dx": "Version 9.0b",
+                "storage": "1.4 GB"
+            },
+            "rec": {
+                "os": "Non spécifié",
+                "cpu": "Non spécifié",
+                "ram": "Non spécifié",
+                "gpu": "Non spécifié",
+                "dx": "Non spécifié",
+                "storage": "Non spécifié"
+            }
         }
     },
     {
@@ -1167,8 +1979,22 @@
         "synopsis": "Vivez les conflits mondiaux à travers les yeux de soldats alliés dans des campagnes immersives et cinématographiques[cite: 8].",
         "linux_status": "Gold",
         "config": {
-            "min": {"os": "Windows 2000 / XP", "cpu": "Intel Pentium @ 1.4 GHz / AMD Athlon XP 1700+ (ou supérieur)", "ram": "256 MB RAM", "gpu": "64 MB VRAM", "dx": "Version 9.0c", "storage": "Non spécifié"},
-            "rec": {"os": "Non spécifié", "cpu": "Non spécifié", "ram": "512 MB RAM", "gpu": "128 MB VRAM", "dx": "Non spécifié", "storage": "Non spécifié"}
+            "min": {
+                "os": "Windows 2000 / XP",
+                "cpu": "Intel Pentium @ 1.4 GHz / AMD Athlon XP 1700+ (ou supérieur)",
+                "ram": "256 MB RAM",
+                "gpu": "64 MB VRAM",
+                "dx": "Version 9.0c",
+                "storage": "Non spécifié"
+            },
+            "rec": {
+                "os": "Non spécifié",
+                "cpu": "Non spécifié",
+                "ram": "512 MB RAM",
+                "gpu": "128 MB VRAM",
+                "dx": "Non spécifié",
+                "storage": "Non spécifié"
+            }
         }
     },
     {
@@ -1180,8 +2006,22 @@
         "synopsis": "Plongez dans des opérations spéciales tactiques mondiales avec une narration révolutionnaire et un multijoueur iconique[cite: 8].",
         "linux_status": "Platinum",
         "config": {
-            "min": {"os": "Windows XP / Vista", "cpu": "Intel Pentium 4 2.4 GHz / AMD Athlon 64 2800+ / Dual Core @ 1.8 GHz", "ram": "512 MB RAM (XP) / 768 MB RAM (Vista)", "gpu": "NVIDIA GeForce 6600 / ATI Radeon 9800 Pro (ou supérieure)", "dx": "Version 9.0c", "storage": "8 GB"},
-            "rec": {"os": "Non spécifié", "cpu": "Non spécifié", "ram": "Non spécifié", "gpu": "Non spécifié", "dx": "Non spécifié", "storage": "Non spécifié"}
+            "min": {
+                "os": "Windows XP / Vista",
+                "cpu": "Intel Pentium 4 2.4 GHz / AMD Athlon 64 2800+ / Dual Core @ 1.8 GHz",
+                "ram": "512 MB RAM (XP) / 768 MB RAM (Vista)",
+                "gpu": "NVIDIA GeForce 6600 / ATI Radeon 9800 Pro (ou supérieure)",
+                "dx": "Version 9.0c",
+                "storage": "8 GB"
+            },
+            "rec": {
+                "os": "Non spécifié",
+                "cpu": "Non spécifié",
+                "ram": "Non spécifié",
+                "gpu": "Non spécifié",
+                "dx": "Non spécifié",
+                "storage": "Non spécifié"
+            }
         }
     },
     {
@@ -1193,8 +2033,22 @@
         "synopsis": "Plongez dans les batailles acharnées du Pacifique et du front de l'Est dans l'un des opus les plus sombres de la série[cite: 8].",
         "linux_status": "Platinum",
         "config": {
-            "min": {"os": "Windows XP / Vista", "cpu": "Intel Pentium 4 @ 3 GHz / AMD Athlon 64 3200+", "ram": "512 MB RAM", "gpu": "nVidia GeForce 6600 / ATI Radeon X1600 (256 MB)", "dx": "Version 9.0c", "storage": "8 GB"},
-            "rec": {"os": "Non spécifié", "cpu": "Non spécifié", "ram": "Non spécifié", "gpu": "Non spécifié", "dx": "Non spécifié", "storage": "Non spécifié"}
+            "min": {
+                "os": "Windows XP / Vista",
+                "cpu": "Intel Pentium 4 @ 3 GHz / AMD Athlon 64 3200+",
+                "ram": "512 MB RAM",
+                "gpu": "nVidia GeForce 6600 / ATI Radeon X1600 (256 MB)",
+                "dx": "Version 9.0c",
+                "storage": "8 GB"
+            },
+            "rec": {
+                "os": "Non spécifié",
+                "cpu": "Non spécifié",
+                "ram": "Non spécifié",
+                "gpu": "Non spécifié",
+                "dx": "Non spécifié",
+                "storage": "Non spécifié"
+            }
         }
     },
     {
@@ -1206,8 +2060,22 @@
         "synopsis": "Suivez le parcours d'une section de soldats américains dans une campagne héroïque et poignante à travers l'Europe[cite: 8].",
         "linux_status": "Gold",
         "config": {
-            "min": {"os": "Windows 7 (64-bit) ou plus récent", "cpu": "Intel Core i3-3225 @ 3.3 GHz / AMD Ryzen 5 1400", "ram": "8 GB RAM", "gpu": "NVIDIA GeForce GTX 660 (2 GB) / GTX 1050 / ATI Radeon HD 7850 (2 GB) / AMD Radeon RX 550", "dx": "Version 11", "storage": "90 GB"},
-            "rec": {"os": "Non spécifié", "cpu": "Non spécifié", "ram": "Non spécifié", "gpu": "Non spécifié", "dx": "Non spécifié", "storage": "Non spécifié"}
+            "min": {
+                "os": "Windows 7 (64-bit) ou plus récent",
+                "cpu": "Intel Core i3-3225 @ 3.3 GHz / AMD Ryzen 5 1400",
+                "ram": "8 GB RAM",
+                "gpu": "NVIDIA GeForce GTX 660 (2 GB) / GTX 1050 / ATI Radeon HD 7850 (2 GB) / AMD Radeon RX 550",
+                "dx": "Version 11",
+                "storage": "90 GB"
+            },
+            "rec": {
+                "os": "Non spécifié",
+                "cpu": "Non spécifié",
+                "ram": "Non spécifié",
+                "gpu": "Non spécifié",
+                "dx": "Non spécifié",
+                "storage": "Non spécifié"
+            }
         }
     },
     {
@@ -1219,8 +2087,22 @@
         "synopsis": "Incarnez un agent dans des missions clandestines mondiales où le danger est permanent et les secrets mortels[cite: 8].",
         "linux_status": "Gold",
         "config": {
-            "min": {"os": "Windows XP / Vista / 7", "cpu": "Intel Core 2 Duo E6600 / AMD Phenom X3 8750 (ou supérieur)", "ram": "2 GB RAM", "gpu": "NVIDIA GeForce 8600 GT / ATI Radeon X1950 Pro (256 MB, Shader 3.0 ou supérieur)", "dx": "Version 9.0c", "storage": "25 GB"},
-            "rec": {"os": "Non spécifié", "cpu": "Non spécifié", "ram": "Non spécifié", "gpu": "Non spécifié", "dx": "Non spécifié", "storage": "Non spécifié"}
+            "min": {
+                "os": "Windows XP / Vista / 7",
+                "cpu": "Intel Core 2 Duo E6600 / AMD Phenom X3 8750 (ou supérieur)",
+                "ram": "2 GB RAM",
+                "gpu": "NVIDIA GeForce 8600 GT / ATI Radeon X1950 Pro (256 MB, Shader 3.0 ou supérieur)",
+                "dx": "Version 9.0c",
+                "storage": "25 GB"
+            },
+            "rec": {
+                "os": "Non spécifié",
+                "cpu": "Non spécifié",
+                "ram": "Non spécifié",
+                "gpu": "Non spécifié",
+                "dx": "Non spécifié",
+                "storage": "Non spécifié"
+            }
         }
     },
     {
@@ -1232,10 +2114,24 @@
         "synopsis": "Naviguez entre le passé et le futur dans cette campagne ambitieuse explorant l'ascension des technologies de guerre modernes[cite: 8].",
         "linux_status": "Gold",
         "config": {
-            "min": {"os": "Windows Vista SP2 / Windows 7 (XP non supporté)", "cpu": "Intel Core 2 Duo E8200 @ 2.66 GHz / AMD Phenom X3 8750 @ 2.4 GHz", "ram": "2 GB RAM (OS 32-bit) / 4 GB RAM (OS 64-bit)", "gpu": "Nvidia GeForce 8800 GT (512 MB) / ATI Radeon HD 3870 (512 MB)", "dx": "Version 9.0c", "storage": "16 GB"},
-            "rec": {"os": "Non spécifié", "cpu": "Non spécifié", "ram": "Non spécifié", "gpu": "Non spécifié", "dx": "Non spécifié", "storage": "16 GB"}
+            "min": {
+                "os": "Windows Vista SP2 / Windows 7 (XP non supporté)",
+                "cpu": "Intel Core 2 Duo E8200 @ 2.66 GHz / AMD Phenom X3 8750 @ 2.4 GHz",
+                "ram": "2 GB RAM (OS 32-bit) / 4 GB RAM (OS 64-bit)",
+                "gpu": "Nvidia GeForce 8800 GT (512 MB) / ATI Radeon HD 3870 (512 MB)",
+                "dx": "Version 9.0c",
+                "storage": "16 GB"
+            },
+            "rec": {
+                "os": "Non spécifié",
+                "cpu": "Non spécifié",
+                "ram": "Non spécifié",
+                "gpu": "Non spécifié",
+                "dx": "Non spécifié",
+                "storage": "16 GB"
+            }
         }
-    }, 
+    },
     {
         "nom": "Call of Duty: Black Ops III - Complete Edition",
         "categorie": "Repacks",
@@ -1245,8 +2141,22 @@
         "synopsis": "Dans un futur sombre, les soldats deviennent des machines augmentées. Ce titre propose une campagne narrative ainsi qu'un mode Zombies iconique[cite: 9].",
         "linux_status": "Gold",
         "config": {
-            "min": {"os": "Windows 7 (64-bit) / Windows 8 (64-bit) / Windows 8.1 (64-bit)", "cpu": "Intel Core i3-530 @ 2.93 GHz / AMD Phenom II X4 810 @ 2.60 GHz", "ram": "6 GB RAM", "gpu": "NVIDIA GeForce GTX 470 (1 GB) / ATI Radeon HD 6970 (1 GB)", "dx": "Version 11", "storage": "60 GB"},
-            "rec": {"os": "Non spécifié", "cpu": "Non spécifié", "ram": "Non spécifié", "gpu": "Non spécifié", "dx": "Non spécifié", "storage": "Non spécifié"}
+            "min": {
+                "os": "Windows 7 (64-bit) / Windows 8 (64-bit) / Windows 8.1 (64-bit)",
+                "cpu": "Intel Core i3-530 @ 2.93 GHz / AMD Phenom II X4 810 @ 2.60 GHz",
+                "ram": "6 GB RAM",
+                "gpu": "NVIDIA GeForce GTX 470 (1 GB) / ATI Radeon HD 6970 (1 GB)",
+                "dx": "Version 11",
+                "storage": "60 GB"
+            },
+            "rec": {
+                "os": "Non spécifié",
+                "cpu": "Non spécifié",
+                "ram": "Non spécifié",
+                "gpu": "Non spécifié",
+                "dx": "Non spécifié",
+                "storage": "Non spécifié"
+            }
         }
     },
     {
@@ -1258,8 +2168,22 @@
         "synopsis": "Poursuivez une menace mondiale à travers des missions d'espionnage intenses situées dans les années 80[cite: 9].",
         "linux_status": "Gold",
         "config": {
-            "min": {"os": "Windows 10 (64-bit, v.1803 ou plus récente)", "cpu": "Intel Core i3-4340 / AMD FX-6300", "ram": "8 GB RAM", "gpu": "NVIDIA GeForce GTX 670 / NVIDIA GeForce GTX 1650 / AMD Radeon HD 7950", "dx": "Version 12", "storage": "175 GB"},
-            "rec": {"os": "Windows 10 (64-bit, dernière mise à jour)", "cpu": "Intel Core i5-2500K / AMD Ryzen 5 1600X", "ram": "12 GB RAM", "gpu": "NVIDIA GeForce GTX 970 / NVIDIA GeForce GTX 1660 Super / AMD Radeon R9 390 / AMD Radeon RX 580", "dx": "Version 12", "storage": "175 GB"}
+            "min": {
+                "os": "Windows 10 (64-bit, v.1803 ou plus récente)",
+                "cpu": "Intel Core i3-4340 / AMD FX-6300",
+                "ram": "8 GB RAM",
+                "gpu": "NVIDIA GeForce GTX 670 / NVIDIA GeForce GTX 1650 / AMD Radeon HD 7950",
+                "dx": "Version 12",
+                "storage": "175 GB"
+            },
+            "rec": {
+                "os": "Windows 10 (64-bit, dernière mise à jour)",
+                "cpu": "Intel Core i5-2500K / AMD Ryzen 5 1600X",
+                "ram": "12 GB RAM",
+                "gpu": "NVIDIA GeForce GTX 970 / NVIDIA GeForce GTX 1660 Super / AMD Radeon R9 390 / AMD Radeon RX 580",
+                "dx": "Version 12",
+                "storage": "175 GB"
+            }
         }
     },
     {
@@ -1271,8 +2195,22 @@
         "synopsis": "Une expérience narrative d'espionnage se déroulant au début des années 90, marquant un tournant géopolitique[cite: 9].",
         "linux_status": "Gold",
         "config": {
-            "min": {"os": "Windows 10 (64-bit, dernière mise à jour)", "cpu": "AMD Ryzen 5 1400 / Intel Core i5-6600", "ram": "8 GB RAM", "gpu": "AMD Radeon RX 470 / NVIDIA GeForce GTX 960 / Intel Arc A580", "dx": "Version 12", "storage": "128 GB (SSD requis)"},
-            "rec": {"os": "Windows 10 / 11 (64-bit, dernière mise à jour)", "cpu": "AMD Ryzen 5 1600X / Intel Core i7-6700K", "ram": "12 GB RAM", "gpu": "AMD Radeon RX 6600 XT / NVIDIA GeForce GTX 1080 Ti / RTX 3060", "dx": "Version 12", "storage": "128 GB (SSD requis)"}
+            "min": {
+                "os": "Windows 10 (64-bit, dernière mise à jour)",
+                "cpu": "AMD Ryzen 5 1400 / Intel Core i5-6600",
+                "ram": "8 GB RAM",
+                "gpu": "AMD Radeon RX 470 / NVIDIA GeForce GTX 960 / Intel Arc A580",
+                "dx": "Version 12",
+                "storage": "128 GB (SSD requis)"
+            },
+            "rec": {
+                "os": "Windows 10 / 11 (64-bit, dernière mise à jour)",
+                "cpu": "AMD Ryzen 5 1600X / Intel Core i7-6700K",
+                "ram": "12 GB RAM",
+                "gpu": "AMD Radeon RX 6600 XT / NVIDIA GeForce GTX 1080 Ti / RTX 3060",
+                "dx": "Version 12",
+                "storage": "128 GB (SSD requis)"
+            }
         }
     },
     {
@@ -1284,8 +2222,22 @@
         "synopsis": "Vivez l'expérience NBA ultime avec des mécaniques de jeu peaufinées et des modes carrière complets[cite: 9].",
         "linux_status": "Gold",
         "config": {
-            "min": {"os": "Windows 7 / 8.1 / 10 (64-bit)", "cpu": "Intel Core i3-2100 @ 3.10 GHz / AMD FX-4100 @ 3.60 GHz", "ram": "4 GB RAM", "gpu": "NVIDIA GeForce GT 450 (1 GB) / ATI Radeon HD 7770 (1 GB)", "dx": "Version 11", "storage": "110 GB"},
-            "rec": {"os": "Windows 7 / 8.1 / 10 (64-bit)", "cpu": "Intel Core i5-4430 @ 3 GHz / AMD FX-8370 @ 3.4 GHz", "ram": "8 GB RAM", "gpu": "NVIDIA GeForce GTX 770 (2 GB) / ATI Radeon R9 270 (2 GB)", "dx": "Version 11", "storage": "110 GB"}
+            "min": {
+                "os": "Windows 7 / 8.1 / 10 (64-bit)",
+                "cpu": "Intel Core i3-2100 @ 3.10 GHz / AMD FX-4100 @ 3.60 GHz",
+                "ram": "4 GB RAM",
+                "gpu": "NVIDIA GeForce GT 450 (1 GB) / ATI Radeon HD 7770 (1 GB)",
+                "dx": "Version 11",
+                "storage": "110 GB"
+            },
+            "rec": {
+                "os": "Windows 7 / 8.1 / 10 (64-bit)",
+                "cpu": "Intel Core i5-4430 @ 3 GHz / AMD FX-8370 @ 3.4 GHz",
+                "ram": "8 GB RAM",
+                "gpu": "NVIDIA GeForce GTX 770 (2 GB) / ATI Radeon R9 270 (2 GB)",
+                "dx": "Version 11",
+                "storage": "110 GB"
+            }
         }
     },
     {
@@ -1297,8 +2249,22 @@
         "synopsis": "Prenez le contrôle des parquets avec une présentation télévisuelle réaliste et des options de personnalisation étendues[cite: 9].",
         "linux_status": "Gold",
         "config": {
-            "min": {"os": "Windows 7 / 8.1 / 10 (64-bit)", "cpu": "Intel Core i3-2100 @ 3.10 GHz / AMD FX-4100 @ 3.60 GHz", "ram": "4 GB RAM", "gpu": "NVIDIA GeForce GT 450 (1 GB) / ATI Radeon HD 7770 (1 GB)", "dx": "Version 11", "storage": "110 GB"},
-            "rec": {"os": "Windows 7 / 8.1 / 10 (64-bit)", "cpu": "Intel Core i5-4430 @ 3 GHz / AMD FX-8370 @ 3.4 GHz", "ram": "8 GB RAM", "gpu": "NVIDIA GeForce GTX 770 (2 GB) / ATI Radeon R9 270 (2 GB)", "dx": "Version 11", "storage": "110 GB"}
+            "min": {
+                "os": "Windows 7 / 8.1 / 10 (64-bit)",
+                "cpu": "Intel Core i3-2100 @ 3.10 GHz / AMD FX-4100 @ 3.60 GHz",
+                "ram": "4 GB RAM",
+                "gpu": "NVIDIA GeForce GT 450 (1 GB) / ATI Radeon HD 7770 (1 GB)",
+                "dx": "Version 11",
+                "storage": "110 GB"
+            },
+            "rec": {
+                "os": "Windows 7 / 8.1 / 10 (64-bit)",
+                "cpu": "Intel Core i5-4430 @ 3 GHz / AMD FX-8370 @ 3.4 GHz",
+                "ram": "8 GB RAM",
+                "gpu": "NVIDIA GeForce GTX 770 (2 GB) / ATI Radeon R9 270 (2 GB)",
+                "dx": "Version 11",
+                "storage": "110 GB"
+            }
         }
     },
     {
@@ -1310,8 +2276,22 @@
         "synopsis": "Découvrez le basket-ball avec des améliorations visuelles et des mécaniques de tir retravaillées[cite: 9].",
         "linux_status": "Gold",
         "config": {
-            "min": {"os": "Windows 7 / 10 (64-bit)", "cpu": "Intel Core i3-530 / AMD FX-4100", "ram": "4 GB RAM", "gpu": "nVidia GTS 450 / ATI HD 7770", "dx": "Version 11", "storage": "110 GB"},
-            "rec": {"os": "Windows 7 / 10 (64-bit)", "cpu": "Intel Core i5-4430 / AMD FX-8370", "ram": "8 GB RAM", "gpu": "nVidia GTX 770 / ATI R9 270", "dx": "Version 11", "storage": "110 GB"}
+            "min": {
+                "os": "Windows 7 / 10 (64-bit)",
+                "cpu": "Intel Core i3-530 / AMD FX-4100",
+                "ram": "4 GB RAM",
+                "gpu": "nVidia GTS 450 / ATI HD 7770",
+                "dx": "Version 11",
+                "storage": "110 GB"
+            },
+            "rec": {
+                "os": "Windows 7 / 10 (64-bit)",
+                "cpu": "Intel Core i5-4430 / AMD FX-8370",
+                "ram": "8 GB RAM",
+                "gpu": "nVidia GTX 770 / ATI R9 270",
+                "dx": "Version 11",
+                "storage": "110 GB"
+            }
         }
     },
     {
@@ -1323,8 +2303,22 @@
         "synopsis": "Aidez Six à s'échapper de L'Antre, un navire mystérieux peuplé d'âmes corrompues cherchant leur prochain repas[cite: 9].",
         "linux_status": "Platinum",
         "config": {
-            "min": {"os": "Windows 7 (64-bit)", "cpu": "Intel CPU Core i3", "ram": "4 GB RAM", "gpu": "Nvidia GTX 460", "dx": "Version 11", "storage": "10 GB"},
-            "rec": {"os": "Windows 7 (64-bit)", "cpu": "Intel CPU Core i7", "ram": "8 GB RAM", "gpu": "Nvidia GPU GeForce GTX 660", "dx": "Version 11", "storage": "10 GB"}
+            "min": {
+                "os": "Windows 7 (64-bit)",
+                "cpu": "Intel CPU Core i3",
+                "ram": "4 GB RAM",
+                "gpu": "Nvidia GTX 460",
+                "dx": "Version 11",
+                "storage": "10 GB"
+            },
+            "rec": {
+                "os": "Windows 7 (64-bit)",
+                "cpu": "Intel CPU Core i7",
+                "ram": "8 GB RAM",
+                "gpu": "Nvidia GPU GeForce GTX 660",
+                "dx": "Version 11",
+                "storage": "10 GB"
+            }
         }
     },
     {
@@ -1336,8 +2330,22 @@
         "synopsis": "Accompagnez Mono pour découvrir les secrets sombres de la Tour de Transmission tout en échappant aux résidents cauchemardesques[cite: 9].",
         "linux_status": "Platinum",
         "config": {
-            "min": {"os": "Windows 10", "cpu": "Intel Core i5-2300 / AMD FX-4350", "ram": "4 GB RAM", "gpu": "Nvidia GeForce GTX 570 (1 GB) / AMD Radeon HD 7850 (2 GB)", "dx": "Version 11", "storage": "Non spécifié"},
-            "rec": {"os": "Windows 10", "cpu": "Intel Core i7-3770 / AMD FX-8350", "ram": "4 GB RAM", "gpu": "Nvidia GeForce GTX 760 (2 GB) / AMD Radeon HD 7870 (2 GB)", "dx": "Version 11", "storage": "Non spécifié"}
+            "min": {
+                "os": "Windows 10",
+                "cpu": "Intel Core i5-2300 / AMD FX-4350",
+                "ram": "4 GB RAM",
+                "gpu": "Nvidia GeForce GTX 570 (1 GB) / AMD Radeon HD 7850 (2 GB)",
+                "dx": "Version 11",
+                "storage": "Non spécifié"
+            },
+            "rec": {
+                "os": "Windows 10",
+                "cpu": "Intel Core i7-3770 / AMD FX-8350",
+                "ram": "4 GB RAM",
+                "gpu": "Nvidia GeForce GTX 760 (2 GB) / AMD Radeon HD 7870 (2 GB)",
+                "dx": "Version 11",
+                "storage": "Non spécifié"
+            }
         }
     },
     {
@@ -1349,8 +2357,22 @@
         "synopsis": "Deux nouveaux personnages, Low et Alone, doivent traverser la Spirale, un monde rempli de dangers persistants[cite: 9].",
         "linux_status": "Non testé",
         "config": {
-            "min": {"os": "Windows 11", "cpu": "Intel Core i5-6500 / AMD Ryzen 3 1200", "ram": "8 GB RAM", "gpu": "Nvidia GeForce GTX 1060 / AMD Radeon RX 580", "dx": "Non spécifié", "storage": "Non spécifié"},
-            "rec": {"os": "Windows 11", "cpu": "Intel Core i5-8400 / AMD Ryzen 5 1600", "ram": "12 GB RAM", "gpu": "Nvidia GeForce RTX 2080 (8 GB) / AMD Radeon RX 6800", "dx": "Non spécifié", "storage": "Non spécifié"}
+            "min": {
+                "os": "Windows 11",
+                "cpu": "Intel Core i5-6500 / AMD Ryzen 3 1200",
+                "ram": "8 GB RAM",
+                "gpu": "Nvidia GeForce GTX 1060 / AMD Radeon RX 580",
+                "dx": "Non spécifié",
+                "storage": "Non spécifié"
+            },
+            "rec": {
+                "os": "Windows 11",
+                "cpu": "Intel Core i5-8400 / AMD Ryzen 5 1600",
+                "ram": "12 GB RAM",
+                "gpu": "Nvidia GeForce RTX 2080 (8 GB) / AMD Radeon RX 6800",
+                "dx": "Non spécifié",
+                "storage": "Non spécifié"
+            }
         }
     },
     {
@@ -1362,8 +2384,22 @@
         "synopsis": "Une expérience visuelle retravaillée du jeu original, accentuant l'atmosphère oppressante et les détails graphiques[cite: 9].",
         "linux_status": "Platinum",
         "config": {
-            "min": {"os": "Windows 10 (64-bit)", "cpu": "Intel Core i3-2100 / AMD FX-4350", "ram": "6 GB RAM", "gpu": "Nvidia GeForce GTX 650 Ti (2 GB) / AMD Radeon HD 7850 (2 GB)", "dx": "Version 11", "storage": "10 GB"},
-            "rec": {"os": "Windows 10 (64-bit)", "cpu": "Intel Core i5-6600 / AMD Ryzen 5 1400", "ram": "8 GB RAM", "gpu": "Nvidia GeForce RTX 2070 (8 GB) / AMD Radeon RX 6700 (10 GB)", "dx": "Version 11", "storage": "10 GB"}
+            "min": {
+                "os": "Windows 10 (64-bit)",
+                "cpu": "Intel Core i3-2100 / AMD FX-4350",
+                "ram": "6 GB RAM",
+                "gpu": "Nvidia GeForce GTX 650 Ti (2 GB) / AMD Radeon HD 7850 (2 GB)",
+                "dx": "Version 11",
+                "storage": "10 GB"
+            },
+            "rec": {
+                "os": "Windows 10 (64-bit)",
+                "cpu": "Intel Core i5-6600 / AMD Ryzen 5 1400",
+                "ram": "8 GB RAM",
+                "gpu": "Nvidia GeForce RTX 2070 (8 GB) / AMD Radeon RX 6700 (10 GB)",
+                "dx": "Version 11",
+                "storage": "10 GB"
+            }
         }
     },
     {
@@ -1375,8 +2411,22 @@
         "synopsis": "Parcourez des environnements déformés et affrontez des terreurs anciennes pour sauver vos amis disparus[cite: 9].",
         "linux_status": "Non testé",
         "config": {
-            "min": {"os": "Windows 10 / 11 (64-bit)", "cpu": "AMD Ryzen 5 2400G / Intel Core i5-9400F", "ram": "8 GB RAM", "gpu": "NVIDIA GeForce GTX 1060 / AMD Radeon RX 480", "dx": "Version 12", "storage": "18 GB"},
-            "rec": {"os": "Windows 10 / 11 (64-bit)", "cpu": "AMD Ryzen 5 3600X / Intel Core i7-7700K", "ram": "16 GB RAM", "gpu": "NVIDIA GeForce RTX 2060 / AMD Radeon RX 6600 XT", "dx": "Version 12", "storage": "18 GB"}
+            "min": {
+                "os": "Windows 10 / 11 (64-bit)",
+                "cpu": "AMD Ryzen 5 2400G / Intel Core i5-9400F",
+                "ram": "8 GB RAM",
+                "gpu": "NVIDIA GeForce GTX 1060 / AMD Radeon RX 480",
+                "dx": "Version 12",
+                "storage": "18 GB"
+            },
+            "rec": {
+                "os": "Windows 10 / 11 (64-bit)",
+                "cpu": "AMD Ryzen 5 3600X / Intel Core i7-7700K",
+                "ram": "16 GB RAM",
+                "gpu": "NVIDIA GeForce RTX 2060 / AMD Radeon RX 6600 XT",
+                "dx": "Version 12",
+                "storage": "18 GB"
+            }
         }
     },
     {
@@ -1388,8 +2438,22 @@
         "synopsis": "Chris Redfield et Sheva Alomar combattent une nouvelle menace bioterroriste dans un cadre ensoleillé mais terrifiant[cite: 9].",
         "linux_status": "Gold",
         "config": {
-            "min": {"os": "Windows 7", "cpu": "Intel Core 2 Quad 2.4GHz / AMD Phenom II x4 3.4GHz", "ram": "4 GB RAM", "gpu": "NVIDIA GeForce 9800 series (512 MB) / ATI Radeon HD 7770 (512 MB)", "dx": "Version 9.0c", "storage": "20 GB"},
-            "rec": {"os": "Windows 7", "cpu": "Intel Core i5-3570 / AMD Phenom II x4 3.4GHz", "ram": "4 GB RAM", "gpu": "NVIDIA GeForce GTX 650 (512 MB) / ATI Radeon HD 7770 (512 MB)", "dx": "Version 9.0c", "storage": "20 GB"}
+            "min": {
+                "os": "Windows 7",
+                "cpu": "Intel Core 2 Quad 2.4GHz / AMD Phenom II x4 3.4GHz",
+                "ram": "4 GB RAM",
+                "gpu": "NVIDIA GeForce 9800 series (512 MB) / ATI Radeon HD 7770 (512 MB)",
+                "dx": "Version 9.0c",
+                "storage": "20 GB"
+            },
+            "rec": {
+                "os": "Windows 7",
+                "cpu": "Intel Core i5-3570 / AMD Phenom II x4 3.4GHz",
+                "ram": "4 GB RAM",
+                "gpu": "NVIDIA GeForce GTX 650 (512 MB) / ATI Radeon HD 7770 (512 MB)",
+                "dx": "Version 9.0c",
+                "storage": "20 GB"
+            }
         }
     },
     {
@@ -1401,8 +2465,22 @@
         "synopsis": "Prenez part à la destruction de Raccoon City en incarnant des agents de l'Umbrella Security Service[cite: 9].",
         "linux_status": "Gold",
         "config": {
-            "min": {"os": "Windows Vista / XP / 7", "cpu": "Intel Core 2 Duo 2.4 GHz / AMD Athlon X2 2.8 GHz", "ram": "2 GB RAM", "gpu": "NVIDIA GeForce 8800GTS / ATI Radeon HD 3850", "dx": "Version 9.0c", "storage": "8 GB"},
-            "rec": {"os": "Windows Vista / XP / 7", "cpu": "Intel Core 2 Quad 2.7 GHz / AMD Phenom II X4 3 GHz", "ram": "4 GB RAM", "gpu": "NVIDIA GeForce GTX 560", "dx": "Version 9.0c", "storage": "8 GB"}
+            "min": {
+                "os": "Windows Vista / XP / 7",
+                "cpu": "Intel Core 2 Duo 2.4 GHz / AMD Athlon X2 2.8 GHz",
+                "ram": "2 GB RAM",
+                "gpu": "NVIDIA GeForce 8800GTS / ATI Radeon HD 3850",
+                "dx": "Version 9.0c",
+                "storage": "8 GB"
+            },
+            "rec": {
+                "os": "Windows Vista / XP / 7",
+                "cpu": "Intel Core 2 Quad 2.7 GHz / AMD Phenom II X4 3 GHz",
+                "ram": "4 GB RAM",
+                "gpu": "NVIDIA GeForce GTX 560",
+                "dx": "Version 9.0c",
+                "storage": "8 GB"
+            }
         }
     },
     {
@@ -1414,8 +2492,22 @@
         "synopsis": "Jill Valentine enquête sur un navire fantôme abandonné, révélant des secrets sombres sur les origines du virus[cite: 9].",
         "linux_status": "Gold",
         "config": {
-            "min": {"os": "Windows XP / Vista / 7", "cpu": "Intel Core 2 Duo 2.4 GHz / AMD Athlon 64 X2 5600+", "ram": "2 GB RAM", "gpu": "nVidia GeForce 8800 GTS / ATI Radeon HD 3850 (512 MB)", "dx": "Version 9.0c", "storage": "8 GB"},
-            "rec": {"os": "Windows Vista / 7", "cpu": "Intel Core 2 Quad 2.66 GHz / AMD Phenom II X4 3.0 GHz", "ram": "4 GB RAM", "gpu": "nVidia GeForce GTX 560 / ATI Radeon HD 6950 (1 GB)", "dx": "Version 9.0c", "storage": "8 GB"}
+            "min": {
+                "os": "Windows XP / Vista / 7",
+                "cpu": "Intel Core 2 Duo 2.4 GHz / AMD Athlon 64 X2 5600+",
+                "ram": "2 GB RAM",
+                "gpu": "nVidia GeForce 8800 GTS / ATI Radeon HD 3850 (512 MB)",
+                "dx": "Version 9.0c",
+                "storage": "8 GB"
+            },
+            "rec": {
+                "os": "Windows Vista / 7",
+                "cpu": "Intel Core 2 Quad 2.66 GHz / AMD Phenom II X4 3.0 GHz",
+                "ram": "4 GB RAM",
+                "gpu": "nVidia GeForce GTX 560 / ATI Radeon HD 6950 (1 GB)",
+                "dx": "Version 9.0c",
+                "storage": "8 GB"
+            }
         }
     },
     {
@@ -1427,8 +2519,22 @@
         "synopsis": "Rebecca Chambers et Billy Coen explorent un train mystérieux, prélude aux tragédies du Manoir Spencer[cite: 9].",
         "linux_status": "Gold",
         "config": {
-            "min": {"os": "Windows 7 SP1 / Windows 8.1", "cpu": "Intel Core 2 Duo 2.4 GHz", "ram": "2 GB RAM", "gpu": "NVIDIA GeForce GTX 260", "dx": "Version 9.0c", "storage": "13 GB"},
-            "rec": {"os": "Windows 7 SP1 / Windows 8.1", "cpu": "Intel Core 2 Quad 2.7 GHz", "ram": "4 GB RAM", "gpu": "NVIDIA GeForce GTX 560", "dx": "Version 9.0c", "storage": "13 GB"}
+            "min": {
+                "os": "Windows 7 SP1 / Windows 8.1",
+                "cpu": "Intel Core 2 Duo 2.4 GHz",
+                "ram": "2 GB RAM",
+                "gpu": "NVIDIA GeForce GTX 260",
+                "dx": "Version 9.0c",
+                "storage": "13 GB"
+            },
+            "rec": {
+                "os": "Windows 7 SP1 / Windows 8.1",
+                "cpu": "Intel Core 2 Quad 2.7 GHz",
+                "ram": "4 GB RAM",
+                "gpu": "NVIDIA GeForce GTX 560",
+                "dx": "Version 9.0c",
+                "storage": "13 GB"
+            }
         }
     },
     {
@@ -1440,10 +2546,24 @@
         "synopsis": "Jill Valentine doit s'échapper de Raccoon City tout en étant traquée par l'implacable Némésis[cite: 9].",
         "linux_status": "Platinum",
         "config": {
-            "min": {"os": "WINDOWS 10 (64-BIT)", "cpu": "Intel Core i5-4460 / AMD FX-6300", "ram": "8 GB RAM", "gpu": "NVIDIA GeForce GTX 960 / AMD Radeon RX 460", "dx": "Version 12", "storage": "45 GB"},
-            "rec": {"os": "WINDOWS 10 (64-BIT)", "cpu": "Intel Core i7-3770 / AMD FX-9590", "ram": "8 GB RAM", "gpu": "NVIDIA GeForce GTX 1060 / AMD Radeon RX 480 (3 GB)", "dx": "Version 12", "storage": "45 GB"}
+            "min": {
+                "os": "WINDOWS 10 (64-BIT)",
+                "cpu": "Intel Core i5-4460 / AMD FX-6300",
+                "ram": "8 GB RAM",
+                "gpu": "NVIDIA GeForce GTX 960 / AMD Radeon RX 460",
+                "dx": "Version 12",
+                "storage": "45 GB"
+            },
+            "rec": {
+                "os": "WINDOWS 10 (64-BIT)",
+                "cpu": "Intel Core i7-3770 / AMD FX-9590",
+                "ram": "8 GB RAM",
+                "gpu": "NVIDIA GeForce GTX 1060 / AMD Radeon RX 480 (3 GB)",
+                "dx": "Version 12",
+                "storage": "45 GB"
+            }
         }
-    }, 
+    },
     {
         "nom": "Resident Evil 4 Ultimate HD Edition",
         "categorie": "Repacks",
@@ -1453,8 +2573,22 @@
         "synopsis": "Leon S. Kennedy est envoyé en mission dans une région reculée d'Europe pour sauver la fille du président des États-Unis, kidnappée par une secte mystérieuse[cite: 10].",
         "linux_status": "Gold",
         "config": {
-            "min": {"os": "Windows XP / Vista / 7 / 8", "cpu": "Intel Core 2 Duo 2.4 GHz / AMD Athlon X2 2.8 GHz", "ram": "2 GB RAM", "gpu": "NVIDIA GeForce 8800GTS / ATI Radeon HD 4850", "dx": "Version 9.0c", "storage": "15 GB"},
-            "rec": {"os": "Windows Vista / 7 / 8", "cpu": "Intel Core 2 Quad 2.7 GHz / AMD Phenom II X4 3 GHz", "ram": "4 GB RAM", "gpu": "NVIDIA GeForce GTX 560", "dx": "Version 9.0c", "storage": "15 GB"}
+            "min": {
+                "os": "Windows XP / Vista / 7 / 8",
+                "cpu": "Intel Core 2 Duo 2.4 GHz / AMD Athlon X2 2.8 GHz",
+                "ram": "2 GB RAM",
+                "gpu": "NVIDIA GeForce 8800GTS / ATI Radeon HD 4850",
+                "dx": "Version 9.0c",
+                "storage": "15 GB"
+            },
+            "rec": {
+                "os": "Windows Vista / 7 / 8",
+                "cpu": "Intel Core 2 Quad 2.7 GHz / AMD Phenom II X4 3 GHz",
+                "ram": "4 GB RAM",
+                "gpu": "NVIDIA GeForce GTX 560",
+                "dx": "Version 9.0c",
+                "storage": "15 GB"
+            }
         }
     },
     {
@@ -1466,8 +2600,22 @@
         "synopsis": "Plusieurs personnages emblématiques s'unissent dans une lutte mondiale contre le virus C, une menace bioterroriste de grande ampleur[cite: 10].",
         "linux_status": "Platinum",
         "config": {
-            "min": {"os": "Windows Vista / XP / 7 / 8", "cpu": "Intel Core 2 Duo 2.4 GHz / AMD Athlon X2 2.8 GHz", "ram": "2 GB RAM", "gpu": "NVIDIA GeForce 8800GTS", "dx": "Version 9.0c", "storage": "16 GB"},
-            "rec": {"os": "Windows Vista / XP / 7 / 8", "cpu": "Intel Core 2 Quad 2.7 GHz / AMD Phenom II X4 3 GHz", "ram": "4 GB RAM", "gpu": "NVIDIA GeForce GTX 560", "dx": "Version 9.0c", "storage": "16 GB"}
+            "min": {
+                "os": "Windows Vista / XP / 7 / 8",
+                "cpu": "Intel Core 2 Duo 2.4 GHz / AMD Athlon X2 2.8 GHz",
+                "ram": "2 GB RAM",
+                "gpu": "NVIDIA GeForce 8800GTS",
+                "dx": "Version 9.0c",
+                "storage": "16 GB"
+            },
+            "rec": {
+                "os": "Windows Vista / XP / 7 / 8",
+                "cpu": "Intel Core 2 Quad 2.7 GHz / AMD Phenom II X4 3 GHz",
+                "ram": "4 GB RAM",
+                "gpu": "NVIDIA GeForce GTX 560",
+                "dx": "Version 9.0c",
+                "storage": "16 GB"
+            }
         }
     },
     {
@@ -1479,8 +2627,22 @@
         "synopsis": "Leon S. Kennedy revient pour sauver Ashley Graham dans une expérience réimaginée avec des graphismes de nouvelle génération et un gameplay affiné[cite: 10].",
         "linux_status": "Gold",
         "config": {
-            "min": {"os": "Windows 10 (64 bit)", "cpu": "AMD Ryzen 3 1200 / Intel Core i5-7500", "ram": "8 GB RAM", "gpu": "AMD Radeon RX 560 (4 GB) / NVIDIA GeForce GTX 1050 Ti (4 GB)", "dx": "Version 12", "storage": "Non spécifié"},
-            "rec": {"os": "Windows 10 (64 bit) / Windows 11 (64 bit)", "cpu": "AMD Ryzen 5 3600 / Intel Core i7 8700", "ram": "16 GB RAM", "gpu": "AMD Radeon RX 5700 / NVIDIA GeForce GTX 1070", "dx": "Version 12", "storage": "Non spécifié"}
+            "min": {
+                "os": "Windows 10 (64 bit)",
+                "cpu": "AMD Ryzen 3 1200 / Intel Core i5-7500",
+                "ram": "8 GB RAM",
+                "gpu": "AMD Radeon RX 560 (4 GB) / NVIDIA GeForce GTX 1050 Ti (4 GB)",
+                "dx": "Version 12",
+                "storage": "Non spécifié"
+            },
+            "rec": {
+                "os": "Windows 10 (64 bit) / Windows 11 (64 bit)",
+                "cpu": "AMD Ryzen 5 3600 / Intel Core i7 8700",
+                "ram": "16 GB RAM",
+                "gpu": "AMD Radeon RX 5700 / NVIDIA GeForce GTX 1070",
+                "dx": "Version 12",
+                "storage": "Non spécifié"
+            }
         }
     },
     {
@@ -1492,8 +2654,22 @@
         "synopsis": "Ethan Winters cherche sa fille disparue dans un village effrayant gouverné par des créatures mystérieuses et puissantes[cite: 10].",
         "linux_status": "Platinum",
         "config": {
-            "min": {"os": "Windows 10 (64 bit)", "cpu": "AMD Ryzen 3 1200 / Intel Core i5-7500", "ram": "8 GB RAM", "gpu": "AMD Radeon RX 560 (4 GB) / NVIDIA GeForce GTX 1050 Ti (4 GB)", "dx": "Version 12", "storage": "Non spécifié"},
-            "rec": {"os": "Windows 10 (64 bit)", "cpu": "AMD Ryzen 5 3600 / Intel Core i7 8700", "ram": "16 GB RAM", "gpu": "AMD Radeon RX 5700 / NVIDIA GeForce GTX 1070", "dx": "Version 12", "storage": "Non spécifié"}
+            "min": {
+                "os": "Windows 10 (64 bit)",
+                "cpu": "AMD Ryzen 3 1200 / Intel Core i5-7500",
+                "ram": "8 GB RAM",
+                "gpu": "AMD Radeon RX 560 (4 GB) / NVIDIA GeForce GTX 1050 Ti (4 GB)",
+                "dx": "Version 12",
+                "storage": "Non spécifié"
+            },
+            "rec": {
+                "os": "Windows 10 (64 bit)",
+                "cpu": "AMD Ryzen 5 3600 / Intel Core i7 8700",
+                "ram": "16 GB RAM",
+                "gpu": "AMD Radeon RX 5700 / NVIDIA GeForce GTX 1070",
+                "dx": "Version 12",
+                "storage": "Non spécifié"
+            }
         }
     },
     {
@@ -1505,8 +2681,22 @@
         "synopsis": "Ethan Winters explore une plantation décrépite à la recherche de sa femme, où il se retrouve piégé par une famille psychotique[cite: 10].",
         "linux_status": "Platinum",
         "config": {
-            "min": {"os": "WINDOWS 10 (64-BIT)", "cpu": "Intel Core i5-4460 2.70GHz / AMD FX-6300", "ram": "8 GB RAM", "gpu": "NVIDIA GeForce GTX 960 / AMD Radeon RX 460", "dx": "Version 12", "storage": "24 GB"},
-            "rec": {"os": "WINDOWS 10 (64-BIT)", "cpu": "Intel Core i7 3770 3.4GHz / AMD equivalent", "ram": "8 GB RAM", "gpu": "NVIDIA GeForce GTX 1060 (3 GB)", "dx": "Version 12", "storage": "24 GB"}
+            "min": {
+                "os": "WINDOWS 10 (64-BIT)",
+                "cpu": "Intel Core i5-4460 2.70GHz / AMD FX-6300",
+                "ram": "8 GB RAM",
+                "gpu": "NVIDIA GeForce GTX 960 / AMD Radeon RX 460",
+                "dx": "Version 12",
+                "storage": "24 GB"
+            },
+            "rec": {
+                "os": "WINDOWS 10 (64-BIT)",
+                "cpu": "Intel Core i7 3770 3.4GHz / AMD equivalent",
+                "ram": "8 GB RAM",
+                "gpu": "NVIDIA GeForce GTX 1060 (3 GB)",
+                "dx": "Version 12",
+                "storage": "24 GB"
+            }
         }
     },
     {
@@ -1518,8 +2708,22 @@
         "synopsis": "Incarnez le Destiné pour découvrir la vérité derrière une légende glorieuse du passé en explorant un monde riche et dangereux[cite: 10].",
         "linux_status": "Gold",
         "config": {
-            "min": {"os": "Windows 10 64-bit", "cpu": "Intel Core i5-8400 / AMD Ryzen 5 1600", "ram": "16 GB RAM", "gpu": "NVIDIA GeForce GTX 1060 (6 GB) / AMD Radeon RX 580 (8 GB)", "dx": "Version 11", "storage": "130 GB"},
-            "rec": {"os": "Windows 10 64-bit", "cpu": "Intel Core i7-9700 / AMD Ryzen 5 5500", "ram": "16 GB RAM", "gpu": "NVIDIA GeForce RTX 2060 / AMD Radeon RX 5700 XT / INTEL Arc A750", "dx": "Version 12", "storage": "130 GB"}
+            "min": {
+                "os": "Windows 10 64-bit",
+                "cpu": "Intel Core i5-8400 / AMD Ryzen 5 1600",
+                "ram": "16 GB RAM",
+                "gpu": "NVIDIA GeForce GTX 1060 (6 GB) / AMD Radeon RX 580 (8 GB)",
+                "dx": "Version 11",
+                "storage": "130 GB"
+            },
+            "rec": {
+                "os": "Windows 10 64-bit",
+                "cpu": "Intel Core i7-9700 / AMD Ryzen 5 5500",
+                "ram": "16 GB RAM",
+                "gpu": "NVIDIA GeForce RTX 2060 / AMD Radeon RX 5700 XT / INTEL Arc A750",
+                "dx": "Version 12",
+                "storage": "130 GB"
+            }
         }
     },
     {
@@ -1531,8 +2735,22 @@
         "synopsis": "Rejoignez les Helldivers pour protéger la Super-Terre contre des menaces extraterrestres dans une guerre galactique implacable[cite: 10].",
         "linux_status": "Platinum",
         "config": {
-            "min": {"os": "Windows Vista / Windows 7", "cpu": "2.4GHz Dual Core", "ram": "4 GB RAM", "gpu": "NVIDIA GeForce 9800 (512 MB) / ATI Radeon HD 2600 XT (512 MB)", "dx": "Version 10", "storage": "7 GB"},
-            "rec": {"os": "Windows Vista / Windows 7", "cpu": "2.4GHz Dual Core", "ram": "4 GB RAM", "gpu": "NVIDIA GeForce GTX 460 (1 GB) / AMD Radeon HD 5870 (1 GB)", "dx": "Version 10", "storage": "7 GB"}
+            "min": {
+                "os": "Windows Vista / Windows 7",
+                "cpu": "2.4GHz Dual Core",
+                "ram": "4 GB RAM",
+                "gpu": "NVIDIA GeForce 9800 (512 MB) / ATI Radeon HD 2600 XT (512 MB)",
+                "dx": "Version 10",
+                "storage": "7 GB"
+            },
+            "rec": {
+                "os": "Windows Vista / Windows 7",
+                "cpu": "2.4GHz Dual Core",
+                "ram": "4 GB RAM",
+                "gpu": "NVIDIA GeForce GTX 460 (1 GB) / AMD Radeon HD 5870 (1 GB)",
+                "dx": "Version 10",
+                "storage": "7 GB"
+            }
         }
     },
     {
@@ -1544,8 +2762,22 @@
         "synopsis": "Combattez les hordes de démons sur Mars avec une vitesse et une brutalité inégalées dans ce retour aux sources de la saga[cite: 10].",
         "linux_status": "Platinum",
         "config": {
-            "min": {"os": "Windows 7 / 8.1 / 10 (64-bit)", "cpu": "Intel Core i5-2400 / AMD FX-8320", "ram": "8 GB RAM", "gpu": "NVIDIA GTX 670 (2 GB) / AMD Radeon HD 7870 (2 GB)", "dx": "Non spécifié", "storage": "55 GB"},
-            "rec": {"os": "Windows 7 / 8.1 / 10 (64-bit)", "cpu": "Intel Core i7-3770 / AMD FX-8350", "ram": "8 GB RAM", "gpu": "NVIDIA GTX 970 (4 GB) / AMD Radeon R9 290 (4 GB)", "dx": "Non spécifié", "storage": "55 GB"}
+            "min": {
+                "os": "Windows 7 / 8.1 / 10 (64-bit)",
+                "cpu": "Intel Core i5-2400 / AMD FX-8320",
+                "ram": "8 GB RAM",
+                "gpu": "NVIDIA GTX 670 (2 GB) / AMD Radeon HD 7870 (2 GB)",
+                "dx": "Non spécifié",
+                "storage": "55 GB"
+            },
+            "rec": {
+                "os": "Windows 7 / 8.1 / 10 (64-bit)",
+                "cpu": "Intel Core i7-3770 / AMD FX-8350",
+                "ram": "8 GB RAM",
+                "gpu": "NVIDIA GTX 970 (4 GB) / AMD Radeon R9 290 (4 GB)",
+                "dx": "Non spécifié",
+                "storage": "55 GB"
+            }
         }
     },
     {
@@ -1557,8 +2789,22 @@
         "synopsis": "Devenez le Doom Slayer et stoppez l'invasion démoniaque sur Terre dans un chaos sanglant et ultra-dynamique[cite: 10].",
         "linux_status": "Platinum",
         "config": {
-            "min": {"os": "Windows 7 / 10 (64-bit)", "cpu": "Intel Core i5 @ 3.3 GHz / AMD Ryzen 3 @ 3.1 GHz", "ram": "8 GB RAM", "gpu": "NVIDIA GeForce GTX 1050Ti (4GB) / GTX 1060 (3GB) / GTX 1650 (4GB) or AMD Radeon R9 280 (3GB) / R9 290 (4GB) / RX 470 (4GB)", "dx": "Non spécifié", "storage": "50 GB"},
-            "rec": {"os": "Windows 10 (64-bit)", "cpu": "Intel Core i7-6700K / AMD Ryzen 7 1800X", "ram": "8 GB RAM", "gpu": "NVIDIA GeForce GTX 1060 (6GB) / GTX 970 (4GB) / AMD Radeon RX 480 (8GB)", "dx": "Non spécifié", "storage": "50 GB"}
+            "min": {
+                "os": "Windows 7 / 10 (64-bit)",
+                "cpu": "Intel Core i5 @ 3.3 GHz / AMD Ryzen 3 @ 3.1 GHz",
+                "ram": "8 GB RAM",
+                "gpu": "NVIDIA GeForce GTX 1050Ti (4GB) / GTX 1060 (3GB) / GTX 1650 (4GB) or AMD Radeon R9 280 (3GB) / R9 290 (4GB) / RX 470 (4GB)",
+                "dx": "Non spécifié",
+                "storage": "50 GB"
+            },
+            "rec": {
+                "os": "Windows 10 (64-bit)",
+                "cpu": "Intel Core i7-6700K / AMD Ryzen 7 1800X",
+                "ram": "8 GB RAM",
+                "gpu": "NVIDIA GeForce GTX 1060 (6GB) / GTX 970 (4GB) / AMD Radeon RX 480 (8GB)",
+                "dx": "Non spécifié",
+                "storage": "50 GB"
+            }
         }
     },
     {
@@ -1570,8 +2816,22 @@
         "synopsis": "Découvrez le passé du Doom Slayer dans une épopée médiévale sombre et explosive contre les forces de l'Enfer[cite: 10].",
         "linux_status": "Non testé",
         "config": {
-            "min": {"os": "Windows 10 / 11 (64-Bit)", "cpu": "AMD Ryzen 7 3700X / Intel Core i7 10700K (8 cores / 16 threads, 3.2 GHz)", "ram": "16 GB RAM", "gpu": "NVIDIA RTX 2060 SUPER / AMD RX 6600 (8 GB VRAM)", "dx": "Non spécifié", "storage": "100 GB (NVME SSD requis)"},
-            "rec": {"os": "Windows 10 / 11 (64-Bit)", "cpu": "AMD Ryzen 7 5700X / Intel Core i7 12700K (8 cores / 16 threads, 3.2 GHz)", "ram": "32 GB RAM", "gpu": "NVIDIA RTX 3080 / AMD RX 6800 (10 GB VRAM)", "dx": "Non spécifié", "storage": "100 GB (NVME SSD requis)"}
+            "min": {
+                "os": "Windows 10 / 11 (64-Bit)",
+                "cpu": "AMD Ryzen 7 3700X / Intel Core i7 10700K (8 cores / 16 threads, 3.2 GHz)",
+                "ram": "16 GB RAM",
+                "gpu": "NVIDIA RTX 2060 SUPER / AMD RX 6600 (8 GB VRAM)",
+                "dx": "Non spécifié",
+                "storage": "100 GB (NVME SSD requis)"
+            },
+            "rec": {
+                "os": "Windows 10 / 11 (64-Bit)",
+                "cpu": "AMD Ryzen 7 5700X / Intel Core i7 12700K (8 cores / 16 threads, 3.2 GHz)",
+                "ram": "32 GB RAM",
+                "gpu": "NVIDIA RTX 3080 / AMD RX 6800 (10 GB VRAM)",
+                "dx": "Non spécifié",
+                "storage": "100 GB (NVME SSD requis)"
+            }
         }
     },
     {
@@ -1583,8 +2843,22 @@
         "synopsis": "Explorez les paysages variés de l'Australie au volant de centaines de véhicules dans cette aventure de course en monde ouvert[cite: 10].",
         "linux_status": "Playable",
         "config": {
-            "min": {"os": "Windows 10 (x64)", "cpu": "Intel Core i3-4170 @ 3.7GHz", "ram": "8 GB RAM", "gpu": "NVIDIA GT 740 / AMD R7 250x (2 GB VRAM)", "dx": "DirectX 12 API, Hardware Feature Level 11", "storage": "Non spécifié"},
-            "rec": {"os": "Windows 10 (x64)", "cpu": "Intel Core i7 3820 @ 3.6GHz", "ram": "12 GB RAM", "gpu": "NVIDIA GTX 970 or GTX 1060 / AMD R9 290X or RX 480 (4 GB VRAM)", "dx": "DirectX 12 API, Hardware Feature Level 11", "storage": "Non spécifié"}
+            "min": {
+                "os": "Windows 10 (x64)",
+                "cpu": "Intel Core i3-4170 @ 3.7GHz",
+                "ram": "8 GB RAM",
+                "gpu": "NVIDIA GT 740 / AMD R7 250x (2 GB VRAM)",
+                "dx": "DirectX 12 API, Hardware Feature Level 11",
+                "storage": "Non spécifié"
+            },
+            "rec": {
+                "os": "Windows 10 (x64)",
+                "cpu": "Intel Core i7 3820 @ 3.6GHz",
+                "ram": "12 GB RAM",
+                "gpu": "NVIDIA GTX 970 or GTX 1060 / AMD R9 290X or RX 480 (4 GB VRAM)",
+                "dx": "DirectX 12 API, Hardware Feature Level 11",
+                "storage": "Non spécifié"
+            }
         }
     },
     {
@@ -1596,8 +2870,22 @@
         "synopsis": "Découvrez le monde partagé de la Grande-Bretagne où les saisons changent tout, affectant la conduite et les courses[cite: 10].",
         "linux_status": "Platinum",
         "config": {
-            "min": {"os": "Windows (64-bit)", "cpu": "Intel i3-4170 @ 3.7GHz / Intel i5 750 @ 2.67GHz", "ram": "8 GB RAM", "gpu": "NVIDIA GeForce GTX 650 Ti / AMD Radeon R7 250x (2 GB VRAM)", "dx": "DirectX 12 API, Hardware Feature Level 11", "storage": "Non spécifié"},
-            "rec": {"os": "Windows (64-bit)", "cpu": "Intel i7-3820 @ 3.6GHz", "ram": "12 GB RAM", "gpu": "NVIDIA GeForce GTX 970 or GTX 1060 (3GB) / AMD Radeon R9 290x or RX 470 (4 GB VRAM)", "dx": "DirectX 12 API, Hardware Feature Level 11", "storage": "Non spécifié"}
+            "min": {
+                "os": "Windows (64-bit)",
+                "cpu": "Intel i3-4170 @ 3.7GHz / Intel i5 750 @ 2.67GHz",
+                "ram": "8 GB RAM",
+                "gpu": "NVIDIA GeForce GTX 650 Ti / AMD Radeon R7 250x (2 GB VRAM)",
+                "dx": "DirectX 12 API, Hardware Feature Level 11",
+                "storage": "Non spécifié"
+            },
+            "rec": {
+                "os": "Windows (64-bit)",
+                "cpu": "Intel i7-3820 @ 3.6GHz",
+                "ram": "12 GB RAM",
+                "gpu": "NVIDIA GeForce GTX 970 or GTX 1060 (3GB) / AMD Radeon R9 290x or RX 470 (4 GB VRAM)",
+                "dx": "DirectX 12 API, Hardware Feature Level 11",
+                "storage": "Non spécifié"
+            }
         }
     },
     {
@@ -1609,8 +2897,22 @@
         "synopsis": "Partez à l'aventure au Mexique dans un monde vivant, vibrant et en constante évolution, avec des graphismes époustouflants[cite: 10].",
         "linux_status": "Gold",
         "config": {
-            "min": {"os": "Windows 10 (version 15063.0 ou supérieure)", "cpu": "Intel i5-4460 / AMD Ryzen 3 1200", "ram": "8 GB RAM", "gpu": "NVIDIA GTX 970 / AMD RX 470", "dx": "Version 12", "storage": "110 GB"},
-            "rec": {"os": "Windows 10 (version 15063.0 ou supérieure)", "cpu": "Intel i5-8400 / AMD Ryzen 5 1500X", "ram": "16 GB RAM", "gpu": "NVIDIA GTX 1070 / AMD RX 590", "dx": "Version 12", "storage": "110 GB"}
+            "min": {
+                "os": "Windows 10 (version 15063.0 ou supérieure)",
+                "cpu": "Intel i5-4460 / AMD Ryzen 3 1200",
+                "ram": "8 GB RAM",
+                "gpu": "NVIDIA GTX 970 / AMD RX 470",
+                "dx": "Version 12",
+                "storage": "110 GB"
+            },
+            "rec": {
+                "os": "Windows 10 (version 15063.0 ou supérieure)",
+                "cpu": "Intel i5-8400 / AMD Ryzen 5 1500X",
+                "ram": "16 GB RAM",
+                "gpu": "NVIDIA GTX 1070 / AMD RX 590",
+                "dx": "Version 12",
+                "storage": "110 GB"
+            }
         }
     },
     {
@@ -1622,8 +2924,22 @@
         "synopsis": "Le nouveau standard de la simulation arcade, offrant une fidélité visuelle et une physique de conduite de pointe dans un cadre spectaculaire[cite: 10].",
         "linux_status": "Non testé",
         "config": {
-            "min": {"os": "Windows 10 22H2 (version 19045 ou supérieure)", "cpu": "Intel i5-8400 / AMD Ryzen 5 1600", "ram": "16 GB RAM", "gpu": "NVIDIA GTX 1650 / AMD RX 6500 XT / Intel Arc A380", "dx": "Version 12", "storage": "167 GB (SSD requis)"},
-            "rec": {"os": "Windows 10 22H2 (version 19045 ou supérieure)", "cpu": "Intel i5-12400F / AMD Ryzen 5 5600X", "ram": "16 GB RAM", "gpu": "NVIDIA RTX 3060 Ti / AMD RX 6700 XT / Intel Arc A580", "dx": "Version 12", "storage": "167 GB (SSD requis)"}
+            "min": {
+                "os": "Windows 10 22H2 (version 19045 ou supérieure)",
+                "cpu": "Intel i5-8400 / AMD Ryzen 5 1600",
+                "ram": "16 GB RAM",
+                "gpu": "NVIDIA GTX 1650 / AMD RX 6500 XT / Intel Arc A380",
+                "dx": "Version 12",
+                "storage": "167 GB (SSD requis)"
+            },
+            "rec": {
+                "os": "Windows 10 22H2 (version 19045 ou supérieure)",
+                "cpu": "Intel i5-12400F / AMD Ryzen 5 5600X",
+                "ram": "16 GB RAM",
+                "gpu": "NVIDIA RTX 3060 Ti / AMD RX 6700 XT / Intel Arc A580",
+                "dx": "Version 12",
+                "storage": "167 GB (SSD requis)"
+            }
         }
     },
     {
@@ -1635,8 +2951,22 @@
         "synopsis": "Cherchez la vengeance après avoir vu votre famille assassinée, en vieillissant à chaque défaite dans cette quête brutale[cite: 10].",
         "linux_status": "Platinum",
         "config": {
-            "min": {"os": "Windows 8.1", "cpu": "AMD FX-4350 / Intel Core i5-3470 ou équivalent", "ram": "8 GB RAM", "gpu": "Radeon R7 250 / GeForce GT 640 ou équivalent", "dx": "Non spécifié", "storage": "22 GB"},
-            "rec": {"os": "Windows 10", "cpu": "AMD FX-9590 / Intel Core i7-6700K ou équivalent", "ram": "10 GB RAM", "gpu": "GeForce GTX 970 / Radeon R9 390X ou équivalent", "dx": "Non spécifié", "storage": "22 GB"}
+            "min": {
+                "os": "Windows 8.1",
+                "cpu": "AMD FX-4350 / Intel Core i5-3470 ou équivalent",
+                "ram": "8 GB RAM",
+                "gpu": "Radeon R7 250 / GeForce GT 640 ou équivalent",
+                "dx": "Non spécifié",
+                "storage": "22 GB"
+            },
+            "rec": {
+                "os": "Windows 10",
+                "cpu": "AMD FX-9590 / Intel Core i7-6700K ou équivalent",
+                "ram": "10 GB RAM",
+                "gpu": "GeForce GTX 970 / Radeon R9 390X ou équivalent",
+                "dx": "Non spécifié",
+                "storage": "22 GB"
+            }
         }
     },
     {
@@ -1648,11 +2978,24 @@
         "synopsis": "Incarnez un shinobi déshonoré dans le Japon de l'ère Sengoku, où la maîtrise du combat au sabre est votre seule chance de survie[cite: 10].",
         "linux_status": "Platinum",
         "config": {
-            "min": {"os": "Windows 7 / 8 / 10 (64-bit)", "cpu": "Intel Core i3-2100 / AMD FX-6300", "ram": "4 GB RAM", "gpu": "NVIDIA GeForce GTX 760 / AMD Radeon HD 7950", "dx": "Version 11", "storage": "25 GB"},
-            "rec": {"os": "Windows 7 / 8 / 10 (64-bit)", "cpu": "Intel Core i5-2500K / AMD Ryzen 5 1400", "ram": "8 GB RAM", "gpu": "NVIDIA GeForce GTX 970 / AMD Radeon RX 570", "dx": "Version 11", "storage": "25 GB"}
+            "min": {
+                "os": "Windows 7 / 8 / 10 (64-bit)",
+                "cpu": "Intel Core i3-2100 / AMD FX-6300",
+                "ram": "4 GB RAM",
+                "gpu": "NVIDIA GeForce GTX 760 / AMD Radeon HD 7950",
+                "dx": "Version 11",
+                "storage": "25 GB"
+            },
+            "rec": {
+                "os": "Windows 7 / 8 / 10 (64-bit)",
+                "cpu": "Intel Core i5-2500K / AMD Ryzen 5 1400",
+                "ram": "8 GB RAM",
+                "gpu": "NVIDIA GeForce GTX 970 / AMD Radeon RX 570",
+                "dx": "Version 11",
+                "storage": "25 GB"
+            }
         }
-    }, 
-
+    },
     {
         "nom": "Lies of P Deluxe Edition",
         "categorie": "Repacks",
@@ -1662,8 +3005,22 @@
         "synopsis": "Dans une ville sombre et désolée, vous incarnez Pinocchio, une marionnette à la recherche de son créateur, Geppetto, tout en combattant des automates corrompus[cite: 11].",
         "linux_status": "Platinum",
         "config": {
-            "min": {"os": "Windows 10 (64-bit)", "cpu": "AMD Ryzen 3 1200 / Intel Core i3-6300", "ram": "8 GB RAM", "gpu": "AMD Radeon RX 560 (4 GB) / NVIDIA GeForce GTX 96 (4 GB)", "dx": "Version 12", "storage": "50 GB"},
-            "rec": {"os": "Windows 10 (64-bit)", "cpu": "AMD Ryzen 3 1200 / Intel Core i3-6300", "ram": "16 GB RAM", "gpu": "AMD Radeon RX 6500 XT (4 GB) / NVIDIA GeForce GTX 1660 (6 GB)", "dx": "Version 12", "storage": "50 GB"}
+            "min": {
+                "os": "Windows 10 (64-bit)",
+                "cpu": "AMD Ryzen 3 1200 / Intel Core i3-6300",
+                "ram": "8 GB RAM",
+                "gpu": "AMD Radeon RX 560 (4 GB) / NVIDIA GeForce GTX 96 (4 GB)",
+                "dx": "Version 12",
+                "storage": "50 GB"
+            },
+            "rec": {
+                "os": "Windows 10 (64-bit)",
+                "cpu": "AMD Ryzen 3 1200 / Intel Core i3-6300",
+                "ram": "16 GB RAM",
+                "gpu": "AMD Radeon RX 6500 XT (4 GB) / NVIDIA GeForce GTX 1660 (6 GB)",
+                "dx": "Version 12",
+                "storage": "50 GB"
+            }
         }
     },
     {
@@ -1675,8 +3032,22 @@
         "synopsis": "Sam Porter Bridges doit traverser un paysage dévasté pour reconnecter les survivants de l'humanité et éviter une extinction imminente[cite: 11].",
         "linux_status": "Platinum",
         "config": {
-            "min": {"os": "Windows 10", "cpu": "Intel Core i5-3470 / AMD Ryzen 3 1200", "ram": "8 GB RAM", "gpu": "GeForce GTX 1050 (3 GB) / AMD Radeon RX 560 (4 GB)", "dx": "Version 12", "storage": "80 GB"},
-            "rec": {"os": "Windows 10", "cpu": "Intel Core i7-3770 / AMD Ryzen 5 1600", "ram": "8 GB RAM", "gpu": "GeForce GTX 1060 (6 GB) / AMD Radeon RX 590", "dx": "Version 12", "storage": "80 GB"}
+            "min": {
+                "os": "Windows 10",
+                "cpu": "Intel Core i5-3470 / AMD Ryzen 3 1200",
+                "ram": "8 GB RAM",
+                "gpu": "GeForce GTX 1050 (3 GB) / AMD Radeon RX 560 (4 GB)",
+                "dx": "Version 12",
+                "storage": "80 GB"
+            },
+            "rec": {
+                "os": "Windows 10",
+                "cpu": "Intel Core i7-3770 / AMD Ryzen 5 1600",
+                "ram": "8 GB RAM",
+                "gpu": "GeForce GTX 1060 (6 GB) / AMD Radeon RX 590",
+                "dx": "Version 12",
+                "storage": "80 GB"
+            }
         }
     },
     {
@@ -1688,8 +3059,22 @@
         "synopsis": "L'aventure continue alors que Sam et ses alliés tentent de naviguer dans un monde toujours plus dangereux après les événements du premier opus[cite: 11].",
         "linux_status": "Non testé",
         "config": {
-            "min": {"os": "Windows 10 / 11 (version 1909 ou supérieure)", "cpu": "Intel Core i3-10100 / AMD Ryzen 3 3100", "ram": "16 GB RAM", "gpu": "NVIDIA GeForce GTX 1660 / AMD Radeon RX 5500 XT (8 GB)", "dx": "Non spécifié", "storage": "150 GB (SSD requis)"},
-            "rec": {"os": "Windows 10 / 11 (version 1909 ou supérieure)", "cpu": "Intel Core i7-11700 / AMD Ryzen 7 5700X", "ram": "16 GB RAM", "gpu": "NVIDIA GeForce RTX 3070 / AMD Radeon RX 6800", "dx": "Non spécifié", "storage": "150 GB (SSD requis)"}
+            "min": {
+                "os": "Windows 10 / 11 (version 1909 ou supérieure)",
+                "cpu": "Intel Core i3-10100 / AMD Ryzen 3 3100",
+                "ram": "16 GB RAM",
+                "gpu": "NVIDIA GeForce GTX 1660 / AMD Radeon RX 5500 XT (8 GB)",
+                "dx": "Non spécifié",
+                "storage": "150 GB (SSD requis)"
+            },
+            "rec": {
+                "os": "Windows 10 / 11 (version 1909 ou supérieure)",
+                "cpu": "Intel Core i7-11700 / AMD Ryzen 7 5700X",
+                "ram": "16 GB RAM",
+                "gpu": "NVIDIA GeForce RTX 3070 / AMD Radeon RX 6800",
+                "dx": "Non spécifié",
+                "storage": "150 GB (SSD requis)"
+            }
         }
     },
     {
@@ -1701,8 +3086,22 @@
         "synopsis": "Trois androïdes luttent pour leur identité dans un Détroit futuriste où la frontière entre machines et humains devient floue[cite: 11].",
         "linux_status": "Gold",
         "config": {
-            "min": {"os": "Windows 10 (64-bit)", "cpu": "Intel Core i5-2300 @ 2.8 GHz / AMD Ryzen 3 1200 @ 3.1 GHz / AMD FX-8350 @ 4.2 GHz", "ram": "8 GB RAM", "gpu": "Nvidia GeForce GTX 780 / AMD HD 7950 (3 GB VRAM minimum, Vulkan 1.1 requis)", "dx": "Non spécifié", "storage": "55 GB"},
-            "rec": {"os": "Windows 10 (64-bit)", "cpu": "Intel Core i5-6600 @ 3.3 GHz / AMD Ryzen 3 1300 X @ 3.4 GHz", "ram": "12 GB RAM", "gpu": "Nvidia GeForce GTX 1060 / AMD Radeon RX 580 (4 GB VRAM minimum, Vulkan 1.1 requis)", "dx": "Non spécifié", "storage": "55 GB"}
+            "min": {
+                "os": "Windows 10 (64-bit)",
+                "cpu": "Intel Core i5-2300 @ 2.8 GHz / AMD Ryzen 3 1200 @ 3.1 GHz / AMD FX-8350 @ 4.2 GHz",
+                "ram": "8 GB RAM",
+                "gpu": "Nvidia GeForce GTX 780 / AMD HD 7950 (3 GB VRAM minimum, Vulkan 1.1 requis)",
+                "dx": "Non spécifié",
+                "storage": "55 GB"
+            },
+            "rec": {
+                "os": "Windows 10 (64-bit)",
+                "cpu": "Intel Core i5-6600 @ 3.3 GHz / AMD Ryzen 3 1300 X @ 3.4 GHz",
+                "ram": "12 GB RAM",
+                "gpu": "Nvidia GeForce GTX 1060 / AMD Radeon RX 580 (4 GB VRAM minimum, Vulkan 1.1 requis)",
+                "dx": "Non spécifié",
+                "storage": "55 GB"
+            }
         }
     },
     {
@@ -1714,8 +3113,535 @@
         "synopsis": "Perdu dans une cité peuplée de robots, un chat doit résoudre des énigmes pour retrouver sa famille[cite: 11].",
         "linux_status": "Platinum",
         "config": {
-            "min": {"os": "Windows 10", "cpu": "Intel Core i5-2300 / AMD FX-6350", "ram": "8 GB RAM", "gpu": "NVIDIA GeForce GTX 650 Ti (2 GB) / AMD Radeon R7 360 (2 GB)", "dx": "Version 12", "storage": "10 GB"},
-            "rec": {"os": "Windows 10", "cpu": "Intel Core i5-8400 / AMD Ryzen 5 2600", "ram": "8 GB RAM", "gpu": "NVIDIA GeForce GTX 780 (3 GB) / AMD Radeon R9 290X (4 GB)", "dx": "Version 12", "storage": "10 GB"}
+            "min": {
+                "os": "Windows 10",
+                "cpu": "Intel Core i5-2300 / AMD FX-6350",
+                "ram": "8 GB RAM",
+                "gpu": "NVIDIA GeForce GTX 650 Ti (2 GB) / AMD Radeon R7 360 (2 GB)",
+                "dx": "Version 12",
+                "storage": "10 GB"
+            },
+            "rec": {
+                "os": "Windows 10",
+                "cpu": "Intel Core i5-8400 / AMD Ryzen 5 2600",
+                "ram": "8 GB RAM",
+                "gpu": "NVIDIA GeForce GTX 780 (3 GB) / AMD Radeon R9 290X (4 GB)",
+                "dx": "Version 12",
+                "storage": "10 GB"
+            }
+        }
+    },
+    {
+        "nom": "Horizon Zero Dawn Complete Edition",
+        "categorie": "GOG",
+        "image": "https://1.bp.blogspot.com/-lBtWyo-fsDU/X73dxLgmX4I/AAAAAAABFSw/vB-JlIaBfLYR4agOkMGnA4Ug4NNepjDmQCLcBGAsYHQ/s460/horizon-zero-dawn-complete-pc-cover.jpg",
+        "lien": "https://www.filecrypt.cc/Container/B1183DFC63.html",
+        "description": "Horizon Zero Dawn est un jeu d'action-RPG en monde ouvert acclamé par la critique, développé par Guerrilla Games. La version Complete Edition inclut le jeu de base, l'extension massive 'The Frozen Wilds', ainsi que divers contenus additionnels numériques comme des tenues et des armes bonus.",
+        "synopsis": "Dans un futur post-apocalyptique luxuriant où la nature a repris ses droits sur les ruines d'une civilisation oubliée, l'humanité vit en petites tribus de chasseurs-cueilleurs. Le monde est dominé par de mystérieuses et colossales machines mécaniques. Vous incarnez Aloy, une jeune paria bannie de sa tribu, qui part en quête de ses origines, cherchant à découvrir la vérité sur son passé et à empêcher une menace cataclysmique qui pèse sur l'avenir de son monde.",
+        "linux_status": "Platinum",
+        "config": {
+            "min": {
+                "os": "Windows 10 64-bits",
+                "cpu": "Intel Core i5-2500K @ 3.3GHz ou AMD FX 6300 @ 3.5GHz",
+                "ram": "8 GB RAM",
+                "gpu": "Nvidia GeForce GTX 780 (3 GB) ou AMD Radeon R9 290 (4GB)",
+                "dx": "Version 12",
+                "storage": "100 GB"
+            },
+            "rec": {
+                "os": "Windows 10 64-bits",
+                "cpu": "Intel Core i7-4770K @ 3.5GHz ou Ryzen 5 1500X @ 3.5GHz",
+                "ram": "16 GB RAM",
+                "gpu": "Nvidia GeForce GTX 1060 (6 GB) ou AMD Radeon RX 580 (8GB)",
+                "dx": "Version 12",
+                "storage": "100 GB"
+            }
+        }
+    },
+    {
+        "nom": "Horizon Forbidden West Complete Edition",
+        "categorie": "Repacks",
+        "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiCWYGtfygyUJR_M_FgNbVjuiYb4v61ajNKcafPu7F2Hni3RaLwzg7jk8d4Jmhj_2ntOooJSCZ2Ofbk5RJwk0KYLp9VLbBoAqiwAmp1bgFnAToJcNkjeKy9mp4xKNywKBEgFiZ95g3XteXj9Xq0j5bdNOZn8qtMzStPDNeYjw-rSMXat52exXFccmGHON0/s460/horizon-forbidden-west-pc-cover.jpg",
+        "lien": "https://www.filecrypt.cc/Container/C145B2B02F.html",
+        "description": "Horizon Forbidden West est la suite directe d'Horizon Zero Dawn, développée par Guerrilla Games. Cette Complete Edition propose l'aventure épique complète, incluant l'extension 'Burning Shores' qui prolonge l'histoire après la campagne principale, ainsi que divers objets bonus en jeu.",
+        "synopsis": "Aloy s'aventure vers les terres frontalières de l'Ouest prohibé pour découvrir l'origine d'une mystérieuse menace qui dévaste tout sur son passage. Dans ce nouveau territoire sauvage, elle devra affronter des machines encore plus dangereuses et forgées pour la guerre, tout en nouant des alliances avec des tribus locales en conflit. Pour sauver la biosphère de la Terre, Aloy devra percer les secrets de l'ancien monde et rétablir l'ordre avant qu'il ne soit trop tard.",
+        "linux_status": "Gold",
+        "config": {
+            "min": {
+                "os": "Windows 10 64-bit (version 1909 or higher)",
+                "cpu": "Intel Core i3-8100 ou AMD Ryzen 3 1300X",
+                "ram": "16 GB RAM",
+                "gpu": "NVIDIA GeForce GTX 1650 4GB ou AMD Radeon RX 5500XT 4GB",
+                "dx": "Version 12",
+                "storage": "150 GB (SSD requis)"
+            },
+            "rec": {
+                "os": "Windows 10 64-bit (version 1909 or higher)",
+                "cpu": "Intel Core i5-8600 ou AMD Ryzen 5 3600",
+                "ram": "16 GB RAM",
+                "gpu": "NVIDIA GeForce RTX 3060 ou AMD Radeon RX 5700",
+                "dx": "Version 12",
+                "storage": "150 GB (SSD requis)"
+            }
+        }
+    },
+    {
+        "nom": "Horizon Zero Dawn Remastered",
+        "categorie": "Repacks",
+        "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiuYQFZ093gGiddH_tn3jp178IK-VfvtjdW1C0KkWrX0JcbSJPr7-qXqFsMiUF6HuTjp8cs_QeRVikFTyfbvC-nkDihYafgfABwrKHGn3W9vF6-MXxV0i3fnC33H3TElX4_eiOHgRNQSX93UqDJO-lkcMR35zSxMQAHiod01-KmO8c0QIzXyeyJTsChXvc/s460/horizon-zero-dawn-remastered-pc-cover.jpg",
+        "lien": "https://www.filecrypt.cc/Container/D072947EE6.html",
+        "description": "Cette version remastérisée d'Horizon Zero Dawn propose une refonte graphique complète utilisant les technologies du moteur de Forbidden West. Elle inclut des modèles de personnages améliorés, des environnements retravaillés, des animations de dialogue plus naturelles et des effets de lumière et de météo modernisés, tout en conservant l'intégralité du jeu original et de son extension The Frozen Wilds.",
+        "synopsis": "Dans un futur post-apocalyptique où la nature a repris ses droits sur les ruines d'une civilisation oubliée, l'humanité vit en petites tribus de chasseurs-cueilleurs entourées de machines colossales. Aloy, une paria en quête de ses origines, découvre un secret ancien qui menace de détruire son monde. Cette édition remastérisée permet de redécouvrir son voyage initiatique avec une fidélité visuelle et une immersion technique largement augmentées.",
+        "linux_status": "Gold",
+        "config": {
+            "min": {
+                "os": "Windows 10 64-bit (version 1909 or higher)",
+                "cpu": "Intel Core i3-8100 ou AMD Ryzen 3 1300X",
+                "ram": "16 GB RAM",
+                "gpu": "NVIDIA GeForce GTX 1650 4GB ou AMD Radeon RX 5500 XT 4GB",
+                "dx": "Version 12",
+                "storage": "135 GB (SSD recommandé)"
+            },
+            "rec": {
+                "os": "Windows 10 64-bit (version 1909 or higher)",
+                "cpu": "Intel Core i5-8600 ou AMD Ryzen 5 3600",
+                "ram": "16 GB RAM",
+                "gpu": "NVIDIA GeForce RTX 3060 ou AMD Radeon RX 5700",
+                "dx": "Version 12",
+                "storage": "135 GB (SSD recommandé)"
+            }
+        }
+    },
+    {
+        "nom": "LEGO Harry Potter Years 1-4",
+        "categorie": "GOG",
+        "image": "https://blogger.googleusercontent.com/img/a/AVvXsEjbZ-uLFiVdEa2cTNGBkyTFESWXS3n61nALY0bSRw73Az7WAaCNBosLXsg6K3A9DlwNs0ka4kB2GVK984BxtWmGbXBj2I4QqZjSst2qX3zim5ieZBawvBkH865Y_RyjAO2T6r-mRhQQlommiB-8sPB5ODVv60B3n92bNUVE-xgZFGSrFOlOEWtEmBov=s460",
+        "lien": "https://www.filecrypt.cc/Container/F0B1C59475.html",
+        "description": "LEGO Harry Potter: Years 1-4 est un jeu d'action-aventure mêlant l'humour caractéristique des jeux LEGO à l'univers magique de J.K. Rowling. Le jeu permet d'explorer Poudlard, d'apprendre des sorts, de préparer des potions et de vivre les événements marquants des quatre premières années du jeune sorcier avec une touche d'humour burlesque.",
+        "synopsis": "Suivez les aventures de Harry Potter, Ron Weasley et Hermione Granger lors de leurs quatre premières années à l'école de sorcellerie de Poudlard. De l'école à la lutte contre le Seigneur des Ténèbres, le jeu retrace les intrigues des films 'L'École des sorciers', 'La Chambre des secrets', 'Le Prisonnier d'Azkaban' et 'La Coupe de feu' à travers une aventure pleine de puzzles, de sorts à débloquer et de personnages emblématiques à collectionner.",
+        "linux_status": "Platinum",
+        "config": {
+            "min": {
+                "os": "Windows XP/Vista",
+                "cpu": "Intel P4 1.8 GHz / AMD Athlon XP 2200+",
+                "ram": "512 MB",
+                "gpu": "ATI X1300 / NVIDIA GeForce FX 5800 (256 MB)",
+                "dx": "DirectX 9.0c",
+                "storage": "Non spécifié (faible)"
+            },
+            "rec": {
+                "os": "Windows XP/Vista",
+                "cpu": "Intel Core 2 Duo / AMD Athlon 64, 2.8GHz",
+                "ram": "2 GB",
+                "gpu": "ATI HD 2900 / NVIDIA GeForce 8800",
+                "dx": "DirectX 9.0c",
+                "storage": "Non spécifié (faible)"
+            }
+        }
+    },
+    {
+        "nom": "LEGO Harry Potter Years 5-7",
+        "categorie": "GOG",
+        "image": "https://blogger.googleusercontent.com/img/a/AVvXsEjOVcQM6R7wPhjo5K5L6BN_YC30R8esVxxJsvxEIRBR2o9xpti8n0fJV9aEuu5cfiTvWWh6zEu2DHrbfErIfLM6e8TXjv8lm09G8IAyKdqzYGmv3guTZ9mK1VjBaegfuwvc5piB7gdZJuL4ofTovTk2sIVDIgxKoR-k-W4ihPvTMXIUwJxGaNT2t8HE=s460",
+        "lien": "https://www.filecrypt.cc/Container/9EB40EBFF3.html",
+        "description": "LEGO Harry Potter: Years 5-7 conclut les aventures du jeune sorcier en adaptant les événements des quatre derniers films de la saga. Le jeu reprend le gameplay classique d'exploration, de résolution d'énigmes et de combats magiques propres à la série, tout en introduisant de nouvelles mécaniques liées à la maturité croissante des personnages.",
+        "synopsis": "Harry, Ron et Hermione sont confrontés à des défis de plus en plus sombres alors que Voldemort revient en force et que le monde des sorciers bascule dans la guerre. Le jeu couvre les intrigues de 'L'Ordre du Phénix', 'Le Prince de sang-mêlé' et les deux parties des 'Reliques de la Mort', menant le joueur à travers des lieux emblématiques comme le ministère de la Magie, Godric's Hollow et enfin l'ultime confrontation à Poudlard.",
+        "linux_status": "Platinum",
+        "config": {
+            "min": {
+                "os": "Windows XP/Vista",
+                "cpu": "Intel P4 1.8 GHz / AMD Athlon XP 2200+",
+                "ram": "512 MB",
+                "gpu": "ATI X1300 / NVIDIA GeForce FX 5800 (256 MB)",
+                "dx": "DirectX 9.0c",
+                "storage": "Non spécifié (faible)"
+            },
+            "rec": {
+                "os": "Windows XP/Vista",
+                "cpu": "Intel Core 2 Duo / AMD Athlon 64, 2.8GHz",
+                "ram": "2 GB",
+                "gpu": "ATI HD 2900 / NVIDIA GeForce 8800",
+                "dx": "DirectX 9.0c",
+                "storage": "Non spécifié (faible)"
+            }
+        }
+    },
+    {
+        "nom": "Hades",
+        "categorie": "Repacks",
+        "image": "https://1.bp.blogspot.com/-RTt-zgfQfUk/YGaspiRLCsI/AAAAAAABI04/p_RjXqtwJEkoibBM8_3fh8esJFP_eDGwwCLcBGAsYHQ/s460/hades-pc-cover.jpg",
+        "lien": "https://www.filecrypt.cc/Container/87900933D4.html",
+        "description": "Hades est un rogue-like d'action au rythme effréné développé par Supergiant Games. Acclamé pour sa direction artistique exceptionnelle, sa bande-son immersive et son gameplay nerveux, il combine le meilleur des titres précédents du studio avec une narration riche qui évolue à chaque tentative d'évasion.",
+        "synopsis": "En tant que prince immortel des Enfers, vous devez vous frayer un chemin hors des griffes du dieu des morts, Hadès, pour tenter d'atteindre le Mont Olympe. À chaque tentative, les pouvoirs des Olympiens vous soutiendront, mais le chemin est semé d'embûches et les dieux de l'Olympe eux-mêmes ne sont pas toujours d'accord sur votre évasion. Défiez la mort dans ce dungeon crawler au style unique où chaque échec n'est qu'une étape vers la maîtrise et la révélation de l'histoire familiale.",
+        "linux_status": "Platinum",
+        "config": {
+            "min": {
+                "os": "Windows 7 SP1",
+                "cpu": "Dual Core 2.4 GHz",
+                "ram": "4 GB RAM",
+                "gpu": "1GB VRAM / DirectX 10+ support",
+                "dx": "Version 10",
+                "storage": "15 GB"
+            },
+            "rec": {
+                "os": "Windows 7 SP1",
+                "cpu": "Dual Core 3.0 GHz+",
+                "ram": "8 GB RAM",
+                "gpu": "2GB VRAM / DirectX 10+ support",
+                "dx": "Version 10",
+                "storage": "20 GB"
+            }
+        }
+    },
+    {
+        "nom": "Hades II",
+        "categorie": "Repacks",
+        "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgCrPdoXqrif8k9fkTysTcGIRliU9WWkmVuI3CzTO8aqvO38vouemhi8bzs2em6VbNOLIfcLYfZ1jA17ukATtPj7b2wNAAWgDSgWcne64iQ-2H0B3GJqjACFkrne9AC53KzvG3BcH0A3cHTj1eiKtZfAfJKnGT_g20ISppyRb8sCEzg53IWobexc0VyzG8/s460/hades-2-pc-cover.jpg",
+        "lien": "https://www.filecrypt.cc/Container/A44E6B8D7D.html",
+        "description": "Hades II est la suite directe du rogue-like à succès de Supergiant Games. Ce nouvel opus conserve l'action nerveuse et la narration profonde qui ont fait la renommée du premier, tout en introduisant une nouvelle protagoniste, un système de magie étoffé et de nouvelles mécaniques basées sur la sorcellerie antique.",
+        "synopsis": "Incarnez Mélinoé, la Princesse des Enfers et sœur de Zagreus, alors qu'elle s'aventure hors des profondeurs pour affronter le Titan du Temps lui-même. Dotée de pouvoirs sombres et guidée par les dieux de l'Olympe, Mélinoé doit percer les mystères de la sorcellerie pour accomplir sa mission vengeresse. Le destin de l'Olympe et du monde souterrain repose sur ses épaules dans ce récit épique où chaque mort n'est qu'une nouvelle opportunité de devenir plus puissante.",
+        "linux_status": "Platinum",
+        "config": {
+            "min": {
+                "os": "Windows 10 64-bit",
+                "cpu": "Dual Core 2.4 GHz",
+                "ram": "8 GB RAM",
+                "gpu": "GeForce GTX 950, Radeon R7 360, ou Intel HD Graphics 630",
+                "dx": "Version 12",
+                "storage": "10 GB"
+            },
+            "rec": {
+                "os": "Windows 10 64-bit",
+                "cpu": "Quad Core 2.4 GHz",
+                "ram": "16 GB RAM",
+                "gpu": "GeForce RTX 2060, Radeon RX 5600 XT, ou Intel Arc A580",
+                "dx": "Version 12",
+                "storage": "10 GB"
+            }
+        }
+    },
+    {
+        "nom": "Hogwarts Legacy Deluxe Edition",
+        "categorie": "Repacks",
+        "image": "https://1.bp.blogspot.com/-17heQiY_R8A/Y-Ym-CHD3LI/AAAAAAABV4U/2-iOHL5LSLoGUKuqUgbYLAXMidq1ZPgxACNcBGAsYHQ/s460/hogwarts-legacy-pc-cover.jpg",
+        "lien": "https://www.filecrypt.cc/Container/BC60257F63.html",
+        "description": "Hogwarts Legacy est un RPG d'action en monde ouvert immersif situé dans l'univers des livres Harry Potter. Cette édition Deluxe inclut le jeu complet ainsi que le pack Magie noire, offrant des cosmétiques exclusifs et l'accès à l'arène de combat de magie noire. Explorez Poudlard et ses environs dans une aventure inédite au XIXe siècle.",
+        "synopsis": "Vous intégrez l'école de sorcellerie de Poudlard en tant qu'élève de cinquième année, possédant la capacité rare de percevoir et maîtriser une magie ancienne mystérieuse. Alors qu'une rébellion gobeline menace le monde des sorciers, vous devez découvrir les secrets de cette magie perdue, nouer des alliances, apprendre des sorts puissants et forger votre propre destin tout en décidant si vous protégerez ce secret ou si vous succomberez à une tentation plus sombre.",
+        "linux_status": "Gold",
+        "config": {
+            "min": {
+                "os": "64-bit Windows 10",
+                "cpu": "Intel Core i5-6600 (3.3Ghz) ou AMD Ryzen 5 1400 (3.2Ghz)",
+                "ram": "16 GB RAM",
+                "gpu": "NVIDIA GeForce GTX 960 4GB ou AMD Radeon RX 470 4GB",
+                "dx": "Version 12",
+                "storage": "85 GB (SSD préféré)"
+            },
+            "rec": {
+                "os": "64-bit Windows 10",
+                "cpu": "Intel Core i7-8700 (3.2Ghz) ou AMD Ryzen 5 3600 (3.6 Ghz)",
+                "ram": "16 GB RAM",
+                "gpu": "NVIDIA GeForce 1080 Ti ou AMD Radeon RX 5700 XT ou INTEL Arc A770",
+                "dx": "Version 12",
+                "storage": "85 GB (SSD)"
+            }
+        }
+    },
+    {
+        "nom": "God of War",
+        "categorie": "Repacks",
+        "image": "https://1.bp.blogspot.com/-c2vaUX3RJSc/YeIEwnR2cxI/AAAAAAAAARk/7iaEfYuL0ygWP_WoWPulic20YcWeFNpNgCNcBGAsYHQ/s460/god-of-war-pc-cover.jpg",
+        "lien": "https://www.filecrypt.cc/Container/B13AC8383E.html",
+        "description": "Portage PC de l'épisode de 2018 acclamé par la critique, God of War marque un tournant majeur pour la série en déplaçant Kratos de la mythologie grecque vers le monde glacé et brutal des dieux nordiques. Cette version PC offre des paramètres graphiques avancés, une prise en charge du 4K, du taux de rafraîchissement illimité et des technologies comme le NVIDIA DLSS et le Reflex.",
+        "synopsis": "Des années après sa vengeance contre les dieux de l'Olympe, Kratos vit désormais en tant qu'homme parmi les divinités et monstres de la mythologie nordique. Dans ce monde hostile, il doit lutter pour sa survie tout en apprenant à son fils, Atreus, à faire de même. Cette aventure intime et brutale explore la relation complexe entre un père et son fils alors qu'ils tentent d'accomplir une quête personnelle au sommet de la plus haute montagne des royaumes.",
+        "linux_status": "Platinum",
+        "config": {
+            "min": {
+                "os": "Windows 10 64-bit",
+                "cpu": "Intel i5-2500k (4 core 3.3 GHz) ou AMD Ryzen 3 1200 (4 core 3.1 GHz)",
+                "ram": "8 GB RAM",
+                "gpu": "NVIDIA GTX 960 (4 GB) ou AMD R9 290X (4 GB)",
+                "dx": "Version 11",
+                "storage": "70 GB"
+            },
+            "rec": {
+                "os": "Windows 10 64-bit",
+                "cpu": "Intel i5-6600k (4 core 3.5 GHz) ou AMD Ryzen 5 2400 G (4 core 3.6 GHz)",
+                "ram": "8 GB RAM",
+                "gpu": "NVIDIA GTX 1060 (6 GB) ou AMD RX 570 (4 GB)",
+                "dx": "Version 11",
+                "storage": "70 GB"
+            }
+        }
+    },
+    {
+        "nom": "God of War Ragnarok Deluxe Edition",
+        "categorie": "Repacks",
+        "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEh8QJcESKeEGrd402L9Em9Qza-7INd6pivez59i1Axwp2Mbg98ZdB5m54Hb1agS7OZRMnImaxI15SssqbTm1OG_d5zUpNFyNzvDAKBMXQE0GTf2-p64iVVoxMgXwKeXeaJMh2XeG90PNImmMgV33BOlPuPYCPrlD3t__W0Mza2IZQECO8Tl7m5lfTU9Kr8/s460/god-of-war-ragnarok-pc-cover.jpg",
+        "lien": "https://www.filecrypt.cc/Container/06A5720E2F.html",
+        "description": "God of War Ragnarök est la suite épique de l'aventure de 2018, plongeant Kratos et Atreus au cœur des neuf royaumes alors que le Ragnarök approche. La Deluxe Edition inclut le jeu complet ainsi que du contenu numérique bonus tel que l'armure du Darkdale pour Kratos, la tenue du Darkdale pour Atreus, la bande originale officielle et un mini artbook numérique.",
+        "synopsis": "Alors que le Fimbulvetr, un hiver glacial, s'abat sur les neuf royaumes, Kratos et son fils adolescent Atreus cherchent des réponses à la prophétie du 'Loki' alors que les forces d'Asgard se préparent à une guerre annoncée. Ensemble, ils devront parcourir des terres dangereuses et affronter des menaces divines, notamment le puissant Thor et le rusé Odin, tout en luttant pour protéger leur famille et définir le cours de leur destin.",
+        "linux_status": "Gold",
+        "config": {
+            "min": {
+                "os": "Windows 10 64-bit",
+                "cpu": "Intel i5-4670k ou AMD Ryzen 3 1200",
+                "ram": "8 GB RAM",
+                "gpu": "NVIDIA GTX 1060 (6GB) ou AMD RX 5500 XT (8GB) ou Intel Arc A750",
+                "dx": "Version 12",
+                "storage": "190 GB"
+            },
+            "rec": {
+                "os": "Windows 10 64-bit",
+                "cpu": "Intel i5-8600 ou AMD Ryzen 5 3600",
+                "ram": "16 GB RAM",
+                "gpu": "NVIDIA RTX 2060 Super ou AMD RX 5700 ou Intel Arc A770",
+                "dx": "Version 12",
+                "storage": "190 GB"
+            }
+        }
+    },
+    {
+        "nom": "Alan Wake",
+        "categorie": "GOG",
+        "image": "https://1.bp.blogspot.com/-cHSvQC3xnBk/YU4sNIHdHjI/AAAAAAABOsU/hMlLMhvcJUALelKG5XhzzSkKFuIM7wbbwCLcBGAsYHQ/s460/alan-wake-pc-cover.jpg",
+        "lien": "https://www.filecrypt.cc/Container/47351B022B.html",
+        "description": "Alan Wake est un thriller psychologique d'action développé par Remedy Entertainment. Le jeu est célèbre pour son atmosphère inspirée des séries télévisées, sa narration cinématographique et sa mécanique de jeu unique où la lumière joue un rôle essentiel pour affronter les ténèbres.",
+        "synopsis": "Alan Wake, un écrivain de best-sellers à succès souffrant du syndrome de la page blanche, part en vacances dans la petite ville pittoresque de Bright Falls avec son épouse, Alice. Lorsque cette dernière disparaît mystérieusement, Alan se retrouve plongé dans une réalité cauchemardesque inspirée de son propre roman qu'il ne se souvient pas avoir écrit. Pour survivre et sauver sa femme, il doit utiliser la lumière comme arme contre une force obscure omniprésente qui possède les habitants de la ville.",
+        "linux_status": "Platinum",
+        "config": {
+            "min": {
+                "os": "Windows XP SP2",
+                "cpu": "Dual Core 2GHz Intel ou 2.8GHz AMD",
+                "ram": "2 GB RAM",
+                "gpu": "DirectX 10 compatible avec 512MB RAM",
+                "dx": "Version 9.0c",
+                "storage": "8 GB"
+            },
+            "rec": {
+                "os": "Windows 7",
+                "cpu": "Quad Core 2.66GHz Intel ou 3.2GHz AMD",
+                "ram": "4 GB RAM",
+                "gpu": "DirectX 10 compatible ou plus avec 1GB RAM",
+                "dx": "Version 10",
+                "storage": "8 GB"
+            }
+        }
+    },
+    {
+        "nom": "Alan Wake's American Nightmare",
+        "categorie": "GOG",
+        "image": "https://1.bp.blogspot.com/-wRfGak6tsxY/YU4zVOtiKaI/AAAAAAABOs0/8UhR8Yj08ykWDQHBZfIMmZYiI7K6j8VSgCLcBGAsYHQ/s460/alan-wakes-american-nightmare-pc-cover.jpg",
+        "lien": "https://www.filecrypt.cc/Container/81A2429F52.html",
+        "description": "Alan Wake's American Nightmare est une extension autonome (standalone) de la série, adoptant un ton plus orienté vers l'action et le pulp horror des années 50. Il propose une campagne narrative ainsi qu'un mode Arcade intense basé sur la survie contre des vagues d'ennemis.",
+        "synopsis": "Dans cette aventure, Alan Wake se retrouve piégé dans une version distordue de la réalité à l'intérieur d'une petite ville de l'Arizona. Il doit traquer son double maléfique, M. Grincement (Mr. Scratch), un psychopathe surnaturel qui terrorise les habitants. En manipulant la réalité à travers des manuscrits trouvés sur place, Alan tente de réécrire le scénario pour échapper à ce cauchemar éveillé et vaincre son ennemi juré.",
+        "linux_status": "Platinum",
+        "config": {
+            "min": {
+                "os": "Windows XP SP2",
+                "cpu": "Dual Core 2GHz Intel ou 2.8GHz AMD",
+                "ram": "2 GB RAM",
+                "gpu": "DirectX 10 compatible avec 512MB RAM",
+                "dx": "Version 10",
+                "storage": "8 GB"
+            },
+            "rec": {
+                "os": "Windows 7",
+                "cpu": "Quad Core 2.66GHz Intel ou 3.2GHz AMD",
+                "ram": "4 GB RAM",
+                "gpu": "DirectX 10 compatible ou plus avec 1GB RAM",
+                "dx": "Version 10",
+                "storage": "8 GB"
+            }
+        }
+    },
+    {
+        "nom": "Alan Wake 2 Deluxe Edition",
+        "categorie": "Repacks",
+        "image": "https://blogger.googleusercontent.com/img/a/AVvXsEgN9BcsyMuJvpqH_DInjwGinnbhWYTsP4rcQm_hxHwep4avhA52a6v5DztmxBi4EsFfxCs7IwqqV0mcErYAABWu0w5v_HSwzhW_93hG3tdi_bH4f_cCo_fjBHEQ8iyh_m2ulzUunb0zRf4g99W-7pqTDUzOeuzSVeaSrUO18KnyYvop1KwBrINRKyhEjoY",
+        "lien": "https://www.filecrypt.cc/Container/1C9AEAF524.html",
+        "description": "Alan Wake 2 est un jeu de survival-horror narratif qui pousse les limites de la mise en scène. Cette Deluxe Edition inclut le jeu complet ainsi que le pass d'extension (pour les DLC 'Night Springs' et 'The Lake House'), le cosmétique 'Coupe-vent de sectaire' pour Saga, et le costume 'Veste de célébrité' pour Alan.",
+        "synopsis": "Treize ans après la disparition de l'écrivain Alan Wake, une série de meurtres rituels terrorise Bright Falls. Saga Anderson, une profileuse du FBI renommée, arrive sur place pour enquêter. Parallèlement, Alan Wake tente de s'échapper d'une dimension cauchemardesque en écrivant une histoire qui influence la réalité. Leurs destins s'entremêlent dans un récit horrifique où la lumière et l'obscurité sont les clés de la survie.",
+        "linux_status": "Gold",
+        "config": {
+            "min": {
+                "os": "Windows 10/11 64-bit",
+                "cpu": "Intel i5-7600K ou équivalent AMD",
+                "ram": "16 GB",
+                "gpu": "GeForce RTX 2060 / Radeon RX 6600",
+                "dx": "Version 12",
+                "storage": "90 GB SSD"
+            },
+            "rec": {
+                "os": "Windows 10/11 64-bit",
+                "cpu": "Ryzen 7 3700X ou équivalent Intel",
+                "ram": "16 GB",
+                "gpu": "GeForce RTX 3060 / Radeon RX 6600 XT",
+                "dx": "Version 12",
+                "storage": "90 GB SSD"
+            }
+        }
+    },
+    {
+        "nom": "Alan Wake Remastered",
+        "categorie": "Repacks",
+        "image": "https://1.bp.blogspot.com/-RqsmsxLFHes/Yd2yJbLzQAI/AAAAAAAAAFE/ffleiG5cy0obxfhdOEI6uNBJqf7O8DbuQCNcBGAsYHQ/s460/alan-wake-remastered-pc-cover.jpg",
+        "lien": "https://www.filecrypt.cc/Container/B3F292D702.html",
+        "description": "Alan Wake Remastered offre une expérience visuelle modernisée du thriller psychologique culte de Remedy Entertainment. Cette version remastérisée propose des graphismes en 4K, des modèles de personnages améliorés, des environnements retravaillés et des effets visuels plus riches, incluant également les deux extensions narratives originales : 'The Signal' et 'The Writer'.",
+        "synopsis": "L'écrivain Alan Wake, en quête de repos dans la ville de Bright Falls, se retrouve plongé dans une lutte désespérée pour sa survie lorsque sa femme disparaît. Confronté à des événements qui semblent sortir tout droit de son propre manuscrit qu'il ne se souvient pas avoir écrit, il doit percer le mystère des ténèbres qui menacent de le consumer. Cette version remastérisée permet aux nouveaux joueurs et aux habitués de redécouvrir ce récit oppressant avec une fidélité graphique remise au goût du jour.",
+        "linux_status": "Platinum",
+        "config": {
+            "min": {
+                "os": "Windows 10 64-bit",
+                "cpu": "Intel i5-3340 ou équivalent",
+                "ram": "8 GB",
+                "gpu": "Nvidia GeForce GTX 960 ou équivalent (2GB VRAM)",
+                "dx": "Version 12",
+                "storage": "Non spécifié"
+            },
+            "rec": {
+                "os": "Windows 10 64-bit",
+                "cpu": "Intel i7-3770 ou équivalent",
+                "ram": "16 GB",
+                "gpu": "Nvidia GeForce GTX 1060 ou équivalent (4GB VRAM)",
+                "dx": "Version 12",
+                "storage": "Non spécifié"
+            }
+        }
+    },
+    {
+        "nom": "Need For Speed Undercover",
+        "categorie": "Repacks",
+        "image": "https://1.bp.blogspot.com/-jWNc0fmnvv4/WXy-Do9cMpI/AAAAAAAAiwE/rilZLCSOuxMD5gC_qOkEl2ju_eynVOKZQCLcBGAs/s1600/need-for-speed-undercover-pc-cover-www.ovagames.com.jpg",
+        "lien": "https://www.filecrypt.cc/Container/5BCABD087B.html",
+        "description": "Need for Speed: Undercover est un jeu de course orienté arcade qui renoue avec les poursuites policières intenses et le style cinématographique des épisodes comme Most Wanted. Le jeu met l'accent sur une narration structurée autour d'une infiltration au sein d'un syndicat du crime organisé.",
+        "synopsis": "Vous incarnez un policier infiltré chargé de démanteler une organisation criminelle internationale spécialisée dans le vol et le trafic de véhicules haut de gamme. Pour réussir votre mission, vous devrez participer à des courses illégales, échapper à des poursuites policières effrénées et gagner la confiance des réseaux criminels dans la ville fictive de Tri-City Bay.",
+        "linux_status": "Gold",
+        "config": {
+            "min": {
+                "os": "Windows XP (SP2) / Windows Vista",
+                "cpu": "Intel Pentium 4 ou équivalent, 3.0 GHz",
+                "ram": "512 MB (XP) / 1 GB (Vista)",
+                "gpu": "128 MB, NVIDIA GeForce 6600 / ATI Radeon 9500 / Intel G45 Express",
+                "dx": "Version 9.0c",
+                "storage": "6.0 GB"
+            },
+            "rec": {
+                "os": "Windows XP / Vista",
+                "cpu": "Intel Core 2 Duo ou équivalent",
+                "ram": "2 GB",
+                "gpu": "NVIDIA GeForce 7800 GT / ATI Radeon X1800",
+                "dx": "Version 9.0c",
+                "storage": "6.0 GB"
+            }
+        }
+    },
+    {
+        "nom": "Need For Speed ProStreet",
+        "categorie": "Repacks",
+        "image": "https://1.bp.blogspot.com/-ZfNBeW7oKks/XTV96QJn9aI/AAAAAAAA28I/awq6JBgk8qkItKb6_d7u44_tsmNLkJeHgCLcBGAs/s1600/need-for-speed-prostreet-pc-cover-www.ovagames.com.jpg",
+        "lien": "https://www.filecrypt.cc/Container/80F0A033D7.html",
+        "description": "Need for Speed: ProStreet marque une rupture avec les épisodes axés sur les courses de rue illégales pour se concentrer sur la culture du tuning professionnel en circuit fermé. Le jeu propose une physique de conduite plus exigeante, un système de dégâts réaliste et des événements officiels organisés dans des environnements clos.",
+        "synopsis": "Après avoir dominé la scène des courses de rue, Ryan Cooper décide de faire ses preuves sur les circuits légaux et officiels. Vous devrez affronter les 'Rois de la rue' dans quatre disciplines distinctes : le Grip, le Drift, le Drag et le Speed Challenge, afin de conquérir les titres de champion et devenir la nouvelle icône incontestée du sport automobile de rue.",
+        "linux_status": "Gold",
+        "config": {
+            "min": {
+                "os": "Windows XP / Vista / 7",
+                "cpu": "Intel Pentium 4 2.0 GHz / AMD 2100+",
+                "ram": "512 MB",
+                "gpu": "128 MB compatible DirectX 9",
+                "dx": "Version 9.0",
+                "storage": "7.5 GB"
+            },
+            "rec": {
+                "os": "Windows XP / Vista / 7",
+                "cpu": "Intel Core 2 Duo / AMD Athlon 64 X2",
+                "ram": "1 GB",
+                "gpu": "256 MB compatible DirectX 9 (série GeForce 7 ou Radeon X1800)",
+                "dx": "Version 9.0",
+                "storage": "7.5 GB"
+            }
+        }
+    },
+    {
+        "nom": "Need for Speed Carbon Collector's Edition",
+        "categorie": "Repacks",
+        "image": "https://1.bp.blogspot.com/-J_3VLx_tcz0/XycrptLwAnI/AAAAAAABCD0/PWIfHY3odPYrBj7f2Xb4r7koD94Be1gigCLcBGAsYHQ/s920/Need-For-Speed-Carbon-PC-Cover.jpg",
+        "lien": "https://www.filecrypt.cc/Container/FD41F93431.html",
+        "description": "Need for Speed: Carbon est la suite directe de Most Wanted, axée sur les courses nocturnes et les affrontements de gangs pour le contrôle des territoires urbains. L'édition Collector apporte du contenu supplémentaire exclusif, notamment trois nouvelles voitures, six nouveaux types de courses, dix voitures pré-tunées et des vinyles uniques. Le jeu introduit également la mécanique des équipiers (Blocker, Drafter, Scout) et les redoutables duels dans les canyons.",
+        "synopsis": "Après avoir fui Rockport, le protagoniste retourne à Palmont City, mais découvre que la situation a radicalement changé. Accusé à tort d'avoir saboté une course à gros enjeux par le passé, il doit repartir de zéro. Avec l'aide de son amie Nikki, il monte un nouvel équipage pour conquérir les différents quartiers de la ville face aux gangs rivaux, avant de disputer l'ultime face-à-face mortel dans le Carbon Canyon contre Darius.",
+        "linux_status": "Gold",
+        "config": {
+            "min": {
+                "os": "Windows XP",
+                "cpu": "Intel Pentium 4 @ 1.7 GHz",
+                "ram": "512 MB",
+                "gpu": "64 MB compatible DirectX 9",
+                "dx": "Version 9.0",
+                "storage": "5.3 GB"
+            },
+            "rec": {
+                "os": "Windows XP / 7",
+                "cpu": "Intel Pentium 4 @ 2.4 GHz / AMD Athlon XP 2500+",
+                "ram": "1 GB",
+                "gpu": "128 MB (NVIDIA GeForce 6800 / ATI Radeon X800)",
+                "dx": "Version 9.0c",
+                "storage": "5.3 GB"
+            }
+        }
+    },
+    {
+        "nom": "Need For Speed Shift",
+        "categorie": "Repacks",
+        "image": "https://3.bp.blogspot.com/-8icJ4TRxTUg/WX5LtZFvZJI/AAAAAAAAi0I/tFH1u1zqvD05rdLdtjVq3R8i7ctgbrDmACLcBGAs/s1600/need-for-speed-shift-pc-cover-www.ovagames.com.jpg",
+        "lien": "https://www.filecrypt.cc/Container/A41A2A610E.html",
+        "description": "Need for Speed: Shift oriente la franchise vers la simulation automobile réaliste en mettant de côté le style arcade urbain. Développé par Slightly Mad Studios, le jeu propose une vue cockpit immersive et dynamique, une physique des véhicules travaillée et un système de profil de pilote qui s'adapte à votre style de conduite, qu'il soit précis ou agressif.",
+        "synopsis": "Entrez dans la peau d'un pilote professionnel et grimpez les échelons du sport automobile mondial. Votre objectif ultime est de participer aux prestigieuses World GT1 Series. À travers différents championnats sur des circuits réels et fictifs hautement détaillés, gérez les forces G, apprenez la trajectoire parfaite et battez vos rivaux pour devenir le champion ultime de la discipline.",
+        "linux_status": "Gold",
+        "config": {
+            "min": {
+                "os": "Windows XP (SP3) / Vista (SP2) / 7",
+                "cpu": "Intel Core 2 Duo 1.6 GHz / AMD Athlon X2 3800+",
+                "ram": "1 GB (XP) / 1.5 GB (Vista/7)",
+                "gpu": "256 MB avec support Pixel Shader 3.0",
+                "dx": "Version 9.0c",
+                "storage": "6 GB"
+            },
+            "rec": {
+                "os": "Windows XP (SP3) / Vista (SP2) / 7 / 10",
+                "cpu": "Intel Core 2 Duo 2.5 GHz / AMD Athlon 64 X2 2.0 GHz",
+                "ram": "2 GB (XP) / 3 GB (Vista/7)",
+                "gpu": "512 MB avec support Pixel Shader 3.0 (NVIDIA GeForce 8800 GT / ATI Radeon HD 3870)",
+                "dx": "Version 9.0c",
+                "storage": "6 GB"
+            }
+        }
+    },
+    {
+        "nom": "Shift 2 Unleashed",
+        "categorie": "Repacks",
+        "image": "https://3.bp.blogspot.com/--pHxMoSOgEA/WX2bHa6ICfI/AAAAAAAAiw0/qE6YnvDOBJM-35cYDadLmPApRRVrqAVWgCLcBGAs/s1600/shift-2-unleashed-pc-cover-www.ovagames.com.jpg",
+        "lien": "https://www.filecrypt.cc/Container/2CA6B74545.html",
+        "description": "Shift 2: Unleashed pousse l'expérience de simulation de la franchise Need for Speed encore plus loin dans le réalisme et l'intensité. Développé par Slightly Mad Studios, le titre se distingue par l'introduction de la célèbre 'vue casque' (Helmet Cam) révolutionnaire qui simule les mouvements de tête réels d'un pilote, ainsi que par des courses nocturnes spectaculaires et une physique des dégâts hautement poussée.",
+        "synopsis": "Prenez les commandes de bolides ultra-puissants et tracez votre route jusqu'au sommet du championnat du monde FIA GT1. Face à une intelligence artificielle agressive et sur des circuits internationaux exigeants, vous devrez ressentir chaque vibration, maîtriser les trajectoires de nuit et repousser vos limites dans la bataille ultime pour devenir le champion du monde de la discipline.",
+        "linux_status": "Gold",
+        "config": {
+            "min": {
+                "os": "Windows XP / Vista / 7",
+                "cpu": "Intel Core 2 Duo E2140 @ 1.6 GHz / AMD Athlon 64 X2 3800+",
+                "ram": "2 GB",
+                "gpu": "512 MB, nVidia GeForce 8800 / ATI Radeon HD 2900",
+                "dx": "Version 9.0c",
+                "storage": "7.3 GB"
+            },
+            "rec": {
+                "os": "Windows XP / Vista / 7",
+                "cpu": "Intel Core 2 Duo @ 2.5 GHz / AMD Athlon 64 X2 5400+",
+                "ram": "3 GB",
+                "gpu": "1 GB, nVidia GeForce GTX 280 / ATI Radeon HD 4890",
+                "dx": "Version 9.0c",
+                "storage": "7.3 GB"
+            }
         }
     }
 ]
