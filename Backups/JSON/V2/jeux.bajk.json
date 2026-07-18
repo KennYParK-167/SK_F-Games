@@ -1,0 +1,3647 @@
+[
+    {
+        "nom": "Arctic Awakening",
+        "categorie": "GOG",
+        "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjivw2WkNYAAd7ju-o1_fgUZZSKanXYfoDTfjwt5rp_fYnlhNDP87gy1Y3V6XMXSNibE-XLgN7CI6B8xwBZyoaXZXhsG3mGry-eSuWVZ7SfDKoCY436CJrs2eh3Ep7O7tK_mv96ZY7u52W3cMbVNeMy-VKmkrgpT-vBBpw6-k3_B9yEKlvrOnkcF-u9brc/s460/artic-awakening-pc-cover.jpg",
+        "lien": "https://www.filecrypt.cc/Container/6037F2DEC9.html",
+        "description": "Un jeu d'aventure narratif à la première personne se déroulant dans les étendues glacées de l'Alaska.",
+        "synopsis": "Après un crash d'avion dans les terres sauvages de l'Alaska, vous incarnez Kai, accompagné d'Alfie, un drone thérapeute imposé par la cour. Vous devez retrouver votre collègue Donovan et découvrir les secrets gouvernementaux qui ont causé votre accident.",
+        "linux_status": "Playable",
+        "config": {
+            "min": {
+                "os": "Windows 10 / 11 (64-bit)",
+                "cpu": "Intel Core i3-6100 / AMD FX 8350",
+                "ram": "8 GB RAM",
+                "gpu": "NVIDIA GeForce GTX 1650 / AMD RX 570",
+                "dx": "Version 11",
+                "storage": "10 GB"
+            },
+            "rec": {
+                "os": "Windows 10 / 11 (64-bit)",
+                "cpu": "Intel i5-9600K / Ryzen 5 3600",
+                "ram": "16 GB RAM",
+                "gpu": "NVIDIA RTX 2060 / AMD RX 6600",
+                "dx": "Version 11",
+                "storage": "10 GB"
+            }
+        }
+    },
+    {
+        "nom": "Soulstone Survivors",
+        "categorie": "GOG",
+        "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgaGR1s7wwytevYnv47qZkU26ifsbtf9nt64ewAzB8meT1KcwWnFpWYvfnIC7OhAxD_Ps9a2S2uc289LPYu4DZ82LVXB4wJRI8iTe-YEFMXNyKF4s_H5sRNy9UyijBFfomY1ZCUKejvZdAaE9m3VWqHDTcenw76rLvYWE0k8Z_2Hotr_tvzdOwnHaB8X1k/s460/soulstone-survivors-pc-cover.jpg",
+        "lien": "https://www.filecrypt.cc/Container/9451E10B55.html",
+        "description": "Un action roguelite intense de type 'bullet heaven'.",
+        "synopsis": "Affrontez des hordes d'ennemis pour obtenir des pierres d'âme, débloquer des personnages, forger des armes puissantes et terrasser les seigneurs du Vide dans des combats épiques.",
+        "linux_status": "Gold",
+        "config": {
+            "min": {
+                "os": "Windows 7 or newer",
+                "cpu": "2.5Ghz or better",
+                "ram": "4 GB RAM",
+                "gpu": "Non spécifié",
+                "dx": "Non spécifié",
+                "storage": "2 GB"
+            },
+            "rec": {
+                "os": "Non spécifié",
+                "cpu": "Non spécifié",
+                "ram": "Non spécifié",
+                "gpu": "Non spécifié",
+                "dx": "Non spécifié",
+                "storage": "Non spécifié"
+            }
+        }
+    },
+    {
+        "nom": "Biped 2",
+        "categorie": "GOG",
+        "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgofbr2cCIAENIGOVbVBCemdUOUsst_YjtWf83XLyc0keDI7ZW97RIRcZ-WCzt9uD9RXuylSNqZiM_To6q5iwBq7WikSVKoabiEC1hlXRktCgWQ2pCnOsZZrz0yjMwKIH9Fa1lR9X80iWcUJQdjy5lf59U0nTWBTSv05MRc7MAyZoJ2HLliH1wUQrdjZgA/s460/biped-2-pc-cover.jpg",
+        "lien": "https://www.filecrypt.cc/Container/42AD402A8B.html",
+        "description": "Jeu d'aventure coopératif basé sur la physique.",
+        "synopsis": "Suite du jeu d'aventure coopératif, vous contrôlez Aku et Sila, deux robots bipèdes, pour résoudre des énigmes complexes, explorer de nouveaux biomes et répondre à un signal de détresse provenant d'une planète lointaine.",
+        "linux_status": "Gold",
+        "config": {
+            "min": {
+                "os": "Windows 10/11",
+                "cpu": "i3 Sandy Bridge Dual Core or Equivalent",
+                "ram": "8 GB RAM",
+                "gpu": "NVIDIA GeForce GTX 960",
+                "dx": "Non spécifié",
+                "storage": "6 GB"
+            },
+            "rec": {
+                "os": "Windows 10/11",
+                "cpu": "i5 Sandy Bridge Dual Core or Equivalent",
+                "ram": "16 GB RAM",
+                "gpu": "NVIDIA GeForce 1050Ti",
+                "dx": "Non spécifié",
+                "storage": "6 GB"
+            }
+        }
+    },
+    {
+        "nom": "Biped",
+        "categorie": "GOG",
+        "image": "https://1.bp.blogspot.com/-QU3IbKwsCtM/Xwvoptyrv0I/AAAAAAABBb0/uxb9PTCEfQUwb8VKwEh9oqcWh10lueMYgCLcBGAsYHQ/s1600/biped-pc-cover.jpg",
+        "lien": "https://www.filecrypt.cc/Container/D6035BA4B3.html",
+        "description": "Jeu d'action-aventure coopératif centré sur la coordination.",
+        "synopsis": "Un jeu d'aventure coopératif centré sur la collaboration entre deux joueurs contrôlant chacun un robot bipède. Coordonnez vos mouvements via deux sticks pour surmonter des défis environnementaux et résoudre des puzzles.",
+        "linux_status": "Platinum",
+        "config": {
+            "min": {
+                "os": "Windows 7 SP1 / 8.1 / 10",
+                "cpu": "i3 Sandy Bridge Dual Core or Equivalent",
+                "ram": "4 GB RAM",
+                "gpu": "NVIDIA GeForce GTX 660",
+                "dx": "Non spécifié",
+                "storage": "8 GB"
+            },
+            "rec": {
+                "os": "Windows 7 SP1 / 8.1 / 10",
+                "cpu": "i5 Sandy Bridge Dual Core or Equivalent",
+                "ram": "8 GB RAM",
+                "gpu": "NVIDIA GeForce GTX 960",
+                "dx": "Non spécifié",
+                "storage": "8 GB"
+            }
+        }
+    },
+    {
+        "nom": "Army of Ruin",
+        "categorie": "GOG",
+        "image": "https://1.bp.blogspot.com/-ynGdB6SZ26Y/ZNkCTng3PJI/AAAAAAABYlI/6FI62uDby9EGRf7adHTp-_vXt1XVKCTxgCNcBGAsYHQ/s460/army-of-ruin-pc-cover.jpg",
+        "lien": "https://www.filecrypt.cc/Container/28AD30B3DE.html",
+        "description": "Jeu d'action 'auto-shooter' frénétique.",
+        "synopsis": "Un 'auto-shooter' intense où vous devenez une pluie de balles. Affrontez des vagues d'ennemis, débloquez des personnages, des armes et des améliorations passives pour survivre à une difficulté croissante.",
+        "linux_status": "Platinum",
+        "config": {
+            "min": {
+                "os": "Windows Vista or newer",
+                "cpu": "Quad core processor",
+                "ram": "2 GB RAM",
+                "gpu": "DirectX 10 capable hardware",
+                "dx": "Version 11",
+                "storage": "1 GB"
+            },
+            "rec": {
+                "os": "Windows 7 or newer",
+                "cpu": "Quad core processor",
+                "ram": "6 GB RAM",
+                "gpu": "GeForce 960 or better",
+                "dx": "Version 11",
+                "storage": "1 GB"
+            }
+        }
+    },
+    {
+        "nom": "Shotgun King: The Final Checkmate",
+        "categorie": "GOG",
+        "image": "https://1.bp.blogspot.com/-Nh82qlpEZk4/Y4ZeURNFEfI/AAAAAAABUio/xpL6lew-PPcAZr1I-56kzAGR0Vo6B06KwCNcBGAsYHQ/s460/shotgun-king-the-final-checkmate-pc-cover.jpg",
+        "lien": "https://www.filecrypt.cc/Container/5CDB236A55.html",
+        "description": "Roguelike tactique au tour par tour basé sur les échecs.",
+        "synopsis": "Un jeu de tactique roguelike au tour par tour où vous incarnez un roi déchu aux échecs. Abandonné par ses sujets, il s'arme d'un fusil à pompe pour se venger du roi adverse et de son armée.",
+        "linux_status": "Native",
+        "config": {
+            "min": {
+                "os": "Windows 7",
+                "cpu": "Oui, il en faut un !",
+                "ram": "Non spécifié",
+                "gpu": "Un écran fonctionnel",
+                "dx": "Non spécifié",
+                "storage": "80 MB"
+            },
+            "rec": {
+                "os": "Non spécifié",
+                "cpu": "Non spécifié",
+                "ram": "Non spécifié",
+                "gpu": "Non spécifié",
+                "dx": "Non spécifié",
+                "storage": "Non spécifié"
+            }
+        }
+    },
+    {
+        "nom": "Stellaris: Galaxy Edition",
+        "categorie": "GOG",
+        "image": "https://1.bp.blogspot.com/-oWjF_knxnPc/X5xrlc09PCI/AAAAAAABEOM/fntUmeAXyJQwn7wPLha2vdrKowNJY2WagCLcBGAsYHQ/s460/stellaris-galaxy-edition-pc-cover.jpg",
+        "lien": "https://www.filecrypt.cc/Container/85D0E7E14C.html",
+        "description": "Jeu de stratégie 4X spatial à grande échelle.",
+        "synopsis": "Explorez une galaxie générée procéduralement, interagissez avec diverses espèces extraterrestres et gérez votre propre empire galactique à travers la diplomatie, la guerre et la recherche technologique.",
+        "linux_status": "Gold",
+        "config": {
+            "min": {
+                "os": "Windows 7 x86 or newer",
+                "cpu": "AMD Athlon II X4 640 @ 3.0 Ghz / Intel Core 2 Quad 9400 @ 2.66 Ghz",
+                "ram": "2 GB RAM",
+                "gpu": "AMD HD 5770 / NVIDIA GTX 460 (1024MB VRAM)",
+                "dx": "Version 9.0c",
+                "storage": "4 GB"
+            },
+            "rec": {
+                "os": "Windows 7 x64 or newer",
+                "cpu": "AMD Phenom II X4 850 @ 3.3 Ghz / Intel i3 2100 @ 3.1 Ghz",
+                "ram": "4 GB RAM",
+                "gpu": "AMD HD 6850 / NVIDIA GTX 560TI (1024MB VRAM)",
+                "dx": "Version 9.0c",
+                "storage": "4 GB"
+            }
+        }
+    },
+    {
+        "nom": "MechWarrior 5: Mercenaries - Succession Wars Edition",
+        "categorie": "GOG",
+        "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg8E2VBSMwnBbkjz63ThR1aUeY84z1Aoyz7yobFGF0hZ-OzGnom09NN8v9TE44eWFz3rEMzpBbq8slVk68t06QNWI3o1iwUbI4LTFrBsYXPG9yumCAZCKWeC4N-CKHxZoXpyVAnN4ghBJiEHanJ-qK937upoxxv1ip2OvAfLnUsVYJwZZuOHJmrLxA9Pk4/s460/mechwarrior-5-mercenaries-pc-cover.jpg",
+        "lien": "https://www.filecrypt.cc/Container/A9B9995E44.html",
+        "description": "Simulation de pilotage de 'Mechs'.",
+        "synopsis": "En l'an 3015, vous pilotez d'imposantes machines de guerre. Dirigez une compagnie de mercenaires dans une quête de gloire et de vengeance à travers des champs de bataille destructibles.",
+        "linux_status": "Gold",
+        "config": {
+            "min": {
+                "os": "Windows 7 / 8.1 / 10 (64-bit)",
+                "cpu": "Intel Core i3-7100 / AMD Ryzen 3 1200",
+                "ram": "8 GB RAM",
+                "gpu": "NVIDIA GeForce GTX 770 / AMD Radeon R9 280X",
+                "dx": "Version 11",
+                "storage": "55 GB (SSD requis)"
+            },
+            "rec": {
+                "os": "Windows 7 / 8.1 / 10 (64-bit)",
+                "cpu": "Intel Core i7-6700K / AMD Ryzen 7 1700",
+                "ram": "16 GB RAM",
+                "gpu": "NVIDIA GeForce GTX 1070 / AMD RX Vega 56",
+                "dx": "Version 11",
+                "storage": "55 GB (SSD requis)"
+            }
+        }
+    },
+    {
+        "nom": "No Man's Sky",
+        "categorie": "GOG",
+        "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgoYZo0u3m5PHf5kv0G7hOSFzkbPRy-XzfnBi7jtFqTplTReQCfEqx7suOu2G28AtoNIS9g9cZZTTgSGGNPzXG5KliYGW5Bp0mz67JNFFMqIguEyIwLXQoW0tvEg_tlxstKymjyGgjHPMAsH6hZCi9q7dgisoKFmEv5xjzEROMHoyAf3W6P1gv97SxBinY/s460/no-mans-sky-pc-cover.jpg",
+        "lien": "https://www.filecrypt.cc/Container/404C07B216.html",
+        "description": "Jeu d'exploration spatiale procédurale.",
+        "synopsis": "Voyagez à travers la galaxie pour découvrir des milliards de planètes uniques, construire des bases, commercer et survivre dans un univers mystérieux.",
+        "linux_status": "Gold",
+        "config": {
+            "min": {
+                "os": "Windows 7 / 8.1 / 10 (64-bit)",
+                "cpu": "Intel Core i3",
+                "ram": "8 GB RAM",
+                "gpu": "NVIDIA GTX 480 / AMD Radeon 7870",
+                "dx": "Non spécifié",
+                "storage": "10 GB"
+            },
+            "rec": {
+                "os": "Non spécifié",
+                "cpu": "Non spécifié",
+                "ram": "Non spécifié",
+                "gpu": "Non spécifié",
+                "dx": "Non spécifié",
+                "storage": "Non spécifié"
+            }
+        }
+    },
+    {
+        "nom": "Dead Cells: Medley of Pain Bundle",
+        "categorie": "GOG",
+        "image": "https://1.bp.blogspot.com/-DcyoZ2gY9_Q/ZE6ROZmBfrI/AAAAAAABW6k/-nX2UJrantADtZE0BSjnqWQpAbbpI5LuACNcBGAsYHQ/s460/dead-cells-medley-of-pain-bundle-pc-cover.jpg",
+        "lien": "https://www.filecrypt.cc/Container/2D651FD1DC.html",
+        "description": "Roguevania d'action-plateforme.",
+        "synopsis": "Incarnez une masse cellulaire habitant un cadavre dans un château en constante évolution. Le jeu combine des combats brutaux et précis avec une exploration basée sur des déblocages permanents.",
+        "linux_status": "Platinum",
+        "config": {
+            "min": {
+                "os": "Windows 7+",
+                "cpu": "Intel i5+",
+                "ram": "2 GB RAM",
+                "gpu": "NVIDIA 450 GTS / Radeon HD 5750 or better",
+                "dx": "Version 9.1+ (ou OpenGL 3.2+)",
+                "storage": "500 MB"
+            },
+            "rec": {
+                "os": "Windows 7+",
+                "cpu": "Intel i5+",
+                "ram": "4 GB RAM",
+                "gpu": "NVIDIA GTX 460 / Radeon HD 7800 or better",
+                "dx": "Version 9.1+ (ou OpenGL 3.2+)",
+                "storage": "500 MB"
+            }
+        }
+    },
+    {
+        "nom": "Solasta: Crown of the Magister - Supporter Edition",
+        "categorie": "GOG",
+        "image": "https://1.bp.blogspot.com/-5hlRFG4CWNw/Y3MqVxk4RnI/AAAAAAABUY0/sJE0WDGHa80-Sc42g30kGc4Bvkt0vnE9gCNcBGAsYHQ/s460/solasta-supporter-edition-pc-cover.jpg",
+        "lien": "https://www.filecrypt.cc/Container/A243DC9F82.html",
+        "description": "RPG tactique basé sur D&D.",
+        "synopsis": "Créez une équipe d'aventuriers et explorez des environnements verticaux pour empêcher un cataclysme de détruire le monde dans ce RPG fidèle aux règles du jeu de rôle sur table.",
+        "linux_status": "Platinum",
+        "config": {
+            "min": {
+                "os": "Windows 7 / 8.1 / 10",
+                "cpu": "AMD FX 4300 / Intel Core i5-3570K",
+                "ram": "8 GB RAM",
+                "gpu": "Radeon R9 285 / GeForce GTX 950",
+                "dx": "Version 11",
+                "storage": "30 GB"
+            },
+            "rec": {
+                "os": "Windows 10",
+                "cpu": "AMD Ryzen 3 1300X / Intel Core i5-7400",
+                "ram": "8 GB RAM",
+                "gpu": "Radeon RX 590 / GeForce GTX 1060",
+                "dx": "Version 11",
+                "storage": "40 GB"
+            }
+        }
+    },
+    {
+        "nom": "Grind Survivors",
+        "categorie": "GOG",
+        "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEioFgNnEIh1mMIjgSM7fCoQkdx6SpyCWOm1V3LlB47gRAl9fOJYz6zjdPF2MaSCTOQ-uZ1EeaivdVfJzAdR4yjMm59o60p31E4flY4p7LcycaCeBhDZ0oV4J3p3UgLBmdMTmSESDAJVf-GNLrnlNeCpx9SbE_xX-c7-PYyYDavRJ4EE8wOIbfi7CFE25o4/s460/grind-survivors-pc-cover.jpg",
+        "lien": "https://www.filecrypt.cc/Container/18D958C733.html",
+        "description": "Survie roguelike.",
+        "synopsis": "Un jeu de survie et d'action roguelike post-apocalyptique où vous incarnez un chasseur de démons devant survivre à des vagues infinies d'ennemis.",
+        "linux_status": "Non testé",
+        "config": {
+            "min": {
+                "os": "Windows 10 64-bit",
+                "cpu": "Intel Core i5-4690 / AMD Ryzen 5 1500X",
+                "ram": "8 GB RAM",
+                "gpu": "NVIDIA GeForce GTX 1060 6GB / AMD Radeon RX 580",
+                "dx": "Non spécifié",
+                "storage": "8 GB"
+            },
+            "rec": {
+                "os": "Windows 10 64-bit",
+                "cpu": "Intel Core i7-8700K / AMD Ryzen 7 2700X",
+                "ram": "16 GB RAM",
+                "gpu": "NVIDIA GeForce RTX 2060 / AMD Radeon RX 6600 XT",
+                "dx": "Non spécifié",
+                "storage": "8 GB"
+            }
+        }
+    },
+    {
+        "nom": "Seeds of Calamity: Farmhouse Supporter Pack",
+        "categorie": "GOG",
+        "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg84br00XFDGAbn0rxbiqhUtLC2_b2hCyvFCU0wffzt1QVNCpuwzcilSfkOUWLvbabImiSq4wGx9xqi38lxDcjK1Uuwiklh0_LJP3tq4y1S_eMEoInG9IPbLVgUfTsfAdmDS7GRooEvBNSur-RtnidzYJZJLrDJC32ScNDIEu4_gel8RID0iL32ykVXrIk/s460/seeds-of-calamity-pc-cover.jpg",
+        "lien": "https://www.filecrypt.cc/Container/77866B4ACD.html",
+        "description": "Simulation de ferme en monde post-cataclysme.",
+        "synopsis": "Gérez votre ferme, aidez les villageois et explorez des donjons avec votre compagnon, un grimoire magique, dans un monde en reconstruction.",
+        "linux_status": "Non testé",
+        "config": {
+            "min": {
+                "os": "Windows XP, Vista, 7, 8/8.1, 10",
+                "cpu": "2.0 Ghz",
+                "ram": "2 GB RAM",
+                "gpu": "256 mb video memory",
+                "dx": "Non spécifié",
+                "storage": "1 GB"
+            },
+            "rec": {
+                "os": "Non spécifié",
+                "cpu": "Non spécifié",
+                "ram": "Non spécifié",
+                "gpu": "Non spécifié",
+                "dx": "Non spécifié",
+                "storage": "Non spécifié"
+            }
+        }
+    },
+    {
+        "nom": "Core Keeper",
+        "categorie": "GOG",
+        "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEihmjthOx26RMn1J7FBODZA3D8kHp8cFpY9pe50QH6Gun3_fMkaZMtz5iEwZVT0vP6O7tb1rPYUU-v4xf8lkH64u1oRpJUlSu5SlXBaY6aDocP1qWuiI5PKXZp9UJbbv2ovixFVv2uooJWyAbokVymmvc-pSwOd53rRypXvojo5SR1bLy0mhemYOl4nKfI/s460/core-keeper-pc-cover.jpg",
+        "lien": "https://www.filecrypt.cc/Container/E306C1714F.html",
+        "description": "Un jeu de bac à sable minier coopératif.",
+        "synopsis": "Réveillez-vous dans une caverne infinie remplie de créatures, de ressources et de bibelots. Minez, construisez, cultivez, fabriquez et combattez pour survivre dans ce monde souterrain mystérieux.",
+        "linux_status": "Gold",
+        "config": {
+            "min": {
+                "os": "Windows 10 64-bit",
+                "cpu": "Intel Core i5-2300 / AMD Ryzen 3 1200",
+                "ram": "8 GB RAM",
+                "gpu": "GeForce GTX 460 / Radeon HD 5850",
+                "dx": "Non spécifié",
+                "storage": "Non spécifié"
+            },
+            "rec": {
+                "os": "Windows 10 64-bit",
+                "cpu": "Intel Core i5-8400 / AMD Ryzen 7 2700X",
+                "ram": "8 GB RAM",
+                "gpu": "GeForce GTX 1050 Ti / Radeon R9 280X",
+                "dx": "Non spécifié",
+                "storage": "Non spécifié"
+            }
+        }
+    },
+    {
+        "nom": "Terraria",
+        "categorie": "GOG",
+        "image": "https://1.bp.blogspot.com/-8VBJg2QQZDU/X4aZViT3uII/AAAAAAABDeo/NMSuoYsNZukC4-_92Lr_ze11oNGx_hEOwCLcBGAsYHQ/s460/terraria-pc-cover.jpg",
+        "lien": "https://www.filecrypt.cc/Container/82CC7D131A.html",
+        "description": "Jeu d'action-aventure bac à sable 2D.",
+        "synopsis": "Creusez, combattez, explorez et construisez dans le monde bac à sable ultime. Chaque monde est unique, offrant des biomes variés, des boss redoutables et d'innombrables objets à collectionner.",
+        "linux_status": "Native",
+        "config": {
+            "min": {
+                "os": "Windows Xp, Vista, 7, 8/8.1, 10",
+                "cpu": "2.0 Ghz",
+                "ram": "2.5 GB RAM",
+                "gpu": "128mb Video Memory (Shader Model 2.0+)",
+                "dx": "9.0c or Greater",
+                "storage": "200 MB"
+            },
+            "rec": {
+                "os": "Windows 7, 8/8.1, 10",
+                "cpu": "Dual Core 3.0 Ghz",
+                "ram": "4 GB RAM",
+                "gpu": "256mb Video Memory (Shader Model 2.0+)",
+                "dx": "9.0c or Greater",
+                "storage": "200 MB"
+            }
+        }
+    },
+    {
+        "nom": "The Long Dark: Quiet Apocalypse Edition",
+        "categorie": "GOG",
+        "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhxvHV2bMWYh0hfTZXiw7WXwhoW2Ajy01JV781UZWcFOP7O4KSBaf6iQNEAwytn4pYT639Wxk5Sua_76j__ySCfkCjN3IWC8faWaAiycg0QcAAz2CGB9EEtX-03rBYDW6mqovtYldLWeXQswG9VrOIYI3z8kMiBtEg0fpTKR4w_4FFV-OVQ5A_lyrtkz2s/s460/the-long-dark-pc-cover.jpg",
+        "lien": "https://www.filecrypt.cc/Container/47240AB5B1.html",
+        "description": "Simulation de survie en milieu hivernal hostile.",
+        "synopsis": "Explorez une nature sauvage glacée et étendue après une catastrophe géomagnétique. Gérez votre chaleur, votre faim et votre soif tout en évitant les prédateurs dans un monde où chaque décision est vitale.",
+        "linux_status": "Platinum",
+        "config": {
+            "min": {
+                "os": "Windows XP",
+                "cpu": "Dual-Core Intel i5 CPU @ 2GHz+",
+                "ram": "4 GB RAM",
+                "gpu": "Intel 4xxx Series (512MB VRAM or better)",
+                "dx": "Non spécifié",
+                "storage": "1 GB"
+            },
+            "rec": {
+                "os": "Windows 7",
+                "cpu": "Intel i7 CPU @ 2.6GHz or higher",
+                "ram": "8 GB RAM",
+                "gpu": "NVIDIA GTX 555 (1GB VRAM or better)",
+                "dx": "Non spécifié",
+                "storage": "1 GB"
+            }
+        }
+    },
+    {
+        "nom": "MULLET MADJACK",
+        "categorie": "GOG",
+        "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgPvKLx038cQ1lvvzCAtGqupFVClH4uHGXlZ3Pg78hBm2euLzdNOXrtKvf5mBER4Do7DVQVrZK1YAwxejajiStYab4sA14SR99WbTy5XMgvBZqw8yqozrLb7IHSvtzGx2TPeA8zA7S4w1qte4MaqUQA0caLLgESz41yw1OZ8kwGdyouC7S20qGRyB1yKxE/s460/mullet-madjack-pc-cover.jpg",
+        "lien": "https://www.filecrypt.cc/Container/5D7111342A.html",
+        "description": "FPS rétro ultra-rapide inspiré des animés des années 90.",
+        "synopsis": "Dans un monde cyberpunk, vous devez éliminer des robots pour gagner du temps et survivre. Un jeu d'action frénétique où la vitesse est votre meilleure arme.",
+        "linux_status": "Platinum",
+        "config": {
+            "min": {
+                "os": "Windows 10",
+                "cpu": "2.4 GHz",
+                "ram": "8 GB RAM",
+                "gpu": "GeForce GTX 970",
+                "dx": "Non spécifié",
+                "storage": "5 GB"
+            },
+            "rec": {
+                "os": "Windows 10",
+                "cpu": "4.0 GHz",
+                "ram": "16 GB RAM",
+                "gpu": "GeForce GTX 1060",
+                "dx": "Non spécifié",
+                "storage": "5 GB"
+            }
+        }
+    },
+    {
+        "nom": "Chasm",
+        "categorie": "GOG",
+        "image": "https://1.bp.blogspot.com/-bmbEDFTN5sg/YOBEG6GlCDI/AAAAAAABLJ0/xMGRs6FvviAk3LAJMK24zMn5R0sv1viuACLcBGAsYHQ/s460/chasm-pc-cover.jpg",
+        "lien": "https://www.filecrypt.cc/Container/E8081AADB7.html",
+        "description": "Action-RPG de type Metroidvania.",
+        "synopsis": "Incarnez une recrue en mission pour enquêter sur une mine abandonnée. Explorez des salles générées procéduralement, combattez des ennemis mortels et découvrez des secrets anciens.",
+        "linux_status": "Platinum",
+        "config": {
+            "min": {
+                "os": "Windows XP (SP3)+",
+                "cpu": "Dual Core CPU",
+                "ram": "1 GB RAM",
+                "gpu": "Support OpenGL 3.0+ (ou 2.1 avec extensions ARB)",
+                "dx": "Non spécifié",
+                "storage": "1 GB"
+            },
+            "rec": {
+                "os": "Non spécifié",
+                "cpu": "Non spécifié",
+                "ram": "Non spécifié",
+                "gpu": "Non spécifié",
+                "dx": "Non spécifié",
+                "storage": "Non spécifié"
+            }
+        }
+    },
+    {
+        "nom": "Discounty",
+        "categorie": "GOG",
+        "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhXJqTrl5IPIC2Xisely1UppgIFGroz3aMF1-vtRYU7-0jyocW0uDLRauzg0VsZhXLdU2tzg-o1_ztxFaqc4tZoWsaAFVXLDN0OMY5tbMmHDnKV_r1Eokw4inr-KnTsu2QKdOSki5pPNU-ZCG8RiOebxmREP2IIAasD1ESK0A4g0HOWDbqnLklTcIJbRI0/s460/discountry-pc-cover.jpg",
+        "lien": "https://www.filecrypt.cc/Container/EFDB915011.html",
+        "description": "Jeu de simulation et de stratégie.",
+        "synopsis": "Prenez les rênes d'une petite boutique et transformez-la en un empire commercial. Gérez vos stocks, vos employés et vos clients dans ce jeu de gestion coloré.",
+        "linux_status": "Gold",
+        "config": {
+            "min": {
+                "os": "Windows 10",
+                "cpu": "Intel Core2 Quad Q8400 / AMD Phenom II X2 550",
+                "ram": "6 GB RAM",
+                "gpu": "NVIDIA GeForce GT 520 (1 GB) / AMD Radeon HD 5570 (1 GB)",
+                "dx": "Non spécifié",
+                "storage": "570 MB"
+            },
+            "rec": {
+                "os": "Windows 10",
+                "cpu": "Intel Core i7-4770T / AMD Ryzen 3 1200",
+                "ram": "8 GB RAM",
+                "gpu": "NVIDIA GeForce GTX 660 Ti (2 GB) / AMD Radeon HD 7870 (2 GB)",
+                "dx": "Non spécifié",
+                "storage": "570 MB"
+            }
+        }
+    },
+    {
+        "nom": "Brotato: Supporter Bundle",
+        "categorie": "GOG",
+        "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjZm9K1WKULjxOtlYM15kx3Gpx9Q-MqVjjScjYPlq1bjAytm79z-NVOv8SB9jEy4sRkNqcRs_WSaXVjFWPgJ7vgLlOpIGG_QK7dutfqyDlwkbF6mqRUP7JgSE8c9PumGqm6VI3d-HnCxU35xspPA1STp3_PkLmHuoXOhIaNoF6ypi9cWSPZBDTjpydVGoA/s460/brotato-pc-cover.jpg",
+        "lien": "https://www.filecrypt.cc/Container/D4C0FC181D.html",
+        "description": "Roguelite d'arène.",
+        "synopsis": "Un extraterrestre capable de manier 6 armes à la fois. Choisissez vos caractéristiques et améliorez votre personnage pour survivre face à des vagues d'ennemis infinies.",
+        "linux_status": "Platinum",
+        "config": {
+            "min": {
+                "os": "Windows 7+",
+                "cpu": "2 GHz",
+                "ram": "4 GB RAM",
+                "gpu": "128MB (OpenGL 3+)",
+                "dx": "Non spécifié",
+                "storage": "200 MB"
+            },
+            "rec": {
+                "os": "Non spécifié",
+                "cpu": "Non spécifié",
+                "ram": "Non spécifié",
+                "gpu": "Non spécifié",
+                "dx": "Non spécifié",
+                "storage": "Non spécifié"
+            }
+        }
+    },
+    {
+        "nom": "Hollow Knight",
+        "categorie": "GOG",
+        "image": "https://1.bp.blogspot.com/-p1i6WrJdkKA/ZDVTbLWSndI/AAAAAAABWo0/XbVMe-6nbsUDbnrSjAB2Pw7nNgfzy-0BQCNcBGAsYHQ/s460/hollow-knight-pc-cover.jpg",
+        "lien": "https://www.filecrypt.cc/Container/EFD374A99B.html",
+        "description": "Metroidvania d'action-aventure.",
+        "synopsis": "Explorez un immense royaume en ruine peuplé d'insectes et de héros. Découvrez des secrets enfouis, apprenez des compétences puissantes et affrontez des boss redoutables.",
+        "linux_status": "Native",
+        "config": {
+            "min": {
+                "os": "Windows 7",
+                "cpu": "Intel Core 2 Duo E5200",
+                "ram": "4 GB RAM",
+                "gpu": "GeForce 9800GTX+ (1GB)",
+                "dx": "Version 10",
+                "storage": "9 GB"
+            },
+            "rec": {
+                "os": "Windows 10",
+                "cpu": "Intel Core i5",
+                "ram": "8 GB RAM",
+                "gpu": "GeForce GTX 560",
+                "dx": "Version 11",
+                "storage": "9 GB"
+            }
+        }
+    },
+    {
+        "nom": "Hollow Knight: Silksong",
+        "categorie": "Repacks",
+        "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgnoUelCRPaUgidnWsF0dOeVTalU6dMBBRJrDH9W5Wej3e3z5IsY8Hnsq473jDu0G_9L_GFLorzEC1jLCtThqo-0TkychMKyz6KSfzUWyV46v4LV6_RNfxKARkM3_MuvEs3V_xVe4TrS0OLDIHHTRXt0Cf1aMbwc0wuvZavob70jp04y2PIQ0saFv9tq2g/s460/hollow-knight-silksong-pc-cover.jpg",
+        "lien": "https://www.filecrypt.cc/Container/A4430349D3.html",
+        "description": "La suite attendue de Hollow Knight.",
+        "synopsis": "Incarnez Hornet, la princesse protectrice d'Hallownest, et partez à l'aventure dans un tout nouveau royaume. Un jeu d'action rapide avec des mécaniques inédites.",
+        "linux_status": "Non testé",
+        "config": {
+            "min": {
+                "os": "Windows 10 version 21H1 (build 19043) or newer",
+                "cpu": "Intel Core i3-3240 / AMD FX-4300",
+                "ram": "4 GB RAM",
+                "gpu": "GeForce GTX 560 Ti (1GB) / Radeon HD 7750 (1GB)",
+                "dx": "Version 10",
+                "storage": "8 GB"
+            },
+            "rec": {
+                "os": "Windows 10 version 21H1 (build 19043) or newer",
+                "cpu": "Intel Core i5-3470",
+                "ram": "8 GB RAM",
+                "gpu": "GeForce GTX 1050 (2GB) / Radeon R9 380 (2GB)",
+                "dx": "Version 10",
+                "storage": "8 GB"
+            }
+        }
+    },
+    {
+        "nom": "Ys X: Nordics - Ultimate Launch Edition",
+        "categorie": "GOG",
+        "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg1-g-amQjxHLpYIAEyF-HyczJwq2KdIzjGn7agGSp7pNKSP_VAwa9f9MGKYwCv6cXkV1p9pgiAUzyw5VSkJc3Fe4y2zEveE1UqZT4F5L0IFW0Lhp5uhjCw3ZHkF131zI45Dx06xCsGG70qgc5jcQuPcPovXF673P4lCp__G6roV4xKRQeluLZmhKJ4zBU/s460/ys-x-proud-nordics-pc-cover.jpg",
+        "lien": "https://www.filecrypt.cc/Container/8F11AF27EC.html",
+        "description": "Action-RPG dynamique.",
+        "synopsis": "Suivez Adol Christin dans une nouvelle aventure épique au cœur de la mer d'Obelia. Maîtrisez un système de combat innovant pour affronter des ennemis colossaux.",
+        "linux_status": "Gold",
+        "config": {
+            "min": {
+                "os": "Windows 10 64-bit",
+                "cpu": "Intel Core i5-3470 / AMD Ryzen 3 1200",
+                "ram": "8 GB RAM",
+                "gpu": "GeForce GTX 1060 (6 GB) / AMD Radeon RX 580",
+                "dx": "Version 12",
+                "storage": "16 GB"
+            },
+            "rec": {
+                "os": "Windows 10 64-bit",
+                "cpu": "Intel Core i7-12700",
+                "ram": "Non spécifié",
+                "gpu": "GeForce RTX 3060 (12 GB)",
+                "dx": "Version 12",
+                "storage": "16 GB"
+            }
+        }
+    },
+    {
+        "nom": "Under The Island",
+        "categorie": "GOG",
+        "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEic58wHmTzmsYSNaZi4qQgEr1HPjoyk4-mDx6cb-gCefUK10loHzGqoIvo6tuP-68Uf4K9Si0sTiVI2T8CElUbQhtgzkHko-P_0QILrHZDpcD-6nObFMDJKiNNWJMwZgQ-R6v3nRgdmcVqnutQboFkk-eb8B6VGfZfT_aUdYHr7fxpBih25IQl0RcQV-ko/s460/under-of-island-pc-cover.jpg",
+        "lien": "https://www.filecrypt.cc/Container/6C0B44B665.html",
+        "description": "Action-aventure rétro.",
+        "synopsis": "Un jeu inspiré des classiques de l'aventure 16 bits. Explorez une île mystérieuse, résolvez des puzzles et combattez des ennemis dans une aventure pleine de charme.",
+        "linux_status": "Non testé",
+        "config": {
+            "min": {
+                "os": "Windows 7/8/8.1/10 (x86/x64)",
+                "cpu": "Intel Core i5-3210M (2 * 2500 MHz) ou équivalent",
+                "ram": "4 GB RAM",
+                "gpu": "Intel HD 4000",
+                "dx": "Version 9.0c",
+                "storage": "1 GB"
+            },
+            "rec": {
+                "os": "Windows 7/8/8.1/10 (x64)",
+                "cpu": "Intel Pentium G3250 (2 * 3200 MHz) / AMD Phenom 9850 Quad-Core (4 * 2500 MHz) ou équivalent",
+                "ram": "8 GB RAM",
+                "gpu": "GeForce GTX 460 (1024 MB) / Radeon HD 6850 (1024 MB)",
+                "dx": "Version 9.0c",
+                "storage": "1 GB"
+            }
+        }
+    },
+    {
+        "nom": "Formula Legends",
+        "categorie": "GOG",
+        "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjcxEB3da-OVckiaUXWFwZU63D6DtQ_NNxQargSs9E9mycHy-63U2BzewiOG8kY0yu8WLxFglzKfuagNnNvtIXMRWe_sQoOPr2-EurUHwSZcfPy0IbSFPAjvOMy7san9aZN9mtt9qQCvBO3_t7WweyNIDn83IuEgziMkV15H09gPwxphxbhQiuFh5FVDFk/s460/formula-legends-pc-cover.jpg",
+        "lien": "https://www.filecrypt.cc/Container/4BA26D2284.html",
+        "description": "Simulation de course automobile.",
+        "synopsis": "Vivez l'expérience de la Formule 1 à travers les époques. Maîtrisez les circuits les plus exigeants avec des modèles de voitures historiques et modernes.",
+        "linux_status": "Non testé",
+        "config": {
+            "min": {
+                "os": "Windows 10",
+                "cpu": "Intel Core i5-6600K / AMD Ryzen 3 3100",
+                "ram": "8 GB RAM",
+                "gpu": "NVIDIA GeForce GTX 780 / AMD Radeon RX 480",
+                "dx": "Version 12",
+                "storage": "6 GB"
+            },
+            "rec": {
+                "os": "Windows 11",
+                "cpu": "Intel Core i7 (13ème gen) / AMD Ryzen 7 7800",
+                "ram": "16 GB RAM",
+                "gpu": "NVIDIA GeForce RTX 2060 / AMD Radeon RX 5700",
+                "dx": "Version 12",
+                "storage": "6 GB"
+            }
+        }
+    },
+    {
+        "nom": "Gas Station Simulator",
+        "categorie": "GOG",
+        "image": "https://1.bp.blogspot.com/-yyfskjsglA0/YfBMxnaoN3I/AAAAAAAAAx0/iZ9InCjWDAkCWlsMuQMoeBfaEprxYhZYwCNcBGAsYHQ/s460/gas-station-simulator-pc-cover.jpg",
+        "lien": "https://www.filecrypt.cc/Container/993DF77AFF.html",
+        "description": "Jeu de simulation de gestion.",
+        "synopsis": "Achetez une station-service abandonnée au milieu de nulle part et rénovez-la entièrement. Gérez les pompes, réparez les voitures et développez votre activité.",
+        "linux_status": "Gold",
+        "config": {
+            "min": {
+                "os": "Windows 7 (64-bit) / 10 (64-bit)",
+                "cpu": "Intel Core i3 3.0 GHz",
+                "ram": "4 GB RAM",
+                "gpu": "NVIDIA GeForce GTX 660 (2GB VRAM)",
+                "dx": "Version 11",
+                "storage": "10 GB"
+            },
+            "rec": {
+                "os": "Windows 10",
+                "cpu": "Intel Core i5 (génération récente)",
+                "ram": "8 GB RAM",
+                "gpu": "NVIDIA GeForce GTX série 900 (4GB VRAM)",
+                "dx": "Version 11",
+                "storage": "15 GB"
+            }
+        }
+    },
+    {
+        "nom": "Phoenix Point: Complete Edition",
+        "categorie": "GOG",
+        "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhHDyju8-yOH17wyRwJyY5xDsgnYroQRxAUdcAw5DzGvUz09qN2e8RSmcYk3fA7BhlSWsEiUNLK4JbmdMptKSLFxjO2N78cVSGQekvXoQFTW6vKFhMXUz5FKxgsiASFD3ED5YdN_AjMs53kZct_-dwxFS-x79_HebiEK-0OEyFw60UGKstR5hLxXpX8n3s/s460/phoenix-point-complete-pc-cover.jpg",
+        "lien": "https://www.filecrypt.cc/Container/B430446C0F.html",
+        "description": "Jeu de stratégie tactique au tour par tour.",
+        "synopsis": "Une menace extraterrestre mute et s'adapte à vos tactiques. Dirigez le projet Phoenix, gérez des bases à travers le monde et menez des missions tactiques intenses.",
+        "linux_status": "Gold",
+        "config": {
+            "min": {
+                "os": "Windows 7 SP1+ / 8 / 10 (64-bit)",
+                "cpu": "Intel Core i3 / AMD Phenom II X3",
+                "ram": "8 GB RAM",
+                "gpu": "NVIDIA GeForce GTX 660 / AMD Radeon R9 270",
+                "dx": "Version 11",
+                "storage": "Non spécifié"
+            },
+            "rec": {
+                "os": "Windows 7 SP1+ / 8 / 10 (64-bit)",
+                "cpu": "Intel Core i5 @ 3GHz / AMD FX series @ 3.2GHz",
+                "ram": "16 GB RAM",
+                "gpu": "NVIDIA GeForce GTX 1060 / AMD Radeon R9 390X",
+                "dx": "Version 11",
+                "storage": "Non spécifié"
+            }
+        }
+    },
+    {
+        "nom": "The Legend of Heroes: Trails beyond the Horizon - Complete Edition",
+        "categorie": "GOG",
+        "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjh5QmBhFFw6zcPE88s1TO9hsHEpjo2I602nnLPZeUo69J_GSf1yEnAe14kfKqCO-EHi-DVg6n37M7RuRpxkYdi9dc7awJS2Q7vEy5YcZmIyKkXWkqfn-yuM5F1iu7e55TqUnGkeDOkQB9zwKHJO7wAeEmjKa5MlNTDhIZAPjQYsYd3x1aTSEuIAtQzkBk/s460/trails-beyond-the-horizon-pc-cover.jpg",
+        "lien": "https://www.filecrypt.cc/Container/EF9EF04E4C.html",
+        "description": "JRPG narratif.",
+        "synopsis": "Plongez dans un récit riche en personnages et en intrigues politiques. Maîtrisez un système de combat tactique dans un univers fantastique vaste.",
+        "linux_status": "Non testé",
+        "config": {
+            "min": {
+                "os": "Windows 10/11 (64-bit)",
+                "cpu": "AMD Ryzen 5 1600",
+                "ram": "8 GB RAM",
+                "gpu": "NVIDIA GeForce GTX 1050",
+                "dx": "Version 11",
+                "storage": "30 GB"
+            },
+            "rec": {
+                "os": "Windows 10/11 (64-bit)",
+                "cpu": "Intel Core i5-10400",
+                "ram": "16 GB RAM",
+                "gpu": "NVIDIA GeForce GTX 1650",
+                "dx": "Version 11",
+                "storage": "30 GB"
+            }
+        }
+    },
+    {
+        "nom": "Turok (2008)",
+        "categorie": "Repacks",
+        "image": "https://1.bp.blogspot.com/-iBf3GIGjfc0/WlL7hmMkh8I/AAAAAAAApCM/jisoIIGLLlg2UmRtsraPa-aIDwhWPlnIwCLcBGAs/s1600/turok-2008-pc-cover-www.ovagames.com.jpg",
+        "lien": "https://www.filecrypt.cc/Container/E36DD24148.html",
+        "description": "FPS d'action.",
+        "synopsis": "Incarnez Joseph Turok, un ancien membre des forces spéciales envoyé sur une planète peuplée de dinosaures et de mercenaires hostiles.",
+        "linux_status": "Silver",
+        "config": {
+            "min": {
+                "os": "Windows XP (SP2) / Vista / 7",
+                "cpu": "Pentium 4 2.4 GHz / Athlon XP 2.4 GHz 64",
+                "ram": "1 GB RAM",
+                "gpu": "128 MB (NVIDIA GeForce 6600 / ATI Radeon X1300 ou similaire)",
+                "dx": "Version 9.0c",
+                "storage": "14 GB"
+            },
+            "rec": {
+                "os": "Non spécifié",
+                "cpu": "Non spécifié",
+                "ram": "Non spécifié",
+                "gpu": "Non spécifié",
+                "dx": "Non spécifié",
+                "storage": "Non spécifié"
+            }
+        }
+    },
+    {
+        "nom": "Turok 2: Seeds of Evil",
+        "categorie": "GOG",
+        "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiSDCfbC_cr0hSD1OrbwPM6-b0UNwiXqX5v8OmqxmdcFZzPaCE-VIwLV-M1BbpBOO4TjExI15uuNvy_TAwhGv-m9LvKdlNmZ4h6CDWm5ApQKRhGstkNUZqi_E2xnRskhlDXzSq_Did1E_czHDYWa6RPeMO71k69627KRXWsQinst2CCERD2wI5CTHabmDo/s460/turok-2-seeds-of-evil-pc-cover.jpg",
+        "lien": "https://www.filecrypt.cc/Container/6E6FFE409C.html",
+        "description": "Remasterisation moderne du FPS culte de science-fiction.",
+        "synopsis": "Une entité maléfique nommée Primagen tente de détruire l'univers. En tant que Turok, vous devez naviguer à travers des terres hostiles et utiliser un arsenal dévastateur pour arrêter cette menace.",
+        "linux_status": "Gold",
+        "config": {
+            "min": {
+                "os": "Windows 7 (64-bit)",
+                "cpu": "Intel / AMD Dual-Core @ 2.0 GHz",
+                "ram": "1 GB RAM",
+                "gpu": "Support OpenGL 3.2 ou DirectX 10",
+                "dx": "Version 10",
+                "storage": "1 GB"
+            },
+            "rec": {
+                "os": "Windows 10 (64-bit)",
+                "cpu": "Intel Core i5-2300 2.8 GHz / AMD Phenom II X4 945 3.0 GHz ou équivalent",
+                "ram": "2 GB RAM",
+                "gpu": "Non spécifié",
+                "dx": "Non spécifié",
+                "storage": "1 GB"
+            }
+        }
+    },
+    {
+        "nom": "Control: Ultimate Edition",
+        "categorie": "GOG",
+        "image": "https://images-2.gog.com/6e6dbbd1637253394627e72c2b99f39d5c89e160ef07ca0d7823ad7603062496.jpg",
+        "lien": "https://www.filecrypt.cc/Container/4B9DF9906F.html",
+        "description": "Jeu d'action-aventure surnaturel à la troisième personne.",
+        "synopsis": "Après une invasion par une force mystérieuse, vous devenez la nouvelle directrice du Bureau Fédéral de Contrôle. Utilisez des pouvoirs télékinétiques et une arme modulable pour reprendre le bâtiment.",
+        "linux_status": "Platinum",
+        "config": {
+            "min": {
+                "os": "Windows 7 (64-bit)",
+                "cpu": "Intel Core i5-4690 / AMD FX 4350",
+                "ram": "8 GB RAM",
+                "gpu": "NVIDIA GeForce GTX 780 / AMD Radeon R9 280X",
+                "dx": "Version 11",
+                "storage": "42 GB"
+            },
+            "rec": {
+                "os": "Windows 10 (64-bit)",
+                "cpu": "Intel Core i5-7600K / AMD Ryzen 5 1600X",
+                "ram": "16 GB RAM",
+                "gpu": "NVIDIA GeForce GTX 1660 ou 1060 / AMD Radeon RX 580 (Ray Tracing: RTX 2060)",
+                "dx": "Version 12",
+                "storage": "42 GB"
+            }
+        }
+    },
+    {
+        "nom": "Disco Elysium: The Final Cut",
+        "categorie": "GOG",
+        "image": "https://1.bp.blogspot.com/-8Op7x9Kz2TY/YGo9rWf63UI/AAAAAAABI7c/0PUiHtpOVh0EREWYhkBs902kpznnKT4mgCLcBGAsYHQ/s460/disco-elysium-the-final-cut-pc-cover.jpg",
+        "lien": "https://www.filecrypt.cc/Container/94BF22086F.html",
+        "description": "Un RPG révolutionnaire où vous incarnez un détective aux compétences uniques.",
+        "synopsis": "Incarnez un détective avec un système de compétences unique dans un monde urbain décadent. Résolvez une affaire de meurtre complexe en explorant les méandres de votre propre esprit.",
+        "linux_status": "Native",
+        "config": {
+            "min": {
+                "os": "Windows 7/8/10",
+                "cpu": "Intel Core i5-7500 / AMD 1500 ou équivalent",
+                "ram": "4 GB RAM",
+                "gpu": "Intel HD Graphics 620 ou équivalent",
+                "dx": "Version 11",
+                "storage": "22 GB"
+            },
+            "rec": {
+                "os": "Windows 7/8/10",
+                "cpu": "Intel Core i7 / AMD 1800 ou équivalent",
+                "ram": "8 GB RAM",
+                "gpu": "NVIDIA GeForce GTX 1060 ou équivalent",
+                "dx": "Version 11",
+                "storage": "22 GB"
+            }
+        }
+    },
+    {
+        "nom": "Highrise City",
+        "categorie": "GOG",
+        "image": "https://1.bp.blogspot.com/-vidOTRqzGjc/ZP25WiuYODI/AAAAAAABY6o/MPQEyQEU3qIDeobK7GdLkgmh-2QBzj1gQCNcBGAsYHQ/s460/high-rise-city-pc-cover.jpg",
+        "lien": "https://www.filecrypt.cc/Container/CC0E7631F5.html",
+        "description": "Un simulateur de construction de ville complexe.",
+        "synopsis": "Bâtissez une métropole florissante en gérant minutieusement l'économie, les chaînes de production et les besoins de vos citoyens dans ce jeu de gestion détaillé.",
+        "linux_status": "Playable",
+        "config": {
+            "min": {
+                "os": "Windows 10",
+                "cpu": "Intel Core i7-7700 @ 3.6Ghz",
+                "ram": "16 GB RAM",
+                "gpu": "GeForce GTX 760 Ti",
+                "dx": "Version 11",
+                "storage": "25 GB"
+            },
+            "rec": {
+                "os": "Windows 10",
+                "cpu": "AMD Ryzen 9 3900X @ 3800MHz",
+                "ram": "32 GB RAM",
+                "gpu": "GeForce GTX 1080 Ti / Radeon RX 5700 XT",
+                "dx": "Version 11",
+                "storage": "25 GB"
+            }
+        }
+    },
+    {
+        "nom": "#DRIVE Rally",
+        "categorie": "GOG",
+        "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgNOBS8U9owZRtaGPyT0EFU0ucvo3mJuAMdd40_xqsg6220hXjIvNyawrU8YuLoOyT3SdaKwUxFbZF7LE3pZ10AiL2QvCi8t8Aty7EEBU2XSsJZ7mRzVz_GVabDdHlPC-dAVe0Eokqeni4lxJPH31AmqWXg05RHmECDXAqwYMd7ub6DJe-TSBePpPdHJy0/s460/drive-rally-pc-cover.jpg",
+        "lien": "https://www.filecrypt.cc/Container/E1C52693DD.html",
+        "description": "Jeu de course inspiré par l'âge d'or des rallyes.",
+        "synopsis": "Prenez le volant des voitures les plus emblématiques des années 90 et dominez les étapes de rallye dans une expérience rapide et nostalgique.",
+        "linux_status": "Gold",
+        "config": {
+            "min": {
+                "os": "Windows 10",
+                "cpu": "Intel Core i3 @ 2.5GHz ou équivalent",
+                "ram": "4 GB RAM",
+                "gpu": "NVIDIA GeForce GTX 650 ou équivalent",
+                "dx": "Non spécifié",
+                "storage": "5 GB"
+            },
+            "rec": {
+                "os": "Windows 10",
+                "cpu": "Intel Core i5 @ 3.0GHz ou équivalent",
+                "ram": "8 GB RAM",
+                "gpu": "NVIDIA GeForce GTX 970 ou équivalent",
+                "dx": "Non spécifié",
+                "storage": "5 GB"
+            }
+        }
+    },
+    {
+        "nom": "Akimbot",
+        "categorie": "GOG",
+        "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg4OE1VsSGOwnpLFZpmxhc9jSwXIFrzOLCOJLKtkOZKf5upg1JfPZnUsu7KN1EDT9x4ik4YHMHElOYkFIDiUlmTwxfBYEUoO816WNfJHmPyt4Xr-1GBkKFjJBrSHwghsPu_zO-ptGZj5oUgUj952xO9D4vsHZD6Qp2p5eeB0qqlrggNnCvd6gQU6nEoqRE/s460/akimbot-pc-cover.jpg",
+        "lien": "https://www.filecrypt.cc/Container/C8B6916AE1.html",
+        "description": "Plateformer d'action futuriste.",
+        "synopsis": "Incarnez Exe, un robot mercenaire, dans une aventure explosive à travers une galaxie remplie de robots et de défis mécaniques.",
+        "linux_status": "Gold",
+        "config": {
+            "min": {
+                "os": "Windows 10",
+                "cpu": "AMD Ryzen 5 1500X / équivalent",
+                "ram": "16 GB RAM",
+                "gpu": "AMD Radeon R9 380 / équivalent",
+                "dx": "Non spécifié",
+                "storage": "20 GB"
+            },
+            "rec": {
+                "os": "Windows 10/11",
+                "cpu": "AMD Ryzen 5 5600X / équivalent",
+                "ram": "16 GB RAM",
+                "gpu": "NVIDIA GeForce RTX 3060 Ti / équivalent",
+                "dx": "Non spécifié",
+                "storage": "20 GB"
+            }
+        }
+    },
+    {
+        "nom": "I Am Your Beast",
+        "categorie": "GOG",
+        "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEh_BWsxTW9uh0mkJIvohKCpvdYwWhc51KJTWlzXfIQIquD6QXo5EooVB8wJRg5R3UpF-jRAG1tz6Kz7NqQJlxDSbl9qVoVSMd-wwEiCF5LANVq7wOj65A6K9vKEn5ByzT_Esrfe8ZNFhrB2EVnII2fb5IIODX3vMZP1sycQdXXktkmmNpnykzry3FGi-ko/s460/i-am-your-beast-pc-cover.jpg",
+        "lien": "https://www.filecrypt.cc/Container/8990C9C5DB.html",
+        "description": "FPS de survie et d'action tactique.",
+        "synopsis": "Traqué par des forces militaires, vous devez retourner vos armes contre vos poursuivants dans cette lutte sanglante pour la liberté.",
+        "linux_status": "Playable",
+        "config": {
+            "min": {
+                "os": "Windows 8 (64-bit)",
+                "cpu": "Dual-Core @ 2 GHz",
+                "ram": "4 GB RAM",
+                "gpu": "Intel HD Graphics 2000",
+                "dx": "Non spécifié",
+                "storage": "3 GB"
+            },
+            "rec": {
+                "os": "Non spécifié",
+                "cpu": "Non spécifié",
+                "ram": "Non spécifié",
+                "gpu": "Non spécifié",
+                "dx": "Non spécifié",
+                "storage": "Non spécifié"
+            }
+        }
+    },
+    {
+        "nom": "Moros Protocol",
+        "categorie": "GOG",
+        "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiwZgGyZtfXsMyXuAXvp5E5f7uDAxS5S4F2HUFOoz84QxwLADwY3JwPbEjaMdNIh9eOk-r_BC-7ccUE1PTpJX-YVKi_BF26sVd_ihiPWMnEPQ10XlGjo84Z1OaB9s08upCswBOLYxOYyGufUpFC85Gvlix8UH014Rk-i8hVxk6eS65_uMeva4KOciXqJ1Y/s460/moros-protocol-pc-cover.jpg",
+        "lien": "https://www.filecrypt.cc/Container/ABCE6AA07B.html",
+        "description": "Jeu de tir tactique en vue de dessus.",
+        "synopsis": "Évoluez dans un environnement post-apocalyptique hostile où la gestion des ressources et la discrétion sont aussi importantes que la précision de vos tirs.",
+        "linux_status": "Gold",
+        "config": {
+            "min": {
+                "os": "Windows 10",
+                "cpu": "Intel Core i5 / AMD Ryzen 5",
+                "ram": "8 GB RAM",
+                "gpu": "NVIDIA GeForce GTX 1050Ti",
+                "dx": "Version 10",
+                "storage": "2 GB"
+            },
+            "rec": {
+                "os": "Non spécifié",
+                "cpu": "Non spécifié",
+                "ram": "Non spécifié",
+                "gpu": "Non spécifié",
+                "dx": "Non spécifié",
+                "storage": "Non spécifié"
+            }
+        }
+    },
+    {
+        "nom": "Marvel's Spider-Man Remastered",
+        "categorie": "Repacks",
+        "image": "https://1.bp.blogspot.com/-vq2jB7vuoOU/Yva_k9BpMbI/AAAAAAABTN8/FjIsO9B8nP8BhFwS79E27yhyuBn7aYJ1ACNcBGAsYHQ/s460/marvels-spiderman-remastered-pc-cover.jpg",
+        "lien": "https://www.filecrypt.cc/Container/DFC7767658.html",
+        "description": "Jeu d'action-aventure en monde ouvert.",
+        "synopsis": "Incarnez Peter Parker et protégez New York contre des vilains emblématiques dans une aventure spectaculaire utilisant les capacités uniques de Spider-Man.",
+        "linux_status": "Gold",
+        "config": {
+            "min": {
+                "os": "Windows 10 (64-bit)",
+                "cpu": "Intel Core i3-4160 @ 3.6 GHz ou équivalent AMD",
+                "ram": "8 GB RAM",
+                "gpu": "NVIDIA GeForce GTX 950 / AMD Radeon RX 470",
+                "dx": "Version 12",
+                "storage": "75 GB"
+            },
+            "rec": {
+                "os": "Windows 10 (64-bit)",
+                "cpu": "Intel Core i5-4670 @ 3.4 GHz / AMD Ryzen 5 1600 @ 3.2 GHz",
+                "ram": "16 GB RAM",
+                "gpu": "NVIDIA GeForce GTX 1060 (6GB) / AMD Radeon RX 580 (8GB)",
+                "dx": "Version 12",
+                "storage": "75 GB"
+            }
+        }
+    },
+    {
+        "nom": "Marvel's Spider-Man 2: Deluxe Edition",
+        "categorie": "Repacks",
+        "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj65kxboIRoGX9HL_dPoQXRlWYBP-Aw4PNZQtSP4nYhFSiGR46pKfzEDCFyj7acNxzIgh_Xo8UpBowEMwCEs2kHS3NzebyqiIB6UbX3xJsWAHmJunVKDJy6f0OOR7RUlHb_K1fuxSs_FwVcUL8kirGmqewNY5V0Y38UOn9vE1eII8uzH-JR39Jfve5CJLs/s460/marvels-spider-man-2-pc-cover.jpg",
+        "lien": "https://www.filecrypt.cc/Container/E90EB17E3D.html",
+        "description": "Suite épique de Marvel's Spider-Man.",
+        "synopsis": "Peter et Miles font équipe pour affronter Venom et d'autres menaces dans cette aventure à grande échelle mettant en scène les deux Spider-Men.",
+        "linux_status": "Gold",
+        "config": {
+            "min": {
+                "os": "Windows 10/11 (version 1909 ou supérieure)",
+                "cpu": "Intel Core i3-8100 / AMD Ryzen 3 3100",
+                "ram": "16 GB RAM",
+                "gpu": "NVIDIA GeForce GTX 1650 / AMD Radeon RX 5500 XT",
+                "dx": "Non spécifié",
+                "storage": "Non spécifié"
+            },
+            "rec": {
+                "os": "Windows 10/11 (version 1909 ou supérieure)",
+                "cpu": "Intel Core i5-8400 / AMD Ryzen 5 3600",
+                "ram": "16 GB RAM",
+                "gpu": "NVIDIA GeForce RTX 3060 / AMD Radeon RX 5700",
+                "dx": "Non spécifié",
+                "storage": "Non spécifié"
+            }
+        }
+    },
+    {
+        "nom": "Marvel's Spider-Man: Miles Morales",
+        "categorie": "Repacks",
+        "image": "https://1.bp.blogspot.com/-4O0jGVWLwu4/Y3hGDgr9JXI/AAAAAAABUdI/3l6CltPVHOUUCn4qUZxH7U1FYM1bcOUjwCNcBGAsYHQ/s460/marvels-spider-man-miles-morales-pc-cover.jpg",
+        "lien": "https://www.filecrypt.cc/Container/D614DE28EA.html",
+        "description": "Spin-off centré sur Miles Morales.",
+        "synopsis": "Miles Morales doit apprendre à devenir son propre Spider-Man pour protéger son quartier et toute la ville dans une histoire touchante et pleine d'action.",
+        "linux_status": "Gold",
+        "config": {
+            "min": {
+                "os": "Windows 10 (64-bit, version 1909)",
+                "cpu": "Intel Core i3-4160 @ 3.6 GHz ou équivalent AMD",
+                "ram": "8 GB RAM",
+                "gpu": "NVIDIA GeForce GTX 950 / AMD Radeon RX 470",
+                "dx": "Version 12",
+                "storage": "75 GB"
+            },
+            "rec": {
+                "os": "Windows 10 (64-bit, version 1909)",
+                "cpu": "Intel Core i5-4670 @ 3.4 GHz / AMD Ryzen 5 1600 @ 3.2 GHz",
+                "ram": "16 GB RAM",
+                "gpu": "NVIDIA GeForce GTX 1060 (6GB) / AMD Radeon RX 580 (8GB)",
+                "dx": "Version 12",
+                "storage": "75 GB (SSD recommandé)"
+            }
+        }
+    },
+    {
+        "nom": "Ghost of Tsushima: Director's Cut",
+        "categorie": "Repacks",
+        "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjW_EccDBD6sE_9jvKBqiEpojivxWMrqzgdx6vO6KsyXFlvfhZOJMpXpmFnrIKu-nFTHdIJJ3kevcpSgA4uRRfrKknfBkg5rPllobyi6mm-rs0waQbiOUxDY5X0ukGADsM8ieS_MRfmwkmVhvkXTQkJTZ1exPo2b3LYNFc2C2eSn0YY2gFBo8ifWtDIPS4/s460/ghost-of-tsushima-directors-cut-pc-cover.jpg",
+        "lien": "https://www.filecrypt.cc/Container/5FEF089531.html",
+        "description": "Action-aventure épique au Japon féodal.",
+        "synopsis": "Incarnez Jin Sakai, un samouraï luttant pour protéger l'île de Tsushima contre une invasion mongole massive, en choisissant entre la voie du guerrier ou celle du Fantôme.",
+        "linux_status": "Platinum",
+        "config": {
+            "min": {
+                "os": "Windows 10 (64-bit)",
+                "cpu": "Intel Core i3-7100 / AMD Ryzen 3 1200",
+                "ram": "8 GB RAM",
+                "gpu": "NVIDIA GeForce GTX 960 / AMD Radeon RX 5500 XT",
+                "dx": "Non spécifié",
+                "storage": "75 GB (SSD recommandé)"
+            },
+            "rec": {
+                "os": "Windows 10 (64-bit)",
+                "cpu": "Intel Core i5-8600 / AMD Ryzen 5 3600",
+                "ram": "16 GB RAM",
+                "gpu": "NVIDIA GeForce RTX 2060 / AMD Radeon RX 5600 XT",
+                "dx": "Non spécifié",
+                "storage": "75 GB (SSD requis)"
+            }
+        }
+    },
+    {
+        "nom": "Dying Light Ultimate Edition",
+        "categorie": "Repacks",
+        "image": "https://1.bp.blogspot.com/-JNyv7of6jCE/Yi-OXdvBigI/AAAAAAAAA_Q/6l4VQLzEI2M63bEDdRs142EYjCiPfcJ5QCNcBGAsYHQ/s460/dying-light-pc-cover.jpg",
+        "lien": "https://www.filecrypt.cc/Container/63535EE5AF.html",
+        "description": "Jeu de survie en monde ouvert infesté de zombies.",
+        "synopsis": "Explorez une ville infectée, récupérez des ressources et utilisez le parkour pour survivre à la menace des morts-vivants qui deviennent encore plus dangereux à la tombée de la nuit.",
+        "linux_status": "Platinum",
+        "config": {
+            "min": {
+                "os": "Windows 7 / 8 / 8.1 (64-bit)",
+                "cpu": "Intel Core i5-2500 @3.3 GHz / AMD FX-8320 @3.5 GHz",
+                "ram": "4 GB RAM DDR3",
+                "gpu": "NVIDIA GeForce GTX 560 / AMD Radeon HD 6870 (1GB VRAM)",
+                "dx": "Version 11",
+                "storage": "50 GB"
+            },
+            "rec": {
+                "os": "Windows 7 / 8 / 8.1 (64-bit)",
+                "cpu": "Intel Core i5-4670K @3.4 GHz / AMD FX-8350 @4.0 GHz",
+                "ram": "8 GB RAM DDR3",
+                "gpu": "NVIDIA GeForce GTX 780 / AMD Radeon R9 290 (2GB VRAM)",
+                "dx": "Version 11",
+                "storage": "50 GB"
+            }
+        }
+    },
+    {
+        "nom": "Dying Light 2 Stay Human Ultimate Edition",
+        "categorie": "Repacks",
+        "image": "https://1.bp.blogspot.com/-PXfPar_5rgg/YuzV-cmIHdI/AAAAAAABTJI/7v7kVyPF2hsAMBPgMiEWRKLRePJ95EpAwCNcBGAsYHQ/s460/dying-light-2-stay-human-pc-cover.jpg",
+        "lien": "https://www.filecrypt.cc/Container/089EA51252.html",
+        "description": "Suite du célèbre jeu de parkour zombie.",
+        "synopsis": "Dans une cité ravagée, vos choix façonnent l'avenir des factions en présence tandis que vous luttez pour survivre dans ce nouveau chapitre post-apocalyptique.",
+        "linux_status": "Platinum",
+        "config": {
+            "min": {
+                "os": "Windows 7 (64-bit)",
+                "cpu": "Intel Core i3-9100 / AMD Ryzen 3 2300X",
+                "ram": "8 GB RAM",
+                "gpu": "NVIDIA GeForce GTX 1050 Ti / AMD Radeon RX 560 (4GB VRAM)",
+                "dx": "Non spécifié",
+                "storage": "60 GB"
+            },
+            "rec": {
+                "os": "Windows 10 (64-bit)",
+                "cpu": "AMD Ryzen 5 3600X / Intel Core i5-8600K (3.6 GHz ou plus)",
+                "ram": "16 GB RAM",
+                "gpu": "NVIDIA GeForce RTX 2060 (6GB) / AMD RX Vega 56 (8GB)",
+                "dx": "Non spécifié",
+                "storage": "60 GB"
+            }
+        }
+    },
+    {
+        "nom": "Dying Light: The Beast - Deluxe Edition",
+        "categorie": "Repacks",
+        "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjXCMUf7ji_gjby_fWdfV4UKDczStQ4mOrtL4pd1TGryFUnNURrYInTyBNfOmHcBjnFAIIDoknQdVYHHWDrOAHUwFI5IaW5kQ7nhk4h-Jf-xczVhx2X1ixwMo2kGTC-hrjsguG5oH5vneNd8OEsXBwWCf6Q93yHKCJNDX90mr_NeoSEBO7PCZ0F073GVaA/s460/dying-light-the-beast-pc-cover.jpg",
+        "lien": "https://www.filecrypt.cc/Container/6A00668593.html",
+        "description": "Nouvelle aventure dans l'univers de Dying Light.",
+        "synopsis": "Libéré après des années d'expériences brutales, Kyle Crane revient pour se venger. Explorez une vaste région tout en maîtrisant des capacités inhumaines.",
+        "linux_status": "Non testé",
+        "config": {
+            "min": {
+                "os": "Windows 10 ou plus récent (64-bit)",
+                "cpu": "Intel i5-13400F / AMD Ryzen 7 5800X",
+                "ram": "16 GB RAM",
+                "gpu": "NVIDIA GeForce 1060 / AMD Radeon 5500 XT / Intel ARC A750",
+                "dx": "Non spécifié",
+                "storage": "70 GB (SSD requis)"
+            },
+            "rec": {
+                "os": "Windows 10 ou plus récent (64-bit)",
+                "cpu": "Intel i5-13400F / AMD Ryzen 7 7700",
+                "ram": "16 GB RAM",
+                "gpu": "NVIDIA GeForce RTX 3070 TI / AMD Radeon 6750 XT / Intel ARC B580",
+                "dx": "Non spécifié",
+                "storage": "70 GB (SSD requis)"
+            }
+        }
+    },
+    {
+        "nom": "The Witcher: Enhanced Edition",
+        "categorie": "GOG",
+        "image": "https://images-4.gog.com/37d4a208d1f5bb0e163da540ac894ba46a7d566ede31aaaefc74bbcd46ebd190.jpg",
+        "lien": "https://www.filecrypt.cc/Container/56719564BF.html",
+        "description": "RPG sombre basé sur l'univers de Geralt de Riv.",
+        "synopsis": "Incarnez Geralt, un chasseur de monstres génétiquement modifié, dans une quête épique mêlant magie, trahisons et décisions morales lourdes de conséquences.",
+        "linux_status": "Gold",
+        "config": {
+            "min": {
+                "os": "Windows XP / Vista",
+                "cpu": "Intel Pentium 4 2.4 GHz / AMD Athlon 64 +2800",
+                "ram": "1 GB RAM",
+                "gpu": "NVIDIA GeForce 6600 / ATI Radeon 9800",
+                "dx": "Version 9.0c",
+                "storage": "15 GB"
+            },
+            "rec": {
+                "os": "Windows XP / Vista",
+                "cpu": "Intel Pentium 4 3.0 GHz / AMD Athlon 64 +3000",
+                "ram": "2 GB RAM",
+                "gpu": "NVIDIA GeForce 7800 GTX / ATI Radeon X1950 XT",
+                "dx": "Version 9.0c",
+                "storage": "15 GB"
+            }
+        }
+    },
+    {
+        "nom": "The Witcher 2: Assassins of Kings - Enhanced Edition",
+        "categorie": "GOG",
+        "image": "https://1.bp.blogspot.com/-VM0OKCHa4S8/X0Ih1FXyEzI/AAAAAAABCos/QmWY6WgbVJweYzL2mg8hUhiKMLYcWn0fwCLcBGAsYHQ/s1600/the-witcher-2-assassins-of-kings-enhanced-edition-pc-cover.jpg",
+        "lien": "https://www.filecrypt.cc/Container/970FEF4673.html",
+        "description": "Suite de l'aventure épique de Geralt.",
+        "synopsis": "Geralt est impliqué dans les complots politiques de royaumes en guerre tout en cherchant à retrouver sa propre identité et celle des assassins de rois.",
+        "linux_status": "Gold",
+        "config": {
+            "min": {
+                "os": "Windows XP / Vista / 7",
+                "cpu": "Intel 2.2 GHz Dual-Core / AMD 2.5 GHz Dual-Core",
+                "ram": "1.5 GB (XP) / 2 GB (Vista/7)",
+                "gpu": "GeForce 8800 (512 MB) / Radeon HD3850 (512 MB)",
+                "dx": "Version 9.29",
+                "storage": "25 GB"
+            },
+            "rec": {
+                "os": "Windows XP / Vista / 7",
+                "cpu": "Intel ou AMD Quad-Core",
+                "ram": "3 GB (XP) / 4 GB (Vista/7)",
+                "gpu": "GeForce 260 (1 GB) / Radeon HD 4850 (1 GB)",
+                "dx": "Version 9.29",
+                "storage": "25 GB"
+            }
+        }
+    },
+    {
+        "nom": "The Witcher 3: Wild Hunt - Complete Edition",
+        "categorie": "Repacks",
+        "image": "https://1.bp.blogspot.com/-Lx2Tuu78xJ4/Y5lTZ7LcwmI/AAAAAAABUuo/uNTF_9Vcf9gbHBVVUq64QDJ_fmv_sD1CQCNcBGAsYHQ/s460/the-witcher-3-complete-pc-cover.jpg",
+        "lien": "https://www.filecrypt.cc/Container/EC606036BC.html",
+        "description": "Le chef-d'œuvre de la saga Witcher.",
+        "synopsis": "Parcourez un monde immense à la recherche de Ciri, l'enfant de la prophétie, tout en accomplissant des contrats de chasse aux monstres dans un récit inoubliable.",
+        "linux_status": "Platinum",
+        "config": {
+            "min": {
+                "os": "Windows 7 / 8 / 8.1 (64-bit)",
+                "cpu": "Intel Core i5-2500K 3.3GHz / AMD Phenom II X4 940",
+                "ram": "6 GB RAM",
+                "gpu": "NVIDIA GeForce GTX 660 / AMD Radeon HD 7870",
+                "dx": "Non spécifié",
+                "storage": "40 GB"
+            },
+            "rec": {
+                "os": "Windows 7 / 8 / 8.1 (64-bit)",
+                "cpu": "Intel Core i7 3770 3.4 GHz / AMD FX-8350 4 GHz",
+                "ram": "8 GB RAM",
+                "gpu": "NVIDIA GeForce GTX 770 / AMD Radeon R9 290",
+                "dx": "Non spécifié",
+                "storage": "40 GB"
+            }
+        }
+    },
+    {
+        "nom": "Elden Ring Deluxe Edition",
+        "categorie": "Repacks",
+        "image": "https://1.bp.blogspot.com/-kOTxQvgEGYY/YhiUp1-hXWI/AAAAAAAAAOc/4JAEN2nbuwgMW7qyxasz9SlXO1lN9MQawCNcBGAsYHQ/s460/elden-ring-pc-cover.jpg",
+        "lien": "https://www.filecrypt.cc/Container/EF6677F9C2.html",
+        "description": "Action-RPG en monde ouvert acclamé par la critique.",
+        "synopsis": "Voyagez à travers l'Entre-terre pour devenir le Seigneur de l'Elden. Affrontez des boss légendaires dans ce monde vaste et exigeant créé par Hidetaka Miyazaki et George R. R. Martin.",
+        "linux_status": "Gold",
+        "config": {
+            "min": {
+                "os": "Windows 10 (64-bit)",
+                "cpu": "Intel Core i5-8400 / AMD Ryzen 3 3300X",
+                "ram": "12 GB RAM",
+                "gpu": "NVIDIA GeForce GTX 1060 (3 GB) / AMD Radeon RX 580 (4 GB)",
+                "dx": "Version 12",
+                "storage": "60 GB"
+            },
+            "rec": {
+                "os": "Windows 10 / 11 (64-bit)",
+                "cpu": "Intel Core i7-8700K / AMD Ryzen 5 3600X",
+                "ram": "16 GB RAM",
+                "gpu": "NVIDIA GeForce GTX 1070 (8 GB) / AMD Radeon RX Vega 56 (8 GB)",
+                "dx": "Version 12",
+                "storage": "60 GB"
+            }
+        }
+    },
+    {
+        "nom": "Grand Theft Auto: San Andreas",
+        "categorie": "Repacks",
+        "image": "https://4.bp.blogspot.com/-fPwFO3JnUn4/WlHCYhjS2DI/AAAAAAAApAw/V6oESNxgaV05yIKJx_5bSj4WWRTmWj-QgCLcBGAs/s1600/grand-theft-auto-san-andreas-pc-cover-www.ovagames.com.jpg",
+        "lien": "https://www.filecrypt.cc/Container/11631043AC.html",
+        "description": "Légendaire jeu d'action en monde ouvert.",
+        "synopsis": "CJ retourne chez lui à Los Santos pour découvrir que sa famille et ses amis sont en péril. Il doit reprendre le contrôle des rues.",
+        "linux_status": "Gold",
+        "config": {
+            "min": {
+                "os": "Windows 2000 / XP",
+                "cpu": "1 GHz Pentium III / AMD Athlon",
+                "ram": "256 MB RAM",
+                "gpu": "64 MB Video Card (GeForce 3 ou mieux)",
+                "dx": "Version 9.0",
+                "storage": "3.6 GB"
+            },
+            "rec": {
+                "os": "Windows 2000 / XP",
+                "cpu": "Intel Pentium 4 / AMD Athlon XP",
+                "ram": "384 MB RAM",
+                "gpu": "128 MB Video Card (GeForce 6 ou mieux)",
+                "dx": "Compatible DirectX 9",
+                "storage": "4.7 GB"
+            }
+        }
+    },
+    {
+        "nom": "Grand Theft Auto: Vice City",
+        "categorie": "Repacks",
+        "image": "https://1.bp.blogspot.com/-T-_jEBu5sF4/XfcOTUNeaEI/AAAAAAAA8FQ/lSM7b9XGBNYd_tIrFABYBVaJ6DcWMKv3ACLcBGAsYHQ/s1600/grand-theft-auto-vice-city-pc-cover.jpg",
+        "lien": "https://www.filecrypt.cc/Container/9403E66DDF.html",
+        "description": "Jeu d'action ancré dans les années 80.",
+        "synopsis": "Tommy Vercetti cherche à gravir les échelons du monde criminel de Vice City dans cette aventure imprégnée de néons et de trahisons.",
+        "linux_status": "Gold",
+        "config": {
+            "min": {
+                "os": "Windows 2000 / XP",
+                "cpu": "Intel Pentium III 800 MHz / AMD Athlon 800 MHz",
+                "ram": "128 MB RAM",
+                "gpu": "32 MB Video Card (GeForce ou mieux)",
+                "dx": "Version 9.0",
+                "storage": "915 MB (+ 635 MB sans support DXTC)"
+            },
+            "rec": {
+                "os": "Windows 2000 / XP",
+                "cpu": "Intel Pentium IV / AMD Athlon XP",
+                "ram": "256 MB RAM",
+                "gpu": "64 MB Video Card (GeForce 3 / Radeon 8500 ou mieux avec support DXTC)",
+                "dx": "Compatible DirectX 9",
+                "storage": "1.55 GB (+ 635 MB sans support DXTC)"
+            }
+        }
+    },
+    {
+        "nom": "Grand Theft Auto III: The Definitive Edition",
+        "categorie": "Repacks",
+        "image": "https://blogger.googleusercontent.com/img/a/AVvXsEj_tiCQPcuCFivqi4fnhcAJjiEwUmflvS7VZCtG7AeVKEe2lCaMaUmq4KFk9T9Jozu4dW9ZhkLoD7i6ArVZWgkitC-_oRuoV6aLGnjJxGX43maXq-Qgli6Qg7MQdTxJhEgYsiN0R7EbvOAGBlpOWAhpHzb8dzAgCvhcIKBwj9pKZDFAnNR9YeGwxeqAXw=s460",
+        "lien": "https://www.filecrypt.cc/Container/B3F93ADF5E.html",
+        "description": "Édition définitive du classique 3D.",
+        "synopsis": "Liberty City, là où tout commence. Claude, trahi par sa petite amie, doit frayer son chemin dans le crime organisé.",
+        "linux_status": "Playable",
+        "config": {
+            "min": {
+                "os": "Windows 10 (64-bit)",
+                "cpu": "Intel Core i5-6600K / AMD FX-6300",
+                "ram": "8 GB RAM",
+                "gpu": "NVIDIA GeForce GTX 760 (2GB) / AMD Radeon R9 280 (3GB)",
+                "dx": "Non spécifié",
+                "storage": "45 GB"
+            },
+            "rec": {
+                "os": "Windows 10 (64-bit)",
+                "cpu": "Intel Core i7-2700K / AMD Ryzen 5 2600",
+                "ram": "16 GB RAM",
+                "gpu": "NVIDIA GeForce GTX 970 (4GB) / AMD Radeon RX 570 (4GB)",
+                "dx": "Non spécifié",
+                "storage": "45 GB"
+            }
+        }
+    },
+    {
+        "nom": "Grand Theft Auto IV: Complete Edition",
+        "categorie": "Repacks",
+        "image": "https://1.bp.blogspot.com/-yVcFwRQlsMs/XO8F3dSQv_I/AAAAAAAA1eA/36HZlOXyzjwCMOTJJGIwp5omyv3EPTWQgCLcBGAs/s1600/grand-theft-auto-4-complete-edition-pc-cover-www.ovagames.com.jpg",
+        "lien": "https://www.filecrypt.cc/Container/CFC36DE2CF.html",
+        "description": "Histoire immersive dans Liberty City.",
+        "synopsis": "Niko Bellic arrive à Liberty City avec l'espoir d'échapper à son passé, mais il découvre vite les désillusions du rêve américain.",
+        "linux_status": "Gold",
+        "config": {
+            "min": {
+                "os": "Windows XP - SP3 / Vista - SP1",
+                "cpu": "Intel Core 2 Duo 1.8GHz / AMD Athlon X2 64 2.4GHz",
+                "ram": "1.5 GB RAM",
+                "gpu": "NVIDIA GeForce 7900 (256MB) / ATI Radeon X1900 (256MB)",
+                "dx": "Version 9.0c",
+                "storage": "32 GB"
+            },
+            "rec": {
+                "os": "Non spécifié",
+                "cpu": "Non spécifié",
+                "ram": "Non spécifié",
+                "gpu": "Non spécifié",
+                "dx": "Non spécifié",
+                "storage": "32 GB"
+            }
+        }
+    },
+    {
+        "nom": "Grand Theft Auto: San Andreas - The Definitive Edition",
+        "categorie": "Repacks",
+        "image": "https://blogger.googleusercontent.com/img/a/AVvXsEiik1mizK8Rzs-9v8s6OXkN7LrFlds9seP87IB_gvL3aUfiOysLnnP12FWbujR7p72KDyuPm3WRIW7lyYS_ES4-MLoSHezUIpmolrxtc3f_df_K9jKmOWXeMx1YhHdI4ZrNZVwT8V55cG_5dV_ivo4QhHTwzh86dnU69Eq5-INi317cqINVKTyW0ZZCvg=s460",
+        "lien": "https://www.filecrypt.cc/Container/A734D185BC.html",
+        "description": "Version remastérisée de San Andreas.",
+        "synopsis": "Explorez l'immense État de San Andreas avec des graphismes améliorés et des mécaniques de jeu modernisées.",
+        "linux_status": "Playable",
+        "config": {
+            "min": {
+                "os": "Windows 10 (64-bit)",
+                "cpu": "Intel Core i5-6600K / AMD FX-6300",
+                "ram": "8 GB RAM",
+                "gpu": "NVIDIA GeForce GTX 760 (2GB) / AMD Radeon R9 280 (3GB)",
+                "dx": "Non spécifié",
+                "storage": "45 GB"
+            },
+            "rec": {
+                "os": "Windows 10 (64-bit)",
+                "cpu": "Intel Core i7-2700K / AMD Ryzen 5 2600",
+                "ram": "16 GB RAM",
+                "gpu": "NVIDIA GeForce GTX 970 (4GB) / AMD Radeon RX 570 (4GB)",
+                "dx": "Non spécifié",
+                "storage": "45 GB"
+            }
+        }
+    },
+    {
+        "nom": "Grand Theft Auto: Vice City - The Definitive Edition",
+        "categorie": "Repacks",
+        "image": "https://blogger.googleusercontent.com/img/a/AVvXsEiiHqJhoMpklTThv-YzdNi-KnG1nL3shvcwYYF5D0yZVhCu46eDaUBqUJhIZY9USsUySf4X5zc87800-ggSXigkDmFKosElcgPCOvrkjIkTAoMRKojv4as6joUrN3oc12Qa48t9UBRbQdL9oASAsrg2WrJzhbYq00dcMX2cFC4N8ea7wQ8qyOMt9dQwVg=s460",
+        "lien": "https://www.filecrypt.cc/Container/081E27EDE1.html",
+        "description": "Version remastérisée de Vice City.",
+        "synopsis": "Redécouvrez Vice City avec des effets visuels modernes tout en conservant l'ambiance unique des années 80.",
+        "linux_status": "Playable",
+        "config": {
+            "min": {
+                "os": "Windows 10 (64-bit)",
+                "cpu": "Intel Core i5-6600K / AMD FX-6300",
+                "ram": "8 GB RAM",
+                "gpu": "NVIDIA GeForce GTX 760 (2GB) / AMD Radeon R9 280 (3GB)",
+                "dx": "Non spécifié",
+                "storage": "45 GB"
+            },
+            "rec": {
+                "os": "Windows 10 (64-bit)",
+                "cpu": "Intel Core i7-2700K / AMD Ryzen 5 2600",
+                "ram": "16 GB RAM",
+                "gpu": "NVIDIA GeForce GTX 970 (4GB) / AMD Radeon RX 570 (4GB)",
+                "dx": "Non spécifié",
+                "storage": "45 GB"
+            }
+        }
+    },
+    {
+        "nom": "Grand Theft Auto V",
+        "categorie": "Repacks",
+        "image": "https://1.bp.blogspot.com/-eSpUYxrCofI/Ym1XzK0dWSI/AAAAAAAABLQ/JwhP3itrf2wsZY1ww4M9ygl7k3Lyc4h9QCNcBGAsYHQ/s460/grand-theft-auto-5-pc-cover.jpg",
+        "lien": "https://www.filecrypt.cc/Container/6BB60EBE5E.html",
+        "description": "Le phénomène GTA V.",
+        "synopsis": "Trois criminels aux parcours très différents s'unissent pour réaliser une série de casses audacieux dans une ville impitoyable.",
+        "linux_status": "Gold",
+        "config": {
+            "min": {
+                "os": "Windows Vista - SP2 / 7 - SP1 / 8 / 8.1 (64-bit)",
+                "cpu": "Intel Core 2 Quad Q6600 @ 2.40GHz / AMD Phenom 9850 Quad-Core @ 2.5GHz",
+                "ram": "4 GB RAM",
+                "gpu": "NVIDIA 9800 GT (1GB) / AMD HD 4870 (1GB)",
+                "dx": "Compatible DirectX 10",
+                "storage": "65 GB"
+            },
+            "rec": {
+                "os": "Windows 7 - SP1 / 8 / 8.1 (64-bit)",
+                "cpu": "Intel Core i5 3470 @ 3.2GHz / AMD FX-8350 @ 4GHz",
+                "ram": "8 GB RAM",
+                "gpu": "NVIDIA GeForce GTX 660 (2GB) / AMD Radeon HD 7870 (2GB)",
+                "dx": "Compatible DirectX 10",
+                "storage": "65 GB"
+            }
+        }
+    },
+    {
+        "nom": "Grand Theft Auto V Enhanced",
+        "categorie": "Repacks",
+        "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiOj8Xi0gzskerwJPIosLZ02gTwvs84qTAJf0uw8dh8TvC0NCbOHl3oHfTl9WP07yOK3slkQWlZK0LOMmYu_12UrOKZ43sVx_NNuxj6AaBdQ28MoQknR3kXBDUrsWlqywDRuR7sOpQSuVgovBmz8vhWDYO6coeliQobXd0g20H8ntlB9AdvaDJpS2tnN-E/s460/gta-5-enhanced-pc-cover.jpg",
+        "lien": "https://www.filecrypt.cc/Container/6901D20658.html",
+        "description": "Édition optimisée de GTA V.",
+        "synopsis": "Profitez de graphismes améliorés et de temps de chargement réduits dans cette version optimisée pour le matériel moderne.",
+        "linux_status": "Gold",
+        "config": {
+            "min": {
+                "os": "Windows 10 (64-bit)",
+                "cpu": "Intel Core i7-4770 / AMD FX-9590",
+                "ram": "8 GB RAM",
+                "gpu": "NVIDIA GeForce GTX 1630 (4GB) / AMD Radeon RX 6400 (4GB)",
+                "dx": "Compatible DirectX 10",
+                "storage": "105 GB (SSD requis)"
+            },
+            "rec": {
+                "os": "Windows 11 (64-bit)",
+                "cpu": "Intel Core i5-9600K / AMD Ryzen 5 3600",
+                "ram": "16 GB RAM",
+                "gpu": "NVIDIA GeForce RTX 3060 (8GB) / AMD Radeon RX 6600XT (8GB)",
+                "dx": "Non spécifié",
+                "storage": "105 GB (SSD DirectStorage requis)"
+            }
+        }
+    },
+    {
+        "nom": "Red Dead Redemption 2",
+        "categorie": "Repacks",
+        "image": "https://1.bp.blogspot.com/-v8e1rkz0B2Q/X5Gfyj3akWI/AAAAAAABD6g/t-CgjofHqBcHcfoG4j1QY-IdArMn4IuIQCLcBGAsYHQ/s460/red-dead-redemption-2-pc-cover.jpg",
+        "lien": "https://www.filecrypt.cc/Container/8711E7056F.html",
+        "description": "Western épique en monde ouvert.",
+        "synopsis": "Suivez Arthur Morgan et la bande de Van der Linde alors qu'ils tentent de survivre à la fin de l'ère du Far West en Amérique.",
+        "linux_status": "Gold",
+        "config": {
+            "min": {
+                "os": "Windows 7 - SP1 (64-bit)",
+                "cpu": "Intel Core i5-2500K / AMD FX-6300",
+                "ram": "8 GB RAM",
+                "gpu": "NVIDIA GeForce GTX 770 (2GB) / AMD Radeon R9 280 (3GB)",
+                "dx": "DirectX Compatible",
+                "storage": "150 GB"
+            },
+            "rec": {
+                "os": "Windows 10 - v1803 (64-bit)",
+                "cpu": "Intel Core i7-4770K / AMD Ryzen 5 1500X",
+                "ram": "12 GB RAM",
+                "gpu": "NVIDIA GeForce GTX 1060 (6GB) / AMD Radeon RX 480 (4GB)",
+                "dx": "DirectX Compatible",
+                "storage": "150 GB"
+            }
+        }
+    },
+    {
+        "nom": "Baldur's Gate 3 Deluxe Edition",
+        "categorie": "Repacks",
+        "image": "https://1.bp.blogspot.com/-hLnc0Vf44SY/ZMwwkP94q_I/AAAAAAABYfo/gXsd7JVrrtEJ_HWbxqKT7OAlyuqmxQzVgCNcBGAsYHQ/s460/baldurs-gate-3-pc-cover.jpg",
+        "lien": "https://www.filecrypt.cc/Container/1C950B72A4.html",
+        "description": "RPG tactique basé sur D&D 5e.",
+        "synopsis": "Le destin des Royaumes Oubliés est entre vos mains. Rassemblez votre équipe et lancez-vous dans une aventure épique où vos choix redéfinissent le monde.",
+        "linux_status": "Platinum",
+        "config": {
+            "min": {
+                "os": "Windows 10 (64-bit)",
+                "cpu": "Intel Core i5-4690 / AMD FX 8350",
+                "ram": "8 GB RAM",
+                "gpu": "NVIDIA GTX 970 / RX 480 (4GB+ VRAM)",
+                "dx": "Version 11",
+                "storage": "150 GB (SSD requis)"
+            },
+            "rec": {
+                "os": "Windows 10 (64-bit)",
+                "cpu": "Intel Core i7-8700K / AMD Ryzen 5 3600",
+                "ram": "16 GB RAM",
+                "gpu": "NVIDIA RTX 2060 Super / RX 5700 XT (8GB+ VRAM)",
+                "dx": "Version 11",
+                "storage": "150 GB (SSD requis)"
+            }
+        }
+    },
+    {
+        "nom": "Baldur's Gate II: Enhanced Edition",
+        "categorie": "GOG",
+        "image": "https://1.bp.blogspot.com/-z9waDSKCyQo/YImQZtofXVI/AAAAAAABJqI/gLVjWLgl9OsxlDlUqakUM1mHuHcEyYp4gCLcBGAsYHQ/s460/baldurs-gate-2-enhanced-edition-pc-cover.jpg",
+        "lien": "https://www.filecrypt.cc/Container/F97C14CC6B.html",
+        "description": "Classique du RPG CRPG.",
+        "synopsis": "Capturé par le magicien fou Irenicus, vous devez échapper à ses griffes et explorer les terres de l'Amn dans cette suite légendaire.",
+        "linux_status": "Native",
+        "config": {
+            "min": {
+                "os": "Windows XP / Vista / 7 / 8 / 10",
+                "cpu": "1 GHz",
+                "ram": "512 MB RAM",
+                "gpu": "Compatible OpenGL 2.0",
+                "dx": "Non applicable",
+                "storage": "3 GB"
+            },
+            "rec": {
+                "os": "Non spécifié",
+                "cpu": "Non spécifié",
+                "ram": "Non spécifié",
+                "gpu": "Non spécifié",
+                "dx": "Non applicable",
+                "storage": "3 GB"
+            }
+        }
+    },
+    {
+        "nom": "Baldur's Gate: Enhanced Edition",
+        "categorie": "GOG",
+        "image": "https://1.bp.blogspot.com/-sZrlU2-FfYs/YImMR4Fu2CI/AAAAAAABJpQ/-OiyJMmyx50K6j5ieN8IAQuEoaTs9ZMZgCLcBGAsYHQ/s460/baldurs-gate-enhanced-edition-pc-cover.jpg",
+        "lien": "https://www.filecrypt.cc/Container/7B446FE214.html",
+        "description": "Version remastérisée du CRPG classique.",
+        "synopsis": "Obligé de quitter votre foyer, vous vous retrouvez plongé dans un conflit qui menace les Royaumes Oubliés.",
+        "linux_status": "Native",
+        "config": {
+            "min": {
+                "os": "Windows XP / Vista / 7 / 8",
+                "cpu": "1 GHz",
+                "ram": "512 MB RAM",
+                "gpu": "Compatible OpenGL 2.0",
+                "dx": "Non applicable",
+                "storage": "2.17 GB"
+            },
+            "rec": {
+                "os": "Non spécifié",
+                "cpu": "Non spécifié",
+                "ram": "Non spécifié",
+                "gpu": "Non spécifié",
+                "dx": "Non applicable",
+                "storage": "2.17 GB"
+            }
+        }
+    },
+    {
+        "nom": "Baldur's Gate: Dark Alliance",
+        "categorie": "GOG",
+        "image": "https://blogger.googleusercontent.com/img/a/AVvXsEhuHB334i0CuDdAqMJtpT4szjaVi6Tl1kfhhyBiMj7gDPqw_o7h5eCNKVSuNwOlMpswOn0EAR9hZyXHIStz5rDrfdwitk5c0v--zd3GRtOvOShI6VqFJbIJbEd6aKhRi42tKEmLmcrQZcbJn_0o7oalUa1if7Ji-eZxX-rw00R9_B6SXzbV2fTJ3iSN=s460",
+        "lien": "https://www.filecrypt.cc/Container/21C0C9DC8C.html",
+        "description": "Action-RPG hack-and-slash.",
+        "synopsis": "Un jeu d'action intense situé dans l'univers de Donjons & Dragons, mettant l'accent sur les combats rapides et le loot.",
+        "linux_status": "Gold",
+        "config": {
+            "min": {
+                "os": "Windows 7 / 8 / 10 (64-bit)",
+                "cpu": "Pentium 4 2Ghz / AMD Athlon XP 2400",
+                "ram": "1 GB RAM",
+                "gpu": "GeForce FX5700 ou mieux / ATI Radeon 9600 ou mieux",
+                "dx": "Non spécifié",
+                "storage": "6 GB"
+            },
+            "rec": {
+                "os": "Non spécifié",
+                "cpu": "Non spécifié",
+                "ram": "Non spécifié",
+                "gpu": "Non spécifié",
+                "dx": "Non spécifié",
+                "storage": "6 GB"
+            }
+        }
+    },
+    {
+        "nom": "Baldur's Gate: Dark Alliance II",
+        "categorie": "GOG",
+        "image": "https://1.bp.blogspot.com/--eKiOW7NzCk/Ytn6Y2nTNbI/AAAAAAAABHU/16M6AuuF8M43fPyCNKvixnkc67IO4NKBwCNcBGAsYHQ/s460/baldurs-gate-dark-alliance-2-pc-cover.jpg",
+        "lien": "https://www.filecrypt.cc/Container/AA84DB8C18.html",
+        "description": "Suite action-RPG.",
+        "synopsis": "Poursuivez l'aventure dans une quête épique à travers Baldur's Gate avec de nouvelles classes et un arsenal plus vaste.",
+        "linux_status": "Gold",
+        "config": {
+            "min": {
+                "os": "Windows 7 / 8 / 10 (64-bit)",
+                "cpu": "Pentium 4 2Ghz / AMD Athlon XP 2400",
+                "ram": "1 GB RAM",
+                "gpu": "GeForce FX5700 ou mieux / ATI Radeon 9600 ou mieux",
+                "dx": "Non spécifié",
+                "storage": "6 GB"
+            },
+            "rec": {
+                "os": "Non spécifié",
+                "cpu": "Non spécifié",
+                "ram": "Non spécifié",
+                "gpu": "Non spécifié",
+                "dx": "Non spécifié",
+                "storage": "6 GB"
+            }
+        }
+    },
+    {
+        "nom": "Cyberpunk 2077 Ultimate Edition",
+        "categorie": "Repacks",
+        "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEifz-U0Jtc-USAE93oVGTKxEdaHRRm8YPRX6fWHX4LGwq3maDc6U_DtZAH7ncib2MlWGaLjQogP9rvRyZ83mHbsAVFdpUn4veR-POgrnIdxRNpyT5spDgMg81ifr8aBisKgSsYcr_2DFEbek0GbTj9jaAgjNaFop6B0pOH1RdYJ17zxhQYeoifB5Iv2ThY/s460/cyberpunk-2077-ultimate-pc-cover.jpg",
+        "lien": "https://www.filecrypt.cc/Container/7547E7184A.html",
+        "description": "RPG futuriste en monde ouvert.",
+        "synopsis": "Devenez un mercenaire équipé d'améliorations cybernétiques à Night City, une mégalopole obsédée par la puissance et le corps.",
+        "linux_status": "Gold",
+        "config": {
+            "min": {
+                "os": "Windows 7 ou 10 (64-bit)",
+                "cpu": "Intel Core i5-3570K / AMD FX-8310",
+                "ram": "8 GB RAM",
+                "gpu": "NVIDIA GeForce GTX 780 / AMD Radeon RX 470",
+                "dx": "Version 12",
+                "storage": "70 GB"
+            },
+            "rec": {
+                "os": "Windows 10 (64-bit)",
+                "cpu": "Intel Core i7-4790 / AMD Ryzen 3 3200G",
+                "ram": "12 GB RAM",
+                "gpu": "GTX 1060 6GB / GTX 1660 Super / Radeon RX 590",
+                "dx": "Version 12",
+                "storage": "70 GB (SSD recommandé)"
+            }
+        }
+    },
+    {
+        "nom": "LEGO Horizon Adventures: Deluxe Edition",
+        "categorie": "Repacks",
+        "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjCXYmXOlP60f5rnsfhcKtwWv19qhMCOKc4xRyeFa_7ixo7PV2-Tbh3fJq47N5wVH-kYT_6IPTCZ_CMG3Kqivg5OzfTT79LOXn6mD4mcffrC2Y5jatosGRxzH6HyK4S5WzDmaaYCQRYjgUg6X2YFlt6PxQjpwWx4-k5PJG2mhwDe1IOiCztAOFbQ0QDyC0/s460/lego-horizon-adventures-pc-cover.jpg",
+        "lien": "https://www.filecrypt.cc/Container/17F6833255.html",
+        "description": "Une aventure unique dans un monde de briques inspiré d'Horizon.",
+        "synopsis": "Explorez un monde rempli de dinosaures mécaniques revisité avec l'esthétique LEGO, mêlant humour et action pour une aventure accessible à tous[cite: 8].",
+        "linux_status": "Gold",
+        "config": {
+            "min": {
+                "os": "Windows 10 (64-bit)",
+                "cpu": "Intel Core i5-8400 / AMD Ryzen 5 2600",
+                "ram": "16 GB RAM",
+                "gpu": "NVIDIA GeForce GTX 1650 / AMD Radeon RX 580",
+                "dx": "Non spécifié",
+                "storage": "30 GB"
+            },
+            "rec": {
+                "os": "Windows 10 (64-bit)",
+                "cpu": "Intel Core i5-10600K / AMD Ryzen 5 3600",
+                "ram": "16 GB RAM",
+                "gpu": "NVIDIA GeForce RTX 3070 / AMD Radeon RX 6800",
+                "dx": "Non spécifié",
+                "storage": "30 GB"
+            }
+        }
+    },
+    {
+        "nom": "Resident Evil Requiem: Deluxe Edition",
+        "categorie": "Repacks",
+        "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgB7WRlHqR0tOUEFO0phwGC1_AsPKuBK2LgPgxMz7E7K8Eb1x6BFGXMIQDTDL88ohChJ7jxpFpwbeE9kNdo-tMJA4yfvxP_II6tJqC9C4mudg_ZucGx7QuKD-nJkMiZSGD3KLtNxQRuqhmBtNIVaMEXCKlet742N6Dm3vq_TYJ8Hg5Cs9pPRzaSGSI7NvE/s460/resident-evil-requiem-pc-cover.jpg",
+        "lien": "https://www.filecrypt.cc/Container/DAD9D5E058.html",
+        "description": "Action horrifique intense.",
+        "synopsis": "Affrontez des horreurs indicibles dans cette expérience de survie immersive mettant à l'épreuve vos nerfs et vos ressources[cite: 8].",
+        "linux_status": "Gold",
+        "config": {
+            "min": {
+                "os": "Windows 11 (64-bit)",
+                "cpu": "Intel Core i5-8500 / AMD Ryzen 5 3500",
+                "ram": "16 GB RAM",
+                "gpu": "GeForce GTX 1660 (6GB) / Radeon RX 5500 XT (8GB)",
+                "dx": "Version 12",
+                "storage": "Non spécifié (SSD requis)"
+            },
+            "rec": {
+                "os": "Windows 11 (64-bit)",
+                "cpu": "Intel Core i7-8700 / AMD Ryzen 5 5500",
+                "ram": "16 GB RAM",
+                "gpu": "GeForce RTX 2060 Super (8GB) / Radeon RX 6600 (8GB)",
+                "dx": "Version 12",
+                "storage": "Non spécifié (SSD requis)"
+            }
+        }
+    },
+    {
+        "nom": "Call of Duty: Modern Warfare 2",
+        "categorie": "PROPHET",
+        "image": "https://1.bp.blogspot.com/-O9JfrOtwSFA/WYPFlzxyC1I/AAAAAAAAi90/ps7iE0_RMqEmjhzWI4cnSOUtECvNiqY7wCLcBGAs/s1600/call-of-duty-modern-warfare-2-pc-cover-www.ovagames.com.jpg",
+        "lien": "https://www.filecrypt.cc/Container/A4C7D30C62.html",
+        "description": "La suite directe du succès Modern Warfare.",
+        "synopsis": "Le monde est au bord de l'effondrement dans cette campagne intense où le danger guette à chaque coin de rue[cite: 8].",
+        "linux_status": "Platinum",
+        "config": {
+            "min": {
+                "os": "Windows XP / Vista (ou supérieur)",
+                "cpu": "Intel Pentium 4 3.2 GHz / AMD Athlon 64 3200+ (ou supérieur)",
+                "ram": "1 GB RAM",
+                "gpu": "NVIDIA GeForce 6600 GT (256 MB) / ATI Radeon X1600 XT (ou supérieure)",
+                "dx": "Version 9.0c",
+                "storage": "12 GB"
+            },
+            "rec": {
+                "os": "Non spécifié",
+                "cpu": "Non spécifié",
+                "ram": "Non spécifié",
+                "gpu": "Non spécifié",
+                "dx": "Non spécifié",
+                "storage": "Non spécifié"
+            }
+        }
+    },
+    {
+        "nom": "Call of Duty: Modern Warfare 3",
+        "categorie": "Repacks",
+        "image": "https://3.bp.blogspot.com/-9FqqNb_VuFI/WX76CfSFnRI/AAAAAAAAi1Y/3puKT2FOx1Ej6-wW-dVcqa906adT7_8JgCLcBGAs/s1600/Call-of-Duty-Modern-Warfare-3-PC-Game-Cover-www.ovagames.com.jpg",
+        "lien": "https://www.filecrypt.cc/Container/226FC25907.html",
+        "description": "Le chapitre final de la trilogie Modern Warfare originale.",
+        "synopsis": "Le conflit mondial atteint son paroxysme dans une campagne cinématographique où rien ne sera épargné[cite: 8].",
+        "linux_status": "Platinum",
+        "config": {
+            "min": {
+                "os": "Windows XP / Vista / 7",
+                "cpu": "Intel Core 2 Duo @ 2.4 GHz / AMD Athlon 64 X2 5000+",
+                "ram": "2 GB RAM",
+                "gpu": "nVidia GeForce 8600 / ATI Radeon HD 2600 Pro (256 MB)",
+                "dx": "Version 9.0c",
+                "storage": "70 GB"
+            },
+            "rec": {
+                "os": "Windows XP / Vista / 7",
+                "cpu": "Intel Core 2 Duo @ 3.0 GHz / AMD Athlon 64 X2 6000+",
+                "ram": "4 GB RAM",
+                "gpu": "nVidia GeForce GTX 460 / ATI Radeon HD 6850 (1 GB)",
+                "dx": "Version 9.0c",
+                "storage": "70 GB"
+            }
+        }
+    },
+    {
+        "nom": "Call of Duty: Modern Warfare Remastered",
+        "categorie": "CODEX",
+        "image": "https://2.bp.blogspot.com/-ohTPNgN1wMA/WXyCVRrIdNI/AAAAAAAAivI/cDbDZh3xDVYqE1vUsL37Cm8ECRNroNUegCLcBGAs/s1600/call-of-duty-modern-warfare-remastered-pc-cover-www.ovagames.com.jpg",
+        "lien": "https://www.filecrypt.cc/Container/CD5E5B6EEB.html",
+        "description": "Remasterisation du chef-d'œuvre classique.",
+        "synopsis": "L'expérience Modern Warfare originale est de retour avec des graphismes modernisés et une fidélité accrue[cite: 8].",
+        "linux_status": "Gold",
+        "config": {
+            "min": {
+                "os": "Windows 7 (64-bit) / Windows 8 (64-bit) / Windows 8.1 (64-bit) / Windows 10 (64-bit)",
+                "cpu": "Intel Core i3-530 @ 2.93 GHz / AMD Phenom II X4 810 @ 2.80 GHz",
+                "ram": "6 GB RAM",
+                "gpu": "NVIDIA GeForce GTS 450 (1GB) / ATI Radeon HD 7850 (1GB)",
+                "dx": "Version 11",
+                "storage": "55 GB"
+            },
+            "rec": {
+                "os": "Non spécifié",
+                "cpu": "Non spécifié",
+                "ram": "Non spécifié",
+                "gpu": "Non spécifié",
+                "dx": "Non spécifié",
+                "storage": "Non spécifié"
+            }
+        }
+    },
+    {
+        "nom": "Call of Duty: Modern Warfare",
+        "categorie": "Repacks",
+        "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgd9SuctxIEEIafqBrfaUA7NbQFwCX45_KAFam0n4xfxKjEA00QR1IOGL3d_dKY4KvTgKyyhbaWfkYWghhXKLpMGEBWgm0WiRZYzteoOCzKMEw8lr1R5MZZyjjBSOOT5PbiVXhq4302S7yOMgK-3-_hI5vpJylDzai9zaDtveN5Kopz5rbj9IiaYT3dYRw/s460/cod-modern-warfare-pc-cover.jpg",
+        "lien": "https://www.filecrypt.cc/Container/9BC1EDF751.html",
+        "description": "Reboot complet de la sous-série.",
+        "synopsis": "Une campagne poignante et réaliste qui explore les dilemmes moraux de la guerre moderne[cite: 8].",
+        "linux_status": "Gold",
+        "config": {
+            "min": {
+                "os": "Windows 10 (64-bit)",
+                "cpu": "Intel Core i3-4340 / AMD FX-6300",
+                "ram": "8 GB RAM",
+                "gpu": "NVIDIA GeForce GTX 670 / NVIDIA GeForce GTX 1650 / AMD Radeon HD 7950",
+                "dx": "Version 12",
+                "storage": "175 GB"
+            },
+            "rec": {
+                "os": "Windows 10 (64-bit, dernière mise à jour)",
+                "cpu": "Intel Core i5-2500K / AMD Ryzen 5 1600X",
+                "ram": "12 GB RAM",
+                "gpu": "NVIDIA GeForce GTX 970 / NVIDIA GeForce GTX 1660 / AMD Radeon R9 390 / AMD Radeon RX 580",
+                "dx": "Version 12",
+                "storage": "175 GB"
+            }
+        }
+    },
+    {
+        "nom": "Call of Duty: Modern Warfare II",
+        "categorie": "Repacks",
+        "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhicxPIV88UC9-xUlPWVGdz2gev54WmN7_Lg4K4p3VElOrrl9kQjt5Ow-Wzt_KveJtupGyTK6IIMLUmSnPfcoGxfUWIqS1pamEZm7pjJA2tMOy05iYnfeMcOw6vJor_AweHxQQN-vW8Vg31Nr-tZa-dr67ZcbeDx9mEmO8XjFa9GQl7hYCIZMzJ7hbv9_U/s460/cod-mw-2-pc-cover.jpg",
+        "lien": "https://www.filecrypt.cc/Container/7C42CC89D3.html",
+        "description": "Suite immersive et haute en action.",
+        "synopsis": "La Task Force 141 se reforme pour une mission mondiale visant à contrer une menace terroriste croissante[cite: 8].",
+        "linux_status": "Gold",
+        "config": {
+            "min": {
+                "os": "Windows 10 (64-bit, dernière mise à jour)",
+                "cpu": "Intel Core i3-6100 / Core i5-2500K / AMD Ryzen 3 1200",
+                "ram": "8 GB RAM",
+                "gpu": "NVIDIA GeForce GTX 960 / AMD Radeon RX 470",
+                "dx": "Version 12",
+                "storage": "125 GB"
+            },
+            "rec": {
+                "os": "Windows 10 / 11 (64-bit, dernière mise à jour)",
+                "cpu": "Intel Core i5-6600K / Core i7-4770 / AMD Ryzen 5 1400",
+                "ram": "8 GB RAM",
+                "gpu": "NVIDIA GeForce GTX 1060 / AMD Radeon RX 580 / Intel Arc A770",
+                "dx": "Version 12",
+                "storage": "125 GB"
+            }
+        }
+    },
+    {
+        "nom": "Call of Duty: Modern Warfare III",
+        "categorie": "Repacks",
+        "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjbn-ktWTE5cCVhN0bA77jjPHsD_aI3FnNdR7Pa58-T8ITuDl4AJyqli0uZ00cD_vlRJwhCICe8V6ng3Q91LiEs71oBRqhdXEm7-BYDG9orjRYYTzjHSevhMkuUANx5DOfWIgXDulqd_97G72VWhvVvB00QL_hTudvE1WLdTrSrSU0u9bj5NRePSuRudmg/s460/call-of-duty-modern-warfare-3-pc-cover.jpg",
+        "lien": "https://www.filecrypt.cc/Container/A7A02C6450.html",
+        "description": "Le retour de Makarov.",
+        "synopsis": "Capitaine Price et la Task Force 141 doivent faire face à Makarov dans cette conclusion épique[cite: 8].",
+        "linux_status": "Gold",
+        "config": {
+            "min": {
+                "os": "Windows 10 (64-bit, dernière mise à jour)",
+                "cpu": "Intel Core i5-6600 / AMD Ryzen 5 1400",
+                "ram": "8 GB RAM",
+                "gpu": "NVIDIA GeForce GTX 960 / GTX 1650 / AMD Radeon RX 470",
+                "dx": "Version 12",
+                "storage": "102 GB (SSD requis)"
+            },
+            "rec": {
+                "os": "Windows 10 / 11 (64-bit, dernière mise à jour)",
+                "cpu": "Intel Core i7-6700K / AMD Ryzen 5 1600X",
+                "ram": "16 GB RAM",
+                "gpu": "NVIDIA GeForce GTX 1080 Ti / RTX 3060 / AMD Radeon RX 6600 XT / Intel Arc A770",
+                "dx": "Version 12",
+                "storage": "102 GB (SSD requis)"
+            }
+        }
+    },
+    {
+        "nom": "Starfield: Premium Edition",
+        "categorie": "Repacks",
+        "image": "https://1.bp.blogspot.com/-UEkRXOaPWHk/ZPFrWOrV-6I/AAAAAAABYy0/rMvLZIvJ3jcmaQfoHdczjiXgEjYML0X8gCNcBGAsYHQ/s460/starfield-pc-cover.jpg",
+        "lien": "https://www.filecrypt.cc/Container/6CB891A0F6.html",
+        "description": "RPG spatial épique par Bethesda Game Studios.",
+        "synopsis": "Voyagez à travers les étoiles et explorez une galaxie vaste pour découvrir des mystères anciens dans ce RPG de science-fiction[cite: 8].",
+        "linux_status": "Gold",
+        "config": {
+            "min": {
+                "os": "Windows 10 (version 21H1 ou supérieure)",
+                "cpu": "AMD Ryzen 5 2600X / Intel Core i7-6800K",
+                "ram": "16 GB RAM",
+                "gpu": "AMD Radeon RX 5700 / NVIDIA GeForce GTX 1070 Ti",
+                "dx": "Version 12",
+                "storage": "125 GB (SSD requis)"
+            },
+            "rec": {
+                "os": "Windows 10 / 11 (avec mises à jour)",
+                "cpu": "AMD Ryzen 5 3600X / Intel Core i5-10600K",
+                "ram": "16 GB RAM",
+                "gpu": "AMD Radeon RX 6800 XT / NVIDIA GeForce RTX 2080",
+                "dx": "Version 12",
+                "storage": "125 GB (SSD requis)"
+            }
+        }
+    },
+    {
+        "nom": "Call of Duty: Deluxe Edition",
+        "categorie": "Repacks",
+        "image": "https://1.bp.blogspot.com/-tzNhcYaf18I/YDuZgt3fx4I/AAAAAAABHvs/WWaC7VQ9d7krLVL_5OCZ7T_Yf9rUFTz-ACLcBGAsYHQ/s460/call-of-duty-pc-cover.jpg",
+        "lien": "https://www.filecrypt.cc/Container/6B89CC2E7C.html",
+        "description": "Le début d'une saga de tir historique.",
+        "synopsis": "Revivez les batailles les plus intenses de la Seconde Guerre mondiale dans ce jeu de tir classique et fondateur[cite: 8].",
+        "linux_status": "Platinum",
+        "config": {
+            "min": {
+                "os": "Windows 98 / ME / 2000 / XP",
+                "cpu": "Intel Pentium 3 @ 700 MHz",
+                "ram": "128 MB RAM",
+                "gpu": "32 MB VRAM (compatible DirectX)",
+                "dx": "Version 9.0b",
+                "storage": "1.4 GB"
+            },
+            "rec": {
+                "os": "Non spécifié",
+                "cpu": "Non spécifié",
+                "ram": "Non spécifié",
+                "gpu": "Non spécifié",
+                "dx": "Non spécifié",
+                "storage": "Non spécifié"
+            }
+        }
+    },
+    {
+        "nom": "Call of Duty 2",
+        "categorie": "Repacks",
+        "image": "https://1.bp.blogspot.com/-_OCR82IdDrc/YDufTLvG4mI/AAAAAAABHv0/ltoKDjk8Ju4rP2xXvi7ORQZWx-wnhK19ACLcBGAsYHQ/s460/call-of-duty-2-pc-cover.jpg",
+        "lien": "https://www.filecrypt.cc/Container/060F01727D.html",
+        "description": "La suite du FPS de la Seconde Guerre mondiale.",
+        "synopsis": "Vivez les conflits mondiaux à travers les yeux de soldats alliés dans des campagnes immersives et cinématographiques[cite: 8].",
+        "linux_status": "Gold",
+        "config": {
+            "min": {
+                "os": "Windows 2000 / XP",
+                "cpu": "Intel Pentium @ 1.4 GHz / AMD Athlon XP 1700+ (ou supérieur)",
+                "ram": "256 MB RAM",
+                "gpu": "64 MB VRAM",
+                "dx": "Version 9.0c",
+                "storage": "Non spécifié"
+            },
+            "rec": {
+                "os": "Non spécifié",
+                "cpu": "Non spécifié",
+                "ram": "512 MB RAM",
+                "gpu": "128 MB VRAM",
+                "dx": "Non spécifié",
+                "storage": "Non spécifié"
+            }
+        }
+    },
+    {
+        "nom": "Call of Duty 4: Modern Warfare",
+        "categorie": "Repacks",
+        "image": "https://2.bp.blogspot.com/-1q_PT0mZJms/WXxbEfiHCNI/AAAAAAAAiuc/B4HTcIfdSqUyBcbOhWohfbwIhz38G_tbwCLcBGAs/s1600/Call-of-Duty-4-Modern-Warfare-PC-Game-Cover-www.ovagames.com.jpg",
+        "lien": "https://www.filecrypt.cc/Container/A929D5F187.html",
+        "description": "Le tournant vers la guerre moderne.",
+        "synopsis": "Plongez dans des opérations spéciales tactiques mondiales avec une narration révolutionnaire et un multijoueur iconique[cite: 8].",
+        "linux_status": "Platinum",
+        "config": {
+            "min": {
+                "os": "Windows XP / Vista",
+                "cpu": "Intel Pentium 4 2.4 GHz / AMD Athlon 64 2800+ / Dual Core @ 1.8 GHz",
+                "ram": "512 MB RAM (XP) / 768 MB RAM (Vista)",
+                "gpu": "NVIDIA GeForce 6600 / ATI Radeon 9800 Pro (ou supérieure)",
+                "dx": "Version 9.0c",
+                "storage": "8 GB"
+            },
+            "rec": {
+                "os": "Non spécifié",
+                "cpu": "Non spécifié",
+                "ram": "Non spécifié",
+                "gpu": "Non spécifié",
+                "dx": "Non spécifié",
+                "storage": "Non spécifié"
+            }
+        }
+    },
+    {
+        "nom": "Call of Duty: World at War",
+        "categorie": "Repacks",
+        "image": "https://3.bp.blogspot.com/-11PD_FsOvXc/WX748GxSnuI/AAAAAAAAi1U/cJn0Fbsyp3EJ426EcUOkfDJtfadkytSnwCLcBGAs/s1600/call-of-duty-world-at-war-pc-cover-www.ovagames.com.jpg",
+        "lien": "https://www.filecrypt.cc/Container/67F16629EC.html",
+        "description": "Horreur brutale de la Seconde Guerre mondiale.",
+        "synopsis": "Plongez dans les batailles acharnées du Pacifique et du front de l'Est dans l'un des opus les plus sombres de la série[cite: 8].",
+        "linux_status": "Platinum",
+        "config": {
+            "min": {
+                "os": "Windows XP / Vista",
+                "cpu": "Intel Pentium 4 @ 3 GHz / AMD Athlon 64 3200+",
+                "ram": "512 MB RAM",
+                "gpu": "nVidia GeForce 6600 / ATI Radeon X1600 (256 MB)",
+                "dx": "Version 9.0c",
+                "storage": "8 GB"
+            },
+            "rec": {
+                "os": "Non spécifié",
+                "cpu": "Non spécifié",
+                "ram": "Non spécifié",
+                "gpu": "Non spécifié",
+                "dx": "Non spécifié",
+                "storage": "Non spécifié"
+            }
+        }
+    },
+    {
+        "nom": "Call of Duty: WWII - Deluxe Edition",
+        "categorie": "Repacks",
+        "image": "https://1.bp.blogspot.com/-JoEs9l-y0og/X9vk7tHUObI/AAAAAAABGIE/lStgoKjaV7Ajpeuo7IvxfxdOho907AccACLcBGAsYHQ/s460/call-of-duty-wwii-pc-cover.jpg",
+        "lien": "https://www.filecrypt.cc/Container/6C182B49DE.html",
+        "description": "Retour aux sources de la Seconde Guerre mondiale.",
+        "synopsis": "Suivez le parcours d'une section de soldats américains dans une campagne héroïque et poignante à travers l'Europe[cite: 8].",
+        "linux_status": "Gold",
+        "config": {
+            "min": {
+                "os": "Windows 7 (64-bit) ou plus récent",
+                "cpu": "Intel Core i3-3225 @ 3.3 GHz / AMD Ryzen 5 1400",
+                "ram": "8 GB RAM",
+                "gpu": "NVIDIA GeForce GTX 660 (2 GB) / GTX 1050 / ATI Radeon HD 7850 (2 GB) / AMD Radeon RX 550",
+                "dx": "Version 11",
+                "storage": "90 GB"
+            },
+            "rec": {
+                "os": "Non spécifié",
+                "cpu": "Non spécifié",
+                "ram": "Non spécifié",
+                "gpu": "Non spécifié",
+                "dx": "Non spécifié",
+                "storage": "Non spécifié"
+            }
+        }
+    },
+    {
+        "nom": "Call of Duty: Black Ops",
+        "categorie": "Repacks",
+        "image": "https://2.bp.blogspot.com/-6OBRZkufTbM/WXxhMPmlyaI/AAAAAAAAiu4/OFmkz1eUI8Q0NleZia3m0Gh0xHHopGg8gCLcBGAs/s1600/call-of-duty-black-ops-pc-cover2-www.ovagames.com.jpg",
+        "lien": "https://www.filecrypt.cc/Container/49667C4BE3.html",
+        "description": "Opérations secrètes pendant la Guerre froide.",
+        "synopsis": "Incarnez un agent dans des missions clandestines mondiales où le danger est permanent et les secrets mortels[cite: 8].",
+        "linux_status": "Gold",
+        "config": {
+            "min": {
+                "os": "Windows XP / Vista / 7",
+                "cpu": "Intel Core 2 Duo E6600 / AMD Phenom X3 8750 (ou supérieur)",
+                "ram": "2 GB RAM",
+                "gpu": "NVIDIA GeForce 8600 GT / ATI Radeon X1950 Pro (256 MB, Shader 3.0 ou supérieur)",
+                "dx": "Version 9.0c",
+                "storage": "25 GB"
+            },
+            "rec": {
+                "os": "Non spécifié",
+                "cpu": "Non spécifié",
+                "ram": "Non spécifié",
+                "gpu": "Non spécifié",
+                "dx": "Non spécifié",
+                "storage": "Non spécifié"
+            }
+        }
+    },
+    {
+        "nom": "Call of Duty: Black Ops II",
+        "categorie": "Repacks",
+        "image": "https://3.bp.blogspot.com/-3QiKIEq4TX0/WcLSjuDiHjI/AAAAAAAAkpA/vjblYyNED4MQ86dHSYdYruVdt4gfmJXwgCLcBGAs/s1600/call-of-duty-black-ops-2-pc-cover-www.ovagames.com.jpg",
+        "lien": "https://www.filecrypt.cc/Container/34BCECAC33.html",
+        "description": "Futur proche et Guerre froide.",
+        "synopsis": "Naviguez entre le passé et le futur dans cette campagne ambitieuse explorant l'ascension des technologies de guerre modernes[cite: 8].",
+        "linux_status": "Gold",
+        "config": {
+            "min": {
+                "os": "Windows Vista SP2 / Windows 7 (XP non supporté)",
+                "cpu": "Intel Core 2 Duo E8200 @ 2.66 GHz / AMD Phenom X3 8750 @ 2.4 GHz",
+                "ram": "2 GB RAM (OS 32-bit) / 4 GB RAM (OS 64-bit)",
+                "gpu": "Nvidia GeForce 8800 GT (512 MB) / ATI Radeon HD 3870 (512 MB)",
+                "dx": "Version 9.0c",
+                "storage": "16 GB"
+            },
+            "rec": {
+                "os": "Non spécifié",
+                "cpu": "Non spécifié",
+                "ram": "Non spécifié",
+                "gpu": "Non spécifié",
+                "dx": "Non spécifié",
+                "storage": "16 GB"
+            }
+        }
+    },
+    {
+        "nom": "Call of Duty: Black Ops III - Complete Edition",
+        "categorie": "Repacks",
+        "image": "https://1.bp.blogspot.com/-yiXXljU1FuU/YO-1_N93LHI/AAAAAAABL8Q/tLRzvZeS--Ik67x3J7BZUWEEqOEckQBuACLcBGAsYHQ/s460/call-of-duty-black-ops-3-deluxe-pc-cover.jpg",
+        "lien": "https://www.filecrypt.cc/Container/5A13DEE1D0.html",
+        "description": "FPS futuriste avec capacités augmentées.",
+        "synopsis": "Dans un futur sombre, les soldats deviennent des machines augmentées. Ce titre propose une campagne narrative ainsi qu'un mode Zombies iconique[cite: 9].",
+        "linux_status": "Gold",
+        "config": {
+            "min": {
+                "os": "Windows 7 (64-bit) / Windows 8 (64-bit) / Windows 8.1 (64-bit)",
+                "cpu": "Intel Core i3-530 @ 2.93 GHz / AMD Phenom II X4 810 @ 2.60 GHz",
+                "ram": "6 GB RAM",
+                "gpu": "NVIDIA GeForce GTX 470 (1 GB) / ATI Radeon HD 6970 (1 GB)",
+                "dx": "Version 11",
+                "storage": "60 GB"
+            },
+            "rec": {
+                "os": "Non spécifié",
+                "cpu": "Non spécifié",
+                "ram": "Non spécifié",
+                "gpu": "Non spécifié",
+                "dx": "Non spécifié",
+                "storage": "Non spécifié"
+            }
+        }
+    },
+    {
+        "nom": "Call of Duty: Black Ops Cold War",
+        "categorie": "Repacks",
+        "image": "https://blogger.googleusercontent.com/img/a/AVvXsEjPrsk47EXQTDRz_kBg9oXJtu9K28Px6eoP_MXxDYpn0Yt9Ra7_dhfaXODS_SXmwuO072UH1Qie_5G41UNDJEG9gZSvZdi3mDqg6zIDIfH9R5cYAOAn03FZEXk6mOWrLty2JN-PHqNpid-tpSZwEo9jn9_wC-OpqTsoxd4zBJjE3oaVKO8I6yAW0QhpsR8",
+        "lien": "https://www.filecrypt.cc/Container/4270A606DA.html",
+        "description": "Opérations secrètes pendant la Guerre froide.",
+        "synopsis": "Poursuivez une menace mondiale à travers des missions d'espionnage intenses situées dans les années 80[cite: 9].",
+        "linux_status": "Gold",
+        "config": {
+            "min": {
+                "os": "Windows 10 (64-bit, v.1803 ou plus récente)",
+                "cpu": "Intel Core i3-4340 / AMD FX-6300",
+                "ram": "8 GB RAM",
+                "gpu": "NVIDIA GeForce GTX 670 / NVIDIA GeForce GTX 1650 / AMD Radeon HD 7950",
+                "dx": "Version 12",
+                "storage": "175 GB"
+            },
+            "rec": {
+                "os": "Windows 10 (64-bit, dernière mise à jour)",
+                "cpu": "Intel Core i5-2500K / AMD Ryzen 5 1600X",
+                "ram": "12 GB RAM",
+                "gpu": "NVIDIA GeForce GTX 970 / NVIDIA GeForce GTX 1660 Super / AMD Radeon R9 390 / AMD Radeon RX 580",
+                "dx": "Version 12",
+                "storage": "175 GB"
+            }
+        }
+    },
+    {
+        "nom": "Call of Duty: Black Ops 6",
+        "categorie": "Repacks",
+        "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEh6rz73de7eeirzrgCCNSesiUdMxv8PsvYk8v5QTzEE6b_DWABR66H6fMqBaGB4C4Xa3SkmFfHvrwnkM4b_yuQh32Io3wPnU2wxfp6URUZYm_tawI9iQJesYrvNP85Aegso3aVH81TdJUT_QUrZOBnNVSKpuh_-yWa56EIh1EJFB6uB1FUgAjJJFZAHZVw/s460/cod-bo-6-pc-cover.jpg",
+        "lien": "https://www.filecrypt.cc/Container/19BF7E3312.html",
+        "description": "Le dernier volet de la saga Black Ops.",
+        "synopsis": "Une expérience narrative d'espionnage se déroulant au début des années 90, marquant un tournant géopolitique[cite: 9].",
+        "linux_status": "Gold",
+        "config": {
+            "min": {
+                "os": "Windows 10 (64-bit, dernière mise à jour)",
+                "cpu": "AMD Ryzen 5 1400 / Intel Core i5-6600",
+                "ram": "8 GB RAM",
+                "gpu": "AMD Radeon RX 470 / NVIDIA GeForce GTX 960 / Intel Arc A580",
+                "dx": "Version 12",
+                "storage": "128 GB (SSD requis)"
+            },
+            "rec": {
+                "os": "Windows 10 / 11 (64-bit, dernière mise à jour)",
+                "cpu": "AMD Ryzen 5 1600X / Intel Core i7-6700K",
+                "ram": "12 GB RAM",
+                "gpu": "AMD Radeon RX 6600 XT / NVIDIA GeForce GTX 1080 Ti / RTX 3060",
+                "dx": "Version 12",
+                "storage": "128 GB (SSD requis)"
+            }
+        }
+    },
+    {
+        "nom": "NBA 2K23",
+        "categorie": "Repacks",
+        "image": "https://1.bp.blogspot.com/-pG6sy0oNp9U/YxtQmDaizzI/AAAAAAABTfc/KYxVc6Wf1U8mEBOd01iPM_JBuj7S7s9YQCNcBGAsYHQ/s460/nba-2k23-pc-cover.jpg",
+        "lien": "https://www.filecrypt.cc/Container/162948BD15.html",
+        "description": "Simulation de basket-ball professionnelle.",
+        "synopsis": "Vivez l'expérience NBA ultime avec des mécaniques de jeu peaufinées et des modes carrière complets[cite: 9].",
+        "linux_status": "Gold",
+        "config": {
+            "min": {
+                "os": "Windows 7 / 8.1 / 10 (64-bit)",
+                "cpu": "Intel Core i3-2100 @ 3.10 GHz / AMD FX-4100 @ 3.60 GHz",
+                "ram": "4 GB RAM",
+                "gpu": "NVIDIA GeForce GT 450 (1 GB) / ATI Radeon HD 7770 (1 GB)",
+                "dx": "Version 11",
+                "storage": "110 GB"
+            },
+            "rec": {
+                "os": "Windows 7 / 8.1 / 10 (64-bit)",
+                "cpu": "Intel Core i5-4430 @ 3 GHz / AMD FX-8370 @ 3.4 GHz",
+                "ram": "8 GB RAM",
+                "gpu": "NVIDIA GeForce GTX 770 (2 GB) / ATI Radeon R9 270 (2 GB)",
+                "dx": "Version 11",
+                "storage": "110 GB"
+            }
+        }
+    },
+    {
+        "nom": "NBA 2K22",
+        "categorie": "Repacks",
+        "image": "https://1.bp.blogspot.com/-GXaXCtcCtWk/YTtDtru-HAI/AAAAAAABOKk/fq5tK9l2PIceTqT6hZLX4m5IGN-JZ8EOQCLcBGAsYHQ/s460/nba-2k22-pc-cover.jpg",
+        "lien": "https://www.filecrypt.cc/Container/BBCBC30D6B.html",
+        "description": "Simulation de basket-ball.",
+        "synopsis": "Prenez le contrôle des parquets avec une présentation télévisuelle réaliste et des options de personnalisation étendues[cite: 9].",
+        "linux_status": "Gold",
+        "config": {
+            "min": {
+                "os": "Windows 7 / 8.1 / 10 (64-bit)",
+                "cpu": "Intel Core i3-2100 @ 3.10 GHz / AMD FX-4100 @ 3.60 GHz",
+                "ram": "4 GB RAM",
+                "gpu": "NVIDIA GeForce GT 450 (1 GB) / ATI Radeon HD 7770 (1 GB)",
+                "dx": "Version 11",
+                "storage": "110 GB"
+            },
+            "rec": {
+                "os": "Windows 7 / 8.1 / 10 (64-bit)",
+                "cpu": "Intel Core i5-4430 @ 3 GHz / AMD FX-8370 @ 3.4 GHz",
+                "ram": "8 GB RAM",
+                "gpu": "NVIDIA GeForce GTX 770 (2 GB) / ATI Radeon R9 270 (2 GB)",
+                "dx": "Version 11",
+                "storage": "110 GB"
+            }
+        }
+    },
+    {
+        "nom": "NBA 2K21",
+        "categorie": "Repacks",
+        "image": "https://1.bp.blogspot.com/-tHPiM9Q3AQQ/X1HNZ95M9AI/AAAAAAABC3Q/29mot8nmkR0WLmXxbPe0tCT1bMbnDQ8gwCLcBGAsYHQ/s1600/nba-2k21-pc-cover.jpg",
+        "lien": "https://www.filecrypt.cc/Container/B6ECADFE49.html",
+        "description": "Simulation sportive.",
+        "synopsis": "Découvrez le basket-ball avec des améliorations visuelles et des mécaniques de tir retravaillées[cite: 9].",
+        "linux_status": "Gold",
+        "config": {
+            "min": {
+                "os": "Windows 7 / 10 (64-bit)",
+                "cpu": "Intel Core i3-530 / AMD FX-4100",
+                "ram": "4 GB RAM",
+                "gpu": "nVidia GTS 450 / ATI HD 7770",
+                "dx": "Version 11",
+                "storage": "110 GB"
+            },
+            "rec": {
+                "os": "Windows 7 / 10 (64-bit)",
+                "cpu": "Intel Core i5-4430 / AMD FX-8370",
+                "ram": "8 GB RAM",
+                "gpu": "nVidia GTX 770 / ATI R9 270",
+                "dx": "Version 11",
+                "storage": "110 GB"
+            }
+        }
+    },
+    {
+        "nom": "Little Nightmares - Complete Edition",
+        "categorie": "GOG",
+        "image": "https://1.bp.blogspot.com/-KCMwYW-X3nA/YSxefywhjiI/AAAAAAABNwA/9LHE5IfWkuAmQSzileDoNsYCpbNk_35UQCLcBGAsYHQ/s460/little-nightmares-pc-cover.jpg",
+        "lien": "https://www.filecrypt.cc/Container/31F5B09185.html",
+        "description": "Horreur puzzle-plateforme.",
+        "synopsis": "Aidez Six à s'échapper de L'Antre, un navire mystérieux peuplé d'âmes corrompues cherchant leur prochain repas[cite: 9].",
+        "linux_status": "Platinum",
+        "config": {
+            "min": {
+                "os": "Windows 7 (64-bit)",
+                "cpu": "Intel CPU Core i3",
+                "ram": "4 GB RAM",
+                "gpu": "Nvidia GTX 460",
+                "dx": "Version 11",
+                "storage": "10 GB"
+            },
+            "rec": {
+                "os": "Windows 7 (64-bit)",
+                "cpu": "Intel CPU Core i7",
+                "ram": "8 GB RAM",
+                "gpu": "Nvidia GPU GeForce GTX 660",
+                "dx": "Version 11",
+                "storage": "10 GB"
+            }
+        }
+    },
+    {
+        "nom": "Little Nightmares II - Deluxe Edition",
+        "categorie": "GOG",
+        "image": "https://1.bp.blogspot.com/-Vqyoaf65Gec/YCSSVYmiwqI/AAAAAAABHPg/PdbzB5dmMpIakKBfrFPkWtAsQMDjObKmwCLcBGAsYHQ/s460/little-nightmares-ii-deluxe-pc-cover.jpg",
+        "lien": "https://www.filecrypt.cc/Container/C5AC8D14C9.html",
+        "description": "Aventure d'horreur et de suspense.",
+        "synopsis": "Accompagnez Mono pour découvrir les secrets sombres de la Tour de Transmission tout en échappant aux résidents cauchemardesques[cite: 9].",
+        "linux_status": "Platinum",
+        "config": {
+            "min": {
+                "os": "Windows 10",
+                "cpu": "Intel Core i5-2300 / AMD FX-4350",
+                "ram": "4 GB RAM",
+                "gpu": "Nvidia GeForce GTX 570 (1 GB) / AMD Radeon HD 7850 (2 GB)",
+                "dx": "Version 11",
+                "storage": "Non spécifié"
+            },
+            "rec": {
+                "os": "Windows 10",
+                "cpu": "Intel Core i7-3770 / AMD FX-8350",
+                "ram": "4 GB RAM",
+                "gpu": "Nvidia GeForce GTX 760 (2 GB) / AMD Radeon HD 7870 (2 GB)",
+                "dx": "Version 11",
+                "storage": "Non spécifié"
+            }
+        }
+    },
+    {
+        "nom": "Little Nightmares III - Deluxe Edition",
+        "categorie": "Repacks",
+        "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgYE5PL_Ve_0GY1fhyCx7o0cZbkRiOsgoorxKmcVncsNz0rkBa0sQQeCU-G-8jt8Im109u5Ql6VwdZ_vjmhFXvceAEK-WhPhxFKODHSNhaTY1OVmB2Lp1WAdNZWokKpjhnjBf8h9D6pWGA16b0QEr7H4_UTXLcYhw4Oo5nzO_f9aY12-MPBrREOUJ_mTZE/s460/little-nightmares-3-pc-cover.jpg",
+        "lien": "https://www.filecrypt.cc/Container/241CC5B21B.html",
+        "description": "Coopération dans l'horreur.",
+        "synopsis": "Deux nouveaux personnages, Low et Alone, doivent traverser la Spirale, un monde rempli de dangers persistants[cite: 9].",
+        "linux_status": "Non testé",
+        "config": {
+            "min": {
+                "os": "Windows 11",
+                "cpu": "Intel Core i5-6500 / AMD Ryzen 3 1200",
+                "ram": "8 GB RAM",
+                "gpu": "Nvidia GeForce GTX 1060 / AMD Radeon RX 580",
+                "dx": "Non spécifié",
+                "storage": "Non spécifié"
+            },
+            "rec": {
+                "os": "Windows 11",
+                "cpu": "Intel Core i5-8400 / AMD Ryzen 5 1600",
+                "ram": "12 GB RAM",
+                "gpu": "Nvidia GeForce RTX 2080 (8 GB) / AMD Radeon RX 6800",
+                "dx": "Non spécifié",
+                "storage": "Non spécifié"
+            }
+        }
+    },
+    {
+        "nom": "Little Nightmares - Enhanced Edition",
+        "categorie": "Repacks",
+        "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEi893vHvv8dNTVYCD7nZorJtz1xekjriIWCkyhEQkBSd0O7E8qNgd58H61jgKewoQPFdeB3686iyzA1OG54eBUnBAt-CXpRoB6Glt-q5vjLH__eN3JITZwlPnSOgh7Kr1rzHuK5YxuTfGArL7CbiiykJubZ9tZrVB3zo2Pu8K6FK__pVoL30s7LQI6t1mk/s460/little-nightmares-enhanced-edition-pc-cover.jpg",
+        "lien": "https://www.filecrypt.cc/Container/4664E5003D.html",
+        "description": "Version améliorée du classique.",
+        "synopsis": "Une expérience visuelle retravaillée du jeu original, accentuant l'atmosphère oppressante et les détails graphiques[cite: 9].",
+        "linux_status": "Platinum",
+        "config": {
+            "min": {
+                "os": "Windows 10 (64-bit)",
+                "cpu": "Intel Core i3-2100 / AMD FX-4350",
+                "ram": "6 GB RAM",
+                "gpu": "Nvidia GeForce GTX 650 Ti (2 GB) / AMD Radeon HD 7850 (2 GB)",
+                "dx": "Version 11",
+                "storage": "10 GB"
+            },
+            "rec": {
+                "os": "Windows 10 (64-bit)",
+                "cpu": "Intel Core i5-6600 / AMD Ryzen 5 1400",
+                "ram": "8 GB RAM",
+                "gpu": "Nvidia GeForce RTX 2070 (8 GB) / AMD Radeon RX 6700 (10 GB)",
+                "dx": "Version 11",
+                "storage": "10 GB"
+            }
+        }
+    },
+    {
+        "nom": "Reanimal - Deluxe Edition",
+        "categorie": "Repacks",
+        "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhdUQYAksjgtTFMl2PYpQgAE53YXanybJ1LshHEhkmL1mCqPhVAs_cKjrsXhIqDv6Kc5o1kjogUT0gct7UFsTQdnP557N82t2-5VnQvCwnSZg7FJD8p0MTtjqsG2fzekVF9fc5CqThsAt3OATlqh_f_-NZSYZU6V-OiO79QZYuIaDfFLDIKIZ1XMkBODxI/s460/reanimal-pc-cover.jpg",
+        "lien": "https://www.filecrypt.cc/Container/73252A63AB.html",
+        "description": "Jeu d'horreur coopératif.",
+        "synopsis": "Parcourez des environnements déformés et affrontez des terreurs anciennes pour sauver vos amis disparus[cite: 9].",
+        "linux_status": "Non testé",
+        "config": {
+            "min": {
+                "os": "Windows 10 / 11 (64-bit)",
+                "cpu": "AMD Ryzen 5 2400G / Intel Core i5-9400F",
+                "ram": "8 GB RAM",
+                "gpu": "NVIDIA GeForce GTX 1060 / AMD Radeon RX 480",
+                "dx": "Version 12",
+                "storage": "18 GB"
+            },
+            "rec": {
+                "os": "Windows 10 / 11 (64-bit)",
+                "cpu": "AMD Ryzen 5 3600X / Intel Core i7-7700K",
+                "ram": "16 GB RAM",
+                "gpu": "NVIDIA GeForce RTX 2060 / AMD Radeon RX 6600 XT",
+                "dx": "Version 12",
+                "storage": "18 GB"
+            }
+        }
+    },
+    {
+        "nom": "Resident Evil 5 Gold Edition",
+        "categorie": "Repacks",
+        "image": "https://1.bp.blogspot.com/-33QZgAFLRcU/X6YXHtbAFwI/AAAAAAABEeA/8JAsN84ZBo8bJQF27Fy8_KDem8a9WQm8ACLcBGAsYHQ/s460/resident-evil-5-gold-pc-cover.jpeg",
+        "lien": "https://www.filecrypt.cc/Container/C55E260A9B.html",
+        "description": "Action horrifique en Afrique.",
+        "synopsis": "Chris Redfield et Sheva Alomar combattent une nouvelle menace bioterroriste dans un cadre ensoleillé mais terrifiant[cite: 9].",
+        "linux_status": "Gold",
+        "config": {
+            "min": {
+                "os": "Windows 7",
+                "cpu": "Intel Core 2 Quad 2.4GHz / AMD Phenom II x4 3.4GHz",
+                "ram": "4 GB RAM",
+                "gpu": "NVIDIA GeForce 9800 series (512 MB) / ATI Radeon HD 7770 (512 MB)",
+                "dx": "Version 9.0c",
+                "storage": "20 GB"
+            },
+            "rec": {
+                "os": "Windows 7",
+                "cpu": "Intel Core i5-3570 / AMD Phenom II x4 3.4GHz",
+                "ram": "4 GB RAM",
+                "gpu": "NVIDIA GeForce GTX 650 (512 MB) / ATI Radeon HD 7770 (512 MB)",
+                "dx": "Version 9.0c",
+                "storage": "20 GB"
+            }
+        }
+    },
+    {
+        "nom": "Resident Evil Operation Raccoon City Complete Pack",
+        "categorie": "Repacks",
+        "image": "https://steamcdn-a.akamaihd.net/steam/apps/209100/header.jpg",
+        "lien": "https://www.filecrypt.cc/Container/E71744BA70.html",
+        "description": "Spin-off action tactique.",
+        "synopsis": "Prenez part à la destruction de Raccoon City en incarnant des agents de l'Umbrella Security Service[cite: 9].",
+        "linux_status": "Gold",
+        "config": {
+            "min": {
+                "os": "Windows Vista / XP / 7",
+                "cpu": "Intel Core 2 Duo 2.4 GHz / AMD Athlon X2 2.8 GHz",
+                "ram": "2 GB RAM",
+                "gpu": "NVIDIA GeForce 8800GTS / ATI Radeon HD 3850",
+                "dx": "Version 9.0c",
+                "storage": "8 GB"
+            },
+            "rec": {
+                "os": "Windows Vista / XP / 7",
+                "cpu": "Intel Core 2 Quad 2.7 GHz / AMD Phenom II X4 3 GHz",
+                "ram": "4 GB RAM",
+                "gpu": "NVIDIA GeForce GTX 560",
+                "dx": "Version 9.0c",
+                "storage": "8 GB"
+            }
+        }
+    },
+    {
+        "nom": "Resident Evil Revelations Complete Pack",
+        "categorie": "Repacks",
+        "image": "https://1.bp.blogspot.com/-hzmMYDqQzoM/XyiQotYckgI/AAAAAAABCEo/ghczPuaI7rQ9dlLMjaOYEXlE3edHr9ljQCLcBGAsYHQ/s460/header.jpg",
+        "lien": "https://www.filecrypt.cc/Container/AAFCC5DAF2.html",
+        "description": "Horreur claustrophobique.",
+        "synopsis": "Jill Valentine enquête sur un navire fantôme abandonné, révélant des secrets sombres sur les origines du virus[cite: 9].",
+        "linux_status": "Gold",
+        "config": {
+            "min": {
+                "os": "Windows XP / Vista / 7",
+                "cpu": "Intel Core 2 Duo 2.4 GHz / AMD Athlon 64 X2 5600+",
+                "ram": "2 GB RAM",
+                "gpu": "nVidia GeForce 8800 GTS / ATI Radeon HD 3850 (512 MB)",
+                "dx": "Version 9.0c",
+                "storage": "8 GB"
+            },
+            "rec": {
+                "os": "Windows Vista / 7",
+                "cpu": "Intel Core 2 Quad 2.66 GHz / AMD Phenom II X4 3.0 GHz",
+                "ram": "4 GB RAM",
+                "gpu": "nVidia GeForce GTX 560 / ATI Radeon HD 6950 (1 GB)",
+                "dx": "Version 9.0c",
+                "storage": "8 GB"
+            }
+        }
+    },
+    {
+        "nom": "Resident Evil 0 HD Remaster",
+        "categorie": "Repacks",
+        "image": "https://1.bp.blogspot.com/-cLlgVi7gZww/Y7KleMTjilI/AAAAAAABU_g/0nN-ZogAAlkTplSIeaPnpCUzWrjrgwDrACNcBGAsYHQ/s460/resident-evil-0-hd-remaster-pc-cover.jpg",
+        "lien": "https://www.filecrypt.cc/Container/D7EBAA15C7.html",
+        "description": "Origines de l'horreur.",
+        "synopsis": "Rebecca Chambers et Billy Coen explorent un train mystérieux, prélude aux tragédies du Manoir Spencer[cite: 9].",
+        "linux_status": "Gold",
+        "config": {
+            "min": {
+                "os": "Windows 7 SP1 / Windows 8.1",
+                "cpu": "Intel Core 2 Duo 2.4 GHz",
+                "ram": "2 GB RAM",
+                "gpu": "NVIDIA GeForce GTX 260",
+                "dx": "Version 9.0c",
+                "storage": "13 GB"
+            },
+            "rec": {
+                "os": "Windows 7 SP1 / Windows 8.1",
+                "cpu": "Intel Core 2 Quad 2.7 GHz",
+                "ram": "4 GB RAM",
+                "gpu": "NVIDIA GeForce GTX 560",
+                "dx": "Version 9.0c",
+                "storage": "13 GB"
+            }
+        }
+    },
+    {
+        "nom": "Resident Evil 3 2020 Deluxe Edition",
+        "categorie": "Repacks",
+        "image": "https://1.bp.blogspot.com/-hx2ke0_az90/X3YNhUhP52I/AAAAAAABDP8/kGTf4D-hDNgBGW9jC8mluXs3CRT9sGzOQCLcBGAsYHQ/s460/resident-evil-3-pc-cover.jpg",
+        "lien": "https://www.filecrypt.cc/Container/5303618D0A.html",
+        "description": "Remake intense de l'horreur classique.",
+        "synopsis": "Jill Valentine doit s'échapper de Raccoon City tout en étant traquée par l'implacable Némésis[cite: 9].",
+        "linux_status": "Platinum",
+        "config": {
+            "min": {
+                "os": "WINDOWS 10 (64-BIT)",
+                "cpu": "Intel Core i5-4460 / AMD FX-6300",
+                "ram": "8 GB RAM",
+                "gpu": "NVIDIA GeForce GTX 960 / AMD Radeon RX 460",
+                "dx": "Version 12",
+                "storage": "45 GB"
+            },
+            "rec": {
+                "os": "WINDOWS 10 (64-BIT)",
+                "cpu": "Intel Core i7-3770 / AMD FX-9590",
+                "ram": "8 GB RAM",
+                "gpu": "NVIDIA GeForce GTX 1060 / AMD Radeon RX 480 (3 GB)",
+                "dx": "Version 12",
+                "storage": "45 GB"
+            }
+        }
+    },
+    {
+        "nom": "Resident Evil 4 Ultimate HD Edition",
+        "categorie": "Repacks",
+        "image": "https://1.bp.blogspot.com/-QtvEDfoPbBs/Y7KdLFakNvI/AAAAAAABU_E/O0E--10LZ-0HwgHRHwUB5SORfBVsIohoACNcBGAsYHQ/s460/resident-evil-4-ultimate-hd-edition-pc-cover.jpg",
+        "lien": "https://www.filecrypt.cc/Container/2355560D61.html",
+        "description": "L'aventure classique de Leon S. Kennedy dans une version haute définition.",
+        "synopsis": "Leon S. Kennedy est envoyé en mission dans une région reculée d'Europe pour sauver la fille du président des États-Unis, kidnappée par une secte mystérieuse[cite: 10].",
+        "linux_status": "Gold",
+        "config": {
+            "min": {
+                "os": "Windows XP / Vista / 7 / 8",
+                "cpu": "Intel Core 2 Duo 2.4 GHz / AMD Athlon X2 2.8 GHz",
+                "ram": "2 GB RAM",
+                "gpu": "NVIDIA GeForce 8800GTS / ATI Radeon HD 4850",
+                "dx": "Version 9.0c",
+                "storage": "15 GB"
+            },
+            "rec": {
+                "os": "Windows Vista / 7 / 8",
+                "cpu": "Intel Core 2 Quad 2.7 GHz / AMD Phenom II X4 3 GHz",
+                "ram": "4 GB RAM",
+                "gpu": "NVIDIA GeForce GTX 560",
+                "dx": "Version 9.0c",
+                "storage": "15 GB"
+            }
+        }
+    },
+    {
+        "nom": "Resident Evil 6 Complete Pack",
+        "categorie": "Repacks",
+        "image": "https://1.bp.blogspot.com/-CCX9qMqZZcc/Y7KR5xksnlI/AAAAAAABU-c/AKXVbyC8xSULtag6YXAEoeBYmkxFqAdIgCNcBGAsYHQ/s586/resident-evil-6-complete-pack-pc-cover.jpg",
+        "lien": "https://www.filecrypt.cc/Container/B8C3560275.html",
+        "description": "Un jeu d'action choral aux multiples facettes.",
+        "synopsis": "Plusieurs personnages emblématiques s'unissent dans une lutte mondiale contre le virus C, une menace bioterroriste de grande ampleur[cite: 10].",
+        "linux_status": "Platinum",
+        "config": {
+            "min": {
+                "os": "Windows Vista / XP / 7 / 8",
+                "cpu": "Intel Core 2 Duo 2.4 GHz / AMD Athlon X2 2.8 GHz",
+                "ram": "2 GB RAM",
+                "gpu": "NVIDIA GeForce 8800GTS",
+                "dx": "Version 9.0c",
+                "storage": "16 GB"
+            },
+            "rec": {
+                "os": "Windows Vista / XP / 7 / 8",
+                "cpu": "Intel Core 2 Quad 2.7 GHz / AMD Phenom II X4 3 GHz",
+                "ram": "4 GB RAM",
+                "gpu": "NVIDIA GeForce GTX 560",
+                "dx": "Version 9.0c",
+                "storage": "16 GB"
+            }
+        }
+    },
+    {
+        "nom": "Resident Evil 4 2023 Remake Gold Edition",
+        "categorie": "Repacks",
+        "image": "https://1.bp.blogspot.com/-_K06tNOjS0I/ZGAyBTHRnXI/AAAAAAABXGA/6OWTeFBLD202_F60Rk7-c18mzD-HjWuRACNcBGAsYHQ/s460/resident-evil-4-pc-cover.jpg",
+        "lien": "https://www.filecrypt.cc/Container/B43EA9DCF9.html",
+        "description": "Remake moderne du chef-d'œuvre de l'horreur.",
+        "synopsis": "Leon S. Kennedy revient pour sauver Ashley Graham dans une expérience réimaginée avec des graphismes de nouvelle génération et un gameplay affiné[cite: 10].",
+        "linux_status": "Gold",
+        "config": {
+            "min": {
+                "os": "Windows 10 (64 bit)",
+                "cpu": "AMD Ryzen 3 1200 / Intel Core i5-7500",
+                "ram": "8 GB RAM",
+                "gpu": "AMD Radeon RX 560 (4 GB) / NVIDIA GeForce GTX 1050 Ti (4 GB)",
+                "dx": "Version 12",
+                "storage": "Non spécifié"
+            },
+            "rec": {
+                "os": "Windows 10 (64 bit) / Windows 11 (64 bit)",
+                "cpu": "AMD Ryzen 5 3600 / Intel Core i7 8700",
+                "ram": "16 GB RAM",
+                "gpu": "AMD Radeon RX 5700 / NVIDIA GeForce GTX 1070",
+                "dx": "Version 12",
+                "storage": "Non spécifié"
+            }
+        }
+    },
+    {
+        "nom": "Resident Evil Village Gold Edition",
+        "categorie": "Repacks",
+        "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhKZ1D2_682FE2OX70VbbK2JQsiQ_paclQ8WqjYhpFSIjGJp7rfGkqyaO1bEC7QK5Vvg0sS8IYo9e26Nhp_-xo5vht6B86hzeXYjRIdf54hxKSUTrQjAuxTsztWkbnWjDZsL_xj4v-6Ow_OFVcq8A83qvI-TGOyrwaATN-y2gJXVyRu08BsZtyka5JQ5Vc/s460/resident-evil-village-pc-cover.jpg",
+        "lien": "https://www.filecrypt.cc/Container/31252993CC.html",
+        "description": "Horreur gothique dans un village reculé.",
+        "synopsis": "Ethan Winters cherche sa fille disparue dans un village effrayant gouverné par des créatures mystérieuses et puissantes[cite: 10].",
+        "linux_status": "Platinum",
+        "config": {
+            "min": {
+                "os": "Windows 10 (64 bit)",
+                "cpu": "AMD Ryzen 3 1200 / Intel Core i5-7500",
+                "ram": "8 GB RAM",
+                "gpu": "AMD Radeon RX 560 (4 GB) / NVIDIA GeForce GTX 1050 Ti (4 GB)",
+                "dx": "Version 12",
+                "storage": "Non spécifié"
+            },
+            "rec": {
+                "os": "Windows 10 (64 bit)",
+                "cpu": "AMD Ryzen 5 3600 / Intel Core i7 8700",
+                "ram": "16 GB RAM",
+                "gpu": "AMD Radeon RX 5700 / NVIDIA GeForce GTX 1070",
+                "dx": "Version 12",
+                "storage": "Non spécifié"
+            }
+        }
+    },
+    {
+        "nom": "Resident Evil 7 Biohazard Gold Edition",
+        "categorie": "Repacks",
+        "image": "https://1.bp.blogspot.com/-QkZfYg6dd5Q/Yqlye3HSjXI/AAAAAAAAA6k/GFnIUmStSAgCyuXSaJb82MehWkc4daklQCNcBGAsYHQ/s586/resident-evil-7-biohazard-gold-edition-pc-cover.jpg",
+        "lien": "https://www.filecrypt.cc/Container/97804F7AEF.html",
+        "description": "Horreur immersive à la première personne.",
+        "synopsis": "Ethan Winters explore une plantation décrépite à la recherche de sa femme, où il se retrouve piégé par une famille psychotique[cite: 10].",
+        "linux_status": "Platinum",
+        "config": {
+            "min": {
+                "os": "WINDOWS 10 (64-BIT)",
+                "cpu": "Intel Core i5-4460 2.70GHz / AMD FX-6300",
+                "ram": "8 GB RAM",
+                "gpu": "NVIDIA GeForce GTX 960 / AMD Radeon RX 460",
+                "dx": "Version 12",
+                "storage": "24 GB"
+            },
+            "rec": {
+                "os": "WINDOWS 10 (64-BIT)",
+                "cpu": "Intel Core i7 3770 3.4GHz / AMD equivalent",
+                "ram": "8 GB RAM",
+                "gpu": "NVIDIA GeForce GTX 1060 (3 GB)",
+                "dx": "Version 12",
+                "storage": "24 GB"
+            }
+        }
+    },
+    {
+        "nom": "Black Myth Wukong Deluxe Edition",
+        "categorie": "Repacks",
+        "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgH4kCMBrvBoJwrpUd-J9X25xRBiSKw7tKKCUngXT9f0gNMnan5oTj81ng-5aQCDQgYUI106Dq6YZRWL4XxLT7uLLsEdBX1cEeF6C4OGRvsqGtLEWVK4fBhen0X6OOIh9zDMFnlWKlcdw_NWaV8X5kdGmS71C3xsVtvMNos7KEvw3rUBPEBLkzWt4xgvqM/s460/black-myth-wukong-pc-cover.jpg",
+        "lien": "https://www.filecrypt.cc/Container/12A10B521B.html",
+        "description": "Action-RPG inspiré de la mythologie chinoise.",
+        "synopsis": "Incarnez le Destiné pour découvrir la vérité derrière une légende glorieuse du passé en explorant un monde riche et dangereux[cite: 10].",
+        "linux_status": "Gold",
+        "config": {
+            "min": {
+                "os": "Windows 10 64-bit",
+                "cpu": "Intel Core i5-8400 / AMD Ryzen 5 1600",
+                "ram": "16 GB RAM",
+                "gpu": "NVIDIA GeForce GTX 1060 (6 GB) / AMD Radeon RX 580 (8 GB)",
+                "dx": "Version 11",
+                "storage": "130 GB"
+            },
+            "rec": {
+                "os": "Windows 10 64-bit",
+                "cpu": "Intel Core i7-9700 / AMD Ryzen 5 5500",
+                "ram": "16 GB RAM",
+                "gpu": "NVIDIA GeForce RTX 2060 / AMD Radeon RX 5700 XT / INTEL Arc A750",
+                "dx": "Version 12",
+                "storage": "130 GB"
+            }
+        }
+    },
+    {
+        "nom": "HELLDIVERS Digital Deluxe Edition",
+        "categorie": "Repacks",
+        "image": "https://1.bp.blogspot.com/-5DN731ULYto/YelEl0RsyNI/AAAAAAAAAfk/341KEddbOTgC0undWWl-seAtMi9L_BwYwCNcBGAsYHQ/s460/helldivers-pc-cover.jpg",
+        "lien": "https://www.filecrypt.cc/Container/AC049958A9.html",
+        "description": "Jeu de tir coopératif intense.",
+        "synopsis": "Rejoignez les Helldivers pour protéger la Super-Terre contre des menaces extraterrestres dans une guerre galactique implacable[cite: 10].",
+        "linux_status": "Platinum",
+        "config": {
+            "min": {
+                "os": "Windows Vista / Windows 7",
+                "cpu": "2.4GHz Dual Core",
+                "ram": "4 GB RAM",
+                "gpu": "NVIDIA GeForce 9800 (512 MB) / ATI Radeon HD 2600 XT (512 MB)",
+                "dx": "Version 10",
+                "storage": "7 GB"
+            },
+            "rec": {
+                "os": "Windows Vista / Windows 7",
+                "cpu": "2.4GHz Dual Core",
+                "ram": "4 GB RAM",
+                "gpu": "NVIDIA GeForce GTX 460 (1 GB) / AMD Radeon HD 5870 (1 GB)",
+                "dx": "Version 10",
+                "storage": "7 GB"
+            }
+        }
+    },
+    {
+        "nom": "DOOM 2016",
+        "categorie": "Repacks",
+        "image": "https://1.bp.blogspot.com/-sRRkSY6sBDA/Wrl8RT-4EaI/AAAAAAAAra4/-pX15p_s9gk7BOHvENstLRvnCe9OmGEpQCLcBGAs/s1600/doom-2016-pc-cover-www.ovagames.com.jpg",
+        "lien": "https://www.filecrypt.cc/Container/19A595C729.html",
+        "description": "Le retour du FPS frénétique.",
+        "synopsis": "Combattez les hordes de démons sur Mars avec une vitesse et une brutalité inégalées dans ce retour aux sources de la saga[cite: 10].",
+        "linux_status": "Platinum",
+        "config": {
+            "min": {
+                "os": "Windows 7 / 8.1 / 10 (64-bit)",
+                "cpu": "Intel Core i5-2400 / AMD FX-8320",
+                "ram": "8 GB RAM",
+                "gpu": "NVIDIA GTX 670 (2 GB) / AMD Radeon HD 7870 (2 GB)",
+                "dx": "Non spécifié",
+                "storage": "55 GB"
+            },
+            "rec": {
+                "os": "Windows 7 / 8.1 / 10 (64-bit)",
+                "cpu": "Intel Core i7-3770 / AMD FX-8350",
+                "ram": "8 GB RAM",
+                "gpu": "NVIDIA GTX 970 (4 GB) / AMD Radeon R9 290 (4 GB)",
+                "dx": "Non spécifié",
+                "storage": "55 GB"
+            }
+        }
+    },
+    {
+        "nom": "DOOM Eternal Deluxe Edition",
+        "categorie": "Repacks",
+        "image": "https://blogger.googleusercontent.com/img/a/AVvXsEhUmTGSFknYGRi6Ksu1HVBu_Aq2DPFwBBsJGajbCr0cdWEZIXaiAnuvWqVCNxhN0qJleRfDx10U-eG9qYPB3nmS_poYlo5pFXY1U5h2OBEp8OOePIUBFezDw2sttmtAVaGwtihOuMsvLlwL-lYy2wbDh4p9nkHPZQllqxhlot3ZwNBpgQpPXMvrmScE=s586",
+        "lien": "https://www.filecrypt.cc/Container/2BA3EE1B2E.html",
+        "description": "L'action pure portée à son paroxysme.",
+        "synopsis": "Devenez le Doom Slayer et stoppez l'invasion démoniaque sur Terre dans un chaos sanglant et ultra-dynamique[cite: 10].",
+        "linux_status": "Platinum",
+        "config": {
+            "min": {
+                "os": "Windows 7 / 10 (64-bit)",
+                "cpu": "Intel Core i5 @ 3.3 GHz / AMD Ryzen 3 @ 3.1 GHz",
+                "ram": "8 GB RAM",
+                "gpu": "NVIDIA GeForce GTX 1050Ti (4GB) / GTX 1060 (3GB) / GTX 1650 (4GB) or AMD Radeon R9 280 (3GB) / R9 290 (4GB) / RX 470 (4GB)",
+                "dx": "Non spécifié",
+                "storage": "50 GB"
+            },
+            "rec": {
+                "os": "Windows 10 (64-bit)",
+                "cpu": "Intel Core i7-6700K / AMD Ryzen 7 1800X",
+                "ram": "8 GB RAM",
+                "gpu": "NVIDIA GeForce GTX 1060 (6GB) / GTX 970 (4GB) / AMD Radeon RX 480 (8GB)",
+                "dx": "Non spécifié",
+                "storage": "50 GB"
+            }
+        }
+    },
+    {
+        "nom": "DOOM The Dark Ages Premium Edition",
+        "categorie": "Repacks",
+        "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiPSPll-aIo_wkbXd3CTGX-J99hXTp6PwkixmrFVQ2zGQFHlFAPjTPLHwxj2_7g0pzt8KtR03u3IkGj6QLdXBc0x5jgd_vBQjYNeldY1MDy-zRZsaSSy-3YtKfShXBDkLsej6Tvnbc3GlHxEy1FxksHqyHN1oxCp_K3iChuFNNHnLRRVGNklItv2cXMX-M/s460/doom-the-dark-ages-pc-cover.jpg",
+        "lien": "https://www.filecrypt.cc/Container/647E0B83DC.html",
+        "description": "Une nouvelle plongée dans les origines du Slayer.",
+        "synopsis": "Découvrez le passé du Doom Slayer dans une épopée médiévale sombre et explosive contre les forces de l'Enfer[cite: 10].",
+        "linux_status": "Non testé",
+        "config": {
+            "min": {
+                "os": "Windows 10 / 11 (64-Bit)",
+                "cpu": "AMD Ryzen 7 3700X / Intel Core i7 10700K (8 cores / 16 threads, 3.2 GHz)",
+                "ram": "16 GB RAM",
+                "gpu": "NVIDIA RTX 2060 SUPER / AMD RX 6600 (8 GB VRAM)",
+                "dx": "Non spécifié",
+                "storage": "100 GB (NVME SSD requis)"
+            },
+            "rec": {
+                "os": "Windows 10 / 11 (64-Bit)",
+                "cpu": "AMD Ryzen 7 5700X / Intel Core i7 12700K (8 cores / 16 threads, 3.2 GHz)",
+                "ram": "32 GB RAM",
+                "gpu": "NVIDIA RTX 3080 / AMD RX 6800 (10 GB VRAM)",
+                "dx": "Non spécifié",
+                "storage": "100 GB (NVME SSD requis)"
+            }
+        }
+    },
+    {
+        "nom": "Forza Horizon 3 Ultimate Edition",
+        "categorie": "Repacks",
+        "image": "https://1.bp.blogspot.com/-H5bAb-1dSY4/Yi0iqufSHhI/AAAAAAAAASQ/f41P0MFINUMVABL0z4FkmL1Yn9qjAxELACNcBGAsYHQ/s460/forza-horizon-3-pc-covers.jpg",
+        "lien": "https://www.filecrypt.cc/Container/EB67292E44.html",
+        "description": "Festival automobile en Australie.",
+        "synopsis": "Explorez les paysages variés de l'Australie au volant de centaines de véhicules dans cette aventure de course en monde ouvert[cite: 10].",
+        "linux_status": "Playable",
+        "config": {
+            "min": {
+                "os": "Windows 10 (x64)",
+                "cpu": "Intel Core i3-4170 @ 3.7GHz",
+                "ram": "8 GB RAM",
+                "gpu": "NVIDIA GT 740 / AMD R7 250x (2 GB VRAM)",
+                "dx": "DirectX 12 API, Hardware Feature Level 11",
+                "storage": "Non spécifié"
+            },
+            "rec": {
+                "os": "Windows 10 (x64)",
+                "cpu": "Intel Core i7 3820 @ 3.6GHz",
+                "ram": "12 GB RAM",
+                "gpu": "NVIDIA GTX 970 or GTX 1060 / AMD R9 290X or RX 480 (4 GB VRAM)",
+                "dx": "DirectX 12 API, Hardware Feature Level 11",
+                "storage": "Non spécifié"
+            }
+        }
+    },
+    {
+        "nom": "Forza Horizon 4 Ultimate Edition",
+        "categorie": "Repacks",
+        "image": "https://1.bp.blogspot.com/-akhrT_x4QuA/XVG4g0O-gLI/AAAAAAAA4A0/LtDPq1HDplo_c2N-ccffnnkEX9xHn-i1QCLcBGAs/s1600/forza-horizon-4-pc-cover-www.ovagames.com.jpg",
+        "lien": "https://www.filecrypt.cc/Container/7718CD5E0C.html",
+        "description": "Saisons changeantes en Grande-Bretagne.",
+        "synopsis": "Découvrez le monde partagé de la Grande-Bretagne où les saisons changent tout, affectant la conduite et les courses[cite: 10].",
+        "linux_status": "Platinum",
+        "config": {
+            "min": {
+                "os": "Windows (64-bit)",
+                "cpu": "Intel i3-4170 @ 3.7GHz / Intel i5 750 @ 2.67GHz",
+                "ram": "8 GB RAM",
+                "gpu": "NVIDIA GeForce GTX 650 Ti / AMD Radeon R7 250x (2 GB VRAM)",
+                "dx": "DirectX 12 API, Hardware Feature Level 11",
+                "storage": "Non spécifié"
+            },
+            "rec": {
+                "os": "Windows (64-bit)",
+                "cpu": "Intel i7-3820 @ 3.6GHz",
+                "ram": "12 GB RAM",
+                "gpu": "NVIDIA GeForce GTX 970 or GTX 1060 (3GB) / AMD Radeon R9 290x or RX 470 (4 GB VRAM)",
+                "dx": "DirectX 12 API, Hardware Feature Level 11",
+                "storage": "Non spécifié"
+            }
+        }
+    },
+    {
+        "nom": "Forza Horizon 5 Premium Edition",
+        "categorie": "Repacks",
+        "image": "https://1.bp.blogspot.com/-K-B7mbKQlg4/Yg4xFcYxKWI/AAAAAAAAAL0/cnhoIVCiqT8sjR-3hDCpA7pCWxePLN9CwCNcBGAsYHQ/s1920/forza-horizon-5-pc-cover.jpg",
+        "lien": "https://www.filecrypt.cc/Container/33ABB0C22C.html",
+        "description": "Aventure au Mexique.",
+        "synopsis": "Partez à l'aventure au Mexique dans un monde vivant, vibrant et en constante évolution, avec des graphismes époustouflants[cite: 10].",
+        "linux_status": "Gold",
+        "config": {
+            "min": {
+                "os": "Windows 10 (version 15063.0 ou supérieure)",
+                "cpu": "Intel i5-4460 / AMD Ryzen 3 1200",
+                "ram": "8 GB RAM",
+                "gpu": "NVIDIA GTX 970 / AMD RX 470",
+                "dx": "Version 12",
+                "storage": "110 GB"
+            },
+            "rec": {
+                "os": "Windows 10 (version 15063.0 ou supérieure)",
+                "cpu": "Intel i5-8400 / AMD Ryzen 5 1500X",
+                "ram": "16 GB RAM",
+                "gpu": "NVIDIA GTX 1070 / AMD RX 590",
+                "dx": "Version 12",
+                "storage": "110 GB"
+            }
+        }
+    },
+    {
+        "nom": "Forza Horizon 6 Premium Edition",
+        "categorie": "Repacks",
+        "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgd6v-XsOtIb2e_OmC33Xj857W7WhNJ5ZHf6eUgpXZiUMm1C8UWrTwovhRWgBx8TT2mNs2QtBAKRYIHRndhwjiWGIG-pNQ4amWbJcrjtWTwfrWb6apfVfdFWgsRbvL75dtHdYrq6vwe_nMUp8gT9siRFR9a0MDUX-WAxrEiUgdgQXtMR-ePz9mON_sTF4U/s460/forza-horizon-6-pc-cover.jpg",
+        "lien": "https://www.filecrypt.cc/Container/AA4A4D98C5.html",
+        "description": "L'apogée de la course en monde ouvert.",
+        "synopsis": "Le nouveau standard de la simulation arcade, offrant une fidélité visuelle et une physique de conduite de pointe dans un cadre spectaculaire[cite: 10].",
+        "linux_status": "Non testé",
+        "config": {
+            "min": {
+                "os": "Windows 10 22H2 (version 19045 ou supérieure)",
+                "cpu": "Intel i5-8400 / AMD Ryzen 5 1600",
+                "ram": "16 GB RAM",
+                "gpu": "NVIDIA GTX 1650 / AMD RX 6500 XT / Intel Arc A380",
+                "dx": "Version 12",
+                "storage": "167 GB (SSD requis)"
+            },
+            "rec": {
+                "os": "Windows 10 22H2 (version 19045 ou supérieure)",
+                "cpu": "Intel i5-12400F / AMD Ryzen 5 5600X",
+                "ram": "16 GB RAM",
+                "gpu": "NVIDIA RTX 3060 Ti / AMD RX 6700 XT / Intel Arc A580",
+                "dx": "Version 12",
+                "storage": "167 GB (SSD requis)"
+            }
+        }
+    },
+    {
+        "nom": "Sifu Deluxe Edition",
+        "categorie": "Repacks",
+        "image": "https://1.bp.blogspot.com/-OA4rmf114aQ/YgvUKo7_wQI/AAAAAAAAAK0/AVAovRvXk98jqtyn2zU5Qog2aKaET8hEQCNcBGAsYHQ/s1600/sifu-deluxe-edition-pc-cover.jpg",
+        "lien": "https://www.filecrypt.cc/Container/8FB7228D31.html",
+        "description": "Un jeu de combat intense axé sur le kung-fu.",
+        "synopsis": "Cherchez la vengeance après avoir vu votre famille assassinée, en vieillissant à chaque défaite dans cette quête brutale[cite: 10].",
+        "linux_status": "Platinum",
+        "config": {
+            "min": {
+                "os": "Windows 8.1",
+                "cpu": "AMD FX-4350 / Intel Core i5-3470 ou équivalent",
+                "ram": "8 GB RAM",
+                "gpu": "Radeon R7 250 / GeForce GT 640 ou équivalent",
+                "dx": "Non spécifié",
+                "storage": "22 GB"
+            },
+            "rec": {
+                "os": "Windows 10",
+                "cpu": "AMD FX-9590 / Intel Core i7-6700K ou équivalent",
+                "ram": "10 GB RAM",
+                "gpu": "GeForce GTX 970 / Radeon R9 390X ou équivalent",
+                "dx": "Non spécifié",
+                "storage": "22 GB"
+            }
+        }
+    },
+    {
+        "nom": "Sekiro Shadows Die Twice GOTY Edition",
+        "categorie": "Repacks",
+        "image": "https://1.bp.blogspot.com/-oCUn60HdDaE/X5qwepud5qI/AAAAAAABEJw/YX7-mzOOt9o7aiWOA-n39fKOmk4zzjDswCLcBGAsYHQ/s460/sekiro-shadows-die-twice-goty-pc-cover.jpg",
+        "lien": "https://www.filecrypt.cc/Container/0AD6890E2F.html",
+        "description": "Chef-d'œuvre d'action exigeant.",
+        "synopsis": "Incarnez un shinobi déshonoré dans le Japon de l'ère Sengoku, où la maîtrise du combat au sabre est votre seule chance de survie[cite: 10].",
+        "linux_status": "Platinum",
+        "config": {
+            "min": {
+                "os": "Windows 7 / 8 / 10 (64-bit)",
+                "cpu": "Intel Core i3-2100 / AMD FX-6300",
+                "ram": "4 GB RAM",
+                "gpu": "NVIDIA GeForce GTX 760 / AMD Radeon HD 7950",
+                "dx": "Version 11",
+                "storage": "25 GB"
+            },
+            "rec": {
+                "os": "Windows 7 / 8 / 10 (64-bit)",
+                "cpu": "Intel Core i5-2500K / AMD Ryzen 5 1400",
+                "ram": "8 GB RAM",
+                "gpu": "NVIDIA GeForce GTX 970 / AMD Radeon RX 570",
+                "dx": "Version 11",
+                "storage": "25 GB"
+            }
+        }
+    },
+    {
+        "nom": "Lies of P Deluxe Edition",
+        "categorie": "Repacks",
+        "image": "https://1.bp.blogspot.com/-AUpM_CeA4ZA/ZcyPVdHv0bI/AAAAAAABarE/npOquEpwTqgGitU_c7IZ5mSpRJuuILarACNcBGAsYHQ/s460/lies-of-p-pc-cover.jpg",
+        "lien": "https://www.filecrypt.cc/Container/98957847A8.html",
+        "description": "Un action-RPG sombre inspiré de l'histoire de Pinocchio.",
+        "synopsis": "Dans une ville sombre et désolée, vous incarnez Pinocchio, une marionnette à la recherche de son créateur, Geppetto, tout en combattant des automates corrompus[cite: 11].",
+        "linux_status": "Platinum",
+        "config": {
+            "min": {
+                "os": "Windows 10 (64-bit)",
+                "cpu": "AMD Ryzen 3 1200 / Intel Core i3-6300",
+                "ram": "8 GB RAM",
+                "gpu": "AMD Radeon RX 560 (4 GB) / NVIDIA GeForce GTX 96 (4 GB)",
+                "dx": "Version 12",
+                "storage": "50 GB"
+            },
+            "rec": {
+                "os": "Windows 10 (64-bit)",
+                "cpu": "AMD Ryzen 3 1200 / Intel Core i3-6300",
+                "ram": "16 GB RAM",
+                "gpu": "AMD Radeon RX 6500 XT (4 GB) / NVIDIA GeForce GTX 1660 (6 GB)",
+                "dx": "Version 12",
+                "storage": "50 GB"
+            }
+        }
+    },
+    {
+        "nom": "Death Stranding Directors Cut",
+        "categorie": "Repacks",
+        "image": "https://1.bp.blogspot.com/-rIAkWxSFhw4/YkbTK1UIpsI/AAAAAAAABG0/J5I3pDVDyUAyN_x31sr5fVfVr97CLwDpACNcBGAsYHQ/s460/death-stranding-directors-cut-pc-cover.jpg",
+        "lien": "https://www.filecrypt.cc/Container/6E0D5F93CB.html",
+        "description": "Une expérience de livraison unique dans un monde post-apocalyptique.",
+        "synopsis": "Sam Porter Bridges doit traverser un paysage dévasté pour reconnecter les survivants de l'humanité et éviter une extinction imminente[cite: 11].",
+        "linux_status": "Platinum",
+        "config": {
+            "min": {
+                "os": "Windows 10",
+                "cpu": "Intel Core i5-3470 / AMD Ryzen 3 1200",
+                "ram": "8 GB RAM",
+                "gpu": "GeForce GTX 1050 (3 GB) / AMD Radeon RX 560 (4 GB)",
+                "dx": "Version 12",
+                "storage": "80 GB"
+            },
+            "rec": {
+                "os": "Windows 10",
+                "cpu": "Intel Core i7-3770 / AMD Ryzen 5 1600",
+                "ram": "8 GB RAM",
+                "gpu": "GeForce GTX 1060 (6 GB) / AMD Radeon RX 590",
+                "dx": "Version 12",
+                "storage": "80 GB"
+            }
+        }
+    },
+    {
+        "nom": "Death Stranding 2 On the Beach Deluxe Edition",
+        "categorie": "Repacks",
+        "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEi1vG49tGpsP2ObJGgQmP8HM-H0ccKEaK9u-WrNYTh0BZnwvuoZCMV_ml-PLe8jY8AlFYaee22Wx3P5hyqvf5R0a8lmFmQjBmk8uGIa6XvvF3GqTQRw6Vz_pwPYcr5_dXFl_DAKcFKzlvS5GGUDh0vFg7tbm_ZE_EzEcoWWrkrkSc91G2JxuLf5107_IwE/s460/death-stranding-2-on-the-beach-pc-cover.jpg",
+        "lien": "https://www.filecrypt.cc/Container/80A93E4E70.html",
+        "description": "Suite de la saga de Kojima Productions.",
+        "synopsis": "L'aventure continue alors que Sam et ses alliés tentent de naviguer dans un monde toujours plus dangereux après les événements du premier opus[cite: 11].",
+        "linux_status": "Non testé",
+        "config": {
+            "min": {
+                "os": "Windows 10 / 11 (version 1909 ou supérieure)",
+                "cpu": "Intel Core i3-10100 / AMD Ryzen 3 3100",
+                "ram": "16 GB RAM",
+                "gpu": "NVIDIA GeForce GTX 1660 / AMD Radeon RX 5500 XT (8 GB)",
+                "dx": "Non spécifié",
+                "storage": "150 GB (SSD requis)"
+            },
+            "rec": {
+                "os": "Windows 10 / 11 (version 1909 ou supérieure)",
+                "cpu": "Intel Core i7-11700 / AMD Ryzen 7 5700X",
+                "ram": "16 GB RAM",
+                "gpu": "NVIDIA GeForce RTX 3070 / AMD Radeon RX 6800",
+                "dx": "Non spécifié",
+                "storage": "150 GB (SSD requis)"
+            }
+        }
+    },
+    {
+        "nom": "Detroit Become Human",
+        "categorie": "Repacks",
+        "image": "https://1.bp.blogspot.com/-XTWA6KmdSWQ/XutlIzJbXNI/AAAAAAABBBA/ylXT1GK3n-kXdYTt27qlZGf7GlNR7-11ACLcBGAsYHQ/s1600/detroit-become-human-pc-cover.jpg",
+        "lien": "https://www.filecrypt.cc/Container/46E60B05E8.html",
+        "description": "Drame narratif où vos choix changent tout.",
+        "synopsis": "Trois androïdes luttent pour leur identité dans un Détroit futuriste où la frontière entre machines et humains devient floue[cite: 11].",
+        "linux_status": "Gold",
+        "config": {
+            "min": {
+                "os": "Windows 10 (64-bit)",
+                "cpu": "Intel Core i5-2300 @ 2.8 GHz / AMD Ryzen 3 1200 @ 3.1 GHz / AMD FX-8350 @ 4.2 GHz",
+                "ram": "8 GB RAM",
+                "gpu": "Nvidia GeForce GTX 780 / AMD HD 7950 (3 GB VRAM minimum, Vulkan 1.1 requis)",
+                "dx": "Non spécifié",
+                "storage": "55 GB"
+            },
+            "rec": {
+                "os": "Windows 10 (64-bit)",
+                "cpu": "Intel Core i5-6600 @ 3.3 GHz / AMD Ryzen 3 1300 X @ 3.4 GHz",
+                "ram": "12 GB RAM",
+                "gpu": "Nvidia GeForce GTX 1060 / AMD Radeon RX 580 (4 GB VRAM minimum, Vulkan 1.1 requis)",
+                "dx": "Non spécifié",
+                "storage": "55 GB"
+            }
+        }
+    },
+    {
+        "nom": "Stray",
+        "categorie": "Repacks",
+        "image": "https://1.bp.blogspot.com/-dYVuBhx2aPU/YtcNTecUP8I/AAAAAAAABPY/7nLN2YtuhKk64K4a9iWAvJ1oCPou9xSlACNcBGAsYHQ/s460/stray-pc-cover.jpg",
+        "lien": "https://www.filecrypt.cc/Container/3B007F78B5.html",
+        "description": "Une aventure féline dans une cyber-cité.",
+        "synopsis": "Perdu dans une cité peuplée de robots, un chat doit résoudre des énigmes pour retrouver sa famille[cite: 11].",
+        "linux_status": "Platinum",
+        "config": {
+            "min": {
+                "os": "Windows 10",
+                "cpu": "Intel Core i5-2300 / AMD FX-6350",
+                "ram": "8 GB RAM",
+                "gpu": "NVIDIA GeForce GTX 650 Ti (2 GB) / AMD Radeon R7 360 (2 GB)",
+                "dx": "Version 12",
+                "storage": "10 GB"
+            },
+            "rec": {
+                "os": "Windows 10",
+                "cpu": "Intel Core i5-8400 / AMD Ryzen 5 2600",
+                "ram": "8 GB RAM",
+                "gpu": "NVIDIA GeForce GTX 780 (3 GB) / AMD Radeon R9 290X (4 GB)",
+                "dx": "Version 12",
+                "storage": "10 GB"
+            }
+        }
+    },
+    {
+        "nom": "Horizon Zero Dawn Complete Edition",
+        "categorie": "GOG",
+        "image": "https://1.bp.blogspot.com/-lBtWyo-fsDU/X73dxLgmX4I/AAAAAAABFSw/vB-JlIaBfLYR4agOkMGnA4Ug4NNepjDmQCLcBGAsYHQ/s460/horizon-zero-dawn-complete-pc-cover.jpg",
+        "lien": "https://www.filecrypt.cc/Container/B1183DFC63.html",
+        "description": "Horizon Zero Dawn est un jeu d'action-RPG en monde ouvert acclamé par la critique, développé par Guerrilla Games. La version Complete Edition inclut le jeu de base, l'extension massive 'The Frozen Wilds', ainsi que divers contenus additionnels numériques comme des tenues et des armes bonus.",
+        "synopsis": "Dans un futur post-apocalyptique luxuriant où la nature a repris ses droits sur les ruines d'une civilisation oubliée, l'humanité vit en petites tribus de chasseurs-cueilleurs. Le monde est dominé par de mystérieuses et colossales machines mécaniques. Vous incarnez Aloy, une jeune paria bannie de sa tribu, qui part en quête de ses origines, cherchant à découvrir la vérité sur son passé et à empêcher une menace cataclysmique qui pèse sur l'avenir de son monde.",
+        "linux_status": "Platinum",
+        "config": {
+            "min": {
+                "os": "Windows 10 64-bits",
+                "cpu": "Intel Core i5-2500K @ 3.3GHz ou AMD FX 6300 @ 3.5GHz",
+                "ram": "8 GB RAM",
+                "gpu": "Nvidia GeForce GTX 780 (3 GB) ou AMD Radeon R9 290 (4GB)",
+                "dx": "Version 12",
+                "storage": "100 GB"
+            },
+            "rec": {
+                "os": "Windows 10 64-bits",
+                "cpu": "Intel Core i7-4770K @ 3.5GHz ou Ryzen 5 1500X @ 3.5GHz",
+                "ram": "16 GB RAM",
+                "gpu": "Nvidia GeForce GTX 1060 (6 GB) ou AMD Radeon RX 580 (8GB)",
+                "dx": "Version 12",
+                "storage": "100 GB"
+            }
+        }
+    },
+    {
+        "nom": "Horizon Forbidden West Complete Edition",
+        "categorie": "Repacks",
+        "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiCWYGtfygyUJR_M_FgNbVjuiYb4v61ajNKcafPu7F2Hni3RaLwzg7jk8d4Jmhj_2ntOooJSCZ2Ofbk5RJwk0KYLp9VLbBoAqiwAmp1bgFnAToJcNkjeKy9mp4xKNywKBEgFiZ95g3XteXj9Xq0j5bdNOZn8qtMzStPDNeYjw-rSMXat52exXFccmGHON0/s460/horizon-forbidden-west-pc-cover.jpg",
+        "lien": "https://www.filecrypt.cc/Container/C145B2B02F.html",
+        "description": "Horizon Forbidden West est la suite directe d'Horizon Zero Dawn, développée par Guerrilla Games. Cette Complete Edition propose l'aventure épique complète, incluant l'extension 'Burning Shores' qui prolonge l'histoire après la campagne principale, ainsi que divers objets bonus en jeu.",
+        "synopsis": "Aloy s'aventure vers les terres frontalières de l'Ouest prohibé pour découvrir l'origine d'une mystérieuse menace qui dévaste tout sur son passage. Dans ce nouveau territoire sauvage, elle devra affronter des machines encore plus dangereuses et forgées pour la guerre, tout en nouant des alliances avec des tribus locales en conflit. Pour sauver la biosphère de la Terre, Aloy devra percer les secrets de l'ancien monde et rétablir l'ordre avant qu'il ne soit trop tard.",
+        "linux_status": "Gold",
+        "config": {
+            "min": {
+                "os": "Windows 10 64-bit (version 1909 or higher)",
+                "cpu": "Intel Core i3-8100 ou AMD Ryzen 3 1300X",
+                "ram": "16 GB RAM",
+                "gpu": "NVIDIA GeForce GTX 1650 4GB ou AMD Radeon RX 5500XT 4GB",
+                "dx": "Version 12",
+                "storage": "150 GB (SSD requis)"
+            },
+            "rec": {
+                "os": "Windows 10 64-bit (version 1909 or higher)",
+                "cpu": "Intel Core i5-8600 ou AMD Ryzen 5 3600",
+                "ram": "16 GB RAM",
+                "gpu": "NVIDIA GeForce RTX 3060 ou AMD Radeon RX 5700",
+                "dx": "Version 12",
+                "storage": "150 GB (SSD requis)"
+            }
+        }
+    },
+    {
+        "nom": "Horizon Zero Dawn Remastered",
+        "categorie": "Repacks",
+        "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiuYQFZ093gGiddH_tn3jp178IK-VfvtjdW1C0KkWrX0JcbSJPr7-qXqFsMiUF6HuTjp8cs_QeRVikFTyfbvC-nkDihYafgfABwrKHGn3W9vF6-MXxV0i3fnC33H3TElX4_eiOHgRNQSX93UqDJO-lkcMR35zSxMQAHiod01-KmO8c0QIzXyeyJTsChXvc/s460/horizon-zero-dawn-remastered-pc-cover.jpg",
+        "lien": "https://www.filecrypt.cc/Container/D072947EE6.html",
+        "description": "Cette version remastérisée d'Horizon Zero Dawn propose une refonte graphique complète utilisant les technologies du moteur de Forbidden West. Elle inclut des modèles de personnages améliorés, des environnements retravaillés, des animations de dialogue plus naturelles et des effets de lumière et de météo modernisés, tout en conservant l'intégralité du jeu original et de son extension The Frozen Wilds.",
+        "synopsis": "Dans un futur post-apocalyptique où la nature a repris ses droits sur les ruines d'une civilisation oubliée, l'humanité vit en petites tribus de chasseurs-cueilleurs entourées de machines colossales. Aloy, une paria en quête de ses origines, découvre un secret ancien qui menace de détruire son monde. Cette édition remastérisée permet de redécouvrir son voyage initiatique avec une fidélité visuelle et une immersion technique largement augmentées.",
+        "linux_status": "Gold",
+        "config": {
+            "min": {
+                "os": "Windows 10 64-bit (version 1909 or higher)",
+                "cpu": "Intel Core i3-8100 ou AMD Ryzen 3 1300X",
+                "ram": "16 GB RAM",
+                "gpu": "NVIDIA GeForce GTX 1650 4GB ou AMD Radeon RX 5500 XT 4GB",
+                "dx": "Version 12",
+                "storage": "135 GB (SSD recommandé)"
+            },
+            "rec": {
+                "os": "Windows 10 64-bit (version 1909 or higher)",
+                "cpu": "Intel Core i5-8600 ou AMD Ryzen 5 3600",
+                "ram": "16 GB RAM",
+                "gpu": "NVIDIA GeForce RTX 3060 ou AMD Radeon RX 5700",
+                "dx": "Version 12",
+                "storage": "135 GB (SSD recommandé)"
+            }
+        }
+    },
+    {
+        "nom": "LEGO Harry Potter Years 1-4",
+        "categorie": "GOG",
+        "image": "https://blogger.googleusercontent.com/img/a/AVvXsEjbZ-uLFiVdEa2cTNGBkyTFESWXS3n61nALY0bSRw73Az7WAaCNBosLXsg6K3A9DlwNs0ka4kB2GVK984BxtWmGbXBj2I4QqZjSst2qX3zim5ieZBawvBkH865Y_RyjAO2T6r-mRhQQlommiB-8sPB5ODVv60B3n92bNUVE-xgZFGSrFOlOEWtEmBov=s460",
+        "lien": "https://www.filecrypt.cc/Container/F0B1C59475.html",
+        "description": "LEGO Harry Potter: Years 1-4 est un jeu d'action-aventure mêlant l'humour caractéristique des jeux LEGO à l'univers magique de J.K. Rowling. Le jeu permet d'explorer Poudlard, d'apprendre des sorts, de préparer des potions et de vivre les événements marquants des quatre premières années du jeune sorcier avec une touche d'humour burlesque.",
+        "synopsis": "Suivez les aventures de Harry Potter, Ron Weasley et Hermione Granger lors de leurs quatre premières années à l'école de sorcellerie de Poudlard. De l'école à la lutte contre le Seigneur des Ténèbres, le jeu retrace les intrigues des films 'L'École des sorciers', 'La Chambre des secrets', 'Le Prisonnier d'Azkaban' et 'La Coupe de feu' à travers une aventure pleine de puzzles, de sorts à débloquer et de personnages emblématiques à collectionner.",
+        "linux_status": "Platinum",
+        "config": {
+            "min": {
+                "os": "Windows XP/Vista",
+                "cpu": "Intel P4 1.8 GHz / AMD Athlon XP 2200+",
+                "ram": "512 MB",
+                "gpu": "ATI X1300 / NVIDIA GeForce FX 5800 (256 MB)",
+                "dx": "DirectX 9.0c",
+                "storage": "Non spécifié (faible)"
+            },
+            "rec": {
+                "os": "Windows XP/Vista",
+                "cpu": "Intel Core 2 Duo / AMD Athlon 64, 2.8GHz",
+                "ram": "2 GB",
+                "gpu": "ATI HD 2900 / NVIDIA GeForce 8800",
+                "dx": "DirectX 9.0c",
+                "storage": "Non spécifié (faible)"
+            }
+        }
+    },
+    {
+        "nom": "LEGO Harry Potter Years 5-7",
+        "categorie": "GOG",
+        "image": "https://blogger.googleusercontent.com/img/a/AVvXsEjOVcQM6R7wPhjo5K5L6BN_YC30R8esVxxJsvxEIRBR2o9xpti8n0fJV9aEuu5cfiTvWWh6zEu2DHrbfErIfLM6e8TXjv8lm09G8IAyKdqzYGmv3guTZ9mK1VjBaegfuwvc5piB7gdZJuL4ofTovTk2sIVDIgxKoR-k-W4ihPvTMXIUwJxGaNT2t8HE=s460",
+        "lien": "https://www.filecrypt.cc/Container/9EB40EBFF3.html",
+        "description": "LEGO Harry Potter: Years 5-7 conclut les aventures du jeune sorcier en adaptant les événements des quatre derniers films de la saga. Le jeu reprend le gameplay classique d'exploration, de résolution d'énigmes et de combats magiques propres à la série, tout en introduisant de nouvelles mécaniques liées à la maturité croissante des personnages.",
+        "synopsis": "Harry, Ron et Hermione sont confrontés à des défis de plus en plus sombres alors que Voldemort revient en force et que le monde des sorciers bascule dans la guerre. Le jeu couvre les intrigues de 'L'Ordre du Phénix', 'Le Prince de sang-mêlé' et les deux parties des 'Reliques de la Mort', menant le joueur à travers des lieux emblématiques comme le ministère de la Magie, Godric's Hollow et enfin l'ultime confrontation à Poudlard.",
+        "linux_status": "Platinum",
+        "config": {
+            "min": {
+                "os": "Windows XP/Vista",
+                "cpu": "Intel P4 1.8 GHz / AMD Athlon XP 2200+",
+                "ram": "512 MB",
+                "gpu": "ATI X1300 / NVIDIA GeForce FX 5800 (256 MB)",
+                "dx": "DirectX 9.0c",
+                "storage": "Non spécifié (faible)"
+            },
+            "rec": {
+                "os": "Windows XP/Vista",
+                "cpu": "Intel Core 2 Duo / AMD Athlon 64, 2.8GHz",
+                "ram": "2 GB",
+                "gpu": "ATI HD 2900 / NVIDIA GeForce 8800",
+                "dx": "DirectX 9.0c",
+                "storage": "Non spécifié (faible)"
+            }
+        }
+    },
+    {
+        "nom": "Hades",
+        "categorie": "Repacks",
+        "image": "https://1.bp.blogspot.com/-RTt-zgfQfUk/YGaspiRLCsI/AAAAAAABI04/p_RjXqtwJEkoibBM8_3fh8esJFP_eDGwwCLcBGAsYHQ/s460/hades-pc-cover.jpg",
+        "lien": "https://www.filecrypt.cc/Container/87900933D4.html",
+        "description": "Hades est un rogue-like d'action au rythme effréné développé par Supergiant Games. Acclamé pour sa direction artistique exceptionnelle, sa bande-son immersive et son gameplay nerveux, il combine le meilleur des titres précédents du studio avec une narration riche qui évolue à chaque tentative d'évasion.",
+        "synopsis": "En tant que prince immortel des Enfers, vous devez vous frayer un chemin hors des griffes du dieu des morts, Hadès, pour tenter d'atteindre le Mont Olympe. À chaque tentative, les pouvoirs des Olympiens vous soutiendront, mais le chemin est semé d'embûches et les dieux de l'Olympe eux-mêmes ne sont pas toujours d'accord sur votre évasion. Défiez la mort dans ce dungeon crawler au style unique où chaque échec n'est qu'une étape vers la maîtrise et la révélation de l'histoire familiale.",
+        "linux_status": "Platinum",
+        "config": {
+            "min": {
+                "os": "Windows 7 SP1",
+                "cpu": "Dual Core 2.4 GHz",
+                "ram": "4 GB RAM",
+                "gpu": "1GB VRAM / DirectX 10+ support",
+                "dx": "Version 10",
+                "storage": "15 GB"
+            },
+            "rec": {
+                "os": "Windows 7 SP1",
+                "cpu": "Dual Core 3.0 GHz+",
+                "ram": "8 GB RAM",
+                "gpu": "2GB VRAM / DirectX 10+ support",
+                "dx": "Version 10",
+                "storage": "20 GB"
+            }
+        }
+    },
+    {
+        "nom": "Hades II",
+        "categorie": "Repacks",
+        "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgCrPdoXqrif8k9fkTysTcGIRliU9WWkmVuI3CzTO8aqvO38vouemhi8bzs2em6VbNOLIfcLYfZ1jA17ukATtPj7b2wNAAWgDSgWcne64iQ-2H0B3GJqjACFkrne9AC53KzvG3BcH0A3cHTj1eiKtZfAfJKnGT_g20ISppyRb8sCEzg53IWobexc0VyzG8/s460/hades-2-pc-cover.jpg",
+        "lien": "https://www.filecrypt.cc/Container/A44E6B8D7D.html",
+        "description": "Hades II est la suite directe du rogue-like à succès de Supergiant Games. Ce nouvel opus conserve l'action nerveuse et la narration profonde qui ont fait la renommée du premier, tout en introduisant une nouvelle protagoniste, un système de magie étoffé et de nouvelles mécaniques basées sur la sorcellerie antique.",
+        "synopsis": "Incarnez Mélinoé, la Princesse des Enfers et sœur de Zagreus, alors qu'elle s'aventure hors des profondeurs pour affronter le Titan du Temps lui-même. Dotée de pouvoirs sombres et guidée par les dieux de l'Olympe, Mélinoé doit percer les mystères de la sorcellerie pour accomplir sa mission vengeresse. Le destin de l'Olympe et du monde souterrain repose sur ses épaules dans ce récit épique où chaque mort n'est qu'une nouvelle opportunité de devenir plus puissante.",
+        "linux_status": "Platinum",
+        "config": {
+            "min": {
+                "os": "Windows 10 64-bit",
+                "cpu": "Dual Core 2.4 GHz",
+                "ram": "8 GB RAM",
+                "gpu": "GeForce GTX 950, Radeon R7 360, ou Intel HD Graphics 630",
+                "dx": "Version 12",
+                "storage": "10 GB"
+            },
+            "rec": {
+                "os": "Windows 10 64-bit",
+                "cpu": "Quad Core 2.4 GHz",
+                "ram": "16 GB RAM",
+                "gpu": "GeForce RTX 2060, Radeon RX 5600 XT, ou Intel Arc A580",
+                "dx": "Version 12",
+                "storage": "10 GB"
+            }
+        }
+    },
+    {
+        "nom": "Hogwarts Legacy Deluxe Edition",
+        "categorie": "Repacks",
+        "image": "https://1.bp.blogspot.com/-17heQiY_R8A/Y-Ym-CHD3LI/AAAAAAABV4U/2-iOHL5LSLoGUKuqUgbYLAXMidq1ZPgxACNcBGAsYHQ/s460/hogwarts-legacy-pc-cover.jpg",
+        "lien": "https://www.filecrypt.cc/Container/BC60257F63.html",
+        "description": "Hogwarts Legacy est un RPG d'action en monde ouvert immersif situé dans l'univers des livres Harry Potter. Cette édition Deluxe inclut le jeu complet ainsi que le pack Magie noire, offrant des cosmétiques exclusifs et l'accès à l'arène de combat de magie noire. Explorez Poudlard et ses environs dans une aventure inédite au XIXe siècle.",
+        "synopsis": "Vous intégrez l'école de sorcellerie de Poudlard en tant qu'élève de cinquième année, possédant la capacité rare de percevoir et maîtriser une magie ancienne mystérieuse. Alors qu'une rébellion gobeline menace le monde des sorciers, vous devez découvrir les secrets de cette magie perdue, nouer des alliances, apprendre des sorts puissants et forger votre propre destin tout en décidant si vous protégerez ce secret ou si vous succomberez à une tentation plus sombre.",
+        "linux_status": "Gold",
+        "config": {
+            "min": {
+                "os": "64-bit Windows 10",
+                "cpu": "Intel Core i5-6600 (3.3Ghz) ou AMD Ryzen 5 1400 (3.2Ghz)",
+                "ram": "16 GB RAM",
+                "gpu": "NVIDIA GeForce GTX 960 4GB ou AMD Radeon RX 470 4GB",
+                "dx": "Version 12",
+                "storage": "85 GB (SSD préféré)"
+            },
+            "rec": {
+                "os": "64-bit Windows 10",
+                "cpu": "Intel Core i7-8700 (3.2Ghz) ou AMD Ryzen 5 3600 (3.6 Ghz)",
+                "ram": "16 GB RAM",
+                "gpu": "NVIDIA GeForce 1080 Ti ou AMD Radeon RX 5700 XT ou INTEL Arc A770",
+                "dx": "Version 12",
+                "storage": "85 GB (SSD)"
+            }
+        }
+    },
+    {
+        "nom": "God of War",
+        "categorie": "Repacks",
+        "image": "https://1.bp.blogspot.com/-c2vaUX3RJSc/YeIEwnR2cxI/AAAAAAAAARk/7iaEfYuL0ygWP_WoWPulic20YcWeFNpNgCNcBGAsYHQ/s460/god-of-war-pc-cover.jpg",
+        "lien": "https://www.filecrypt.cc/Container/B13AC8383E.html",
+        "description": "Portage PC de l'épisode de 2018 acclamé par la critique, God of War marque un tournant majeur pour la série en déplaçant Kratos de la mythologie grecque vers le monde glacé et brutal des dieux nordiques. Cette version PC offre des paramètres graphiques avancés, une prise en charge du 4K, du taux de rafraîchissement illimité et des technologies comme le NVIDIA DLSS et le Reflex.",
+        "synopsis": "Des années après sa vengeance contre les dieux de l'Olympe, Kratos vit désormais en tant qu'homme parmi les divinités et monstres de la mythologie nordique. Dans ce monde hostile, il doit lutter pour sa survie tout en apprenant à son fils, Atreus, à faire de même. Cette aventure intime et brutale explore la relation complexe entre un père et son fils alors qu'ils tentent d'accomplir une quête personnelle au sommet de la plus haute montagne des royaumes.",
+        "linux_status": "Platinum",
+        "config": {
+            "min": {
+                "os": "Windows 10 64-bit",
+                "cpu": "Intel i5-2500k (4 core 3.3 GHz) ou AMD Ryzen 3 1200 (4 core 3.1 GHz)",
+                "ram": "8 GB RAM",
+                "gpu": "NVIDIA GTX 960 (4 GB) ou AMD R9 290X (4 GB)",
+                "dx": "Version 11",
+                "storage": "70 GB"
+            },
+            "rec": {
+                "os": "Windows 10 64-bit",
+                "cpu": "Intel i5-6600k (4 core 3.5 GHz) ou AMD Ryzen 5 2400 G (4 core 3.6 GHz)",
+                "ram": "8 GB RAM",
+                "gpu": "NVIDIA GTX 1060 (6 GB) ou AMD RX 570 (4 GB)",
+                "dx": "Version 11",
+                "storage": "70 GB"
+            }
+        }
+    },
+    {
+        "nom": "God of War Ragnarok Deluxe Edition",
+        "categorie": "Repacks",
+        "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEh8QJcESKeEGrd402L9Em9Qza-7INd6pivez59i1Axwp2Mbg98ZdB5m54Hb1agS7OZRMnImaxI15SssqbTm1OG_d5zUpNFyNzvDAKBMXQE0GTf2-p64iVVoxMgXwKeXeaJMh2XeG90PNImmMgV33BOlPuPYCPrlD3t__W0Mza2IZQECO8Tl7m5lfTU9Kr8/s460/god-of-war-ragnarok-pc-cover.jpg",
+        "lien": "https://www.filecrypt.cc/Container/06A5720E2F.html",
+        "description": "God of War Ragnarök est la suite épique de l'aventure de 2018, plongeant Kratos et Atreus au cœur des neuf royaumes alors que le Ragnarök approche. La Deluxe Edition inclut le jeu complet ainsi que du contenu numérique bonus tel que l'armure du Darkdale pour Kratos, la tenue du Darkdale pour Atreus, la bande originale officielle et un mini artbook numérique.",
+        "synopsis": "Alors que le Fimbulvetr, un hiver glacial, s'abat sur les neuf royaumes, Kratos et son fils adolescent Atreus cherchent des réponses à la prophétie du 'Loki' alors que les forces d'Asgard se préparent à une guerre annoncée. Ensemble, ils devront parcourir des terres dangereuses et affronter des menaces divines, notamment le puissant Thor et le rusé Odin, tout en luttant pour protéger leur famille et définir le cours de leur destin.",
+        "linux_status": "Gold",
+        "config": {
+            "min": {
+                "os": "Windows 10 64-bit",
+                "cpu": "Intel i5-4670k ou AMD Ryzen 3 1200",
+                "ram": "8 GB RAM",
+                "gpu": "NVIDIA GTX 1060 (6GB) ou AMD RX 5500 XT (8GB) ou Intel Arc A750",
+                "dx": "Version 12",
+                "storage": "190 GB"
+            },
+            "rec": {
+                "os": "Windows 10 64-bit",
+                "cpu": "Intel i5-8600 ou AMD Ryzen 5 3600",
+                "ram": "16 GB RAM",
+                "gpu": "NVIDIA RTX 2060 Super ou AMD RX 5700 ou Intel Arc A770",
+                "dx": "Version 12",
+                "storage": "190 GB"
+            }
+        }
+    },
+    {
+        "nom": "Alan Wake",
+        "categorie": "GOG",
+        "image": "https://1.bp.blogspot.com/-cHSvQC3xnBk/YU4sNIHdHjI/AAAAAAABOsU/hMlLMhvcJUALelKG5XhzzSkKFuIM7wbbwCLcBGAsYHQ/s460/alan-wake-pc-cover.jpg",
+        "lien": "https://www.filecrypt.cc/Container/47351B022B.html",
+        "description": "Alan Wake est un thriller psychologique d'action développé par Remedy Entertainment. Le jeu est célèbre pour son atmosphère inspirée des séries télévisées, sa narration cinématographique et sa mécanique de jeu unique où la lumière joue un rôle essentiel pour affronter les ténèbres.",
+        "synopsis": "Alan Wake, un écrivain de best-sellers à succès souffrant du syndrome de la page blanche, part en vacances dans la petite ville pittoresque de Bright Falls avec son épouse, Alice. Lorsque cette dernière disparaît mystérieusement, Alan se retrouve plongé dans une réalité cauchemardesque inspirée de son propre roman qu'il ne se souvient pas avoir écrit. Pour survivre et sauver sa femme, il doit utiliser la lumière comme arme contre une force obscure omniprésente qui possède les habitants de la ville.",
+        "linux_status": "Platinum",
+        "config": {
+            "min": {
+                "os": "Windows XP SP2",
+                "cpu": "Dual Core 2GHz Intel ou 2.8GHz AMD",
+                "ram": "2 GB RAM",
+                "gpu": "DirectX 10 compatible avec 512MB RAM",
+                "dx": "Version 9.0c",
+                "storage": "8 GB"
+            },
+            "rec": {
+                "os": "Windows 7",
+                "cpu": "Quad Core 2.66GHz Intel ou 3.2GHz AMD",
+                "ram": "4 GB RAM",
+                "gpu": "DirectX 10 compatible ou plus avec 1GB RAM",
+                "dx": "Version 10",
+                "storage": "8 GB"
+            }
+        }
+    },
+    {
+        "nom": "Alan Wake's American Nightmare",
+        "categorie": "GOG",
+        "image": "https://1.bp.blogspot.com/-wRfGak6tsxY/YU4zVOtiKaI/AAAAAAABOs0/8UhR8Yj08ykWDQHBZfIMmZYiI7K6j8VSgCLcBGAsYHQ/s460/alan-wakes-american-nightmare-pc-cover.jpg",
+        "lien": "https://www.filecrypt.cc/Container/81A2429F52.html",
+        "description": "Alan Wake's American Nightmare est une extension autonome (standalone) de la série, adoptant un ton plus orienté vers l'action et le pulp horror des années 50. Il propose une campagne narrative ainsi qu'un mode Arcade intense basé sur la survie contre des vagues d'ennemis.",
+        "synopsis": "Dans cette aventure, Alan Wake se retrouve piégé dans une version distordue de la réalité à l'intérieur d'une petite ville de l'Arizona. Il doit traquer son double maléfique, M. Grincement (Mr. Scratch), un psychopathe surnaturel qui terrorise les habitants. En manipulant la réalité à travers des manuscrits trouvés sur place, Alan tente de réécrire le scénario pour échapper à ce cauchemar éveillé et vaincre son ennemi juré.",
+        "linux_status": "Platinum",
+        "config": {
+            "min": {
+                "os": "Windows XP SP2",
+                "cpu": "Dual Core 2GHz Intel ou 2.8GHz AMD",
+                "ram": "2 GB RAM",
+                "gpu": "DirectX 10 compatible avec 512MB RAM",
+                "dx": "Version 10",
+                "storage": "8 GB"
+            },
+            "rec": {
+                "os": "Windows 7",
+                "cpu": "Quad Core 2.66GHz Intel ou 3.2GHz AMD",
+                "ram": "4 GB RAM",
+                "gpu": "DirectX 10 compatible ou plus avec 1GB RAM",
+                "dx": "Version 10",
+                "storage": "8 GB"
+            }
+        }
+    },
+    {
+        "nom": "Alan Wake 2 Deluxe Edition",
+        "categorie": "Repacks",
+        "image": "https://blogger.googleusercontent.com/img/a/AVvXsEgN9BcsyMuJvpqH_DInjwGinnbhWYTsP4rcQm_hxHwep4avhA52a6v5DztmxBi4EsFfxCs7IwqqV0mcErYAABWu0w5v_HSwzhW_93hG3tdi_bH4f_cCo_fjBHEQ8iyh_m2ulzUunb0zRf4g99W-7pqTDUzOeuzSVeaSrUO18KnyYvop1KwBrINRKyhEjoY",
+        "lien": "https://www.filecrypt.cc/Container/1C9AEAF524.html",
+        "description": "Alan Wake 2 est un jeu de survival-horror narratif qui pousse les limites de la mise en scène. Cette Deluxe Edition inclut le jeu complet ainsi que le pass d'extension (pour les DLC 'Night Springs' et 'The Lake House'), le cosmétique 'Coupe-vent de sectaire' pour Saga, et le costume 'Veste de célébrité' pour Alan.",
+        "synopsis": "Treize ans après la disparition de l'écrivain Alan Wake, une série de meurtres rituels terrorise Bright Falls. Saga Anderson, une profileuse du FBI renommée, arrive sur place pour enquêter. Parallèlement, Alan Wake tente de s'échapper d'une dimension cauchemardesque en écrivant une histoire qui influence la réalité. Leurs destins s'entremêlent dans un récit horrifique où la lumière et l'obscurité sont les clés de la survie.",
+        "linux_status": "Gold",
+        "config": {
+            "min": {
+                "os": "Windows 10/11 64-bit",
+                "cpu": "Intel i5-7600K ou équivalent AMD",
+                "ram": "16 GB",
+                "gpu": "GeForce RTX 2060 / Radeon RX 6600",
+                "dx": "Version 12",
+                "storage": "90 GB SSD"
+            },
+            "rec": {
+                "os": "Windows 10/11 64-bit",
+                "cpu": "Ryzen 7 3700X ou équivalent Intel",
+                "ram": "16 GB",
+                "gpu": "GeForce RTX 3060 / Radeon RX 6600 XT",
+                "dx": "Version 12",
+                "storage": "90 GB SSD"
+            }
+        }
+    },
+    {
+        "nom": "Alan Wake Remastered",
+        "categorie": "Repacks",
+        "image": "https://1.bp.blogspot.com/-RqsmsxLFHes/Yd2yJbLzQAI/AAAAAAAAAFE/ffleiG5cy0obxfhdOEI6uNBJqf7O8DbuQCNcBGAsYHQ/s460/alan-wake-remastered-pc-cover.jpg",
+        "lien": "https://www.filecrypt.cc/Container/B3F292D702.html",
+        "description": "Alan Wake Remastered offre une expérience visuelle modernisée du thriller psychologique culte de Remedy Entertainment. Cette version remastérisée propose des graphismes en 4K, des modèles de personnages améliorés, des environnements retravaillés et des effets visuels plus riches, incluant également les deux extensions narratives originales : 'The Signal' et 'The Writer'.",
+        "synopsis": "L'écrivain Alan Wake, en quête de repos dans la ville de Bright Falls, se retrouve plongé dans une lutte désespérée pour sa survie lorsque sa femme disparaît. Confronté à des événements qui semblent sortir tout droit de son propre manuscrit qu'il ne se souvient pas avoir écrit, il doit percer le mystère des ténèbres qui menacent de le consumer. Cette version remastérisée permet aux nouveaux joueurs et aux habitués de redécouvrir ce récit oppressant avec une fidélité graphique remise au goût du jour.",
+        "linux_status": "Platinum",
+        "config": {
+            "min": {
+                "os": "Windows 10 64-bit",
+                "cpu": "Intel i5-3340 ou équivalent",
+                "ram": "8 GB",
+                "gpu": "Nvidia GeForce GTX 960 ou équivalent (2GB VRAM)",
+                "dx": "Version 12",
+                "storage": "Non spécifié"
+            },
+            "rec": {
+                "os": "Windows 10 64-bit",
+                "cpu": "Intel i7-3770 ou équivalent",
+                "ram": "16 GB",
+                "gpu": "Nvidia GeForce GTX 1060 ou équivalent (4GB VRAM)",
+                "dx": "Version 12",
+                "storage": "Non spécifié"
+            }
+        }
+    },
+    {
+        "nom": "Need For Speed Undercover",
+        "categorie": "Repacks",
+        "image": "https://1.bp.blogspot.com/-jWNc0fmnvv4/WXy-Do9cMpI/AAAAAAAAiwE/rilZLCSOuxMD5gC_qOkEl2ju_eynVOKZQCLcBGAs/s1600/need-for-speed-undercover-pc-cover-www.ovagames.com.jpg",
+        "lien": "https://www.filecrypt.cc/Container/5BCABD087B.html",
+        "description": "Need for Speed: Undercover est un jeu de course orienté arcade qui renoue avec les poursuites policières intenses et le style cinématographique des épisodes comme Most Wanted. Le jeu met l'accent sur une narration structurée autour d'une infiltration au sein d'un syndicat du crime organisé.",
+        "synopsis": "Vous incarnez un policier infiltré chargé de démanteler une organisation criminelle internationale spécialisée dans le vol et le trafic de véhicules haut de gamme. Pour réussir votre mission, vous devrez participer à des courses illégales, échapper à des poursuites policières effrénées et gagner la confiance des réseaux criminels dans la ville fictive de Tri-City Bay.",
+        "linux_status": "Gold",
+        "config": {
+            "min": {
+                "os": "Windows XP (SP2) / Windows Vista",
+                "cpu": "Intel Pentium 4 ou équivalent, 3.0 GHz",
+                "ram": "512 MB (XP) / 1 GB (Vista)",
+                "gpu": "128 MB, NVIDIA GeForce 6600 / ATI Radeon 9500 / Intel G45 Express",
+                "dx": "Version 9.0c",
+                "storage": "6.0 GB"
+            },
+            "rec": {
+                "os": "Windows XP / Vista",
+                "cpu": "Intel Core 2 Duo ou équivalent",
+                "ram": "2 GB",
+                "gpu": "NVIDIA GeForce 7800 GT / ATI Radeon X1800",
+                "dx": "Version 9.0c",
+                "storage": "6.0 GB"
+            }
+        }
+    },
+    {
+        "nom": "Need For Speed ProStreet",
+        "categorie": "Repacks",
+        "image": "https://1.bp.blogspot.com/-ZfNBeW7oKks/XTV96QJn9aI/AAAAAAAA28I/awq6JBgk8qkItKb6_d7u44_tsmNLkJeHgCLcBGAs/s1600/need-for-speed-prostreet-pc-cover-www.ovagames.com.jpg",
+        "lien": "https://www.filecrypt.cc/Container/80F0A033D7.html",
+        "description": "Need for Speed: ProStreet marque une rupture avec les épisodes axés sur les courses de rue illégales pour se concentrer sur la culture du tuning professionnel en circuit fermé. Le jeu propose une physique de conduite plus exigeante, un système de dégâts réaliste et des événements officiels organisés dans des environnements clos.",
+        "synopsis": "Après avoir dominé la scène des courses de rue, Ryan Cooper décide de faire ses preuves sur les circuits légaux et officiels. Vous devrez affronter les 'Rois de la rue' dans quatre disciplines distinctes : le Grip, le Drift, le Drag et le Speed Challenge, afin de conquérir les titres de champion et devenir la nouvelle icône incontestée du sport automobile de rue.",
+        "linux_status": "Gold",
+        "config": {
+            "min": {
+                "os": "Windows XP / Vista / 7",
+                "cpu": "Intel Pentium 4 2.0 GHz / AMD 2100+",
+                "ram": "512 MB",
+                "gpu": "128 MB compatible DirectX 9",
+                "dx": "Version 9.0",
+                "storage": "7.5 GB"
+            },
+            "rec": {
+                "os": "Windows XP / Vista / 7",
+                "cpu": "Intel Core 2 Duo / AMD Athlon 64 X2",
+                "ram": "1 GB",
+                "gpu": "256 MB compatible DirectX 9 (série GeForce 7 ou Radeon X1800)",
+                "dx": "Version 9.0",
+                "storage": "7.5 GB"
+            }
+        }
+    },
+    {
+        "nom": "Need for Speed Carbon Collector's Edition",
+        "categorie": "Repacks",
+        "image": "https://1.bp.blogspot.com/-J_3VLx_tcz0/XycrptLwAnI/AAAAAAABCD0/PWIfHY3odPYrBj7f2Xb4r7koD94Be1gigCLcBGAsYHQ/s920/Need-For-Speed-Carbon-PC-Cover.jpg",
+        "lien": "https://www.filecrypt.cc/Container/FD41F93431.html",
+        "description": "Need for Speed: Carbon est la suite directe de Most Wanted, axée sur les courses nocturnes et les affrontements de gangs pour le contrôle des territoires urbains. L'édition Collector apporte du contenu supplémentaire exclusif, notamment trois nouvelles voitures, six nouveaux types de courses, dix voitures pré-tunées et des vinyles uniques. Le jeu introduit également la mécanique des équipiers (Blocker, Drafter, Scout) et les redoutables duels dans les canyons.",
+        "synopsis": "Après avoir fui Rockport, le protagoniste retourne à Palmont City, mais découvre que la situation a radicalement changé. Accusé à tort d'avoir saboté une course à gros enjeux par le passé, il doit repartir de zéro. Avec l'aide de son amie Nikki, il monte un nouvel équipage pour conquérir les différents quartiers de la ville face aux gangs rivaux, avant de disputer l'ultime face-à-face mortel dans le Carbon Canyon contre Darius.",
+        "linux_status": "Gold",
+        "config": {
+            "min": {
+                "os": "Windows XP",
+                "cpu": "Intel Pentium 4 @ 1.7 GHz",
+                "ram": "512 MB",
+                "gpu": "64 MB compatible DirectX 9",
+                "dx": "Version 9.0",
+                "storage": "5.3 GB"
+            },
+            "rec": {
+                "os": "Windows XP / 7",
+                "cpu": "Intel Pentium 4 @ 2.4 GHz / AMD Athlon XP 2500+",
+                "ram": "1 GB",
+                "gpu": "128 MB (NVIDIA GeForce 6800 / ATI Radeon X800)",
+                "dx": "Version 9.0c",
+                "storage": "5.3 GB"
+            }
+        }
+    },
+    {
+        "nom": "Need For Speed Shift",
+        "categorie": "Repacks",
+        "image": "https://3.bp.blogspot.com/-8icJ4TRxTUg/WX5LtZFvZJI/AAAAAAAAi0I/tFH1u1zqvD05rdLdtjVq3R8i7ctgbrDmACLcBGAs/s1600/need-for-speed-shift-pc-cover-www.ovagames.com.jpg",
+        "lien": "https://www.filecrypt.cc/Container/A41A2A610E.html",
+        "description": "Need for Speed: Shift oriente la franchise vers la simulation automobile réaliste en mettant de côté le style arcade urbain. Développé par Slightly Mad Studios, le jeu propose une vue cockpit immersive et dynamique, une physique des véhicules travaillée et un système de profil de pilote qui s'adapte à votre style de conduite, qu'il soit précis ou agressif.",
+        "synopsis": "Entrez dans la peau d'un pilote professionnel et grimpez les échelons du sport automobile mondial. Votre objectif ultime est de participer aux prestigieuses World GT1 Series. À travers différents championnats sur des circuits réels et fictifs hautement détaillés, gérez les forces G, apprenez la trajectoire parfaite et battez vos rivaux pour devenir le champion ultime de la discipline.",
+        "linux_status": "Gold",
+        "config": {
+            "min": {
+                "os": "Windows XP (SP3) / Vista (SP2) / 7",
+                "cpu": "Intel Core 2 Duo 1.6 GHz / AMD Athlon X2 3800+",
+                "ram": "1 GB (XP) / 1.5 GB (Vista/7)",
+                "gpu": "256 MB avec support Pixel Shader 3.0",
+                "dx": "Version 9.0c",
+                "storage": "6 GB"
+            },
+            "rec": {
+                "os": "Windows XP (SP3) / Vista (SP2) / 7 / 10",
+                "cpu": "Intel Core 2 Duo 2.5 GHz / AMD Athlon 64 X2 2.0 GHz",
+                "ram": "2 GB (XP) / 3 GB (Vista/7)",
+                "gpu": "512 MB avec support Pixel Shader 3.0 (NVIDIA GeForce 8800 GT / ATI Radeon HD 3870)",
+                "dx": "Version 9.0c",
+                "storage": "6 GB"
+            }
+        }
+    },
+    {
+        "nom": "Shift 2 Unleashed",
+        "categorie": "Repacks",
+        "image": "https://3.bp.blogspot.com/--pHxMoSOgEA/WX2bHa6ICfI/AAAAAAAAiw0/qE6YnvDOBJM-35cYDadLmPApRRVrqAVWgCLcBGAs/s1600/shift-2-unleashed-pc-cover-www.ovagames.com.jpg",
+        "lien": "https://www.filecrypt.cc/Container/2CA6B74545.html",
+        "description": "Shift 2: Unleashed pousse l'expérience de simulation de la franchise Need for Speed encore plus loin dans le réalisme et l'intensité. Développé par Slightly Mad Studios, le titre se distingue par l'introduction de la célèbre 'vue casque' (Helmet Cam) révolutionnaire qui simule les mouvements de tête réels d'un pilote, ainsi que par des courses nocturnes spectaculaires et une physique des dégâts hautement poussée.",
+        "synopsis": "Prenez les commandes de bolides ultra-puissants et tracez votre route jusqu'au sommet du championnat du monde FIA GT1. Face à une intelligence artificielle agressive et sur des circuits internationaux exigeants, vous devrez ressentir chaque vibration, maîtriser les trajectoires de nuit et repousser vos limites dans la bataille ultime pour devenir le champion du monde de la discipline.",
+        "linux_status": "Gold",
+        "config": {
+            "min": {
+                "os": "Windows XP / Vista / 7",
+                "cpu": "Intel Core 2 Duo E2140 @ 1.6 GHz / AMD Athlon 64 X2 3800+",
+                "ram": "2 GB",
+                "gpu": "512 MB, nVidia GeForce 8800 / ATI Radeon HD 2900",
+                "dx": "Version 9.0c",
+                "storage": "7.3 GB"
+            },
+            "rec": {
+                "os": "Windows XP / Vista / 7",
+                "cpu": "Intel Core 2 Duo @ 2.5 GHz / AMD Athlon 64 X2 5400+",
+                "ram": "3 GB",
+                "gpu": "1 GB, nVidia GeForce GTX 280 / ATI Radeon HD 4890",
+                "dx": "Version 9.0c",
+                "storage": "7.3 GB"
+            }
+        }
+    }
+]

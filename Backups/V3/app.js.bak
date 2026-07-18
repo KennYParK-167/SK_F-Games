@@ -581,38 +581,3 @@ document.querySelectorAll('.footer-nav-link').forEach(link => {
 
 document.getElementById('search-input').addEventListener('input', applyFilters);
 document.addEventListener('DOMContentLoaded', fetchGames);
-
-/* ==========================================================================
-   LOGIQUE EXCLUSIVE : INITIALISATION ET BASCULEMENT DE THEME DYNAMIQUE
-   ========================================================================== */
-const themeToggleBtn = document.getElementById('theme-toggle-btn');
-if (themeToggleBtn) {
-    const themeIcon = themeToggleBtn.querySelector('i');
-    const savedTheme = localStorage.getItem('sk_fgame_theme');
-    const systemPrefersDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
-
-    // Initialisation
-    if (savedTheme === 'dark' || (!savedTheme && systemPrefersDark)) {
-        document.documentElement.setAttribute('data-theme', 'dark');
-        if (themeIcon) themeIcon.className = 'fa-solid fa-sun';
-    } else {
-        document.documentElement.setAttribute('data-theme', 'light');
-        if (themeIcon) themeIcon.className = 'fa-solid fa-moon';
-    }
-
-    // Gestion du clic
-    themeToggleBtn.addEventListener('click', () => {
-        const currentTheme = document.documentElement.getAttribute('data-theme');
-        let newTheme = 'light';
-
-        if (currentTheme === 'light') {
-            newTheme = 'dark';
-            if (themeIcon) themeIcon.className = 'fa-solid fa-sun';
-        } else {
-            if (themeIcon) themeIcon.className = 'fa-solid fa-moon';
-        }
-
-        document.documentElement.setAttribute('data-theme', newTheme);
-        localStorage.setItem('sk_fgame_theme', newTheme);
-    });
-}

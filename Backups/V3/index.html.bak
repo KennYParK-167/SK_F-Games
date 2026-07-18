@@ -9,7 +9,7 @@
     <title>F-Games Links | SK GAMING & CO.</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
     <link rel="stylesheet" href="style.css">
-    <link rel="shortcut icon" href="./assets/favicon.ico" type="image/x-icon">
+    <link rel="shortcut icon" href="./assets/favicon.png" type="image/png">
 </head>
 
 <body>
@@ -147,7 +147,6 @@
         <div class="footer-bottom">
             <p>&copy; 2026 SK GAMING & CO. Tous droits réservés.</p>
             <div class="div-access">
-                <button class="back-to-top-btn" id="theme-toggle-btn" title="Changer de thème"><i class="fa-solid fa-moon"></i></button>
                 <a href="https://discord.gg/XxPR3ZjjCt" title="Discord" class="back-to-top-btn"><i class="fa-brands fa-discord"></i></a>
                 <button class="back-to-top-btn" id="back-to-top"><i class="fa-solid fa-arrow-up"></i></button>
             </div>

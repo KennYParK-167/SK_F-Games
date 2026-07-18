@@ -1,0 +1,29 @@
+[
+    {
+        "nom": "The Walking Dead: A New Frontier",
+        "categorie": "PS4",
+        "image": "https://www.superpsx.com/wp-content/uploads/2024/09/The-Walking-Dead_-A-New-Frontier-Season-Pass-PS4-PKG.webp",
+        "lien": "https://vik1ngfile.site/f/iOB8FFqi6W",
+        "description": "Troisième saison de la série narrative interactive basée sur l'univers de The Walking Dead.",
+        "synopsis": "Plusieurs années après l'apocalypse zombie, le destin de Javier Garcia se croise avec celui de Clementine. Chaque choix aura des conséquences lourdes dans ce monde impitoyable.",
+        "linux_status": "Non applicable",
+        "config": {
+            "min": {
+                "os": "PS4 System Software",
+                "cpu": "AMD Jaguar 8 cores",
+                "ram": "8 GB GDDR5",
+                "gpu": "AMD Radeon",
+                "dx": "Non applicable",
+                "storage": "Non spécifié"
+            },
+            "rec": {
+                "os": "Non spécifié",
+                "cpu": "Non spécifié",
+                "ram": "Non spécifié",
+                "gpu": "Non spécifié",
+                "dx": "Non applicable",
+                "storage": "Non spécifié"
+            }
+        }
+    }
+]

@@ -2,31 +2,16 @@
    VARIABLES & CONFIGURATION GÉNÉRALE
    ========================================================================== */
 :root {
-    /* --- THEME CLAIR (LIGHT MODE) ÉLÉGANT & ÉQUILIBRÉ --- */
-    --bg-color: #FDF8F6;
-    --card-bg: #F5ECE9;
-    --text-main: #201A18;
-    --text-muted: #7E7471;
-    --border-color: #EDE2DE;
+    --bg-color: #121212;
+    --card-bg: #1e1e1e;
+    --text-main: #fffffa;
+    --text-muted: #b0b0b0;
+    --border-color: #3a3a3a;
 
-    /* Palette Boutons - Terracotta Ambré Affirmé & Sophistiqué */
-    --accent-solid: #d75133;   /* Ambre soutenu, bien visible et texturé */
-    --accent-hover: #ba4328;   /* Version survol assombrie pour l'effet de clic */
-    --accent-text: #bb3d21;    /* Accentuation textuelle secondaire contrastée */
-}
-
-[data-theme="dark"] {
-    /* --- THEME SOMBRE (DARK MODE - PARFAIT & INCHANGÉ) --- */
-    --bg-color: #111111;
-    --card-bg: #1A1D20;
-    --text-main: #FFFFFA;
-    --text-muted: #8B8D98;
-    --border-color: #2D3139;
-
-    /* Palette Custom Accentuation - Rouge Ambre (Dark context) */
-    --accent-solid: #C22700;
-    --accent-hover: #E63D12;
-    --accent-text: #FF6B4A;
+    /* Palette de Verts Cyber */
+    --accent-solid: #004d1a;
+    --accent-hover: #006622;
+    --green-text: #00ff66;
 }
 
 * {
@@ -42,7 +27,6 @@ body {
     max-width: 1280px;
     margin: 0 auto;
     padding: 120px 1rem 2rem 1rem;
-    transition: background-color 0.3s ease, color 0.3s ease;
 }
 
 /* ==========================================================================
@@ -54,7 +38,7 @@ body {
     left: 0;
     right: 0;
     height: 70px;
-    background-color: var(--card-bg);
+    background-color: rgba(30, 30, 30, 0.85);
     backdrop-filter: blur(10px);
     border-bottom: 1px solid var(--border-color);
     display: flex;
@@ -62,8 +46,8 @@ body {
     align-items: center;
     padding: 0 1rem;
     z-index: 1000;
-    transition: transform 0.3s cubic-bezier(0.4, 0, 0.2, 1), opacity 0.3s ease, box-shadow 0.3s ease, background-color 0.3s ease, border-color 0.3s ease;
-    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.05);
+    transition: transform 0.3s cubic-bezier(0.4, 0, 0.2, 1), opacity 0.3s ease, box-shadow 0.3s ease;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.5), 0 1px 15px rgba(0, 255, 102, 0.03);
 }
 
 .navbar.hidden {
@@ -84,7 +68,7 @@ body {
 }
 
 .brand i {
-    color: var(--accent-text);
+    color: var(--green-text);
 }
 
 .nav-controls {
@@ -97,7 +81,7 @@ body {
    BOUTON DIRECT FAVORIS (NAVBAR)
    ========================================================================== */
 .nav-wishlist-btn {
-    background-color: var(--bg-color);
+    background-color: #1a1a1a;
     border: 1px solid var(--border-color);
     color: var(--text-main);
     padding: 8px 14px;
@@ -119,8 +103,8 @@ body {
 
 .nav-wishlist-btn:hover,
 .nav-wishlist-btn.active {
-    border-color: var(--accent-text);
-    box-shadow: 0 0 10px rgba(194, 39, 0, 0.15);
+    border-color: var(--green-text);
+    box-shadow: 0 0 10px rgba(0, 255, 102, 0.15);
 }
 
 .nav-wishlist-btn.active i,
@@ -141,7 +125,7 @@ body {
     }
 
     .nav-wishlist-btn.active i {
-        color: var(--accent-text);
+        color: var(--green-text);
     }
 
     .nav-wishlist-text {
@@ -158,7 +142,7 @@ body {
 }
 
 .dropdown-trigger {
-    background-color: var(--bg-color);
+    background-color: #1a1a1a;
     border: 1px solid var(--border-color);
     color: var(--text-main);
     padding: 8px 14px;
@@ -175,8 +159,8 @@ body {
 
 .custom-dropdown:hover .dropdown-trigger,
 .custom-dropdown.open .dropdown-trigger {
-    border-color: var(--accent-text);
-    box-shadow: 0 0 10px rgba(194, 39, 0, 0.15);
+    border-color: var(--green-text);
+    box-shadow: 0 0 10px rgba(0, 255, 102, 0.15);
 }
 
 .arrow-icon {
@@ -187,18 +171,18 @@ body {
 
 .custom-dropdown.open .arrow-icon {
     transform: rotate(180deg);
-    color: var(--accent-text);
+    color: var(--green-text);
 }
 
 .dropdown-menu {
     position: absolute;
     top: calc(100% + 6px);
     right: 0;
-    background-color: var(--bg-color);
-    border: 1px solid var(--accent-text);
+    background-color: #1a1a1a;
+    border: 1px solid var(--green-text);
     border-radius: 6px;
     width: 130px;
-    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.15);
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.6), 0 0 15px rgba(0, 255, 102, 0.08);
     opacity: 0;
     transform: translateY(-8px);
     pointer-events: none;
@@ -222,13 +206,13 @@ body {
 }
 
 .dropdown-item:hover {
-    background-color: rgba(194, 39, 0, 0.06);
+    background-color: rgba(0, 255, 102, 0.06);
     color: var(--text-main);
 }
 
 .dropdown-item.active {
     background-color: var(--accent-solid);
-    color: #FFFFFF;
+    color: var(--green-text);
     font-weight: 600;
 }
 
@@ -252,7 +236,7 @@ body {
 .mobile-search-toggle:hover,
 .mobile-search-toggle.active {
     background-color: rgba(255, 255, 255, 0.05);
-    color: var(--accent-text);
+    color: var(--green-text);
 }
 
 .search-container {
@@ -281,7 +265,7 @@ body {
 .search-input {
     width: 100%;
     padding: 10px 16px 10px 40px;
-    background-color: var(--bg-color);
+    background-color: #121212;
     border: 1px solid var(--border-color);
     border-radius: 6px;
     color: var(--text-main);
@@ -292,12 +276,12 @@ body {
 }
 
 .search-inner:focus-within .search-icon {
-    color: var(--accent-text);
+    color: var(--green-text);
 }
 
 .search-input:focus {
-    border-color: var(--accent-text);
-    box-shadow: 0 0 12px rgba(194, 39, 0, 0.2);
+    border-color: var(--green-text);
+    box-shadow: 0 0 12px rgba(0, 255, 102, 0.2);
 }
 
 @media (max-width: 767px) {
@@ -306,10 +290,10 @@ body {
         top: 70px;
         left: 0;
         right: 0;
-        background-color: var(--card-bg);
+        background-color: #1a1a1a;
         padding: 12px 1rem;
         border-bottom: 1px solid var(--border-color);
-        box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+        box-shadow: 0 8px 16px rgba(0, 0, 0, 0.4);
         transform: translateY(-20px);
         opacity: 0;
         pointer-events: none;
@@ -335,9 +319,10 @@ body {
     margin-bottom: 4px;
 }
 
+/* Bouton À Propos stylisé sobrement (style config) */
 .about-game-btn {
     background: none;
-    border: 1px solid var(--border-color);
+    border: 1px solid rgba(255, 255, 255, 0.08);
     color: var(--text-muted);
     padding: 7px 10px;
     font-size: 0.75rem;
@@ -354,14 +339,14 @@ body {
 }
 
 .about-game-btn:hover {
-    border-color: var(--accent-text);
+    border-color: var(--green-text);
     color: var(--text-main);
-    background-color: rgba(194, 39, 0, 0.02);
+    background-color: rgba(0, 255, 102, 0.02);
 }
 
 .wishlist-btn {
     background: none;
-    border: 1px solid var(--border-color);
+    border: 1px solid rgba(255, 255, 255, 0.08);
     color: var(--text-muted);
     width: 31px;
     height: 31px;
@@ -375,16 +360,16 @@ body {
 }
 
 .wishlist-btn:hover {
-    border-color: var(--accent-text);
+    border-color: var(--green-text);
     color: var(--text-main);
-    background-color: rgba(194, 39, 0, 0.02);
+    background-color: rgba(0, 255, 102, 0.02);
 }
 
 .wishlist-btn.active {
     background-color: var(--accent-solid);
-    border-color: var(--accent-text);
-    color: #FFFFFF;
-    box-shadow: 0 0 10px rgba(194, 39, 0, 0.15);
+    border-color: var(--green-text);
+    color: var(--green-text);
+    box-shadow: 0 0 10px rgba(0, 255, 102, 0.15);
 }
 
 /* ==========================================================================
@@ -396,7 +381,7 @@ body {
     left: 0;
     right: 0;
     bottom: 0;
-    background-color: rgba(0, 0, 0, 0.3);
+    background-color: rgba(0, 0, 0, 0.6);
     backdrop-filter: blur(8px);
     display: flex;
     align-items: center;
@@ -413,21 +398,21 @@ body {
 }
 
 .modal-content {
-    background-color: var(--card-bg);
+    background-color: #1a1a1a;
     border: 1px solid var(--border-color);
     width: 92%;
     max-width: 440px;
     border-radius: 8px;
     padding: 24px;
     position: relative;
-    box-shadow: 0 20px 40px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 20px 40px rgba(0, 0, 0, 0.7), 0 0 30px rgba(0, 255, 102, 0.05);
     transform: scale(0.92);
     transition: transform 0.25s cubic-bezier(0.4, 0, 0.2, 1), border-color 0.25s ease;
 }
 
 .modal-overlay.open .modal-content {
     transform: scale(1);
-    border-color: var(--accent-text);
+    border-color: var(--green-text);
 }
 
 .modal-close {
@@ -476,7 +461,7 @@ body {
 
 .tab-btn:hover,
 .tab-btn.active {
-    color: var(--accent-text);
+    color: var(--green-text);
 }
 
 .tab-btn.active::after {
@@ -486,8 +471,8 @@ body {
     left: 0;
     right: 0;
     height: 2px;
-    background-color: var(--accent-text);
-    box-shadow: 0 0 8px var(--accent-text);
+    background-color: var(--green-text);
+    box-shadow: 0 0 8px var(--green-text);
 }
 
 .config-list {
@@ -535,21 +520,21 @@ body {
     overflow: hidden;
     display: flex;
     flex-direction: column;
-    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.03);
-    transition: transform 0.2s ease, border-color 0.2s ease, box-shadow 0.2s ease, background-color 0.3s ease;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+    transition: transform 0.2s ease, border-color 0.2s ease, box-shadow 0.2s ease;
 }
 
 .game-card:hover {
     transform: translateY(-4px);
-    border-color: rgba(194, 39, 0, 0.5);
-    box-shadow: 0 12px 24px rgba(0, 0, 0, 0.1), 0 0 20px rgba(194, 39, 0, 0.12);
+    border-color: rgba(0, 255, 102, 0.5);
+    box-shadow: 0 12px 24px rgba(0, 0, 0, 0.5), 0 0 20px rgba(0, 255, 102, 0.12);
 }
 
 .game-img {
     width: 100%;
     height: 140px;
     object-fit: cover;
-    background-color: var(--bg-color);
+    background-color: #121212;
 }
 
 .game-info {
@@ -569,7 +554,6 @@ body {
     display: -webkit-box;
     -webkit-box-orient: vertical;
     overflow: hidden;
-    color: var(--text-main);
 }
 
 .game-category {
@@ -587,7 +571,7 @@ body {
     justify-content: center;
     gap: 6px;
     background-color: var(--accent-solid);
-    color: #FFFFFF;
+    color: var(--text-main);
     text-decoration: none;
     padding: 8px;
     border-radius: 6px;
@@ -599,7 +583,7 @@ body {
 
 .download-btn:hover {
     background-color: var(--accent-hover);
-    box-shadow: 0 0 12px rgba(194, 39, 0, 0.25);
+    box-shadow: 0 0 12px rgba(0, 255, 102, 0.25);
 }
 
 .alert-container {
@@ -702,16 +686,16 @@ body {
 }
 
 .pagination-btn:hover:not(.disabled) {
-    border-color: var(--accent-text);
+    border-color: var(--green-text);
     color: var(--text-main);
-    background-color: rgba(194, 39, 0, 0.04);
+    background-color: rgba(0, 255, 102, 0.04);
 }
 
 .pagination-btn.active {
     background-color: var(--accent-solid);
-    color: #FFFFFF;
-    border-color: var(--accent-text);
-    box-shadow: 0 0 10px rgba(194, 39, 0, 0.15);
+    color: var(--green-text);
+    border-color: var(--green-text);
+    box-shadow: 0 0 10px rgba(0, 255, 102, 0.15);
 }
 
 .pagination-btn.disabled {
@@ -755,12 +739,11 @@ body {
     position: absolute;
     left: 50%;
     margin-left: -50vw;
-    background-color: var(--card-bg);
-    border-top: 1px solid var(--border-color);
+    background-color: #212121;
+    border-top: 1px solid #222;
     margin-top: 5rem;
     padding: 4rem 0 2rem 0;
-    color: var(--text-muted);
-    transition: background-color 0.3s ease, border-color 0.3s ease;
+    color: #999;
 }
 
 .footer-container {
@@ -777,12 +760,12 @@ body {
     max-width: 1200px;
     margin: 5rem auto 0 auto;
     padding: 2rem 2rem 0 2rem;
-    border-top: 1px solid var(--border-color);
+    border-top: 1px solid #222;
     display: flex;
     justify-content: space-between;
     align-items: center;
     font-size: 0.8rem;
-    color: var(--text-muted);
+    color: #666;
 }
 
 .footer-links a {
@@ -808,8 +791,8 @@ body {
     content: "";
     flex: 1;
     height: 1px;
-    background-color: var(--accent-text);
-    opacity: 0.3;
+    background-color: var(--green-text);
+    opacity: 0.5;
 }
 
 .footer-desc {
@@ -838,14 +821,14 @@ body {
 }
 
 .footer-links a:hover {
-    color: var(--accent-text);
+    color: var(--green-text);
     padding-left: 5px;
 }
 
 .back-to-top-btn {
-    background: var(--bg-color);
-    border: 1px solid var(--border-color);
-    color: var(--text-main);
+    background: #1a1a1a;
+    border: 1px solid #333;
+    color: #fff;
     padding: 10px 14px;
     border-radius: 6px;
     cursor: pointer;
@@ -853,7 +836,7 @@ body {
 }
 
 .back-to-top-btn:nth-child(1) {
-    padding: 10px 12px;
+    padding: 10px 10px;
 }
 
 .div-access {
@@ -862,9 +845,8 @@ body {
 }
 
 .back-to-top-btn:hover {
-    background: var(--accent-solid);
-    color: #FFFFFF;
-    border-color: var(--accent-text);
+    background: var(--green-text);
+    color: #000;
 }
 
 @media (max-width: 768px) {
@@ -888,7 +870,7 @@ body {
 }
 
 /* ==========================================================================
-   STYLE CINÉMATIQUE DU GRAND TRUC (CARROUSEL HERO)
+   STYLE CINÉMATIQUE DU GRAND TRUC (CARROUSEL INSPIRÉ DE L'IMAGE)
    ========================================================================== */
 .hero-carousel-wrapper {
     width: 100%;
@@ -905,15 +887,15 @@ body {
     background-size: cover;
     background-position: center;
     transition: background-image 0.8s ease-in-out;
-    box-shadow: inset 0 0 100px rgba(0, 0, 0, 0.4), 0 10px 30px rgba(0, 0, 0, 0.2);
+    box-shadow: inset 0 0 100px rgba(0, 0, 0, 0.8), 0 10px 30px rgba(0, 0, 0, 0.7);
 }
 
 .hero-carousel::before {
     content: '';
     position: absolute;
     inset: 0;
-    background: linear-gradient(90deg, rgba(10, 10, 10, 0.85) 0%, rgba(10, 10, 10, 0.4) 40%, rgba(10, 10, 10, 0) 100%),
-        linear-gradient(0deg, rgba(10, 10, 10, 0.85) 0%, rgba(10, 10, 10, 0) 30%);
+    background: linear-gradient(90deg, rgba(10, 10, 10, 0.95) 0%, rgba(10, 10, 10, 0.7) 40%, rgba(10, 10, 10, 0) 100%),
+        linear-gradient(0deg, rgba(10, 10, 10, 0.95) 0%, rgba(10, 10, 10, 0) 30%);
     z-index: 1;
 }
 
@@ -937,7 +919,7 @@ body {
     text-transform: uppercase;
     letter-spacing: -1px;
     line-height: 1.1;
-    color: #FFFFFF;
+    color: var(--text-main);
     text-shadow: 0 4px 12px rgba(0, 0, 0, 0.5);
 }
 
@@ -948,8 +930,8 @@ body {
 }
 
 .tag-version {
-    background-color: var(--accent-solid);
-    color: #FFFFFF;
+    background-color: #00ff66;
+    color: #000;
     font-weight: 700;
     font-size: 0.75rem;
     padding: 4px 8px;
@@ -957,7 +939,7 @@ body {
 }
 
 .tag-platform {
-    background-color: rgba(255, 255, 255, 0.15);
+    background-color: rgba(255, 255, 255, 0.1);
     color: #fff;
     font-weight: 600;
     font-size: 0.75rem;
@@ -967,7 +949,7 @@ body {
 
 .hero-carousel-synopsis {
     font-size: 1rem;
-    color: #eee;
+    color: #ccc;
     line-height: 1.6;
     width: 100%;
     display: -webkit-box;
@@ -983,10 +965,11 @@ body {
     margin-top: 10px;
 }
 
+/* UNIFICATION COULEUR TÉLÉCHARGER (BASE GREEN) ET EFFET GLOWING */
 .hero-btn-download {
     background-color: var(--accent-solid);
     color: #fff;
-    border: 1px solid var(--border-color);
+    border: 1px solid var(--green-text);
     padding: 12px 28px;
     border-radius: 8px;
     font-weight: 600;
@@ -1001,14 +984,15 @@ body {
 
 .hero-btn-download:hover {
     background-color: var(--accent-hover);
-    box-shadow: 0 0 20px rgba(194, 39, 0, 0.4);
+    box-shadow: 0 0 20px rgba(0, 255, 102, 0.6), inset 0 0 10px rgba(0, 255, 102, 0.2);
     transform: scale(1.02);
 }
 
+/* STYLE UNIFIÉ POUR TOUTES LES VERSIONS (LOOK DISCRET MULTIPLATEFORME) */
 .hero-btn-details {
-    background-color: rgba(255, 255, 255, 0.1);
+    background-color: rgba(255, 255, 255, 0.06);
     color: #fff;
-    border: 1px solid rgba(255, 255, 255, 0.2);
+    border: 1px solid rgba(255, 255, 255, 0.12);
     padding: 12px 24px;
     border-radius: 8px;
     font-size: 0.95rem;
@@ -1022,8 +1006,8 @@ body {
 }
 
 .hero-btn-details:hover {
-    background-color: rgba(255, 255, 255, 0.2);
-    border-color: rgba(255, 255, 255, 0.4);
+    background-color: rgba(255, 255, 255, 0.12);
+    border-color: rgba(255, 255, 255, 0.25);
 }
 
 /* BARRE DE PROGRESSION EN BAS */
@@ -1033,15 +1017,15 @@ body {
     left: 0;
     width: 100%;
     height: 4px;
-    background-color: rgba(255, 255, 255, 0.1);
+    background-color: rgba(255, 255, 255, 0.08);
     z-index: 3;
 }
 
 .carousel-progress-bar {
     height: 100%;
     width: 0%;
-    background-color: var(--accent-solid);
-    box-shadow: 0 0 10px var(--accent-solid);
+    background-color: #00ff66;
+    box-shadow: 0 0 10px #00ff66;
 }
 
 .carousel-dots {
@@ -1063,7 +1047,7 @@ body {
 }
 
 .carousel-dot.active {
-    background-color: var(--accent-solid);
+    background-color: #00ff66;
     width: 24px;
     border-radius: 4px;
 }
@@ -1082,6 +1066,7 @@ body {
     z-index: 5;
 }
 
+/* Nouveaux styles pour les badges de compatibilité Proton */
 .linux-badge.platinum {
     background-color: #848b91;
     color: #fff;
@@ -1138,8 +1123,9 @@ body {
 }
 
 /* ==========================================================================
-   RESPONSIVE : ADAPTATION MOBILE
+   RESPONSIVE : ADAPTATION MOBILE DU CARROUSEL HERO ET DES CARTES
    ========================================================================== */
+
 @media (max-width: 768px) {
     .hero-carousel {
         height: 380px;
@@ -1174,6 +1160,7 @@ body {
         gap: 10px;
         margin-top: 5px;
         margin-bottom: 12px;
+        /* Ajout de marge pour décoller complètement le sélecteur à puces */
     }
 
     .hero-btn-download {
@@ -1192,10 +1179,12 @@ body {
         border-radius: 6px;
     }
 
+    /* REPOSITIONNEMENT ET ÉLOIGNEMENT VERTICAL SUR MOBILE */
     .carousel-dots {
         right: 50%;
         transform: translateX(50%);
         bottom: 16px;
+        /* Remonté pour s'extraire de l'alignement de la barre */
         gap: 6px;
     }
 
